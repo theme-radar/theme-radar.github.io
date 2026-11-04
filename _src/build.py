@@ -57,7 +57,7 @@ body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,B
 a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
 header.site{border-bottom:1px solid var(--line);background:var(--card)}
 .wrap{max-width:860px;margin:0 auto;padding:0 16px}
-.top{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 20px;padding:14px 0}
+.top{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 20px;padding:14px 16px}
 .brand{font-weight:700;font-size:18px;color:var(--fg);letter-spacing:.2px}
 nav a{margin-right:16px;color:var(--mute);font-size:15px}nav a.on{color:var(--fg);font-weight:600}
 main{padding:24px 0 48px}
@@ -89,10 +89,21 @@ article blockquote{margin:12px 0;padding:2px 14px;border-left:3px solid var(--li
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}@media (max-width:600px){.grid{grid-template-columns:1fr}}
 .grid svg{width:100%;height:auto;background:var(--card);border:1px solid var(--line);border-radius:10px}
 svg text{fill:var(--mute);font:10px -apple-system,Segoe UI,Roboto,sans-serif}
+body.wide .wrap{max-width:1240px}
+.fbtn{font:inherit;font-size:13px;padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--mute);cursor:pointer;margin:0 6px 6px 0}
+.fbtn[aria-pressed="true"]{color:var(--fg);border-color:var(--fg);font-weight:600}
+.ctl{display:flex;flex-wrap:wrap;align-items:center;gap:0 4px;margin:6px 0}.ctl .lab{font-size:13px;color:var(--mute);margin-right:8px}
+.rrg-layout{display:grid;grid-template-columns:minmax(0,1fr);gap:20px;margin-top:10px}
+@media (min-width:1000px){.rrg-layout{grid-template-columns:minmax(0,1fr) 330px}}
+#rot-chart{position:relative;background:var(--card);border:1px solid var(--line);border-radius:10px;min-height:340px}
+.rtip{position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:12px;max-width:16rem;box-shadow:0 4px 14px rgba(0,0,0,.12)}
+.formula{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;font-size:14px}
+.formula h3{margin:0 0 8px}.formula ol{padding-left:20px;margin:8px 0}.formula li{margin:8px 0}
+.formula .eq{font-family:Georgia,"Times New Roman",serif;font-size:15px;display:block;margin-top:2px;color:var(--fg)}
 footer{border-top:1px solid var(--line);padding:18px 0 30px;color:var(--mute);font-size:13px}
 """
 
-def page(title, body, active='', desc='', md_href=None, canonical=''):
+def page(title, body, active='', desc='', md_href=None, canonical='', wide=False, scripts=''):
     nav = [('/', 'Home', 'home'), ('/research/', 'Research', 'research'), ('/baskets/', 'Baskets', 'baskets'),
            ('/rotation/', 'Rotation', 'rotation'), ('/etfs/', 'Sector ETFs', 'etfs'), ('/about/', 'About', 'about')]
     navh = ''.join(f'<a href="{h}" class="{"on" if k == active else ""}">{t}</a>' for h, t, k in nav)
@@ -102,9 +113,9 @@ def page(title, body, active='', desc='', md_href=None, canonical=''):
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{E(full)}</title><meta name="description" content="{E(desc or TAGLINE)}">
 <link rel="alternate" type="application/rss+xml" title="{SITE_NAME} research" href="/feed.xml">
-{alt}<link rel="canonical" href="{E(canonical)}"><style>{CSS}</style></head><body>
+{alt}<link rel="canonical" href="{E(canonical)}"><style>{CSS}</style></head><body class="{'wide' if wide else ''}">
 <header class="site"><div class="wrap top"><a class="brand" href="/">{SITE_NAME}</a><nav>{navh}</nav></div></header>
-<main><div class="wrap">{body}</div></main>
+<main><div class="wrap">{body}</div></main>{scripts}
 <footer><div class="wrap">Not investment advice. Prices are daily closes from public market data and may contain errors.
 Machine-readable: <a href="/llms.txt">llms.txt</a> · <a href="/data/">data</a> · <a href="/feed.xml">RSS</a>{f' · <a href="{md_href}">this page as markdown</a>' if md_href else ''}</div></footer>
 </body></html>"""
@@ -117,13 +128,13 @@ class Site:
         p = os.path.join(self.out, path.lstrip('/'))
         os.makedirs(os.path.dirname(p), exist_ok=True)
         open(p, 'w', encoding='utf-8').write(text)
-    def html(self, url, title, body, active='', desc='', md=None):
+    def html(self, url, title, body, active='', desc='', md=None, wide=False, scripts=''):
         md_href = None
         if md is not None:
             md_href = url.rstrip('/') + '.md' if url != '/' else '/index.md'
             self.write(md_href, md)
         self.write(url + ('index.html' if url.endswith('/') else ''),
-                   page(title, body, active, desc, md_href, self.base + url))
+                   page(title, body, active, desc, md_href, self.base + url, wide, scripts))
         self.urls.append(url)
     def load(self, name):
         return json.load(open(os.path.join(self.data, name)))
@@ -180,6 +191,30 @@ def rrg_svg(sector, trails, themes_by_name, size=360):
     s.append('</svg>')
     return ''.join(s)
 
+FORMULA_HTML = """<aside class="formula"><h3>How the axes are calculated</h3>
+<p class="small mute" style="margin:0">Each theme is an equal-weight index of its stocks (daily returns averaged across names). B is the benchmark, SPY or RSP. Weekly points use the last close of each week.</p>
+<ol>
+<li>Relative strength<span class="eq">RS<sub>t</sub> = 100 &times; P<sub>t</sub> / B<sub>t</sub></span></li>
+<li>Trend of relative strength<span class="eq">R<sub>t</sub> = EMA<sub>3</sub>( 100 &times; RS<sub>t</sub> / SMA<sub>10</sub>(RS)<sub>t</sub> )</span></li>
+<li>RS-Ratio (x-axis)<span class="eq">RS-Ratio<sub>t</sub> = 100 + ( R<sub>t</sub> &minus; &mu;<sub>40</sub>(R) ) / &sigma;<sub>40</sub>(R)</span></li>
+<li>Change in RS-Ratio<span class="eq">M<sub>t</sub> = EMA<sub>3</sub>( RS-Ratio<sub>t</sub> &minus; RS-Ratio<sub>t&minus;1</sub> )</span></li>
+<li>RS-Momentum (y-axis)<span class="eq">RS-Momentum<sub>t</sub> = 100 + ( M<sub>t</sub> &minus; &mu;<sub>40</sub>(M) ) / &sigma;<sub>40</sub>(M)</span></li>
+</ol>
+<p class="small" style="margin:6px 0">SMA<sub>10</sub> = 10-week simple average. EMA<sub>3</sub> = 3-week exponential average (&alpha; = 0.5). &mu;<sub>40</sub> and &sigma;<sub>40</sub> = mean and standard deviation over the last 40 weeks.</p>
+<p class="small" style="margin:6px 0"><b>Reading it.</b> 100 is neutral on both axes. One point is one standard deviation of the theme's own history, so themes are comparable. RS-Ratio above 100: the theme is beating the benchmark by more than its recent trend. RS-Momentum above 100: that lead is widening.</p>
+<p class="small" style="margin:6px 0"><b>Quadrants.</b> Leading: both above 100. Weakening: RS-Ratio above, RS-Momentum below. Lagging: both below. Improving: RS-Ratio below, RS-Momentum above. Heading is the direction of the latest weekly move.</p>
+</aside>"""
+
+FORMULA_MD = """Each theme is an equal-weight index of its stocks (daily returns averaged across names). B is the benchmark (SPY or RSP). Weekly points use the last close of each week.
+
+1. Relative strength: RS_t = 100 × P_t / B_t
+2. Trend of relative strength: R_t = EMA3( 100 × RS_t / SMA10(RS)_t )
+3. RS-Ratio (x-axis): RS-Ratio_t = 100 + ( R_t − mean40(R) ) / sd40(R)
+4. Change in RS-Ratio: M_t = EMA3( RS-Ratio_t − RS-Ratio_(t−1) )
+5. RS-Momentum (y-axis): RS-Momentum_t = 100 + ( M_t − mean40(M) ) / sd40(M)
+
+SMA10 = 10-week simple average. EMA3 = 3-week exponential average (alpha = 0.5). mean40 and sd40 = mean and standard deviation over the last 40 weeks. 100 is neutral on both axes. Quadrants: Leading (both > 100), Weakening (RS-Ratio > 100, RS-Momentum < 100), Lagging (both < 100), Improving (RS-Ratio < 100, RS-Momentum > 100). Heading is the direction of the latest weekly move."""
+
 # ---------- build ----------
 def build(data, out, asof, base):
     if os.path.exists(out):
@@ -190,6 +225,7 @@ def build(data, out, asof, base):
     os.makedirs(out, exist_ok=True)
     S = Site(data, out, asof, base)
     shutil.copytree(os.path.join(CONTENT, 'img'), os.path.join(out, 'img'), dirs_exist_ok=True)
+    shutil.copytree(os.path.join(CONTENT, 'assets'), os.path.join(out, 'assets'), dirs_exist_ok=True)
     open(os.path.join(out, '.nojekyll'), 'w').close()
 
     threads = yaml.safe_load(open(os.path.join(CONTENT, 'threads.yaml')))
@@ -198,7 +234,8 @@ def build(data, out, asof, base):
     mraw = S.load('members.json')
     etfs = S.load('etfs.json')
     themes = S.load('themes.json')
-    rrg = [r for r in S.load('rrg.json') if r['bench'] == 'SPY']
+    rrg_all = S.load('rrg.json')
+    rrg = [r for r in rrg_all if r['bench'] == 'SPY']
     tmem = S.load('theme_members.json')
     thread_slug = {t['name']: t['slug'] for t in threads}
 
@@ -303,13 +340,21 @@ def build(data, out, asof, base):
         S.html(f'/baskets/{b["slug"]}/', b['name'] + ' basket', body, 'baskets', b['summary'], '\n'.join(md))
 
     # ---------- rotation ----------
-    charts = ''.join(rrg_svg(sec, {t['theme']: trails[t['theme']] for t in themes if t['sector'] == sec and t['theme'] in trails}, tby) for sec in sectors)
     qcount = {q: sum(1 for t in themes if t.get('quadrant') == q) for q in ['Leading', 'Weakening', 'Lagging', 'Improving']}
-    body = (f'<h1>Rotation</h1><p class="mute">Where {len(themes)} themes sit against the S&amp;P 500 (SPY), on weekly closes to {dfmt(max(r["date"] for r in rrg))}. '
-            f'Right of centre means stronger than the market. Above centre means that strength is gaining. Themes usually rotate clockwise: '
-            f'Improving → Leading → Weakening → Lagging. Each tail shows the last six weeks.</p>'
-            f'<div class="kv">' + ' '.join(f'{qchip(q)} <b>{n}</b>' for q, n in qcount.items()) + '</div>'
-            f'<div class="grid">{charts}</div>')
+    tidx = {t['theme']: i for i, t in enumerate(themes)}
+    rdata = dict(themes=[dict(t=t['theme'], s=t['sector'], l=t['stage'], d5=t['d5'], d20=t['d20'], slug=slugify(t['theme'])) for t in themes],
+                 pts=[[tidx[r['theme']], 0 if r['bench'] == 'SPY' else 1, r['date'], r['ago'], round(r['rr'], 3), round(r['rm'], 3)] for r in rrg_all if r['theme'] in tidx])
+    body = (f'<h1>Rotation</h1><p class="mute">Each dot is one of {len(themes)} themes, plotted weekly against the market. Right of centre means stronger than the market. '
+            f'Above centre means that strength is improving right now. Themes usually travel clockwise: Improving → Leading → Weakening → Lagging. The tail shows where each theme came from.</p>'
+            f'<div class="kv">' + ' '.join(f'{qchip(q)} <b>{n}</b>' for q, n in qcount.items()) + ' <span>(against SPY)</span></div>'
+            '<div class="rrg-layout"><div>'
+            '<div class="ctl"><span class="lab">Benchmark</span><span id="rot-bench"></span></div>'
+            '<div class="ctl"><span class="lab">Tail</span><span id="rot-trail"></span></div>'
+            '<div class="ctl"><span id="rot-sectors"></span></div>'
+            '<div id="rot-chart"><noscript><p class="small" style="padding:12px">The chart needs JavaScript. The same data is in the tables below and in <a href="/data/rotation.json">rotation.json</a>.</p></noscript></div>'
+            '<p class="small mute" id="rot-asof"></p><p class="small" id="rot-picked"></p></div>'
+            + FORMULA_HTML + '</div>'
+            f'<script id="rrg-data" type="application/json">{json.dumps(rdata, separators=(",", ":"))}</script>')
     md = ['# Rotation', '', f'{len(themes)} themes against SPY, weekly closes to {max(r["date"] for r in rrg)}. RS-Ratio > 100 = stronger than market. RS-Momentum > 100 = strength gaining.', '']
     for sec in sectors:
         st = [t for t in themes_pub if t['sector'] == sec]
@@ -319,7 +364,9 @@ def build(data, out, asof, base):
         md += [f'## {sec}', '', md_table(['Theme', 'Label', 'Quadrant', 'Heading to', 'RS-Ratio', 'RS-Momentum', '20D', '6M'],
                [[f'[{t["theme"]}]({base}/rotation/{t["slug"]}.md)', t['label'], t['quadrant'], t['heading_to'], t['rs_ratio'], t['rs_momentum'], pct(t['d20']), pct(t['m6'])] for t in st]), '']
     body += '<h2>What the labels mean</h2>' + ''.join(f'<p class="small">{chip(k)} {E(v)}</p>' for k, v in LABEL_TEXT.items())
-    S.html('/rotation/', 'Rotation', body, 'rotation', 'Weekly relative rotation of themes against the S&P 500.', '\n'.join(md))
+    md += ['## How the axes are calculated', '', FORMULA_MD]
+    S.html('/rotation/', 'Rotation', body, 'rotation', 'Weekly relative rotation of themes against the S&P 500.', '\n'.join(md), wide=True,
+           scripts='<script src="/assets/d3.v7.9.0.min.js"></script><script src="/assets/rotation.js"></script>')
     for t in themes_pub:
         mem = [m for m in tmem if m['theme'] == t['theme']]
         rows = [[(f'<b>{E(m["ticker"])}</b><br><span class="mute small">{E(m["name"])}</span>', ''), (pct(m['d5']), cls(m['d5'])),
@@ -391,7 +438,7 @@ Not investment advice. Positions may be held in the securities discussed. Figure
     now = dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
     meta = dict(site=SITE_NAME, asof=asof, generated=now, units='returns are decimal fractions (0.05 = +5%)', source='daily closes, public market data')
     D = {'baskets.json': dict(meta, baskets=baskets), 'themes.json': dict(meta, benchmark='SPY', themes=themes_pub),
-         'rotation.json': dict(meta, benchmark='SPY', trails={k: [dict(date=p['date'], rs_ratio=p['rr'], rs_momentum=p['rm']) for p in v] for k, v in trails.items()}),
+         'rotation.json': dict(meta, method=FORMULA_MD, points=[dict(theme=r['theme'], sector=r['sector'], benchmark=r['bench'], week=r['date'], weeks_ago=r['ago'], rs_ratio=round(r['rr'], 3), rs_momentum=round(r['rm'], 3)) for r in rrg_all]),
          'theme_members.json': dict(meta, members=[dict(theme=m['theme'], ticker=m['ticker'], name=m['name'], d5=m['d5'], d20=m['d20'], m6=m['m6'], y1=m['y1'], off_high=m['off']) for m in tmem]),
          'etfs.json': dict(meta, etfs=etfs),
          'research.json': dict(meta, research=[dict(title=p['title'], date=p['date'], thread=p['thread'], tickers=p.get('tickers', []), baskets=p.get('baskets', []),

@@ -11,7 +11,7 @@ body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,B
 a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
 header.site{border-bottom:1px solid var(--line);background:var(--card)}
 .wrap{max-width:860px;margin:0 auto;padding:0 16px}
-.top{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 20px;padding:14px 0}
+.top{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 20px;padding:14px 16px}
 .brand{font-weight:700;font-size:18px;color:var(--fg);letter-spacing:.2px}
 nav a{margin-right:16px;color:var(--mute);font-size:15px}nav a.on{color:var(--fg);font-weight:600}
 main{padding:24px 0 48px}
@@ -43,8 +43,19 @@ article blockquote{margin:12px 0;padding:2px 14px;border-left:3px solid var(--li
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}@media (max-width:600px){.grid{grid-template-columns:1fr}}
 .grid svg{width:100%;height:auto;background:var(--card);border:1px solid var(--line);border-radius:10px}
 svg text{fill:var(--mute);font:10px -apple-system,Segoe UI,Roboto,sans-serif}
+body.wide .wrap{max-width:1240px}
+.fbtn{font:inherit;font-size:13px;padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--mute);cursor:pointer;margin:0 6px 6px 0}
+.fbtn[aria-pressed="true"]{color:var(--fg);border-color:var(--fg);font-weight:600}
+.ctl{display:flex;flex-wrap:wrap;align-items:center;gap:0 4px;margin:6px 0}.ctl .lab{font-size:13px;color:var(--mute);margin-right:8px}
+.rrg-layout{display:grid;grid-template-columns:minmax(0,1fr);gap:20px;margin-top:10px}
+@media (min-width:1000px){.rrg-layout{grid-template-columns:minmax(0,1fr) 330px}}
+#rot-chart{position:relative;background:var(--card);border:1px solid var(--line);border-radius:10px;min-height:340px}
+.rtip{position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:12px;max-width:16rem;box-shadow:0 4px 14px rgba(0,0,0,.12)}
+.formula{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;font-size:14px}
+.formula h3{margin:0 0 8px}.formula ol{padding-left:20px;margin:8px 0}.formula li{margin:8px 0}
+.formula .eq{font-family:Georgia,"Times New Roman",serif;font-size:15px;display:block;margin-top:2px;color:var(--fg)}
 footer{border-top:1px solid var(--line);padding:18px 0 30px;color:var(--mute);font-size:13px}
-</style></head><body>
+</style></head><body class="">
 <header class="site"><div class="wrap top"><a class="brand" href="/">Theme Radar</a><nav><a href="/" class="">Home</a><a href="/research/" class="">Research</a><a href="/baskets/" class="">Baskets</a><a href="/rotation/" class="on">Rotation</a><a href="/etfs/" class="">Sector ETFs</a><a href="/about/" class="">About</a></nav></div></header>
 <main><div class="wrap"><p class="mute small"><a href="/rotation/">Rotation</a> · Energy</p><h1>Oil Producers</h1><div class="row"><span class="chip l-none">No signal</span> <span class="chip q-weak">Weakening</span></div><div class="kv">Heading to <b>Lagging</b> · 1 weeks in quadrant · 5D <b class="dn">-3.1%</b> · 20D <b class="up">+6.8%</b> · 6M <b class="up">+7.8%</b></div><div class="tbl"><table><thead><tr><th class="">Name</th><th class="">5D</th><th class="">20D</th><th class="hs">6M</th><th class="hs">Off high</th></tr></thead><tbody><tr><td class=""><b>COP</b><br><span class="mute small">ConocoPhillips</span></td><td class="dn">-2.4%</td><td class="up">+11.6%</td><td class="hs up hs">+17.1%</td><td class="hs hs">-6%</td></tr><tr><td class=""><b>TTE</b><br><span class="mute small">TotalEnergies SE</span></td><td class="up">+0.4%</td><td class="up">+10.4%</td><td class="hs dn hs">-1.0%</td><td class="hs hs">-3%</td></tr><tr><td class=""><b>CVX</b><br><span class="mute small">Chevron Corporation</span></td><td class="dn">-1.3%</td><td class="up">+8.5%</td><td class="hs up hs">+16.9%</td><td class="hs hs">-4%</td></tr><tr><td class=""><b>APA</b><br><span class="mute small">APA Corporation</span></td><td class="dn">-5.9%</td><td class="up">+8.3%</td><td class="hs up hs">+15.2%</td><td class="hs hs">-10%</td></tr><tr><td class=""><b>XOM</b><br><span class="mute small">ExxonMobil Holdings Corporation</span></td><td class="dn">-1.4%</td><td class="up">+7.9%</td><td class="hs up hs">+14.6%</td><td class="hs hs">-5%</td></tr><tr><td class=""><b>EOG</b><br><span class="mute small">EOG Resources Inc.</span></td><td class="dn">-3.7%</td><td class="up">+7.5%</td><td class="hs up hs">+10.2%</td><td class="hs hs">-6%</td></tr><tr><td class=""><b>SHEL</b><br><span class="mute small">Shell PLC</span></td><td class="dn">-0.5%</td><td class="up">+6.7%</td><td class="hs up hs">+16.2%</td><td class="hs hs">-4%</td></tr><tr><td class=""><b>FANG</b><br><span class="mute small">Diamondback Energy Inc.</span></td><td class="dn">-5.9%</td><td class="up">+4.0%</td><td class="hs dn hs">-6.7%</td><td class="hs hs">-10%</td></tr><tr><td class=""><b>OXY</b><br><span class="mute small">Occidental Petroleum Corporation</span></td><td class="dn">-3.7%</td><td class="up">+3.6%</td><td class="hs up hs">+1.8%</td><td class="hs hs">-9%</td></tr><tr><td class=""><b>DVN</b><br><span class="mute small">Devon Energy Corporation</span></td><td class="dn">-7.0%</td><td class="dn">-0.8%</td><td class="hs dn hs">-6.6%</td><td class="hs hs">-9%</td></tr></tbody></table></div></div></main>
 <footer><div class="wrap">Not investment advice. Prices are daily closes from public market data and may contain errors.

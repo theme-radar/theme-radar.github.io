@@ -133,3 +133,15 @@
 | [Cybersecurity](https://theme-radar.github.io/rotation/cybersecurity.md) | Avoid for now | Weakening | Lagging | 100.32 | 99.19 | -4.5% | +78.0% |
 | [Social & Ad-tech](https://theme-radar.github.io/rotation/social-ad-tech.md) | No signal | Lagging | Improving | 99.13 | 99.26 | -9.3% | -4.2% |
 | [Data & Observability](https://theme-radar.github.io/rotation/data-observability.md) | Avoid for now | Lagging | Lagging | 99.94 | 98.86 | -7.9% | +46.0% |
+
+## How the axes are calculated
+
+Each theme is an equal-weight index of its stocks (daily returns averaged across names). B is the benchmark (SPY or RSP). Weekly points use the last close of each week.
+
+1. Relative strength: RS_t = 100 × P_t / B_t
+2. Trend of relative strength: R_t = EMA3( 100 × RS_t / SMA10(RS)_t )
+3. RS-Ratio (x-axis): RS-Ratio_t = 100 + ( R_t − mean40(R) ) / sd40(R)
+4. Change in RS-Ratio: M_t = EMA3( RS-Ratio_t − RS-Ratio_(t−1) )
+5. RS-Momentum (y-axis): RS-Momentum_t = 100 + ( M_t − mean40(M) ) / sd40(M)
+
+SMA10 = 10-week simple average. EMA3 = 3-week exponential average (alpha = 0.5). mean40 and sd40 = mean and standard deviation over the last 40 weeks. 100 is neutral on both axes. Quadrants: Leading (both > 100), Weakening (RS-Ratio > 100, RS-Momentum < 100), Lagging (both < 100), Improving (RS-Ratio < 100, RS-Momentum > 100). Heading is the direction of the latest weekly move.

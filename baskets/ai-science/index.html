@@ -11,7 +11,7 @@ body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,B
 a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
 header.site{border-bottom:1px solid var(--line);background:var(--card)}
 .wrap{max-width:860px;margin:0 auto;padding:0 16px}
-.top{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 20px;padding:14px 0}
+.top{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 20px;padding:14px 16px}
 .brand{font-weight:700;font-size:18px;color:var(--fg);letter-spacing:.2px}
 nav a{margin-right:16px;color:var(--mute);font-size:15px}nav a.on{color:var(--fg);font-weight:600}
 main{padding:24px 0 48px}
@@ -43,8 +43,19 @@ article blockquote{margin:12px 0;padding:2px 14px;border-left:3px solid var(--li
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}@media (max-width:600px){.grid{grid-template-columns:1fr}}
 .grid svg{width:100%;height:auto;background:var(--card);border:1px solid var(--line);border-radius:10px}
 svg text{fill:var(--mute);font:10px -apple-system,Segoe UI,Roboto,sans-serif}
+body.wide .wrap{max-width:1240px}
+.fbtn{font:inherit;font-size:13px;padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--mute);cursor:pointer;margin:0 6px 6px 0}
+.fbtn[aria-pressed="true"]{color:var(--fg);border-color:var(--fg);font-weight:600}
+.ctl{display:flex;flex-wrap:wrap;align-items:center;gap:0 4px;margin:6px 0}.ctl .lab{font-size:13px;color:var(--mute);margin-right:8px}
+.rrg-layout{display:grid;grid-template-columns:minmax(0,1fr);gap:20px;margin-top:10px}
+@media (min-width:1000px){.rrg-layout{grid-template-columns:minmax(0,1fr) 330px}}
+#rot-chart{position:relative;background:var(--card);border:1px solid var(--line);border-radius:10px;min-height:340px}
+.rtip{position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:12px;max-width:16rem;box-shadow:0 4px 14px rgba(0,0,0,.12)}
+.formula{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;font-size:14px}
+.formula h3{margin:0 0 8px}.formula ol{padding-left:20px;margin:8px 0}.formula li{margin:8px 0}
+.formula .eq{font-family:Georgia,"Times New Roman",serif;font-size:15px;display:block;margin-top:2px;color:var(--fg)}
 footer{border-top:1px solid var(--line);padding:18px 0 30px;color:var(--mute);font-size:13px}
-</style></head><body>
+</style></head><body class="">
 <header class="site"><div class="wrap top"><a class="brand" href="/">Theme Radar</a><nav><a href="/" class="">Home</a><a href="/research/" class="">Research</a><a href="/baskets/" class="on">Baskets</a><a href="/rotation/" class="">Rotation</a><a href="/etfs/" class="">Sector ETFs</a><a href="/about/" class="">About</a></nav></div></header>
 <main><div class="wrap"><p class="mute small"><a href="/baskets/">Baskets</a> · AI Science</p><h1>AI Science</h1><div class="row"><span class="chip l-avoid">Avoid for now</span></div><p>Own the bench: the instruments, genomics and synthetic DNA that AI-driven life-science research runs on, whichever drug or model wins.</p><div class="kv">Start <b>17 Aug 2026</b> · Since start <b class="up">+13.4%</b> · 6M <b class="up">+83.4%</b> · Equal weight · 4 names</div><div class="tbl"><table><thead><tr><th class="">Name</th><th class="hs">Weight</th><th class="">Since start</th><th class="hs">5D</th><th class="">20D</th><th class="">6M</th><th class="hs">Off high</th></tr></thead><tbody><tr><td class=""><b>NTRA</b><br><span class="mute small">Natera</span></td><td class="hs hs">25.0%</td><td class="up">+23.7%</td><td class="hs dn">-5.4%</td><td class="dn">-3.0%</td><td class="up">+87.9%</td><td class="hs ">-11%</td></tr><tr><td class=""><b>TMO</b><br><span class="mute small">Thermo Fisher Scientific</span></td><td class="hs hs">25.0%</td><td class="up">+19.3%</td><td class="hs up">+0.8%</td><td class="up">+6.4%</td><td class="up">+49.6%</td><td class="hs ">-2%</td></tr><tr><td class=""><b>TWST</b><br><span class="mute small">Twist Bioscience</span></td><td class="hs hs">25.0%</td><td class="up">+12.8%</td><td class="hs dn">-12.2%</td><td class="dn">-16.0%</td><td class="up">+147.4%</td><td class="hs ">-32%</td></tr><tr><td class=""><b>BRKR</b><br><span class="mute small">Bruker</span></td><td class="hs hs">25.0%</td><td class="dn">-2.0%</td><td class="hs dn">-7.0%</td><td class="dn">-6.6%</td><td class="up">+48.6%</td><td class="hs ">-13%</td></tr></tbody></table></div><p class="small mute">Avoid for now: Broad selling across the group this week.</p></div></main>
 <footer><div class="wrap">Not investment advice. Prices are daily closes from public market data and may contain errors.

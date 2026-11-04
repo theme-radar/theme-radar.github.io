@@ -11,7 +11,7 @@ body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,B
 a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
 header.site{border-bottom:1px solid var(--line);background:var(--card)}
 .wrap{max-width:860px;margin:0 auto;padding:0 16px}
-.top{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 20px;padding:14px 0}
+.top{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 20px;padding:14px 16px}
 .brand{font-weight:700;font-size:18px;color:var(--fg);letter-spacing:.2px}
 nav a{margin-right:16px;color:var(--mute);font-size:15px}nav a.on{color:var(--fg);font-weight:600}
 main{padding:24px 0 48px}
@@ -43,8 +43,19 @@ article blockquote{margin:12px 0;padding:2px 14px;border-left:3px solid var(--li
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}@media (max-width:600px){.grid{grid-template-columns:1fr}}
 .grid svg{width:100%;height:auto;background:var(--card);border:1px solid var(--line);border-radius:10px}
 svg text{fill:var(--mute);font:10px -apple-system,Segoe UI,Roboto,sans-serif}
+body.wide .wrap{max-width:1240px}
+.fbtn{font:inherit;font-size:13px;padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--mute);cursor:pointer;margin:0 6px 6px 0}
+.fbtn[aria-pressed="true"]{color:var(--fg);border-color:var(--fg);font-weight:600}
+.ctl{display:flex;flex-wrap:wrap;align-items:center;gap:0 4px;margin:6px 0}.ctl .lab{font-size:13px;color:var(--mute);margin-right:8px}
+.rrg-layout{display:grid;grid-template-columns:minmax(0,1fr);gap:20px;margin-top:10px}
+@media (min-width:1000px){.rrg-layout{grid-template-columns:minmax(0,1fr) 330px}}
+#rot-chart{position:relative;background:var(--card);border:1px solid var(--line);border-radius:10px;min-height:340px}
+.rtip{position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:12px;max-width:16rem;box-shadow:0 4px 14px rgba(0,0,0,.12)}
+.formula{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;font-size:14px}
+.formula h3{margin:0 0 8px}.formula ol{padding-left:20px;margin:8px 0}.formula li{margin:8px 0}
+.formula .eq{font-family:Georgia,"Times New Roman",serif;font-size:15px;display:block;margin-top:2px;color:var(--fg)}
 footer{border-top:1px solid var(--line);padding:18px 0 30px;color:var(--mute);font-size:13px}
-</style></head><body>
+</style></head><body class="">
 <header class="site"><div class="wrap top"><a class="brand" href="/">Theme Radar</a><nav><a href="/" class="">Home</a><a href="/research/" class="on">Research</a><a href="/baskets/" class="">Baskets</a><a href="/rotation/" class="">Rotation</a><a href="/etfs/" class="">Sector ETFs</a><a href="/about/" class="">About</a></nav></div></header>
 <main><div class="wrap"><h1>Research</h1><p class="mute">Thought pieces, grouped by thread. Each links to the basket that tracks it.</p><h2 id="cyber-security">Cyber Security</h2><p class="mute small">How AI agents change security spending, and which layers get paid.</p><div class="card"><h3><a href="/research/passport-control-for-robots/">Passport Control for Robots: SAIL vs OKTA</a></h3><div class="mute small">9 Oct 2026 · SAIL, OKTA</div><p class="small" style="margin:6px 0 0">AI agents pay the identity registry, not the login. Governance is priced per identity, login per employee. Within listed identity, SailPoint owns the better-placed layer at the lower multiple.</p></div><p class="small">Basket: <a href="/baskets/cyber-security/">Cyber Security</a></p><h2 id="ai-science">AI Science</h2><p class="mute small">AI in drug discovery and life-science research, and the tools it runs on.</p><p class="small mute">No published piece yet.</p><p class="small">Basket: <a href="/baskets/ai-science/">AI Science</a></p><h2 id="agentic-commerce">Agentic Commerce</h2><p class="mute small">Who gets paid when AI agents do the shopping.</p><div class="card"><h3><a href="/research/the-mall-is-closing/">The Mall Is Closing: Shopify, Meta&#x27;s Muse and the Agentic Storefront</a></h3><div class="mute small">7 Oct 2026 · SHOP, META, AMZN</div><p class="small" style="margin:6px 0 0">When AI agents do the shopping, the rails get paid every time (Shopify), the assistant that knows the buyer earns a commission (Meta), and the everything store has to reinvent itself or shrink (Amazon).</p></div><h2 id="payments">Payments and Financial Rails</h2><p class="mute small">Payment networks, exchanges and the new on-chain rails.</p><p class="small mute">No published piece yet.</p><p class="small">Basket: <a href="/baskets/programmable-rails/">Programmable Rails</a> · <a href="/baskets/payments-value/">Payments Value</a></p><h2 id="gold-and-the-dollar">Gold and the Dollar</h2><p class="mute small">Gold equities as a hedge against a weaker dollar.</p><p class="small mute">No published piece yet.</p><p class="small">Basket: <a href="/baskets/usd-devaluation/">US Dollar Devaluation</a></p></div></main>
 <footer><div class="wrap">Not investment advice. Prices are daily closes from public market data and may contain errors.
