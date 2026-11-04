@@ -4,7 +4,7 @@ Gold equities as a hedge against a weaker dollar.
 
 ## Research
 
-None yet.
+- [The USD Debasement Basket: initiation report](https://theme-radar.github.io/research/usd-debasement-initiation.md) (2026-05-20): Gold royalty and streaming companies are the hedge we need for the financial repression era. Basket: FNV, WPM, AEM and ALS.
 
 ## Thematic Baskets
 

@@ -1,7 +1,7 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-03",
- "generated": "2026-11-04T09:09:11Z",
+ "generated": "2026-11-04T10:21:41Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "research": [
@@ -168,6 +168,23 @@
    "summary": "Who gets paid when software starts doing the work: the traffic, the control points and the record-keeping that every AI agent has to pass through. A shopping list, built before the down day we cannot time.",
    "url": "https://theme-radar.github.io/research/cybersecurity-theme-primer/",
    "markdown": "https://theme-radar.github.io/research/cybersecurity-theme-primer.md"
+  },
+  {
+   "title": "The USD Debasement Basket: initiation report",
+   "date": "2026-05-20",
+   "theme": "US Dollar Devaluation",
+   "tickers": [
+    "FNV",
+    "WPM",
+    "AEM",
+    "ALS"
+   ],
+   "baskets": [
+    "usd-devaluation"
+   ],
+   "summary": "Gold royalty and streaming companies are the hedge we need for the financial repression era. Basket: FNV, WPM, AEM and ALS.",
+   "url": "https://theme-radar.github.io/research/usd-debasement-initiation/",
+   "markdown": "https://theme-radar.github.io/research/usd-debasement-initiation.md"
   }
  ]
 }

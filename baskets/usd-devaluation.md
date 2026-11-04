@@ -10,3 +10,6 @@ Start: 2026-05-20. Weighting: Equal weight. Label: Avoid for now. Since start: -
 | WPM | Wheaton Precious Metals | 25.0% | -7.7% | -6.8% | -14.7% | -6.2% |
 | AEM | Agnico Eagle Mines | 25.0% | -6.1% | -7.4% | -10.1% | -6.1% |
 | ALS | Altius Minerals (TSX, CAD) | 25.0% | -2.2% | -5.0% | -25.0% | -2.7% |
+
+Research:
+- https://theme-radar.github.io/research/usd-debasement-initiation.md

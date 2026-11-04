@@ -15,3 +15,4 @@
 - [The Mall Is Closing: Shopify, Meta's Muse and the Agentic Storefront](https://theme-radar.github.io/research/the-mall-is-closing.md) (2026-10-14, Agentic Commerce)
 - [Passport Control for Robots: SAIL vs OKTA](https://theme-radar.github.io/research/passport-control-for-robots.md) (2026-10-09, Cybersecurity)
 - [AI agentic beneficiaries: cybersecurity theme primer and shopping list](https://theme-radar.github.io/research/cybersecurity-theme-primer.md) (2026-09-18, Cybersecurity)
+- [The USD Debasement Basket: initiation report](https://theme-radar.github.io/research/usd-debasement-initiation.md) (2026-05-20, US Dollar Devaluation)
