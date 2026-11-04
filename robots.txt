@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://theme-radar.github.io/sitemap.xml

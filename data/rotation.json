@@ -1,0 +1,2474 @@
+{
+ "site": "Theme Radar",
+ "asof": "2026-11-03",
+ "generated": "2026-11-04T04:01:53Z",
+ "units": "returns are decimal fractions (0.05 = +5%)",
+ "source": "daily closes, public market data",
+ "benchmark": "SPY",
+ "trails": {
+  "AI Chips & Compute": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.9923,
+    "rs_momentum": 100.3729
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.7864,
+    "rs_momentum": 99.818
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.1873,
+    "rs_momentum": 98.9172
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.8371,
+    "rs_momentum": 98.904
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 98.6424,
+    "rs_momentum": 99.1577
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 98.4545,
+    "rs_momentum": 99.2891
+   }
+  ],
+  "Memory & Storage": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.6884,
+    "rs_momentum": 100.5228
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.4943,
+    "rs_momentum": 99.9949
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.7775,
+    "rs_momentum": 99.0423
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.4936,
+    "rs_momentum": 99.1925
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 98.5352,
+    "rs_momentum": 99.7369
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 98.5208,
+    "rs_momentum": 99.9504
+   }
+  ],
+  "Semicap & Test": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.6659,
+    "rs_momentum": 101.3252
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.4565,
+    "rs_momentum": 100.4176
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.6222,
+    "rs_momentum": 99.1548
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.1547,
+    "rs_momentum": 99.0172
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 98.1051,
+    "rs_momentum": 99.5922
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 98.205,
+    "rs_momentum": 100.098
+   }
+  ],
+  "Foundry & Packaging": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 100.1468,
+    "rs_momentum": 100.9296
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.8454,
+    "rs_momentum": 100.1214
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.3073,
+    "rs_momentum": 99.4688
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.0032,
+    "rs_momentum": 99.4427
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 98.6879,
+    "rs_momentum": 99.4314
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 98.5458,
+    "rs_momentum": 99.6369
+   }
+  ],
+  "Analog, Auto & Power Semis": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.7786,
+    "rs_momentum": 100.9103
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.649,
+    "rs_momentum": 100.2911
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.3617,
+    "rs_momentum": 99.7871
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.3297,
+    "rs_momentum": 99.9077
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.4392,
+    "rs_momentum": 100.1692
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 99.589,
+    "rs_momentum": 100.3431
+   }
+  ],
+  "Optics & Photonics": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.4933,
+    "rs_momentum": 100.6897
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.4966,
+    "rs_momentum": 100.3949
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.8231,
+    "rs_momentum": 99.3077
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.4802,
+    "rs_momentum": 99.2541
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 98.5441,
+    "rs_momentum": 99.7767
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 98.5961,
+    "rs_momentum": 100.0124
+   }
+  ],
+  "AI Networking & Servers": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 100.3699,
+    "rs_momentum": 100.6334
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 100.4957,
+    "rs_momentum": 100.5019
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.2652,
+    "rs_momentum": 97.6245
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.5541,
+    "rs_momentum": 97.5524
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 98.2195,
+    "rs_momentum": 98.2319
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 98.0505,
+    "rs_momentum": 98.8461
+   }
+  ],
+  "Cybersecurity": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 100.8367,
+    "rs_momentum": 100.2886
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 101.0708,
+    "rs_momentum": 100.3993
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 100.5329,
+    "rs_momentum": 99.3712
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 100.9086,
+    "rs_momentum": 100.1494
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 100.7854,
+    "rs_momentum": 99.834
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.3211,
+    "rs_momentum": 99.1898
+   }
+  ],
+  "Data & Observability": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 100.7993,
+    "rs_momentum": 99.7393
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 100.8831,
+    "rs_momentum": 99.9144
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 100.4102,
+    "rs_momentum": 99.1278
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 100.5971,
+    "rs_momentum": 99.7601
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 100.3683,
+    "rs_momentum": 99.4134
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 99.9374,
+    "rs_momentum": 98.8592
+   }
+  ],
+  "Enterprise SaaS": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 100.445,
+    "rs_momentum": 98.9889
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 100.4052,
+    "rs_momentum": 99.4075
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 100.503,
+    "rs_momentum": 99.7903
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 100.8537,
+    "rs_momentum": 100.2637
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 100.5881,
+    "rs_momentum": 99.6965
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.4114,
+    "rs_momentum": 99.5028
+   }
+  ],
+  "EDA & Industrial Software": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 100.5567,
+    "rs_momentum": 100.2957
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 101.4955,
+    "rs_momentum": 101.6939
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 101.6479,
+    "rs_momentum": 101.0173
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 101.8719,
+    "rs_momentum": 100.8018
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 102.0651,
+    "rs_momentum": 100.6362
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 102.0993,
+    "rs_momentum": 100.2633
+   }
+  ],
+  "IT Services & Consulting": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 100.4392,
+    "rs_momentum": 99.4269
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 100.473,
+    "rs_momentum": 99.7865
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 101.0777,
+    "rs_momentum": 100.6886
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 101.9745,
+    "rs_momentum": 101.4364
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 102.1709,
+    "rs_momentum": 100.9298
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 101.8872,
+    "rs_momentum": 100.0774
+   }
+  ],
+  "Social & Ad-tech": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 100.2131,
+    "rs_momentum": 99.2883
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 100.155,
+    "rs_momentum": 99.579
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 100.0842,
+    "rs_momentum": 99.7165
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.9738,
+    "rs_momentum": 99.7025
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.1435,
+    "rs_momentum": 98.5952
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 99.1337,
+    "rs_momentum": 99.2594
+   }
+  ],
+  "Streaming & Media": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.1172,
+    "rs_momentum": 97.8229
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.0514,
+    "rs_momentum": 98.866
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.3473,
+    "rs_momentum": 99.804
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 100.039,
+    "rs_momentum": 100.7275
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 100.4838,
+    "rs_momentum": 100.8686
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 101.2019,
+    "rs_momentum": 101.2202
+   }
+  ],
+  "Video Games": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.9886,
+    "rs_momentum": 99.5635
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 100.4278,
+    "rs_momentum": 100.5326
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 100.5339,
+    "rs_momentum": 100.368
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 100.8608,
+    "rs_momentum": 100.6941
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 100.4995,
+    "rs_momentum": 99.5717
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.6332,
+    "rs_momentum": 99.8993
+   }
+  ],
+  "E-commerce & Marketplaces": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.2331,
+    "rs_momentum": 99.1717
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.6796,
+    "rs_momentum": 100.2386
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 100.326,
+    "rs_momentum": 101.0133
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 100.9747,
+    "rs_momentum": 101.3489
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 101.2818,
+    "rs_momentum": 101.0338
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 101.6293,
+    "rs_momentum": 100.9099
+   }
+  ],
+  "China Internet": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 98.9837,
+    "rs_momentum": 99.2317
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.4572,
+    "rs_momentum": 100.4284
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.8369,
+    "rs_momentum": 100.88
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.7387,
+    "rs_momentum": 100.2988
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.8216,
+    "rs_momentum": 100.3284
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.4539,
+    "rs_momentum": 101.2355
+   }
+  ],
+  "Quantum": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 100.4611,
+    "rs_momentum": 99.8186
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.7505,
+    "rs_momentum": 98.3172
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.9402,
+    "rs_momentum": 97.5873
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.8548,
+    "rs_momentum": 98.6642
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 98.8911,
+    "rs_momentum": 99.4365
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 98.9414,
+    "rs_momentum": 99.8243
+   }
+  ],
+  "Space & Satellites": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.4806,
+    "rs_momentum": 100.3331
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.2301,
+    "rs_momentum": 99.8949
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.8175,
+    "rs_momentum": 99.4693
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.8041,
+    "rs_momentum": 99.8405
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.0235,
+    "rs_momentum": 100.3677
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 99.1325,
+    "rs_momentum": 100.4357
+   }
+  ],
+  "Robotics & Autonomy": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.6544,
+    "rs_momentum": 99.8461
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.3356,
+    "rs_momentum": 99.2985
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.1477,
+    "rs_momentum": 97.4768
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 97.8179,
+    "rs_momentum": 98.2475
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 97.6722,
+    "rs_momentum": 98.9821
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 97.8087,
+    "rs_momentum": 99.8228
+   }
+  ],
+  "EVs & Batteries": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 98.2519,
+    "rs_momentum": 100.5981
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 98.1919,
+    "rs_momentum": 100.2513
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 97.7702,
+    "rs_momentum": 99.3216
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 97.9471,
+    "rs_momentum": 100.1856
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 98.3715,
+    "rs_momentum": 101.1518
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 98.9466,
+    "rs_momentum": 101.8381
+   }
+  ],
+  "Crypto Equities": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 101.4188,
+    "rs_momentum": 98.3561
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 100.7731,
+    "rs_momentum": 97.9543
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 100.044,
+    "rs_momentum": 97.7568
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.6145,
+    "rs_momentum": 98.2051
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.1144,
+    "rs_momentum": 98.3513
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 99.0024,
+    "rs_momentum": 99.0155
+   }
+  ],
+  "Neoclouds & BTC Miners": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.8273,
+    "rs_momentum": 99.653
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.2839,
+    "rs_momentum": 98.6203
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.4621,
+    "rs_momentum": 97.7116
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.1029,
+    "rs_momentum": 98.2184
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 98.0808,
+    "rs_momentum": 99.1526
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 98.3163,
+    "rs_momentum": 100.1248
+   }
+  ],
+  "Data Center REITs": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 98.8272,
+    "rs_momentum": 99.1562
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 98.9432,
+    "rs_momentum": 99.8015
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.3434,
+    "rs_momentum": 98.9254
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.1406,
+    "rs_momentum": 99.1669
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 98.3005,
+    "rs_momentum": 100.0913
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 98.4645,
+    "rs_momentum": 100.6242
+   }
+  ],
+  "Grid & Electrical Equipment": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.0468,
+    "rs_momentum": 100.5151
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.2703,
+    "rs_momentum": 100.5061
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.2758,
+    "rs_momentum": 100.2388
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.1338,
+    "rs_momentum": 99.9945
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.4401,
+    "rs_momentum": 100.4928
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 99.8576,
+    "rs_momentum": 100.9579
+   }
+  ],
+  "Thermal & Cooling": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.5152,
+    "rs_momentum": 100.4851
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.5447,
+    "rs_momentum": 100.2562
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.9448,
+    "rs_momentum": 99.2283
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.4641,
+    "rs_momentum": 98.9354
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 98.5261,
+    "rs_momentum": 99.5697
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 98.6919,
+    "rs_momentum": 100.0744
+   }
+  ],
+  "Construction & DC Build": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 98.7679,
+    "rs_momentum": 100.6406
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 98.8861,
+    "rs_momentum": 100.5215
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.7381,
+    "rs_momentum": 100.0324
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.402,
+    "rs_momentum": 99.5168
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 98.8715,
+    "rs_momentum": 100.5797
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 99.5082,
+    "rs_momentum": 101.3376
+   }
+  ],
+  "Power Producers (IPPs)": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.1347,
+    "rs_momentum": 100.0737
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 101.2506,
+    "rs_momentum": 102.9525
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 101.5108,
+    "rs_momentum": 101.6886
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 100.6568,
+    "rs_momentum": 99.6208
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 100.6787,
+    "rs_momentum": 99.7715
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.8525,
+    "rs_momentum": 100.046
+   }
+  ],
+  "Nuclear & Uranium": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.1781,
+    "rs_momentum": 98.4243
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 98.9753,
+    "rs_momentum": 98.8032
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.4553,
+    "rs_momentum": 98.3895
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.0759,
+    "rs_momentum": 98.4555
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 98.2423,
+    "rs_momentum": 99.6933
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 98.3428,
+    "rs_momentum": 100.1821
+   }
+  ],
+  "Solar": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.254,
+    "rs_momentum": 100.4001
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.3993,
+    "rs_momentum": 100.3802
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.3302,
+    "rs_momentum": 100.0856
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.4641,
+    "rs_momentum": 100.1941
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.504,
+    "rs_momentum": 100.1461
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.3274,
+    "rs_momentum": 101.0711
+   }
+  ],
+  "Fuel Cells & Hydrogen": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.355,
+    "rs_momentum": 100.4811
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.2931,
+    "rs_momentum": 100.1212
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.8793,
+    "rs_momentum": 99.2978
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.6586,
+    "rs_momentum": 99.28
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 98.7901,
+    "rs_momentum": 99.9764
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 98.9968,
+    "rs_momentum": 100.4619
+   }
+  ],
+  "Defense Primes": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 98.8745,
+    "rs_momentum": 99.9171
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 98.8764,
+    "rs_momentum": 99.9996
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.3561,
+    "rs_momentum": 100.7165
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.8452,
+    "rs_momentum": 101.2747
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 100.7664,
+    "rs_momentum": 102.1816
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 101.3313,
+    "rs_momentum": 101.936
+   }
+  ],
+  "Defense Tech & Drones": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.331,
+    "rs_momentum": 99.1019
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.0158,
+    "rs_momentum": 99.0778
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.8685,
+    "rs_momentum": 99.3346
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.863,
+    "rs_momentum": 99.7293
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.5222,
+    "rs_momentum": 101.0998
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 99.8899,
+    "rs_momentum": 101.2025
+   }
+  ],
+  "Commercial Aerospace": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 98.1915,
+    "rs_momentum": 100.6406
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 98.3377,
+    "rs_momentum": 100.7491
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.8128,
+    "rs_momentum": 101.408
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.5887,
+    "rs_momentum": 100.4536
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.0658,
+    "rs_momentum": 101.251
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 99.8798,
+    "rs_momentum": 102.1123
+   }
+  ],
+  "Gold & Silver": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.8037,
+    "rs_momentum": 98.6999
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.4892,
+    "rs_momentum": 98.9241
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.324,
+    "rs_momentum": 99.2674
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.947,
+    "rs_momentum": 99.153
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 98.7508,
+    "rs_momentum": 99.3787
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 98.8406,
+    "rs_momentum": 99.9058
+   }
+  ],
+  "Copper": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.7848,
+    "rs_momentum": 99.7255
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.6238,
+    "rs_momentum": 99.6861
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.2964,
+    "rs_momentum": 99.4266
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.7273,
+    "rs_momentum": 98.9461
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 98.5047,
+    "rs_momentum": 99.27
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 98.5187,
+    "rs_momentum": 99.7957
+   }
+  ],
+  "Critical Minerals & Lithium": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 98.9777,
+    "rs_momentum": 99.0972
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 98.5975,
+    "rs_momentum": 98.9207
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.2239,
+    "rs_momentum": 98.877
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.0671,
+    "rs_momentum": 99.2563
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 98.2221,
+    "rs_momentum": 100.0522
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 98.255,
+    "rs_momentum": 100.1942
+   }
+  ],
+  "Steel & Aluminium": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.0922,
+    "rs_momentum": 99.5679
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.1802,
+    "rs_momentum": 99.9981
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.4096,
+    "rs_momentum": 100.3927
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.5836,
+    "rs_momentum": 100.5114
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 100.0237,
+    "rs_momentum": 100.9
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.2863,
+    "rs_momentum": 100.8298
+   }
+  ],
+  "Chemicals": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.2687,
+    "rs_momentum": 99.9121
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.1783,
+    "rs_momentum": 99.9156
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.4704,
+    "rs_momentum": 100.7966
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.8806,
+    "rs_momentum": 101.4961
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 100.4865,
+    "rs_momentum": 102.1305
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.777,
+    "rs_momentum": 101.7107
+   }
+  ],
+  "Agriculture": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.5873,
+    "rs_momentum": 98.381
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.1162,
+    "rs_momentum": 98.3215
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.92,
+    "rs_momentum": 98.8386
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.868,
+    "rs_momentum": 99.3882
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.2091,
+    "rs_momentum": 100.4715
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 99.4106,
+    "rs_momentum": 100.7135
+   }
+  ],
+  "Oil Producers": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.7352,
+    "rs_momentum": 99.5
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.7998,
+    "rs_momentum": 99.8835
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 100.2438,
+    "rs_momentum": 100.6032
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 100.5498,
+    "rs_momentum": 100.7591
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 100.7547,
+    "rs_momentum": 100.7138
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.3769,
+    "rs_momentum": 99.8739
+   }
+  ],
+  "Natural Gas Producers": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.6068,
+    "rs_momentum": 99.1658
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.7781,
+    "rs_momentum": 99.8665
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 100.2726,
+    "rs_momentum": 100.7178
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 100.6477,
+    "rs_momentum": 100.9232
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 101.0529,
+    "rs_momentum": 101.0725
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.9652,
+    "rs_momentum": 100.3742
+   }
+  ],
+  "Midstream & LNG": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 98.9728,
+    "rs_momentum": 99.5431
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.0178,
+    "rs_momentum": 99.8949
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.234,
+    "rs_momentum": 100.324
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.5615,
+    "rs_momentum": 100.7833
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 100.0492,
+    "rs_momentum": 101.471
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.0306,
+    "rs_momentum": 100.9084
+   }
+  ],
+  "Oil Services & Offshore": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.1049,
+    "rs_momentum": 99.0816
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.0537,
+    "rs_momentum": 99.5133
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.1026,
+    "rs_momentum": 99.9118
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.4693,
+    "rs_momentum": 100.6524
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.8751,
+    "rs_momentum": 101.1037
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 99.641,
+    "rs_momentum": 100.2527
+   }
+  ],
+  "Refiners": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 100.2578,
+    "rs_momentum": 99.3491
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 100.2879,
+    "rs_momentum": 99.6382
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 100.3778,
+    "rs_momentum": 99.885
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.9949,
+    "rs_momentum": 99.3649
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.6671,
+    "rs_momentum": 99.2097
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 99.2751,
+    "rs_momentum": 99.0705
+   }
+  ],
+  "Tankers & Shipping": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 100.5726,
+    "rs_momentum": 99.7516
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 100.5521,
+    "rs_momentum": 99.7659
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 100.101,
+    "rs_momentum": 99.2647
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.9461,
+    "rs_momentum": 99.4158
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.9742,
+    "rs_momentum": 99.7819
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 99.6103,
+    "rs_momentum": 99.3915
+   }
+  ],
+  "Coal": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.6804,
+    "rs_momentum": 99.2616
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.5841,
+    "rs_momentum": 99.5424
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.6425,
+    "rs_momentum": 99.8715
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.677,
+    "rs_momentum": 100.0371
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.8282,
+    "rs_momentum": 100.2584
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 99.7735,
+    "rs_momentum": 100.11
+   }
+  ],
+  "Big Banks & Wealth": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 98.0935,
+    "rs_momentum": 98.7254
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 98.1151,
+    "rs_momentum": 99.498
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.2862,
+    "rs_momentum": 100.0825
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.5174,
+    "rs_momentum": 100.4489
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.0607,
+    "rs_momentum": 101.0106
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 99.72,
+    "rs_momentum": 101.3914
+   }
+  ],
+  "Regional Banks": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 98.3636,
+    "rs_momentum": 99.7709
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 98.2799,
+    "rs_momentum": 99.8907
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.6529,
+    "rs_momentum": 100.692
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.2527,
+    "rs_momentum": 101.4026
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.648,
+    "rs_momentum": 101.3749
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.0001,
+    "rs_momentum": 101.264
+   }
+  ],
+  "Brokers & Exchanges": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.0565,
+    "rs_momentum": 98.7784
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.1967,
+    "rs_momentum": 99.6249
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.5785,
+    "rs_momentum": 100.3669
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 100.2418,
+    "rs_momentum": 101.1374
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 100.6003,
+    "rs_momentum": 101.1033
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.9024,
+    "rs_momentum": 100.9961
+   }
+  ],
+  "Alt Managers & PE": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.1473,
+    "rs_momentum": 98.8736
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.0023,
+    "rs_momentum": 99.3018
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.8852,
+    "rs_momentum": 99.5639
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.2776,
+    "rs_momentum": 100.4603
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.8884,
+    "rs_momentum": 101.1774
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.4493,
+    "rs_momentum": 101.4135
+   }
+  ],
+  "Private Credit (BDCs)": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.8241,
+    "rs_momentum": 98.5069
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.172,
+    "rs_momentum": 98.2831
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.2089,
+    "rs_momentum": 99.2541
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.3724,
+    "rs_momentum": 99.9394
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 100.2061,
+    "rs_momentum": 101.3031
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.8013,
+    "rs_momentum": 101.5245
+   }
+  ],
+  "Payments & Fintech": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.2322,
+    "rs_momentum": 99.1064
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.5478,
+    "rs_momentum": 100.0023
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.842,
+    "rs_momentum": 100.4115
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 100.2362,
+    "rs_momentum": 100.7136
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 100.2037,
+    "rs_momentum": 100.2924
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.3365,
+    "rs_momentum": 100.2775
+   }
+  ],
+  "Mortgage & Housing Finance": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 97.5999,
+    "rs_momentum": 98.3565
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 97.3172,
+    "rs_momentum": 98.8494
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 97.5247,
+    "rs_momentum": 99.8912
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.5248,
+    "rs_momentum": 101.6496
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.7502,
+    "rs_momentum": 102.5721
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.9441,
+    "rs_momentum": 102.7712
+   }
+  ],
+  "Insurance": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 98.5498,
+    "rs_momentum": 99.4657
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 98.8106,
+    "rs_momentum": 100.122
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.8435,
+    "rs_momentum": 101.3516
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 100.525,
+    "rs_momentum": 101.4665
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 101.0716,
+    "rs_momentum": 101.3273
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 101.3355,
+    "rs_momentum": 100.9242
+   }
+  ],
+  "Credit Bureaus & Fin Data": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 98.68,
+    "rs_momentum": 98.7045
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 98.7505,
+    "rs_momentum": 99.5485
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.4376,
+    "rs_momentum": 100.8556
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 100.1074,
+    "rs_momentum": 101.4111
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 100.4695,
+    "rs_momentum": 101.2156
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.8221,
+    "rs_momentum": 101.0971
+   }
+  ],
+  "Real Estate (REITs)": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 98.1857,
+    "rs_momentum": 100.2799
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 98.4294,
+    "rs_momentum": 100.5584
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.158,
+    "rs_momentum": 101.3127
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.9604,
+    "rs_momentum": 101.7437
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 100.408,
+    "rs_momentum": 101.4734
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.8078,
+    "rs_momentum": 101.2632
+   }
+  ],
+  "Homebuilders & Home Improvement": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.0061,
+    "rs_momentum": 99.9204
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 98.8278,
+    "rs_momentum": 99.7386
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.2015,
+    "rs_momentum": 100.4721
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.9573,
+    "rs_momentum": 101.397
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 100.6506,
+    "rs_momentum": 101.6795
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 101.0583,
+    "rs_momentum": 101.3744
+   }
+  ],
+  "Athletic, Apparel & Luxury": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.0036,
+    "rs_momentum": 101.2167
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.5237,
+    "rs_momentum": 101.591
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 100.3822,
+    "rs_momentum": 102.2055
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 100.771,
+    "rs_momentum": 101.7016
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 101.4488,
+    "rs_momentum": 101.8285
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 101.908,
+    "rs_momentum": 101.5327
+   }
+  ],
+  "Sports & Live Events": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 98.2083,
+    "rs_momentum": 99.6936
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 98.1742,
+    "rs_momentum": 99.9103
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.2914,
+    "rs_momentum": 100.1627
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.7332,
+    "rs_momentum": 100.6379
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.7227,
+    "rs_momentum": 101.4363
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.5162,
+    "rs_momentum": 101.5557
+   }
+  ],
+  "Betting & Casinos": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 97.8893,
+    "rs_momentum": 99.0816
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 98.0614,
+    "rs_momentum": 99.9032
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.3953,
+    "rs_momentum": 100.5354
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.7242,
+    "rs_momentum": 100.8131
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.1423,
+    "rs_momentum": 101.0585
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 99.9014,
+    "rs_momentum": 101.6489
+   }
+  ],
+  "Airlines": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.2358,
+    "rs_momentum": 100.6155
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.2253,
+    "rs_momentum": 100.3672
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.9052,
+    "rs_momentum": 99.8337
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.9478,
+    "rs_momentum": 100.0476
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.2672,
+    "rs_momentum": 100.5055
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 99.6722,
+    "rs_momentum": 100.8224
+   }
+  ],
+  "Cruise, Hotels & Online Travel": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 98.5433,
+    "rs_momentum": 101.0913
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.0715,
+    "rs_momentum": 101.3552
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.9413,
+    "rs_momentum": 101.8682
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 100.4887,
+    "rs_momentum": 101.6293
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 101.4932,
+    "rs_momentum": 101.9892
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 101.8983,
+    "rs_momentum": 101.4175
+   }
+  ],
+  "Restaurants": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 98.4995,
+    "rs_momentum": 99.7758
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 98.9858,
+    "rs_momentum": 100.9546
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 100.0764,
+    "rs_momentum": 102.5458
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 100.4,
+    "rs_momentum": 101.9172
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 102.0202,
+    "rs_momentum": 103.2815
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 102.7982,
+    "rs_momentum": 102.5542
+   }
+  ],
+  "Value Retail & Grocery": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.2636,
+    "rs_momentum": 100.2574
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.5835,
+    "rs_momentum": 100.6706
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 100.584,
+    "rs_momentum": 101.829
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 101.1061,
+    "rs_momentum": 101.6445
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 101.223,
+    "rs_momentum": 100.9698
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 101.2525,
+    "rs_momentum": 100.4994
+   }
+  ],
+  "Staples, Beverages & Pet": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 98.9136,
+    "rs_momentum": 99.5117
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.3613,
+    "rs_momentum": 100.3793
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 100.4448,
+    "rs_momentum": 101.5739
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 101.1626,
+    "rs_momentum": 101.6402
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 101.6395,
+    "rs_momentum": 101.4299
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 102.0821,
+    "rs_momentum": 101.2671
+   }
+  ],
+  "Education": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.4257,
+    "rs_momentum": 99.116
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 100.211,
+    "rs_momentum": 100.9701
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 100.8427,
+    "rs_momentum": 101.5817
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 101.2784,
+    "rs_momentum": 101.4777
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.9994,
+    "rs_momentum": 98.5687
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 99.4614,
+    "rs_momentum": 98.4555
+   }
+  ],
+  "GLP-1 & Obesity": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 98.9563,
+    "rs_momentum": 99.4766
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 98.8176,
+    "rs_momentum": 99.5763
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.6971,
+    "rs_momentum": 99.6482
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 98.9559,
+    "rs_momentum": 100.3062
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.5922,
+    "rs_momentum": 101.2133
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 99.8882,
+    "rs_momentum": 101.075
+   }
+  ],
+  "Large Pharma & Biotech": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.9406,
+    "rs_momentum": 99.4683
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.6845,
+    "rs_momentum": 99.4065
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.6319,
+    "rs_momentum": 99.6685
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.9026,
+    "rs_momentum": 100.2645
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 100.1533,
+    "rs_momentum": 100.5224
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.2267,
+    "rs_momentum": 100.3727
+   }
+  ],
+  "Gene Editing & RNA": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 97.8271,
+    "rs_momentum": 98.4541
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 97.7341,
+    "rs_momentum": 99.1737
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 97.4837,
+    "rs_momentum": 99.2509
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 97.8025,
+    "rs_momentum": 100.3288
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 98.6006,
+    "rs_momentum": 101.6626
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 98.9571,
+    "rs_momentum": 101.4702
+   }
+  ],
+  "Medtech & Surgical Robotics": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.864,
+    "rs_momentum": 99.5011
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.8067,
+    "rs_momentum": 99.6965
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 100.3136,
+    "rs_momentum": 100.7977
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 101.1304,
+    "rs_momentum": 101.7913
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 101.4852,
+    "rs_momentum": 101.4446
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 101.8435,
+    "rs_momentum": 101.2544
+   }
+  ],
+  "Diagnostics & Genomics": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 100.8817,
+    "rs_momentum": 99.5586
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 100.4483,
+    "rs_momentum": 99.0961
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 100.0208,
+    "rs_momentum": 98.9228
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.9433,
+    "rs_momentum": 99.3508
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 100.1975,
+    "rs_momentum": 100.0227
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.2055,
+    "rs_momentum": 99.9828
+   }
+  ],
+  "Managed Care & Providers": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 98.7799,
+    "rs_momentum": 99.3832
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.0599,
+    "rs_momentum": 100.1782
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 100.0514,
+    "rs_momentum": 101.6157
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 100.8852,
+    "rs_momentum": 101.9543
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 101.4276,
+    "rs_momentum": 101.6677
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 101.5548,
+    "rs_momentum": 100.9453
+   }
+  ],
+  "Rails, Trucking & Logistics": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 98.4822,
+    "rs_momentum": 101.251
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 98.8423,
+    "rs_momentum": 101.2409
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.4054,
+    "rs_momentum": 101.484
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.7564,
+    "rs_momentum": 101.2818
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.9826,
+    "rs_momentum": 100.9967
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 100.3866,
+    "rs_momentum": 101.068
+   }
+  ],
+  "Machinery": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.5488,
+    "rs_momentum": 100.3653
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.2296,
+    "rs_momentum": 99.7894
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.2748,
+    "rs_momentum": 100.056
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.0425,
+    "rs_momentum": 99.8145
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.4933,
+    "rs_momentum": 100.722
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 99.9745,
+    "rs_momentum": 101.1713
+   }
+  ],
+  "Water & Waste": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 99.0811,
+    "rs_momentum": 99.8085
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 99.0774,
+    "rs_momentum": 99.9402
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 99.7764,
+    "rs_momentum": 100.8832
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 100.5932,
+    "rs_momentum": 101.4725
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 101.0519,
+    "rs_momentum": 101.3083
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 101.3747,
+    "rs_momentum": 101.0379
+   }
+  ],
+  "Towers & Telecom": [
+   {
+    "date": "2026-10-02",
+    "rs_ratio": 98.9149,
+    "rs_momentum": 98.8451
+   },
+   {
+    "date": "2026-10-09",
+    "rs_ratio": 98.7646,
+    "rs_momentum": 99.266
+   },
+   {
+    "date": "2026-10-16",
+    "rs_ratio": 98.9841,
+    "rs_momentum": 99.965
+   },
+   {
+    "date": "2026-10-23",
+    "rs_ratio": 99.0602,
+    "rs_momentum": 100.1251
+   },
+   {
+    "date": "2026-10-30",
+    "rs_ratio": 99.3978,
+    "rs_momentum": 100.5574
+   },
+   {
+    "date": "2026-11-03",
+    "rs_ratio": 99.6789,
+    "rs_momentum": 100.7355
+   }
+  ]
+ }
+}

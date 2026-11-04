@@ -1,0 +1,40 @@
+{
+ "site": "Theme Radar",
+ "asof": "2026-11-03",
+ "generated": "2026-11-04T04:01:53Z",
+ "units": "returns are decimal fractions (0.05 = +5%)",
+ "source": "daily closes, public market data",
+ "research": [
+  {
+   "title": "Passport Control for Robots: SAIL vs OKTA",
+   "date": "2026-10-09",
+   "thread": "Cyber Security",
+   "tickers": [
+    "SAIL",
+    "OKTA"
+   ],
+   "baskets": [
+    "cyber-security"
+   ],
+   "summary": "AI agents pay the identity registry, not the login. Governance is priced per identity, login per employee. Within listed identity, SailPoint owns the better-placed layer at the lower multiple.",
+   "url": "https://theme-radar.github.io/research/passport-control-for-robots/",
+   "markdown": "https://theme-radar.github.io/research/passport-control-for-robots.md"
+  },
+  {
+   "title": "The Mall Is Closing: Shopify, Meta's Muse and the Agentic Storefront",
+   "date": "2026-10-07",
+   "thread": "Agentic Commerce",
+   "tickers": [
+    "SHOP",
+    "META",
+    "AMZN"
+   ],
+   "baskets": [
+    "programmable-rails"
+   ],
+   "summary": "When AI agents do the shopping, the rails get paid every time (Shopify), the assistant that knows the buyer earns a commission (Meta), and the everything store has to reinvent itself or shrink (Amazon).",
+   "url": "https://theme-radar.github.io/research/the-mall-is-closing/",
+   "markdown": "https://theme-radar.github.io/research/the-mall-is-closing.md"
+  }
+ ]
+}

@@ -1,0 +1,8649 @@
+{
+ "site": "Theme Radar",
+ "asof": "2026-11-03",
+ "generated": "2026-11-04T04:01:53Z",
+ "units": "returns are decimal fractions (0.05 = +5%)",
+ "source": "daily closes, public market data",
+ "members": [
+  {
+   "theme": "AI Chips & Compute",
+   "ticker": "NVDA",
+   "name": "NVIDIA Corporation",
+   "d5": -0.0516,
+   "d20": -0.1361,
+   "m6": 0.0519,
+   "y1": 0.0207,
+   "off_high": -0.1361
+  },
+  {
+   "theme": "AI Chips & Compute",
+   "ticker": "AVGO",
+   "name": "Broadcom Inc.",
+   "d5": -0.0298,
+   "d20": -0.1162,
+   "m6": -0.2228,
+   "y1": -0.1015,
+   "off_high": -0.3103
+  },
+  {
+   "theme": "AI Chips & Compute",
+   "ticker": "AMD",
+   "name": "Advanced Micro Devices Inc.",
+   "d5": -0.1363,
+   "d20": -0.2549,
+   "m6": 0.3621,
+   "y1": 0.8893,
+   "off_high": -0.2549
+  },
+  {
+   "theme": "AI Chips & Compute",
+   "ticker": "MRVL",
+   "name": "Marvell Technology Inc.",
+   "d5": -0.294,
+   "d20": -0.4008,
+   "m6": 0.0191,
+   "y1": 0.8345,
+   "off_high": -0.4565
+  },
+  {
+   "theme": "AI Chips & Compute",
+   "ticker": "ALAB",
+   "name": "Astera Labs Inc.",
+   "d5": -0.1851,
+   "d20": -0.4007,
+   "m6": 0.0831,
+   "y1": 0.2514,
+   "off_high": -0.5163
+  },
+  {
+   "theme": "AI Chips & Compute",
+   "ticker": "ARM",
+   "name": "Arm Holdings plc",
+   "d5": -0.1064,
+   "d20": -0.3307,
+   "m6": -0.0304,
+   "y1": 0.1924,
+   "off_high": -0.5392
+  },
+  {
+   "theme": "AI Chips & Compute",
+   "ticker": "CBRS",
+   "name": "Cerebras Systems Inc.",
+   "d5": -0.1801,
+   "d20": -0.4477,
+   "m6": null,
+   "y1": null,
+   "off_high": -0.6855
+  },
+  {
+   "theme": "AI Chips & Compute",
+   "ticker": "AMBA",
+   "name": "Ambarella Inc.",
+   "d5": -0.0763,
+   "d20": -0.0874,
+   "m6": -0.1662,
+   "y1": -0.2726,
+   "off_high": -0.3509
+  },
+  {
+   "theme": "Memory & Storage",
+   "ticker": "MU",
+   "name": "Micron Technology Inc.",
+   "d5": -0.0793,
+   "d20": -0.1822,
+   "m6": 0.3357,
+   "y1": 2.8213,
+   "off_high": -0.2954
+  },
+  {
+   "theme": "Memory & Storage",
+   "ticker": "SNDK",
+   "name": "Sandisk Corporation",
+   "d5": -0.1367,
+   "d20": -0.3216,
+   "m6": -0.199,
+   "y1": 4.6515,
+   "off_high": -0.5176
+  },
+  {
+   "theme": "Memory & Storage",
+   "ticker": "WDC",
+   "name": "Western Digital Corporation",
+   "d5": -0.088,
+   "d20": -0.1549,
+   "m6": -0.2534,
+   "y1": 1.3124,
+   "off_high": -0.5345
+  },
+  {
+   "theme": "Memory & Storage",
+   "ticker": "STX",
+   "name": "Seagate Technology Holdings PLC",
+   "d5": -0.092,
+   "d20": -0.2473,
+   "m6": -0.2135,
+   "y1": 1.3698,
+   "off_high": -0.4457
+  },
+  {
+   "theme": "Memory & Storage",
+   "ticker": "P",
+   "name": "Everpure Inc.",
+   "d5": -0.1519,
+   "d20": -0.2007,
+   "m6": 0.5764,
+   "y1": 0.192,
+   "off_high": -0.2505
+  },
+  {
+   "theme": "Memory & Storage",
+   "ticker": "RMBS",
+   "name": "Rambus Inc.",
+   "d5": -0.0082,
+   "d20": -0.2271,
+   "m6": -0.2527,
+   "y1": -0.1426,
+   "off_high": -0.4833
+  },
+  {
+   "theme": "Memory & Storage",
+   "ticker": "SIMO",
+   "name": "Silicon Motion Technology Corporation",
+   "d5": -0.0111,
+   "d20": -0.2915,
+   "m6": -0.1531,
+   "y1": 1.0579,
+   "off_high": -0.4007
+  },
+  {
+   "theme": "Semicap & Test",
+   "ticker": "AMAT",
+   "name": "Applied Materials Inc.",
+   "d5": -0.0354,
+   "d20": -0.2798,
+   "m6": -0.0703,
+   "y1": 0.6384,
+   "off_high": -0.4718
+  },
+  {
+   "theme": "Semicap & Test",
+   "ticker": "LRCX",
+   "name": "Lam Research Corporation",
+   "d5": -0.0421,
+   "d20": -0.309,
+   "m6": -0.1635,
+   "y1": 0.4653,
+   "off_high": -0.4676
+  },
+  {
+   "theme": "Semicap & Test",
+   "ticker": "KLAC",
+   "name": "KLA Corporation",
+   "d5": 0.0165,
+   "d20": -0.209,
+   "m6": -0.0986,
+   "y1": 0.2923,
+   "off_high": -0.4823
+  },
+  {
+   "theme": "Semicap & Test",
+   "ticker": "ASML",
+   "name": "ASML Holding N.V. New York Registry Shar",
+   "d5": -0.051,
+   "d20": -0.1537,
+   "m6": 0.0757,
+   "y1": 0.4653,
+   "off_high": -0.2198
+  },
+  {
+   "theme": "Semicap & Test",
+   "ticker": "FORM",
+   "name": "FormFactor Inc. FormFactor Inc.",
+   "d5": -0.0942,
+   "d20": -0.315,
+   "m6": -0.3325,
+   "y1": 0.7614,
+   "off_high": -0.3948
+  },
+  {
+   "theme": "Semicap & Test",
+   "ticker": "KLIC",
+   "name": "Kulicke and Soffa Industries Inc.",
+   "d5": -0.0753,
+   "d20": -0.2602,
+   "m6": -0.2074,
+   "y1": 0.8142,
+   "off_high": -0.4586
+  },
+  {
+   "theme": "Semicap & Test",
+   "ticker": "TER",
+   "name": "Teradyne Inc.",
+   "d5": -0.1679,
+   "d20": -0.3741,
+   "m6": -0.2457,
+   "y1": 0.4819,
+   "off_high": -0.4433
+  },
+  {
+   "theme": "Semicap & Test",
+   "ticker": "ONTO",
+   "name": "Onto Innovation Inc.",
+   "d5": -0.055,
+   "d20": -0.3549,
+   "m6": -0.3364,
+   "y1": 0.4996,
+   "off_high": -0.4652
+  },
+  {
+   "theme": "Semicap & Test",
+   "ticker": "COHU",
+   "name": "Cohu Inc.",
+   "d5": -0.0186,
+   "d20": -0.3156,
+   "m6": 0.0326,
+   "y1": 1.103,
+   "off_high": -0.3231
+  },
+  {
+   "theme": "Semicap & Test",
+   "ticker": "UCTT",
+   "name": "Ultra Clean Holdings Inc.",
+   "d5": -0.0672,
+   "d20": -0.3443,
+   "m6": -0.4224,
+   "y1": 0.7519,
+   "off_high": -0.6632
+  },
+  {
+   "theme": "Semicap & Test",
+   "ticker": "ICHR",
+   "name": "Ichor Holdings",
+   "d5": -0.1036,
+   "d20": -0.415,
+   "m6": -0.461,
+   "y1": 0.6107,
+   "off_high": -0.6747
+  },
+  {
+   "theme": "Semicap & Test",
+   "ticker": "ACMR",
+   "name": "ACM Research Inc.",
+   "d5": -0.1278,
+   "d20": -0.3984,
+   "m6": -0.1415,
+   "y1": 0.0933,
+   "off_high": -0.6428
+  },
+  {
+   "theme": "Semicap & Test",
+   "ticker": "AEHR",
+   "name": "Aehr Test Systems",
+   "d5": 0.0181,
+   "d20": -0.2934,
+   "m6": -0.286,
+   "y1": 1.5052,
+   "off_high": -0.5528
+  },
+  {
+   "theme": "Semicap & Test",
+   "ticker": "CAMT",
+   "name": "Camtek Ltd.",
+   "d5": -0.1282,
+   "d20": -0.2729,
+   "m6": -0.4302,
+   "y1": -0.0925,
+   "off_high": -0.4584
+  },
+  {
+   "theme": "Semicap & Test",
+   "ticker": "NVMI",
+   "name": "Nova Ltd.",
+   "d5": -0.076,
+   "d20": -0.2326,
+   "m6": -0.413,
+   "y1": -0.1217,
+   "off_high": -0.5002
+  },
+  {
+   "theme": "Foundry & Packaging",
+   "ticker": "AMKR",
+   "name": "Amkor Technology Inc.",
+   "d5": -0.0581,
+   "d20": -0.2954,
+   "m6": -0.5096,
+   "y1": 0.1654,
+   "off_high": -0.5979
+  },
+  {
+   "theme": "Foundry & Packaging",
+   "ticker": "ASX",
+   "name": "ASE Technology Holding Co. Ltd.",
+   "d5": -0.0716,
+   "d20": -0.1652,
+   "m6": 0.1678,
+   "y1": 1.4391,
+   "off_high": -0.1796
+  },
+  {
+   "theme": "Foundry & Packaging",
+   "ticker": "TSM",
+   "name": "Taiwan Semiconductor Manufacturing Compa",
+   "d5": -0.0734,
+   "d20": -0.1607,
+   "m6": 0.0263,
+   "y1": 0.3474,
+   "off_high": -0.1667
+  },
+  {
+   "theme": "Foundry & Packaging",
+   "ticker": "UMC",
+   "name": "United Microelectronics Corporation (NEW",
+   "d5": -0.1568,
+   "d20": -0.2928,
+   "m6": 0.1706,
+   "y1": 1.1271,
+   "off_high": -0.4145
+  },
+  {
+   "theme": "Foundry & Packaging",
+   "ticker": "GFS",
+   "name": "GlobalFoundries Inc.",
+   "d5": -0.0816,
+   "d20": -0.118,
+   "m6": -0.4207,
+   "y1": 0.2048,
+   "off_high": -0.5232
+  },
+  {
+   "theme": "Foundry & Packaging",
+   "ticker": "INTC",
+   "name": "Intel Corporation",
+   "d5": -0.3541,
+   "d20": -0.4618,
+   "m6": -0.4401,
+   "y1": 0.5141,
+   "off_high": -0.5704
+  },
+  {
+   "theme": "Analog, Auto & Power Semis",
+   "ticker": "TXN",
+   "name": "Texas Instruments Incorporated",
+   "d5": 0.0116,
+   "d20": 0.0513,
+   "m6": 0.1121,
+   "y1": 0.9354,
+   "off_high": -0.0596
+  },
+  {
+   "theme": "Analog, Auto & Power Semis",
+   "ticker": "ADI",
+   "name": "Analog Devices Inc.",
+   "d5": -0.0131,
+   "d20": -0.0018,
+   "m6": 0.0371,
+   "y1": 0.793,
+   "off_high": -0.0577
+  },
+  {
+   "theme": "Analog, Auto & Power Semis",
+   "ticker": "NXPI",
+   "name": "NXP Semiconductors N.V.",
+   "d5": 0.0366,
+   "d20": 0.0753,
+   "m6": -0.1011,
+   "y1": 0.2566,
+   "off_high": -0.2101
+  },
+  {
+   "theme": "Analog, Auto & Power Semis",
+   "ticker": "ON",
+   "name": "ON Semiconductor Corporation",
+   "d5": -0.0772,
+   "d20": -0.1588,
+   "m6": -0.2929,
+   "y1": 0.4497,
+   "off_high": -0.4579
+  },
+  {
+   "theme": "Analog, Auto & Power Semis",
+   "ticker": "WOLF",
+   "name": "Wolfspeed Inc. Common Stock New",
+   "d5": -0.1107,
+   "d20": -0.2956,
+   "m6": -0.3879,
+   "y1": -0.1482,
+   "off_high": -0.695
+  },
+  {
+   "theme": "Analog, Auto & Power Semis",
+   "ticker": "MCHP",
+   "name": "Microchip Technology Incorporated",
+   "d5": -0.0283,
+   "d20": -0.0413,
+   "m6": -0.209,
+   "y1": 0.248,
+   "off_high": -0.2431
+  },
+  {
+   "theme": "Analog, Auto & Power Semis",
+   "ticker": "STM",
+   "name": "STMicroelectronics N.V.",
+   "d5": -0.0029,
+   "d20": -0.1734,
+   "m6": -0.1511,
+   "y1": 0.9837,
+   "off_high": -0.3926
+  },
+  {
+   "theme": "Analog, Auto & Power Semis",
+   "ticker": "ALGM",
+   "name": "Allegro MicroSystems Inc.",
+   "d5": -0.0094,
+   "d20": -0.1316,
+   "m6": -0.3225,
+   "y1": 0.125,
+   "off_high": -0.5165
+  },
+  {
+   "theme": "Analog, Auto & Power Semis",
+   "ticker": "NVTS",
+   "name": "Navitas Semiconductor Corporation",
+   "d5": -0.0845,
+   "d20": -0.2849,
+   "m6": -0.5123,
+   "y1": -0.364,
+   "off_high": -0.7307
+  },
+  {
+   "theme": "Analog, Auto & Power Semis",
+   "ticker": "POWI",
+   "name": "Power Integrations Inc.",
+   "d5": -0.0474,
+   "d20": -0.12,
+   "m6": -0.3904,
+   "y1": 0.1217,
+   "off_high": -0.462
+  },
+  {
+   "theme": "Analog, Auto & Power Semis",
+   "ticker": "AOSL",
+   "name": "Alpha and Omega Semiconductor Limited",
+   "d5": -0.0963,
+   "d20": -0.2605,
+   "m6": -0.4939,
+   "y1": -0.211,
+   "off_high": -0.5848
+  },
+  {
+   "theme": "Optics & Photonics",
+   "ticker": "LITE",
+   "name": "Lumentum Holdings Inc.",
+   "d5": -0.2148,
+   "d20": -0.3999,
+   "m6": -0.3161,
+   "y1": 2.3745,
+   "off_high": -0.3999
+  },
+  {
+   "theme": "Optics & Photonics",
+   "ticker": "COHR",
+   "name": "Coherent Corp.",
+   "d5": -0.12,
+   "d20": -0.3868,
+   "m6": -0.382,
+   "y1": 0.5724,
+   "off_high": -0.5139
+  },
+  {
+   "theme": "Optics & Photonics",
+   "ticker": "CIEN",
+   "name": "Ciena Corporation",
+   "d5": -0.1454,
+   "d20": -0.3236,
+   "m6": -0.4491,
+   "y1": 0.58,
+   "off_high": -0.5214
+  },
+  {
+   "theme": "Optics & Photonics",
+   "ticker": "FN",
+   "name": "Fabrinet",
+   "d5": 0.0586,
+   "d20": -0.2572,
+   "m6": -0.4498,
+   "y1": -0.1753,
+   "off_high": -0.5133
+  },
+  {
+   "theme": "Optics & Photonics",
+   "ticker": "AAOI",
+   "name": "Applied Optoelectronics Inc.",
+   "d5": -0.1687,
+   "d20": -0.5085,
+   "m6": -0.6457,
+   "y1": 0.7989,
+   "off_high": -0.7133
+  },
+  {
+   "theme": "Optics & Photonics",
+   "ticker": "MTSI",
+   "name": "MACOM Technology Solutions Holdings Inc.",
+   "d5": -0.079,
+   "d20": -0.3285,
+   "m6": -0.2243,
+   "y1": 0.5898,
+   "off_high": -0.4252
+  },
+  {
+   "theme": "Optics & Photonics",
+   "ticker": "LPTH",
+   "name": "LightPath Technologies Inc.",
+   "d5": -0.0669,
+   "d20": -0.2815,
+   "m6": -0.3545,
+   "y1": -0.1002,
+   "off_high": -0.5697
+  },
+  {
+   "theme": "Optics & Photonics",
+   "ticker": "POET",
+   "name": "POET Technologies Inc.",
+   "d5": -0.1054,
+   "d20": -0.3398,
+   "m6": -0.4473,
+   "y1": -0.2096,
+   "off_high": -0.7526
+  },
+  {
+   "theme": "Optics & Photonics",
+   "ticker": "GLW",
+   "name": "Corning Incorporated",
+   "d5": -0.0013,
+   "d20": -0.2535,
+   "m6": -0.2218,
+   "y1": 0.416,
+   "off_high": -0.5067
+  },
+  {
+   "theme": "Optics & Photonics",
+   "ticker": "LUMN",
+   "name": "Lumen Technologies Inc.",
+   "d5": 0.0128,
+   "d20": -0.1963,
+   "m6": -0.4854,
+   "y1": -0.5379,
+   "off_high": -0.5985
+  },
+  {
+   "theme": "AI Networking & Servers",
+   "ticker": "ANET",
+   "name": "Arista Networks Inc.",
+   "d5": -0.0914,
+   "d20": -0.211,
+   "m6": -0.0018,
+   "y1": 0.0775,
+   "off_high": -0.2161
+  },
+  {
+   "theme": "AI Networking & Servers",
+   "ticker": "HPE",
+   "name": "Hewlett Packard Enterprise Company",
+   "d5": -0.1272,
+   "d20": -0.2466,
+   "m6": 0.7676,
+   "y1": 1.1744,
+   "off_high": -0.2772
+  },
+  {
+   "theme": "AI Networking & Servers",
+   "ticker": "SMCI",
+   "name": "Super Micro Computer Inc.",
+   "d5": -0.1054,
+   "d20": -0.2777,
+   "m6": 0.1279,
+   "y1": -0.3959,
+   "off_high": -0.3815
+  },
+  {
+   "theme": "AI Networking & Servers",
+   "ticker": "CSCO",
+   "name": "Cisco Systems Inc. Common Stock (DE)",
+   "d5": -0.0755,
+   "d20": -0.1269,
+   "m6": 0.0919,
+   "y1": 0.4084,
+   "off_high": -0.2079
+  },
+  {
+   "theme": "AI Networking & Servers",
+   "ticker": "DELL",
+   "name": "Dell Technologies Inc. Class C Common St",
+   "d5": -0.1864,
+   "d20": -0.2885,
+   "m6": 0.8879,
+   "y1": 1.5208,
+   "off_high": -0.3059
+  },
+  {
+   "theme": "AI Networking & Servers",
+   "ticker": "MSFT",
+   "name": "Microsoft Corporation",
+   "d5": -0.0195,
+   "d20": -0.0157,
+   "m6": 0.2664,
+   "y1": 0.0061,
+   "off_high": -0.0413
+  },
+  {
+   "theme": "AI Networking & Servers",
+   "ticker": "CRDO",
+   "name": "Credo Technology Group Holding Ltd",
+   "d5": -0.0987,
+   "d20": -0.3166,
+   "m6": -0.2204,
+   "y1": -0.1957,
+   "off_high": -0.5012
+  },
+  {
+   "theme": "AI Networking & Servers",
+   "ticker": "CLS",
+   "name": "Celestica Inc.",
+   "d5": -0.06,
+   "d20": -0.3305,
+   "m6": -0.3776,
+   "y1": -0.2454,
+   "off_high": -0.4497
+  },
+  {
+   "theme": "AI Networking & Servers",
+   "ticker": "AMZN",
+   "name": "Amazon.com Inc.",
+   "d5": -0.0095,
+   "d20": -0.0219,
+   "m6": -0.0836,
+   "y1": 0.0265,
+   "off_high": -0.1174
+  },
+  {
+   "theme": "AI Networking & Servers",
+   "ticker": "EXTR",
+   "name": "Extreme Networks Inc.",
+   "d5": -0.0436,
+   "d20": -0.0705,
+   "m6": -0.038,
+   "y1": 0.1993,
+   "off_high": -0.3233
+  },
+  {
+   "theme": "AI Networking & Servers",
+   "ticker": "UI",
+   "name": "Ubiquiti Inc.",
+   "d5": -0.0903,
+   "d20": -0.1294,
+   "m6": -0.4626,
+   "y1": -0.3071,
+   "off_high": -0.4971
+  },
+  {
+   "theme": "Cybersecurity",
+   "ticker": "CRWD",
+   "name": "CrowdStrike Holdings Inc.",
+   "d5": -0.0871,
+   "d20": -0.1226,
+   "m6": 1.0538,
+   "y1": 0.8024,
+   "off_high": -0.1226
+  },
+  {
+   "theme": "Cybersecurity",
+   "ticker": "PANW",
+   "name": "Palo Alto Networks Inc.",
+   "d5": -0.1282,
+   "d20": -0.166,
+   "m6": 0.9035,
+   "y1": 0.5901,
+   "off_high": -0.166
+  },
+  {
+   "theme": "Cybersecurity",
+   "ticker": "FTNT",
+   "name": "Fortinet Inc.",
+   "d5": -0.3075,
+   "d20": -0.3302,
+   "m6": 0.4247,
+   "y1": 0.4822,
+   "off_high": -0.3422
+  },
+  {
+   "theme": "Cybersecurity",
+   "ticker": "ZS",
+   "name": "Zscaler Inc.",
+   "d5": -0.1348,
+   "d20": 0.0605,
+   "m6": 0.5923,
+   "y1": -0.3203,
+   "off_high": -0.3306
+  },
+  {
+   "theme": "Cybersecurity",
+   "ticker": "OKTA",
+   "name": "Okta Inc.",
+   "d5": -0.161,
+   "d20": -0.1326,
+   "m6": 1.4396,
+   "y1": 1.0723,
+   "off_high": -0.1829
+  },
+  {
+   "theme": "Cybersecurity",
+   "ticker": "NTSK",
+   "name": "Netskope Inc.",
+   "d5": -0.1648,
+   "d20": 0.112,
+   "m6": 1.0279,
+   "y1": -0.0761,
+   "off_high": -0.1765
+  },
+  {
+   "theme": "Cybersecurity",
+   "ticker": "SAIL",
+   "name": "SailPoint Inc.",
+   "d5": -0.1519,
+   "d20": -0.0462,
+   "m6": 0.563,
+   "y1": -0.1241,
+   "off_high": -0.1519
+  },
+  {
+   "theme": "Cybersecurity",
+   "ticker": "NET",
+   "name": "Cloudflare Inc.",
+   "d5": -0.1653,
+   "d20": -0.2293,
+   "m6": 0.1194,
+   "y1": 0.0802,
+   "off_high": -0.2419
+  },
+  {
+   "theme": "Cybersecurity",
+   "ticker": "S",
+   "name": "SentinelOne Inc.",
+   "d5": -0.099,
+   "d20": -0.1043,
+   "m6": 0.4571,
+   "y1": 0.2947,
+   "off_high": -0.1203
+  },
+  {
+   "theme": "Cybersecurity",
+   "ticker": "RBRK",
+   "name": "Rubrik Inc.",
+   "d5": -0.1417,
+   "d20": -0.0738,
+   "m6": 1.0394,
+   "y1": 0.5479,
+   "off_high": -0.1433
+  },
+  {
+   "theme": "Cybersecurity",
+   "ticker": "VRNS",
+   "name": "Varonis Systems Inc.",
+   "d5": -0.0031,
+   "d20": -0.0024,
+   "m6": 0.7862,
+   "y1": 0.3897,
+   "off_high": -0.0231
+  },
+  {
+   "theme": "Cybersecurity",
+   "ticker": "CVLT",
+   "name": "Commvault Systems Inc.",
+   "d5": -0.067,
+   "d20": 0.0388,
+   "m6": 0.5664,
+   "y1": 0.1564,
+   "off_high": -0.067
+  },
+  {
+   "theme": "Cybersecurity",
+   "ticker": "QLYS",
+   "name": "Qualys Inc.",
+   "d5": -0.076,
+   "d20": 0.0532,
+   "m6": 1.2853,
+   "y1": 0.7083,
+   "off_high": -0.0856
+  },
+  {
+   "theme": "Cybersecurity",
+   "ticker": "TENB",
+   "name": "Tenable Holdings Inc.",
+   "d5": -0.0333,
+   "d20": 0.1915,
+   "m6": 1.2374,
+   "y1": 0.6206,
+   "off_high": -0.0917
+  },
+  {
+   "theme": "Cybersecurity",
+   "ticker": "CHKP",
+   "name": "Check Point Software Technologies Ltd.",
+   "d5": -0.1099,
+   "d20": 0.078,
+   "m6": 0.2095,
+   "y1": -0.2729,
+   "off_high": -0.3039
+  },
+  {
+   "theme": "Data & Observability",
+   "ticker": "PLTR",
+   "name": "Palantir Technologies Inc.",
+   "d5": -0.1174,
+   "d20": -0.0868,
+   "m6": 0.2906,
+   "y1": -0.1251,
+   "off_high": -0.161
+  },
+  {
+   "theme": "Data & Observability",
+   "ticker": "SNOW",
+   "name": "Snowflake Inc.",
+   "d5": -0.1256,
+   "d20": -0.1218,
+   "m6": 1.082,
+   "y1": 0.0733,
+   "off_high": -0.2002
+  },
+  {
+   "theme": "Data & Observability",
+   "ticker": "MDB",
+   "name": "MongoDB Inc.",
+   "d5": -0.1397,
+   "d20": -0.0703,
+   "m6": 0.2576,
+   "y1": -0.068,
+   "off_high": -0.2899
+  },
+  {
+   "theme": "Data & Observability",
+   "ticker": "ESTC",
+   "name": "Elastic N.V.",
+   "d5": -0.1426,
+   "d20": -0.0437,
+   "m6": 0.804,
+   "y1": 0.014,
+   "off_high": -0.1512
+  },
+  {
+   "theme": "Data & Observability",
+   "ticker": "TDC",
+   "name": "Teradata Corporation",
+   "d5": -0.0261,
+   "d20": 0.135,
+   "m6": 0.1177,
+   "y1": 0.6125,
+   "off_high": -0.1125
+  },
+  {
+   "theme": "Data & Observability",
+   "ticker": "IOT",
+   "name": "Samsara Inc.",
+   "d5": -0.0552,
+   "d20": -0.0151,
+   "m6": 0.3501,
+   "y1": 0.0234,
+   "off_high": -0.0909
+  },
+  {
+   "theme": "Data & Observability",
+   "ticker": "DDOG",
+   "name": "Datadog Inc.",
+   "d5": -0.2147,
+   "d20": -0.2074,
+   "m6": 0.5132,
+   "y1": 0.3545,
+   "off_high": -0.248
+  },
+  {
+   "theme": "Data & Observability",
+   "ticker": "DT",
+   "name": "Dynatrace Inc.",
+   "d5": -0.2623,
+   "d20": -0.2296,
+   "m6": 0.2178,
+   "y1": -0.07,
+   "off_high": -0.2792
+  },
+  {
+   "theme": "Data & Observability",
+   "ticker": "GTLB",
+   "name": "GitLab Inc.",
+   "d5": -0.0783,
+   "d20": 0.0143,
+   "m6": 1.1083,
+   "y1": 0.0743,
+   "off_high": -0.0966
+  },
+  {
+   "theme": "Data & Observability",
+   "ticker": "FROG",
+   "name": "JFrog Ltd.",
+   "d5": -0.1192,
+   "d20": -0.1017,
+   "m6": 0.6264,
+   "y1": 0.8637,
+   "off_high": -0.1494
+  },
+  {
+   "theme": "Data & Observability",
+   "ticker": "PD",
+   "name": "PagerDuty Inc.",
+   "d5": -0.0642,
+   "d20": 0.0758,
+   "m6": 1.3037,
+   "y1": 0.0342,
+   "off_high": -0.0747
+  },
+  {
+   "theme": "Data & Observability",
+   "ticker": "AI",
+   "name": "C3.ai Inc.",
+   "d5": -0.061,
+   "d20": 0.0267,
+   "m6": 0.2264,
+   "y1": -0.3436,
+   "off_high": -0.3267
+  },
+  {
+   "theme": "Data & Observability",
+   "ticker": "RXRX",
+   "name": "Recursion Pharmaceuticals Inc.",
+   "d5": -0.0914,
+   "d20": -0.2052,
+   "m6": 0.092,
+   "y1": -0.3333,
+   "off_high": -0.3235
+  },
+  {
+   "theme": "Data & Observability",
+   "ticker": "SOUN",
+   "name": "SoundHound AI Inc",
+   "d5": -0.0572,
+   "d20": -0.2797,
+   "m6": -0.5492,
+   "y1": -0.7662,
+   "off_high": -0.7592
+  },
+  {
+   "theme": "Enterprise SaaS",
+   "ticker": "NOW",
+   "name": "ServiceNow Inc.",
+   "d5": -0.2947,
+   "d20": -0.2088,
+   "m6": 0.1864,
+   "y1": -0.4063,
+   "off_high": -0.4027
+  },
+  {
+   "theme": "Enterprise SaaS",
+   "ticker": "WDAY",
+   "name": "Workday Inc.",
+   "d5": -0.0366,
+   "d20": 0.0611,
+   "m6": 0.5358,
+   "y1": -0.175,
+   "off_high": -0.1672
+  },
+  {
+   "theme": "Enterprise SaaS",
+   "ticker": "CRM",
+   "name": "Salesforce Inc.",
+   "d5": -0.0776,
+   "d20": -0.0124,
+   "m6": 0.1883,
+   "y1": -0.1467,
+   "off_high": -0.1654
+  },
+  {
+   "theme": "Enterprise SaaS",
+   "ticker": "ADBE",
+   "name": "Adobe Inc.",
+   "d5": -0.0089,
+   "d20": 0.0337,
+   "m6": -0.0371,
+   "y1": -0.2767,
+   "off_high": -0.3116
+  },
+  {
+   "theme": "Enterprise SaaS",
+   "ticker": "TEAM",
+   "name": "Atlassian Corporation",
+   "d5": -0.1293,
+   "d20": -0.0151,
+   "m6": 1.0688,
+   "y1": 0.1277,
+   "off_high": -0.1606
+  },
+  {
+   "theme": "Enterprise SaaS",
+   "ticker": "MSFT",
+   "name": "Microsoft Corporation",
+   "d5": -0.0195,
+   "d20": -0.0157,
+   "m6": 0.2664,
+   "y1": 0.0061,
+   "off_high": -0.0413
+  },
+  {
+   "theme": "Enterprise SaaS",
+   "ticker": "APPF",
+   "name": "AppFolio Inc.",
+   "d5": 0.1107,
+   "d20": 0.1005,
+   "m6": 0.2951,
+   "y1": -0.1206,
+   "off_high": -0.1469
+  },
+  {
+   "theme": "Enterprise SaaS",
+   "ticker": "VEEV",
+   "name": "Veeva Systems Inc.",
+   "d5": -0.0327,
+   "d20": 0.0695,
+   "m6": 0.7712,
+   "y1": 0.0412,
+   "off_high": -0.0614
+  },
+  {
+   "theme": "Enterprise SaaS",
+   "ticker": "GWRE",
+   "name": "Guidewire Software Inc.",
+   "d5": -0.0479,
+   "d20": -0.0212,
+   "m6": 0.1501,
+   "y1": -0.3107,
+   "off_high": -0.2937
+  },
+  {
+   "theme": "Enterprise SaaS",
+   "ticker": "HUBS",
+   "name": "HubSpot Inc.",
+   "d5": -0.0982,
+   "d20": 0.0418,
+   "m6": -0.0809,
+   "y1": -0.5402,
+   "off_high": -0.5427
+  },
+  {
+   "theme": "Enterprise SaaS",
+   "ticker": "DOCU",
+   "name": "DocuSign Inc.",
+   "d5": -0.0205,
+   "d20": 0.178,
+   "m6": 0.661,
+   "y1": 0.0987,
+   "off_high": -0.0576
+  },
+  {
+   "theme": "Enterprise SaaS",
+   "ticker": "MNDY",
+   "name": "monday.com Ltd.",
+   "d5": -0.0605,
+   "d20": 0.1103,
+   "m6": 0.2323,
+   "y1": -0.544,
+   "off_high": -0.5437
+  },
+  {
+   "theme": "Enterprise SaaS",
+   "ticker": "ZM",
+   "name": "Zoom Communications Inc.",
+   "d5": -0.0571,
+   "d20": -0.0251,
+   "m6": -0.1582,
+   "y1": 0.0528,
+   "off_high": -0.1791
+  },
+  {
+   "theme": "Enterprise SaaS",
+   "ticker": "PCTY",
+   "name": "Paylocity Holding Corporation",
+   "d5": 0.0062,
+   "d20": 0.1708,
+   "m6": 0.5892,
+   "y1": 0.2113,
+   "off_high": -0.0369
+  },
+  {
+   "theme": "Enterprise SaaS",
+   "ticker": "ORCL",
+   "name": "Oracle Corporation",
+   "d5": -0.0332,
+   "d20": -0.1283,
+   "m6": -0.3192,
+   "y1": -0.5195,
+   "off_high": -0.5106
+  },
+  {
+   "theme": "EDA & Industrial Software",
+   "ticker": "SNPS",
+   "name": "Synopsys Inc.",
+   "d5": -0.0243,
+   "d20": -0.0837,
+   "m6": -0.0789,
+   "y1": 0.02,
+   "off_high": -0.1341
+  },
+  {
+   "theme": "EDA & Industrial Software",
+   "ticker": "CDNS",
+   "name": "Cadence Design Systems Inc.",
+   "d5": -0.0563,
+   "d20": -0.0996,
+   "m6": -0.0845,
+   "y1": -0.0441,
+   "off_high": -0.2225
+  },
+  {
+   "theme": "EDA & Industrial Software",
+   "ticker": "PTC",
+   "name": "PTC Inc.",
+   "d5": -0.0029,
+   "d20": 0.0055,
+   "m6": 0.4108,
+   "y1": -0.0226,
+   "off_high": -0.0117
+  },
+  {
+   "theme": "EDA & Industrial Software",
+   "ticker": "ADSK",
+   "name": "Autodesk Inc.",
+   "d5": 0.0422,
+   "d20": 0.091,
+   "m6": 0.0116,
+   "y1": -0.1627,
+   "off_high": -0.1867
+  },
+  {
+   "theme": "EDA & Industrial Software",
+   "ticker": "EMR",
+   "name": "Emerson Electric Company",
+   "d5": 0.0007,
+   "d20": 0.0309,
+   "m6": 0.2024,
+   "y1": 0.1922,
+   "off_high": -0.0255
+  },
+  {
+   "theme": "EDA & Industrial Software",
+   "ticker": "BSY",
+   "name": "Bentley Systems Incorporated Class B",
+   "d5": 0.0715,
+   "d20": 0.1713,
+   "m6": 0.2709,
+   "y1": -0.1712,
+   "off_high": -0.1623
+  },
+  {
+   "theme": "EDA & Industrial Software",
+   "ticker": "DSY",
+   "name": "Big Tree Cloud Holdings Limited",
+   "d5": -0.0119,
+   "d20": -0.0434,
+   "m6": 0.5395,
+   "y1": -0.7287,
+   "off_high": -0.7309
+  },
+  {
+   "theme": "IT Services & Consulting",
+   "ticker": "ACN",
+   "name": "Accenture plc",
+   "d5": 0.0825,
+   "d20": 0.3162,
+   "m6": 0.422,
+   "y1": 0.0178,
+   "off_high": -0.1178
+  },
+  {
+   "theme": "IT Services & Consulting",
+   "ticker": "CTSH",
+   "name": "Cognizant Technology Solutions Corporati",
+   "d5": -0.0361,
+   "d20": 0.1155,
+   "m6": 0.2306,
+   "y1": -0.1242,
+   "off_high": -0.2638
+  },
+  {
+   "theme": "IT Services & Consulting",
+   "ticker": "IBM",
+   "name": "International Business Machines Corporat",
+   "d5": -0.0008,
+   "d20": 0.1299,
+   "m6": 0.0917,
+   "y1": -0.1866,
+   "off_high": -0.2405
+  },
+  {
+   "theme": "IT Services & Consulting",
+   "ticker": "EPAM",
+   "name": "EPAM Systems Inc.",
+   "d5": 0.0358,
+   "d20": 0.264,
+   "m6": 0.2602,
+   "y1": -0.1551,
+   "off_high": -0.3759
+  },
+  {
+   "theme": "IT Services & Consulting",
+   "ticker": "GLOB",
+   "name": "Globant S.A.",
+   "d5": 0.0652,
+   "d20": 0.2871,
+   "m6": 0.1417,
+   "y1": -0.2567,
+   "off_high": -0.3573
+  },
+  {
+   "theme": "IT Services & Consulting",
+   "ticker": "SAP",
+   "name": "SAP  SE ADS",
+   "d5": -0.0233,
+   "d20": 0.0943,
+   "m6": 0.336,
+   "y1": -0.1142,
+   "off_high": -0.1275
+  },
+  {
+   "theme": "IT Services & Consulting",
+   "ticker": "INFY",
+   "name": "Infosys Limited",
+   "d5": -0.0149,
+   "d20": 0.1308,
+   "m6": -0.0425,
+   "y1": -0.28,
+   "off_high": -0.41
+  },
+  {
+   "theme": "IT Services & Consulting",
+   "ticker": "KD",
+   "name": "Kyndryl Holdings Inc.",
+   "d5": -0.0862,
+   "d20": 0.1272,
+   "m6": -0.1197,
+   "y1": -0.5526,
+   "off_high": -0.5499
+  },
+  {
+   "theme": "IT Services & Consulting",
+   "ticker": "DXC",
+   "name": "DXC Technology Company Common Stock ",
+   "d5": -0.1301,
+   "d20": 0.1648,
+   "m6": 0.1619,
+   "y1": -0.0296,
+   "off_high": -0.1546
+  },
+  {
+   "theme": "IT Services & Consulting",
+   "ticker": "SAIC",
+   "name": "Science Applications International Corpo",
+   "d5": 0.0138,
+   "d20": 0.2167,
+   "m6": 0.5858,
+   "y1": 0.6177,
+   "off_high": -0.0086
+  },
+  {
+   "theme": "IT Services & Consulting",
+   "ticker": "G",
+   "name": "Genpact Limited",
+   "d5": 0.026,
+   "d20": 0.2024,
+   "m6": 0.1802,
+   "y1": 0.0543,
+   "off_high": -0.1707
+  },
+  {
+   "theme": "IT Services & Consulting",
+   "ticker": "INOD",
+   "name": "Innodata Inc.",
+   "d5": -0.0635,
+   "d20": -0.3675,
+   "m6": -0.0819,
+   "y1": -0.4384,
+   "off_high": -0.6551
+  },
+  {
+   "theme": "IT Services & Consulting",
+   "ticker": "BAH",
+   "name": "Booz Allen Hamilton Holding Corporation",
+   "d5": 0.0434,
+   "d20": 0.2771,
+   "m6": 0.1411,
+   "y1": -0.0016,
+   "off_high": -0.1488
+  },
+  {
+   "theme": "IT Services & Consulting",
+   "ticker": "IT",
+   "name": "Gartner Inc.",
+   "d5": -0.0756,
+   "d20": 0.1044,
+   "m6": 0.3661,
+   "y1": -0.1777,
+   "off_high": -0.1978
+  },
+  {
+   "theme": "IT Services & Consulting",
+   "ticker": "FCN",
+   "name": "FTI Consulting Inc.",
+   "d5": 0.2195,
+   "d20": 0.4072,
+   "m6": 0.1599,
+   "y1": 0.1736,
+   "off_high": 0.0
+  },
+  {
+   "theme": "Social & Ad-tech",
+   "ticker": "META",
+   "name": "Meta Platforms Inc.",
+   "d5": 0.0014,
+   "d20": -0.1595,
+   "m6": 0.0266,
+   "y1": -0.0421,
+   "off_high": -0.2013
+  },
+  {
+   "theme": "Social & Ad-tech",
+   "ticker": "APP",
+   "name": "Applovin Corporation",
+   "d5": -0.0659,
+   "d20": -0.1193,
+   "m6": -0.4865,
+   "y1": -0.6148,
+   "off_high": -0.6653
+  },
+  {
+   "theme": "Social & Ad-tech",
+   "ticker": "TTD",
+   "name": "The Trade Desk Inc.",
+   "d5": 0.0126,
+   "d20": 0.0789,
+   "m6": -0.4774,
+   "y1": -0.7442,
+   "off_high": -0.7382
+  },
+  {
+   "theme": "Social & Ad-tech",
+   "ticker": "GOOGL",
+   "name": "Alphabet Inc.",
+   "d5": -0.1265,
+   "d20": -0.1946,
+   "m6": -0.2791,
+   "y1": -0.0041,
+   "off_high": -0.3045
+  },
+  {
+   "theme": "Social & Ad-tech",
+   "ticker": "SNAP",
+   "name": "Snap Inc.",
+   "d5": -0.0806,
+   "d20": -0.0329,
+   "m6": -0.0851,
+   "y1": -0.2833,
+   "off_high": -0.385
+  },
+  {
+   "theme": "Social & Ad-tech",
+   "ticker": "PINS",
+   "name": "Pinterest Inc.",
+   "d5": -0.0107,
+   "d20": 0.0165,
+   "m6": -0.0862,
+   "y1": -0.3849,
+   "off_high": -0.3958
+  },
+  {
+   "theme": "Social & Ad-tech",
+   "ticker": "RDDT",
+   "name": "Reddit Inc.",
+   "d5": -0.2954,
+   "d20": -0.3545,
+   "m6": -0.4398,
+   "y1": -0.5398,
+   "off_high": -0.6287
+  },
+  {
+   "theme": "Social & Ad-tech",
+   "ticker": "OMC",
+   "name": "Omnicom Group Inc.",
+   "d5": 0.0564,
+   "d20": 0.1075,
+   "m6": 0.0712,
+   "y1": 0.1086,
+   "off_high": -0.0649
+  },
+  {
+   "theme": "Social & Ad-tech",
+   "ticker": "DV",
+   "name": "DoubleVerify Holdings Inc.",
+   "d5": 0.0,
+   "d20": 0.0045,
+   "m6": 0.1815,
+   "y1": 0.1898,
+   "off_high": -0.0022
+  },
+  {
+   "theme": "Social & Ad-tech",
+   "ticker": "MGNI",
+   "name": "Magnite Inc.",
+   "d5": 0.0238,
+   "d20": -0.1006,
+   "m6": 0.6426,
+   "y1": 0.2494,
+   "off_high": -0.1297
+  },
+  {
+   "theme": "Social & Ad-tech",
+   "ticker": "RUM",
+   "name": "RUM Group Inc.",
+   "d5": -0.1041,
+   "d20": -0.3307,
+   "m6": -0.2996,
+   "y1": -0.2536,
+   "off_high": -0.4995
+  },
+  {
+   "theme": "Social & Ad-tech",
+   "ticker": "DJT",
+   "name": "Trump Media & Technology Group Corp.",
+   "d5": -0.0645,
+   "d20": -0.3121,
+   "m6": -0.3533,
+   "y1": -0.6117,
+   "off_high": -0.6302
+  },
+  {
+   "theme": "Social & Ad-tech",
+   "ticker": "WB",
+   "name": "Weibo Corporation",
+   "d5": 0.0194,
+   "d20": -0.0293,
+   "m6": -0.2482,
+   "y1": -0.421,
+   "off_high": -0.4385
+  },
+  {
+   "theme": "Social & Ad-tech",
+   "ticker": "WPP",
+   "name": "WPP plc",
+   "d5": 0.0557,
+   "d20": 0.0971,
+   "m6": 0.474,
+   "y1": 0.4475,
+   "off_high": -0.0033
+  },
+  {
+   "theme": "Social & Ad-tech",
+   "ticker": "ZETA",
+   "name": "Zeta Global Holdings Corp.",
+   "d5": -0.0714,
+   "d20": -0.0601,
+   "m6": 0.735,
+   "y1": 0.7215,
+   "off_high": -0.0921
+  },
+  {
+   "theme": "Streaming & Media",
+   "ticker": "DIS",
+   "name": "Walt Disney Company (The)",
+   "d5": 0.0358,
+   "d20": 0.0976,
+   "m6": 0.1363,
+   "y1": 0.0139,
+   "off_high": -0.0212
+  },
+  {
+   "theme": "Streaming & Media",
+   "ticker": "NFLX",
+   "name": "Netflix Inc.",
+   "d5": 0.0144,
+   "d20": -0.0767,
+   "m6": -0.2784,
+   "y1": -0.4332,
+   "off_high": -0.4521
+  },
+  {
+   "theme": "Streaming & Media",
+   "ticker": "SPOT",
+   "name": "Spotify Technology S.A.",
+   "d5": 0.0804,
+   "d20": 0.2294,
+   "m6": 0.4304,
+   "y1": -0.0843,
+   "off_high": -0.0737
+  },
+  {
+   "theme": "Streaming & Media",
+   "ticker": "SKYD",
+   "name": "Skydance Corporation Class B",
+   "d5": 0.0426,
+   "d20": -0.1522,
+   "m6": -0.242,
+   "y1": -0.475,
+   "off_high": -0.5173
+  },
+  {
+   "theme": "Streaming & Media",
+   "ticker": "ROKU",
+   "name": "Roku Inc.",
+   "d5": 0.0236,
+   "d20": 0.0546,
+   "m6": 0.289,
+   "y1": 0.511,
+   "off_high": 0.0
+  },
+  {
+   "theme": "Streaming & Media",
+   "ticker": "FOXA",
+   "name": "Fox Corporation",
+   "d5": 0.0398,
+   "d20": 0.0809,
+   "m6": 0.0783,
+   "y1": 0.0379,
+   "off_high": -0.1184
+  },
+  {
+   "theme": "Streaming & Media",
+   "ticker": "NXST",
+   "name": "Nexstar Media Group Inc.",
+   "d5": 0.074,
+   "d20": 0.1347,
+   "m6": -0.1033,
+   "y1": -0.0877,
+   "off_high": -0.296
+  },
+  {
+   "theme": "Streaming & Media",
+   "ticker": "FUBO",
+   "name": "FuboTV Inc.",
+   "d5": -0.0205,
+   "d20": -0.1348,
+   "m6": -0.3839,
+   "y1": -0.8316,
+   "off_high": -0.844
+  },
+  {
+   "theme": "Streaming & Media",
+   "ticker": "WMG",
+   "name": "Warner Music Group Corp.",
+   "d5": 0.0271,
+   "d20": 0.1275,
+   "m6": 0.0923,
+   "y1": -0.026,
+   "off_high": -0.1034
+  },
+  {
+   "theme": "Streaming & Media",
+   "ticker": "NYT",
+   "name": "New York Times Company (The)",
+   "d5": -0.0385,
+   "d20": 0.0476,
+   "m6": -0.1312,
+   "y1": 0.1778,
+   "off_high": -0.2183
+  },
+  {
+   "theme": "Streaming & Media",
+   "ticker": "NWSA",
+   "name": "News Corporation",
+   "d5": -0.017,
+   "d20": 0.0319,
+   "m6": 0.158,
+   "y1": 0.1117,
+   "off_high": -0.0555
+  },
+  {
+   "theme": "Streaming & Media",
+   "ticker": "SBGI",
+   "name": "Sinclair Inc.",
+   "d5": 0.1151,
+   "d20": 0.0394,
+   "m6": -0.0886,
+   "y1": -0.0139,
+   "off_high": -0.2076
+  },
+  {
+   "theme": "Streaming & Media",
+   "ticker": "SIRI",
+   "name": "SiriusXM Holdings Inc.",
+   "d5": 0.1303,
+   "d20": 0.1684,
+   "m6": 0.1667,
+   "y1": 0.42,
+   "off_high": -0.0549
+  },
+  {
+   "theme": "Streaming & Media",
+   "ticker": "CMCSA",
+   "name": "Comcast Corporation",
+   "d5": 0.0838,
+   "d20": 0.0979,
+   "m6": -0.1054,
+   "y1": -0.0928,
+   "off_high": -0.2712
+  },
+  {
+   "theme": "Video Games",
+   "ticker": "RBLX",
+   "name": "Roblox Corporation",
+   "d5": -0.1656,
+   "d20": -0.0024,
+   "m6": 0.032,
+   "y1": -0.6003,
+   "off_high": -0.5778
+  },
+  {
+   "theme": "Video Games",
+   "ticker": "TTWO",
+   "name": "Take-Two Interactive Software Inc.",
+   "d5": -0.0312,
+   "d20": -0.0372,
+   "m6": -0.126,
+   "y1": -0.2394,
+   "off_high": -0.2454
+  },
+  {
+   "theme": "Video Games",
+   "ticker": "U",
+   "name": "Unity Software Inc.",
+   "d5": 0.0095,
+   "d20": -0.0994,
+   "m6": 0.4806,
+   "y1": 0.0681,
+   "off_high": -0.1817
+  },
+  {
+   "theme": "Video Games",
+   "ticker": "PLTK",
+   "name": "Playtika Holding Corp.",
+   "d5": -0.0243,
+   "d20": -0.1223,
+   "m6": -0.4478,
+   "y1": -0.4523,
+   "off_high": -0.54
+  },
+  {
+   "theme": "Video Games",
+   "ticker": "NTDOY",
+   "name": "",
+   "d5": -0.025,
+   "d20": 0.0437,
+   "m6": 0.0653,
+   "y1": -0.3988,
+   "off_high": -0.4299
+  },
+  {
+   "theme": "Video Games",
+   "ticker": "SONY",
+   "name": "Sony Group Corporation",
+   "d5": -0.0098,
+   "d20": 0.0646,
+   "m6": 0.2619,
+   "y1": -0.0896,
+   "off_high": -0.1609
+  },
+  {
+   "theme": "Video Games",
+   "ticker": "NTES",
+   "name": "NetEase Inc.",
+   "d5": 0.0188,
+   "d20": -0.0239,
+   "m6": 0.0098,
+   "y1": -0.1704,
+   "off_high": -0.2123
+  },
+  {
+   "theme": "Video Games",
+   "ticker": "EVO",
+   "name": "Evotec SE",
+   "d5": -0.0127,
+   "d20": -0.0491,
+   "m6": -0.5156,
+   "y1": -0.6192,
+   "off_high": -0.6144
+  },
+  {
+   "theme": "E-commerce & Marketplaces",
+   "ticker": "AMZN",
+   "name": "Amazon.com Inc.",
+   "d5": -0.0095,
+   "d20": -0.0219,
+   "m6": -0.0836,
+   "y1": 0.0265,
+   "off_high": -0.1174
+  },
+  {
+   "theme": "E-commerce & Marketplaces",
+   "ticker": "MELI",
+   "name": "MercadoLibre Inc.",
+   "d5": -0.0109,
+   "d20": -0.1054,
+   "m6": -0.0854,
+   "y1": -0.2858,
+   "off_high": -0.2824
+  },
+  {
+   "theme": "E-commerce & Marketplaces",
+   "ticker": "CPNG",
+   "name": "Coupang Inc.",
+   "d5": 0.0949,
+   "d20": 0.0562,
+   "m6": -0.2664,
+   "y1": -0.5236,
+   "off_high": -0.526
+  },
+  {
+   "theme": "E-commerce & Marketplaces",
+   "ticker": "EBAY",
+   "name": "eBay Inc.",
+   "d5": 0.0067,
+   "d20": 0.108,
+   "m6": 0.1269,
+   "y1": 0.4589,
+   "off_high": -0.0349
+  },
+  {
+   "theme": "E-commerce & Marketplaces",
+   "ticker": "CHWY",
+   "name": "Chewy Inc.",
+   "d5": 0.0246,
+   "d20": 0.2155,
+   "m6": -0.1015,
+   "y1": -0.3461,
+   "off_high": -0.3766
+  },
+  {
+   "theme": "E-commerce & Marketplaces",
+   "ticker": "W",
+   "name": "Wayfair Inc.",
+   "d5": -0.0144,
+   "d20": 0.0557,
+   "m6": 0.7614,
+   "y1": 0.0755,
+   "off_high": -0.0733
+  },
+  {
+   "theme": "E-commerce & Marketplaces",
+   "ticker": "CART",
+   "name": "Maplebear Inc.",
+   "d5": -0.0295,
+   "d20": 0.2824,
+   "m6": 0.3331,
+   "y1": 0.5819,
+   "off_high": -0.0422
+  },
+  {
+   "theme": "E-commerce & Marketplaces",
+   "ticker": "RVLV",
+   "name": "Revolve Group Inc.",
+   "d5": -0.0482,
+   "d20": 0.0151,
+   "m6": -0.0815,
+   "y1": -0.0267,
+   "off_high": -0.3154
+  },
+  {
+   "theme": "E-commerce & Marketplaces",
+   "ticker": "UPWK",
+   "name": "Upwork Inc.",
+   "d5": 0.0948,
+   "d20": 0.1878,
+   "m6": -0.0369,
+   "y1": -0.377,
+   "off_high": -0.5509
+  },
+  {
+   "theme": "E-commerce & Marketplaces",
+   "ticker": "STUB",
+   "name": "StubHub Holdings Inc.",
+   "d5": 0.0919,
+   "d20": 0.0576,
+   "m6": -0.2026,
+   "y1": -0.6836,
+   "off_high": -0.6883
+  },
+  {
+   "theme": "E-commerce & Marketplaces",
+   "ticker": "CSGP",
+   "name": "CoStar Group Inc.",
+   "d5": -0.0216,
+   "d20": 0.1336,
+   "m6": -0.1026,
+   "y1": -0.5448,
+   "off_high": -0.5554
+  },
+  {
+   "theme": "E-commerce & Marketplaces",
+   "ticker": "BZ",
+   "name": "KANZHUN LIMITED American Depository Shar",
+   "d5": 0.0282,
+   "d20": 0.133,
+   "m6": 0.237,
+   "y1": -0.2274,
+   "off_high": -0.2425
+  },
+  {
+   "theme": "E-commerce & Marketplaces",
+   "ticker": "ZG",
+   "name": "Zillow Group Inc.",
+   "d5": -0.0552,
+   "d20": 0.1054,
+   "m6": -0.2856,
+   "y1": -0.5617,
+   "off_high": -0.5756
+  },
+  {
+   "theme": "E-commerce & Marketplaces",
+   "ticker": "CARG",
+   "name": "CarGurus Inc.",
+   "d5": 0.0908,
+   "d20": 0.1754,
+   "m6": -0.1035,
+   "y1": -0.0384,
+   "off_high": -0.1348
+  },
+  {
+   "theme": "E-commerce & Marketplaces",
+   "ticker": "CVNA",
+   "name": "Carvana Co.",
+   "d5": 0.2034,
+   "d20": 0.1158,
+   "m6": -0.0599,
+   "y1": 0.1627,
+   "off_high": -0.2551
+  },
+  {
+   "theme": "China Internet",
+   "ticker": "BABA",
+   "name": "Alibaba Group Holding Limited",
+   "d5": 0.0012,
+   "d20": -0.0815,
+   "m6": -0.2412,
+   "y1": -0.4111,
+   "off_high": -0.4336
+  },
+  {
+   "theme": "China Internet",
+   "ticker": "PDD",
+   "name": "PDD Holdings Inc.",
+   "d5": 0.0226,
+   "d20": 0.0226,
+   "m6": -0.1714,
+   "y1": -0.4056,
+   "off_high": -0.4196
+  },
+  {
+   "theme": "China Internet",
+   "ticker": "JD",
+   "name": "JD.com Inc.",
+   "d5": 0.0524,
+   "d20": 0.0155,
+   "m6": -0.0933,
+   "y1": -0.1855,
+   "off_high": -0.2031
+  },
+  {
+   "theme": "China Internet",
+   "ticker": "BIDU",
+   "name": "Baidu Inc. ADS",
+   "d5": -0.0166,
+   "d20": -0.1158,
+   "m6": -0.3903,
+   "y1": -0.3632,
+   "off_high": -0.5264
+  },
+  {
+   "theme": "China Internet",
+   "ticker": "TCOM",
+   "name": "Trip.com Group Limited",
+   "d5": 0.0452,
+   "d20": 0.0815,
+   "m6": -0.2103,
+   "y1": -0.4143,
+   "off_high": -0.4759
+  },
+  {
+   "theme": "China Internet",
+   "ticker": "TCEHY",
+   "name": "",
+   "d5": 0.0194,
+   "d20": -0.0749,
+   "m6": -0.1644,
+   "y1": -0.3804,
+   "off_high": -0.3998
+  },
+  {
+   "theme": "China Internet",
+   "ticker": "BILI",
+   "name": "Bilibili Inc.",
+   "d5": 0.0061,
+   "d20": -0.1148,
+   "m6": -0.3879,
+   "y1": -0.564,
+   "off_high": -0.6328
+  },
+  {
+   "theme": "Quantum",
+   "ticker": "IONQ",
+   "name": "IonQ Inc.",
+   "d5": -0.0898,
+   "d20": -0.3072,
+   "m6": -0.3752,
+   "y1": -0.5192,
+   "off_high": -0.5839
+  },
+  {
+   "theme": "Quantum",
+   "ticker": "RGTI",
+   "name": "Rigetti Computing Inc.",
+   "d5": -0.1089,
+   "d20": -0.2693,
+   "m6": -0.3933,
+   "y1": -0.7496,
+   "off_high": -0.7166
+  },
+  {
+   "theme": "Quantum",
+   "ticker": "QBTS",
+   "name": "D-Wave Quantum Inc.",
+   "d5": -0.1451,
+   "d20": -0.3433,
+   "m6": -0.5186,
+   "y1": -0.7202,
+   "off_high": -0.6866
+  },
+  {
+   "theme": "Quantum",
+   "ticker": "QUBT",
+   "name": "Quantum Computing Inc.",
+   "d5": -0.064,
+   "d20": -0.1819,
+   "m6": -0.3274,
+   "y1": -0.6152,
+   "off_high": -0.5819
+  },
+  {
+   "theme": "Quantum",
+   "ticker": "INFQ",
+   "name": "Infleqtion Inc.",
+   "d5": -0.1335,
+   "d20": -0.327,
+   "m6": -0.3025,
+   "y1": null,
+   "off_high": -0.5752
+  },
+  {
+   "theme": "Quantum",
+   "ticker": "ARQQ",
+   "name": "Arqit Quantum Inc.",
+   "d5": -0.1685,
+   "d20": -0.3598,
+   "m6": 0.0239,
+   "y1": -0.6562,
+   "off_high": -0.6317
+  },
+  {
+   "theme": "Quantum",
+   "ticker": "HON",
+   "name": "Honeywell International Inc.",
+   "d5": 0.0239,
+   "d20": 0.0525,
+   "m6": 0.0219,
+   "y1": 0.0611,
+   "off_high": -0.1387
+  },
+  {
+   "theme": "Space & Satellites",
+   "ticker": "RKLB",
+   "name": "Rocket Lab Corporation",
+   "d5": -0.0665,
+   "d20": -0.2748,
+   "m6": -0.3089,
+   "y1": -0.1358,
+   "off_high": -0.6377
+  },
+  {
+   "theme": "Space & Satellites",
+   "ticker": "PL",
+   "name": "Planet Labs PBC",
+   "d5": -0.0676,
+   "d20": -0.2725,
+   "m6": -0.6361,
+   "y1": 0.0045,
+   "off_high": -0.7372
+  },
+  {
+   "theme": "Space & Satellites",
+   "ticker": "ASTS",
+   "name": "AST SpaceMobile Inc.",
+   "d5": -0.1146,
+   "d20": -0.4114,
+   "m6": -0.4183,
+   "y1": -0.5371,
+   "off_high": -0.7209
+  },
+  {
+   "theme": "Space & Satellites",
+   "ticker": "LUNR",
+   "name": "Intuitive Machines Inc.",
+   "d5": -0.0934,
+   "d20": -0.3041,
+   "m6": -0.5774,
+   "y1": -0.1215,
+   "off_high": -0.7707
+  },
+  {
+   "theme": "Space & Satellites",
+   "ticker": "RDW",
+   "name": "Redwire Corporation",
+   "d5": -0.0866,
+   "d20": -0.2354,
+   "m6": -0.0656,
+   "y1": 0.0318,
+   "off_high": -0.6865
+  },
+  {
+   "theme": "Space & Satellites",
+   "ticker": "FLY",
+   "name": "Firefly Aerospace Inc.",
+   "d5": -0.1448,
+   "d20": -0.2547,
+   "m6": -0.4602,
+   "y1": -0.2986,
+   "off_high": -0.7107
+  },
+  {
+   "theme": "Space & Satellites",
+   "ticker": "VOYG",
+   "name": "Voyager Technologies Inc.",
+   "d5": -0.1007,
+   "d20": -0.1959,
+   "m6": -0.0595,
+   "y1": -0.188,
+   "off_high": -0.5204
+  },
+  {
+   "theme": "Space & Satellites",
+   "ticker": "IRDM",
+   "name": "Iridium Communications Inc",
+   "d5": -0.039,
+   "d20": -0.1054,
+   "m6": 0.1183,
+   "y1": 1.2909,
+   "off_high": -0.2127
+  },
+  {
+   "theme": "Space & Satellites",
+   "ticker": "VSAT",
+   "name": "ViaSat Inc.",
+   "d5": 0.0703,
+   "d20": 0.0116,
+   "m6": 0.1475,
+   "y1": 0.8895,
+   "off_high": -0.1622
+  },
+  {
+   "theme": "Space & Satellites",
+   "ticker": "GSAT",
+   "name": "Globalstar Inc.",
+   "d5": -0.0015,
+   "d20": 0.0017,
+   "m6": 0.0232,
+   "y1": 0.5396,
+   "off_high": -0.0078
+  },
+  {
+   "theme": "Space & Satellites",
+   "ticker": "YSS",
+   "name": "York Space Systems Inc.",
+   "d5": -0.0616,
+   "d20": -0.2416,
+   "m6": -0.8138,
+   "y1": null,
+   "off_high": -0.8598
+  },
+  {
+   "theme": "Robotics & Autonomy",
+   "ticker": "TSLA",
+   "name": "Tesla Inc.",
+   "d5": -0.022,
+   "d20": 0.0468,
+   "m6": 0.0234,
+   "y1": -0.1272,
+   "off_high": -0.1865
+  },
+  {
+   "theme": "Robotics & Autonomy",
+   "ticker": "HSAI",
+   "name": "Hesai Group",
+   "d5": -0.0959,
+   "d20": -0.2581,
+   "m6": -0.4355,
+   "y1": -0.4914,
+   "off_high": -0.5808
+  },
+  {
+   "theme": "Robotics & Autonomy",
+   "ticker": "MBLY",
+   "name": "Mobileye Global Inc.",
+   "d5": -0.1863,
+   "d20": -0.2517,
+   "m6": -0.3626,
+   "y1": -0.5749,
+   "off_high": -0.573
+  },
+  {
+   "theme": "Robotics & Autonomy",
+   "ticker": "SYM",
+   "name": "Symbotic Inc.",
+   "d5": -0.0375,
+   "d20": -0.1502,
+   "m6": -0.354,
+   "y1": -0.5365,
+   "off_high": -0.5702
+  },
+  {
+   "theme": "Robotics & Autonomy",
+   "ticker": "ROK",
+   "name": "Rockwell Automation Inc.",
+   "d5": 0.0163,
+   "d20": -0.0097,
+   "m6": 0.024,
+   "y1": 0.2118,
+   "off_high": -0.0984
+  },
+  {
+   "theme": "Robotics & Autonomy",
+   "ticker": "OUST",
+   "name": "Ouster Inc.",
+   "d5": -0.1162,
+   "d20": -0.3547,
+   "m6": 0.0133,
+   "y1": -0.1313,
+   "off_high": -0.5365
+  },
+  {
+   "theme": "Robotics & Autonomy",
+   "ticker": "AUR",
+   "name": "Aurora Innovation Inc.",
+   "d5": -0.166,
+   "d20": -0.2574,
+   "m6": -0.3461,
+   "y1": -0.1851,
+   "off_high": -0.4917
+  },
+  {
+   "theme": "Robotics & Autonomy",
+   "ticker": "APTV",
+   "name": "Aptiv PLC",
+   "d5": -0.0529,
+   "d20": -0.0756,
+   "m6": -0.246,
+   "y1": -0.4903,
+   "off_high": -0.5338
+  },
+  {
+   "theme": "Robotics & Autonomy",
+   "ticker": "SERV",
+   "name": "Serve Robotics Inc.",
+   "d5": -0.1122,
+   "d20": -0.4528,
+   "m6": -0.7144,
+   "y1": -0.8027,
+   "off_high": -0.8306
+  },
+  {
+   "theme": "Robotics & Autonomy",
+   "ticker": "RR",
+   "name": "Richtech Robotics Inc. Class B",
+   "d5": -0.1274,
+   "d20": -0.4435,
+   "m6": -0.6144,
+   "y1": -0.8072,
+   "off_high": -0.8313
+  },
+  {
+   "theme": "Robotics & Autonomy",
+   "ticker": "ZBRA",
+   "name": "Zebra Technologies Corporation",
+   "d5": -0.1367,
+   "d20": -0.1459,
+   "m6": 0.4427,
+   "y1": 0.2238,
+   "off_high": -0.1573
+  },
+  {
+   "theme": "Robotics & Autonomy",
+   "ticker": "CGNX",
+   "name": "Cognex Corporation",
+   "d5": -0.0019,
+   "d20": -0.1242,
+   "m6": -0.0122,
+   "y1": 0.404,
+   "off_high": -0.1976
+  },
+  {
+   "theme": "Robotics & Autonomy",
+   "ticker": "AEVA",
+   "name": "Aeva Technologies Inc.",
+   "d5": -0.1437,
+   "d20": -0.3864,
+   "m6": -0.4134,
+   "y1": -0.4529,
+   "off_high": -0.6948
+  },
+  {
+   "theme": "Robotics & Autonomy",
+   "ticker": "WRD",
+   "name": "WeRide Inc.",
+   "d5": -0.0137,
+   "d20": -0.1582,
+   "m6": -0.4351,
+   "y1": -0.5961,
+   "off_high": -0.6046
+  },
+  {
+   "theme": "EVs & Batteries",
+   "ticker": "TSLA",
+   "name": "Tesla Inc.",
+   "d5": -0.022,
+   "d20": 0.0468,
+   "m6": 0.0234,
+   "y1": -0.1272,
+   "off_high": -0.1865
+  },
+  {
+   "theme": "EVs & Batteries",
+   "ticker": "ALB",
+   "name": "Albemarle Corporation",
+   "d5": -0.0886,
+   "d20": -0.152,
+   "m6": -0.5371,
+   "y1": -0.0818,
+   "off_high": -0.5817
+  },
+  {
+   "theme": "EVs & Batteries",
+   "ticker": "RIVN",
+   "name": "Rivian Automotive Inc.",
+   "d5": 0.1244,
+   "d20": -0.0841,
+   "m6": -0.0897,
+   "y1": -0.0206,
+   "off_high": -0.408
+  },
+  {
+   "theme": "EVs & Batteries",
+   "ticker": "LCID",
+   "name": "Lucid Group Inc.",
+   "d5": -0.0876,
+   "d20": -0.274,
+   "m6": -0.5168,
+   "y1": -0.8299,
+   "off_high": -0.8318
+  },
+  {
+   "theme": "EVs & Batteries",
+   "ticker": "PSNY",
+   "name": "Polestar Automotive Holding UK PLC",
+   "d5": 0.2,
+   "d20": -0.2614,
+   "m6": -0.7703,
+   "y1": -0.8272,
+   "off_high": -0.8193
+  },
+  {
+   "theme": "EVs & Batteries",
+   "ticker": "ENS",
+   "name": "EnerSys",
+   "d5": -0.0357,
+   "d20": -0.1274,
+   "m6": -0.2381,
+   "y1": 0.3313,
+   "off_high": -0.3098
+  },
+  {
+   "theme": "EVs & Batteries",
+   "ticker": "FLNC",
+   "name": "Fluence Energy Inc.",
+   "d5": -0.0849,
+   "d20": -0.3151,
+   "m6": -0.5666,
+   "y1": -0.7381,
+   "off_high": -0.8294
+  },
+  {
+   "theme": "EVs & Batteries",
+   "ticker": "AMPX",
+   "name": "Amprius Technologies Inc.",
+   "d5": -0.0056,
+   "d20": -0.0676,
+   "m6": -0.5874,
+   "y1": -0.3733,
+   "off_high": -0.6146
+  },
+  {
+   "theme": "Crypto Equities",
+   "ticker": "COIN",
+   "name": "Coinbase Global Inc.",
+   "d5": -0.0971,
+   "d20": -0.2169,
+   "m6": -0.2645,
+   "y1": -0.5769,
+   "off_high": -0.5598
+  },
+  {
+   "theme": "Crypto Equities",
+   "ticker": "CRCL",
+   "name": "Circle Internet Group Inc.",
+   "d5": -0.078,
+   "d20": -0.1059,
+   "m6": -0.3413,
+   "y1": -0.4076,
+   "off_high": -0.4338
+  },
+  {
+   "theme": "Crypto Equities",
+   "ticker": "HOOD",
+   "name": "Robinhood Markets Inc.",
+   "d5": -0.0939,
+   "d20": -0.235,
+   "m6": 0.1123,
+   "y1": -0.4163,
+   "off_high": -0.4175
+  },
+  {
+   "theme": "Crypto Equities",
+   "ticker": "MSTR",
+   "name": "Strategy Inc Common Stock",
+   "d5": -0.0408,
+   "d20": -0.1758,
+   "m6": -0.2743,
+   "y1": -0.4968,
+   "off_high": -0.4876
+  },
+  {
+   "theme": "Crypto Equities",
+   "ticker": "GLXY",
+   "name": "Galaxy Digital Inc.",
+   "d5": -0.0204,
+   "d20": -0.2402,
+   "m6": -0.4449,
+   "y1": -0.5193,
+   "off_high": -0.5175
+  },
+  {
+   "theme": "Crypto Equities",
+   "ticker": "BMNR",
+   "name": "BitMine Immersion Technologies Inc.",
+   "d5": -0.0504,
+   "d20": -0.2164,
+   "m6": -0.1113,
+   "y1": -0.5599,
+   "off_high": -0.521
+  },
+  {
+   "theme": "Crypto Equities",
+   "ticker": "BLSH",
+   "name": "Bullish",
+   "d5": -0.2066,
+   "d20": -0.3122,
+   "m6": -0.4936,
+   "y1": -0.546,
+   "off_high": -0.5432
+  },
+  {
+   "theme": "Neoclouds & BTC Miners",
+   "ticker": "CRWV",
+   "name": "CoreWeave Inc.",
+   "d5": -0.0979,
+   "d20": -0.4141,
+   "m6": -0.5798,
+   "y1": -0.5981,
+   "off_high": -0.6105
+  },
+  {
+   "theme": "Neoclouds & BTC Miners",
+   "ticker": "NBIS",
+   "name": "Nebius Group N.V.",
+   "d5": -0.1105,
+   "d20": -0.3931,
+   "m6": -0.138,
+   "y1": 0.1591,
+   "off_high": -0.4711
+  },
+  {
+   "theme": "Neoclouds & BTC Miners",
+   "ticker": "APLD",
+   "name": "Applied Digital Corporation",
+   "d5": -0.0871,
+   "d20": -0.2972,
+   "m6": -0.5534,
+   "y1": -0.4862,
+   "off_high": -0.6413
+  },
+  {
+   "theme": "Neoclouds & BTC Miners",
+   "ticker": "IREN",
+   "name": "IREN Limited",
+   "d5": -0.1086,
+   "d20": -0.4075,
+   "m6": -0.5532,
+   "y1": -0.5974,
+   "off_high": -0.6799
+  },
+  {
+   "theme": "Neoclouds & BTC Miners",
+   "ticker": "CIFR",
+   "name": "Cipher Digital Inc.",
+   "d5": -0.0425,
+   "d20": -0.4761,
+   "m6": -0.6326,
+   "y1": -0.5646,
+   "off_high": -0.7217
+  },
+  {
+   "theme": "Neoclouds & BTC Miners",
+   "ticker": "WULF",
+   "name": "TeraWulf Inc.",
+   "d5": -0.0103,
+   "d20": -0.163,
+   "m6": -0.4666,
+   "y1": -0.1916,
+   "off_high": -0.5676
+  },
+  {
+   "theme": "Neoclouds & BTC Miners",
+   "ticker": "MARA",
+   "name": "MARA Holdings Inc.",
+   "d5": 0.0099,
+   "d20": -0.3473,
+   "m6": -0.4112,
+   "y1": -0.6081,
+   "off_high": -0.598
+  },
+  {
+   "theme": "Neoclouds & BTC Miners",
+   "ticker": "RIOT",
+   "name": "Riot Platforms Inc. Common Stock ",
+   "d5": 0.0339,
+   "d20": -0.2594,
+   "m6": -0.3111,
+   "y1": -0.2912,
+   "off_high": -0.5113
+  },
+  {
+   "theme": "Neoclouds & BTC Miners",
+   "ticker": "CLSK",
+   "name": "CleanSpark Inc.",
+   "d5": -0.0049,
+   "d20": -0.3369,
+   "m6": -0.3922,
+   "y1": -0.5421,
+   "off_high": -0.5667
+  },
+  {
+   "theme": "Neoclouds & BTC Miners",
+   "ticker": "HUT",
+   "name": "Hut 8 Corp.",
+   "d5": -0.0533,
+   "d20": -0.3087,
+   "m6": -0.2082,
+   "y1": 0.2584,
+   "off_high": -0.5207
+  },
+  {
+   "theme": "Neoclouds & BTC Miners",
+   "ticker": "CORZ",
+   "name": "Core Scientific Inc.",
+   "d5": -0.0018,
+   "d20": -0.1463,
+   "m6": -0.3583,
+   "y1": -0.3389,
+   "off_high": -0.5117
+  },
+  {
+   "theme": "Neoclouds & BTC Miners",
+   "ticker": "BTDR",
+   "name": "Bitdeer Technologies Group",
+   "d5": -0.0822,
+   "d20": -0.3657,
+   "m6": -0.4455,
+   "y1": -0.6883,
+   "off_high": -0.6972
+  },
+  {
+   "theme": "Data Center REITs",
+   "ticker": "EQIX",
+   "name": "Equinix Inc. Common Stock REIT",
+   "d5": 0.015,
+   "d20": -0.0315,
+   "m6": -0.0594,
+   "y1": 0.199,
+   "off_high": -0.091
+  },
+  {
+   "theme": "Data Center REITs",
+   "ticker": "DLR",
+   "name": "Digital Realty Trust Inc.",
+   "d5": 0.0069,
+   "d20": -0.0238,
+   "m6": -0.0836,
+   "y1": 0.0577,
+   "off_high": -0.116
+  },
+  {
+   "theme": "Data Center REITs",
+   "ticker": "IRM",
+   "name": "Iron Mountain Incorporated (Delaware)Com",
+   "d5": 0.0117,
+   "d20": 0.0016,
+   "m6": -0.114,
+   "y1": 0.1335,
+   "off_high": -0.123
+  },
+  {
+   "theme": "Data Center REITs",
+   "ticker": "GDS",
+   "name": "GDS Holdings Limited ADS",
+   "d5": -0.0416,
+   "d20": -0.2955,
+   "m6": -0.5142,
+   "y1": -0.3877,
+   "off_high": -0.54
+  },
+  {
+   "theme": "Data Center REITs",
+   "ticker": "VNET",
+   "name": "VNET Group Inc.",
+   "d5": -0.2095,
+   "d20": -0.4481,
+   "m6": -0.6486,
+   "y1": -0.7135,
+   "off_high": -0.7876
+  },
+  {
+   "theme": "Grid & Electrical Equipment",
+   "ticker": "GEV",
+   "name": "GE Vernova Inc.",
+   "d5": 0.0258,
+   "d20": -0.1079,
+   "m6": -0.1616,
+   "y1": 0.5692,
+   "off_high": -0.2185
+  },
+  {
+   "theme": "Grid & Electrical Equipment",
+   "ticker": "ETN",
+   "name": "Eaton Corporation PLC",
+   "d5": 0.0195,
+   "d20": -0.12,
+   "m6": -0.0466,
+   "y1": 0.0266,
+   "off_high": -0.1484
+  },
+  {
+   "theme": "Grid & Electrical Equipment",
+   "ticker": "HUBB",
+   "name": "Hubbell Inc",
+   "d5": 0.0345,
+   "d20": -0.0745,
+   "m6": -0.1153,
+   "y1": -0.0441,
+   "off_high": -0.1946
+  },
+  {
+   "theme": "Grid & Electrical Equipment",
+   "ticker": "PWR",
+   "name": "Quanta Services Inc.",
+   "d5": 0.135,
+   "d20": -0.0869,
+   "m6": -0.1485,
+   "y1": 0.4628,
+   "off_high": -0.1633
+  },
+  {
+   "theme": "Grid & Electrical Equipment",
+   "ticker": "EXC",
+   "name": "Exelon Corporation",
+   "d5": 0.0179,
+   "d20": 0.0917,
+   "m6": -0.0147,
+   "y1": -0.0134,
+   "off_high": -0.0952
+  },
+  {
+   "theme": "Grid & Electrical Equipment",
+   "ticker": "ENR",
+   "name": "Energizer Holdings Inc.",
+   "d5": 0.0594,
+   "d20": 0.1149,
+   "m6": 0.3485,
+   "y1": 0.0362,
+   "off_high": -0.0127
+  },
+  {
+   "theme": "Grid & Electrical Equipment",
+   "ticker": "SU",
+   "name": "Suncor Energy  Inc.",
+   "d5": -0.0101,
+   "d20": 0.106,
+   "m6": 0.0833,
+   "y1": 0.8953,
+   "off_high": -0.0507
+  },
+  {
+   "theme": "Grid & Electrical Equipment",
+   "ticker": "POWL",
+   "name": "Powell Industries Inc.",
+   "d5": 0.0123,
+   "d20": -0.202,
+   "m6": -0.4457,
+   "y1": 0.2781,
+   "off_high": -0.4928
+  },
+  {
+   "theme": "Grid & Electrical Equipment",
+   "ticker": "MYRG",
+   "name": "MYR Group Inc.",
+   "d5": 0.0936,
+   "d20": -0.1014,
+   "m6": -0.3777,
+   "y1": 0.3394,
+   "off_high": -0.4181
+  },
+  {
+   "theme": "Grid & Electrical Equipment",
+   "ticker": "APH",
+   "name": "Amphenol Corporation",
+   "d5": 0.0765,
+   "d20": -0.05,
+   "m6": 0.2318,
+   "y1": 0.2084,
+   "off_high": -0.05
+  },
+  {
+   "theme": "Grid & Electrical Equipment",
+   "ticker": "NEE",
+   "name": "NextEra Energy Inc.",
+   "d5": 0.0232,
+   "d20": 0.0828,
+   "m6": -0.1241,
+   "y1": 0.036,
+   "off_high": -0.1384
+  },
+  {
+   "theme": "Grid & Electrical Equipment",
+   "ticker": "FTS",
+   "name": "Fortis Inc.",
+   "d5": 0.0339,
+   "d20": 0.1281,
+   "m6": 0.0397,
+   "y1": 0.1889,
+   "off_high": 0.0
+  },
+  {
+   "theme": "Grid & Electrical Equipment",
+   "ticker": "BKR",
+   "name": "Baker Hughes Company",
+   "d5": -0.1053,
+   "d20": -0.076,
+   "m6": -0.2212,
+   "y1": 0.0905,
+   "off_high": -0.2423
+  },
+  {
+   "theme": "Grid & Electrical Equipment",
+   "ticker": "AGX",
+   "name": "Argan Inc.",
+   "d5": 0.0211,
+   "d20": -0.1701,
+   "m6": -0.5163,
+   "y1": 0.1373,
+   "off_high": -0.5639
+  },
+  {
+   "theme": "Grid & Electrical Equipment",
+   "ticker": "WWD",
+   "name": "Woodward Inc.",
+   "d5": 0.0944,
+   "d20": 0.0004,
+   "m6": -0.09,
+   "y1": 0.2693,
+   "off_high": -0.2377
+  },
+  {
+   "theme": "Thermal & Cooling",
+   "ticker": "VRT",
+   "name": "Vertiv Holdings LLC",
+   "d5": 0.1314,
+   "d20": -0.0678,
+   "m6": -0.308,
+   "y1": 0.2235,
+   "off_high": -0.3728
+  },
+  {
+   "theme": "Thermal & Cooling",
+   "ticker": "MOD",
+   "name": "Modine Manufacturing Company",
+   "d5": -0.081,
+   "d20": -0.3394,
+   "m6": -0.5381,
+   "y1": -0.1812,
+   "off_high": -0.5912
+  },
+  {
+   "theme": "Thermal & Cooling",
+   "ticker": "NVT",
+   "name": "nVent Electric plc",
+   "d5": -0.0392,
+   "d20": -0.2563,
+   "m6": -0.237,
+   "y1": 0.1304,
+   "off_high": -0.2988
+  },
+  {
+   "theme": "Thermal & Cooling",
+   "ticker": "JCI",
+   "name": "Johnson Controls International plc Ordin",
+   "d5": -0.0383,
+   "d20": -0.0557,
+   "m6": 0.0351,
+   "y1": 0.3105,
+   "off_high": -0.0557
+  },
+  {
+   "theme": "Thermal & Cooling",
+   "ticker": "TT",
+   "name": "Trane Technologies plc",
+   "d5": -0.0946,
+   "d20": -0.1237,
+   "m6": -0.1257,
+   "y1": -0.0696,
+   "off_high": -0.1709
+  },
+  {
+   "theme": "Construction & DC Build",
+   "ticker": "EME",
+   "name": "EMCOR Group Inc.",
+   "d5": 0.0616,
+   "d20": -0.142,
+   "m6": -0.242,
+   "y1": 0.0468,
+   "off_high": -0.2504
+  },
+  {
+   "theme": "Construction & DC Build",
+   "ticker": "PRIM",
+   "name": "Primoris Services Corporation",
+   "d5": 0.1512,
+   "d20": -0.0636,
+   "m6": -0.6079,
+   "y1": -0.4377,
+   "off_high": -0.6079
+  },
+  {
+   "theme": "Construction & DC Build",
+   "ticker": "DY",
+   "name": "Dycom Industries Inc.",
+   "d5": -0.0076,
+   "d20": -0.2142,
+   "m6": -0.5008,
+   "y1": -0.207,
+   "off_high": -0.5736
+  },
+  {
+   "theme": "Construction & DC Build",
+   "ticker": "TPC",
+   "name": "Tutor Perini Corporation",
+   "d5": 0.0252,
+   "d20": -0.0697,
+   "m6": -0.1486,
+   "y1": 0.23,
+   "off_high": -0.1641
+  },
+  {
+   "theme": "Construction & DC Build",
+   "ticker": "FIX",
+   "name": "Comfort Systems USA Inc.",
+   "d5": -0.0027,
+   "d20": -0.2931,
+   "m6": -0.3467,
+   "y1": 0.3309,
+   "off_high": -0.3781
+  },
+  {
+   "theme": "Construction & DC Build",
+   "ticker": "MTZ",
+   "name": "MasTec Inc.",
+   "d5": 0.1224,
+   "d20": -0.1323,
+   "m6": -0.5472,
+   "y1": -0.0297,
+   "off_high": -0.5472
+  },
+  {
+   "theme": "Construction & DC Build",
+   "ticker": "STRL",
+   "name": "Sterling Infrastructure Inc.",
+   "d5": -0.0173,
+   "d20": -0.3593,
+   "m6": -0.5519,
+   "y1": -0.0443,
+   "off_high": -0.6366
+  },
+  {
+   "theme": "Construction & DC Build",
+   "ticker": "FLR",
+   "name": "Fluor Corporation",
+   "d5": 0.0396,
+   "d20": -0.0771,
+   "m6": -0.0944,
+   "y1": -0.016,
+   "off_high": -0.1654
+  },
+  {
+   "theme": "Construction & DC Build",
+   "ticker": "ECG",
+   "name": "Everus Construction Group Inc.",
+   "d5": 0.1078,
+   "d20": -0.1507,
+   "m6": -0.3303,
+   "y1": 0.2403,
+   "off_high": -0.3336
+  },
+  {
+   "theme": "Construction & DC Build",
+   "ticker": "GVA",
+   "name": "Granite Construction Incorporated",
+   "d5": 0.2066,
+   "d20": 0.1025,
+   "m6": -0.0589,
+   "y1": 0.2954,
+   "off_high": -0.1688
+  },
+  {
+   "theme": "Construction & DC Build",
+   "ticker": "ROAD",
+   "name": "Construction Partners Inc.",
+   "d5": 0.1449,
+   "d20": 0.0256,
+   "m6": -0.2684,
+   "y1": -0.1579,
+   "off_high": -0.3146
+  },
+  {
+   "theme": "Construction & DC Build",
+   "ticker": "VMC",
+   "name": "Vulcan Materials Company (Holding Compan",
+   "d5": 0.0842,
+   "d20": 0.1437,
+   "m6": -0.0237,
+   "y1": -0.0169,
+   "off_high": -0.1385
+  },
+  {
+   "theme": "Construction & DC Build",
+   "ticker": "MLM",
+   "name": "Martin Marietta Materials Inc.",
+   "d5": 0.0796,
+   "d20": 0.112,
+   "m6": -0.1028,
+   "y1": -0.1131,
+   "off_high": -0.2321
+  },
+  {
+   "theme": "Construction & DC Build",
+   "ticker": "BIP",
+   "name": "Brookfield Infrastructure Partners LP Li",
+   "d5": 0.0232,
+   "d20": 0.0008,
+   "m6": 0.0325,
+   "y1": 0.0963,
+   "off_high": -0.1211
+  },
+  {
+   "theme": "Power Producers (IPPs)",
+   "ticker": "CEG",
+   "name": "Constellation Energy Corporation Common ",
+   "d5": 0.0171,
+   "d20": -0.1232,
+   "m6": -0.178,
+   "y1": -0.3013,
+   "off_high": -0.3043
+  },
+  {
+   "theme": "Power Producers (IPPs)",
+   "ticker": "VST",
+   "name": "Vistra Corp.",
+   "d5": -0.0482,
+   "d20": -0.1303,
+   "m6": -0.1296,
+   "y1": -0.2587,
+   "off_high": -0.2769
+  },
+  {
+   "theme": "Power Producers (IPPs)",
+   "ticker": "TLN",
+   "name": "Talen Energy Corporation",
+   "d5": 0.0334,
+   "d20": -0.0424,
+   "m6": -0.0718,
+   "y1": -0.1063,
+   "off_high": -0.1845
+  },
+  {
+   "theme": "Power Producers (IPPs)",
+   "ticker": "NRG",
+   "name": "NRG Energy Inc.",
+   "d5": 0.0104,
+   "d20": -0.0708,
+   "m6": -0.3886,
+   "y1": -0.4399,
+   "off_high": -0.4769
+  },
+  {
+   "theme": "Nuclear & Uranium",
+   "ticker": "OKLO",
+   "name": "Oklo Inc.",
+   "d5": -0.1405,
+   "d20": -0.3907,
+   "m6": -0.6565,
+   "y1": -0.8231,
+   "off_high": -0.8146
+  },
+  {
+   "theme": "Nuclear & Uranium",
+   "ticker": "SMR",
+   "name": "NuScale Power Corporation",
+   "d5": -0.0579,
+   "d20": -0.3304,
+   "m6": -0.5476,
+   "y1": -0.8803,
+   "off_high": -0.8685
+  },
+  {
+   "theme": "Nuclear & Uranium",
+   "ticker": "BWXT",
+   "name": "BWX Technologies Inc.",
+   "d5": -0.0168,
+   "d20": -0.0953,
+   "m6": -0.3606,
+   "y1": -0.3829,
+   "off_high": -0.4471
+  },
+  {
+   "theme": "Nuclear & Uranium",
+   "ticker": "LEU",
+   "name": "Centrus Energy Corp.",
+   "d5": -0.1257,
+   "d20": -0.3783,
+   "m6": -0.5357,
+   "y1": -0.7396,
+   "off_high": -0.7211
+  },
+  {
+   "theme": "Nuclear & Uranium",
+   "ticker": "CCJ",
+   "name": "Cameco Corporation",
+   "d5": -0.1195,
+   "d20": -0.22,
+   "m6": -0.3661,
+   "y1": -0.2901,
+   "off_high": -0.4589
+  },
+  {
+   "theme": "Nuclear & Uranium",
+   "ticker": "UEC",
+   "name": "Uranium Energy Corp.",
+   "d5": -0.0597,
+   "d20": -0.2522,
+   "m6": -0.4786,
+   "y1": -0.5003,
+   "off_high": -0.6246
+  },
+  {
+   "theme": "Nuclear & Uranium",
+   "ticker": "NNE",
+   "name": "Nano Nuclear Energy Inc.",
+   "d5": -0.0737,
+   "d20": -0.3069,
+   "m6": -0.498,
+   "y1": -0.7596,
+   "off_high": -0.7473
+  },
+  {
+   "theme": "Nuclear & Uranium",
+   "ticker": "MIR",
+   "name": "Mirion Technologies Inc.",
+   "d5": 0.2362,
+   "d20": 0.1709,
+   "m6": -0.0541,
+   "y1": -0.3514,
+   "off_high": -0.3523
+  },
+  {
+   "theme": "Nuclear & Uranium",
+   "ticker": "NXE",
+   "name": "Nexgen Energy Ltd.",
+   "d5": -0.0955,
+   "d20": -0.1559,
+   "m6": -0.3432,
+   "y1": -0.1844,
+   "off_high": -0.4282
+  },
+  {
+   "theme": "Nuclear & Uranium",
+   "ticker": "DNN",
+   "name": "Denison Mines Corp",
+   "d5": -0.1213,
+   "d20": -0.2251,
+   "m6": -0.4167,
+   "y1": -0.3375,
+   "off_high": -0.5195
+  },
+  {
+   "theme": "Nuclear & Uranium",
+   "ticker": "UUUU",
+   "name": "Energy Fuels Inc",
+   "d5": -0.1203,
+   "d20": -0.357,
+   "m6": -0.6559,
+   "y1": -0.647,
+   "off_high": -0.7388
+  },
+  {
+   "theme": "Solar",
+   "ticker": "FSLR",
+   "name": "First Solar Inc.",
+   "d5": 0.0572,
+   "d20": 0.0339,
+   "m6": -0.1526,
+   "y1": -0.3036,
+   "off_high": -0.4159
+  },
+  {
+   "theme": "Solar",
+   "ticker": "NXT",
+   "name": "Nextpower Inc.",
+   "d5": 0.2087,
+   "d20": 0.09,
+   "m6": -0.2215,
+   "y1": -0.0514,
+   "off_high": -0.3861
+  },
+  {
+   "theme": "Solar",
+   "ticker": "ENPH",
+   "name": "Enphase Energy Inc.",
+   "d5": 0.0222,
+   "d20": -0.1029,
+   "m6": -0.1555,
+   "y1": -0.0029,
+   "off_high": -0.5794
+  },
+  {
+   "theme": "Solar",
+   "ticker": "SEDG",
+   "name": "SolarEdge Technologies Inc.",
+   "d5": 0.0224,
+   "d20": -0.0341,
+   "m6": -0.2634,
+   "y1": -0.063,
+   "off_high": -0.5812
+  },
+  {
+   "theme": "Solar",
+   "ticker": "RUN",
+   "name": "Sunrun Inc.",
+   "d5": 0.1527,
+   "d20": 0.1171,
+   "m6": -0.3551,
+   "y1": -0.5819,
+   "off_high": -0.5946
+  },
+  {
+   "theme": "Solar",
+   "ticker": "CSIQ",
+   "name": "Canadian Solar Inc.",
+   "d5": 0.0445,
+   "d20": -0.1248,
+   "m6": -0.3988,
+   "y1": -0.5135,
+   "off_high": -0.6992
+  },
+  {
+   "theme": "Solar",
+   "ticker": "ARRY",
+   "name": "Array Technologies Inc.",
+   "d5": 0.3687,
+   "d20": 0.1429,
+   "m6": -0.4328,
+   "y1": -0.4642,
+   "off_high": -0.612
+  },
+  {
+   "theme": "Solar",
+   "ticker": "SHLS",
+   "name": "Shoals Technologies Group Inc.",
+   "d5": 0.1331,
+   "d20": -0.0024,
+   "m6": 0.0418,
+   "y1": -0.1941,
+   "off_high": -0.3367
+  },
+  {
+   "theme": "Fuel Cells & Hydrogen",
+   "ticker": "BE",
+   "name": "Bloom Energy Corporation",
+   "d5": -0.0205,
+   "d20": -0.2765,
+   "m6": -0.2752,
+   "y1": 0.6193,
+   "off_high": -0.3812
+  },
+  {
+   "theme": "Fuel Cells & Hydrogen",
+   "ticker": "PLUG",
+   "name": "Plug Power Inc.",
+   "d5": 0.0071,
+   "d20": -0.2419,
+   "m6": -0.5753,
+   "y1": -0.4758,
+   "off_high": -0.6594
+  },
+  {
+   "theme": "Fuel Cells & Hydrogen",
+   "ticker": "FCEL",
+   "name": "FuelCell Energy Inc.",
+   "d5": -0.0796,
+   "d20": -0.4571,
+   "m6": -0.1727,
+   "y1": 0.2525,
+   "off_high": -0.6887
+  },
+  {
+   "theme": "Fuel Cells & Hydrogen",
+   "ticker": "BLDP",
+   "name": "Ballard Power Systems Inc.",
+   "d5": 0.0,
+   "d20": -0.2476,
+   "m6": -0.642,
+   "y1": -0.5658,
+   "off_high": -0.7571
+  },
+  {
+   "theme": "Fuel Cells & Hydrogen",
+   "ticker": "GNRC",
+   "name": "Generac Holdlings Inc.",
+   "d5": 0.0804,
+   "d20": -0.0641,
+   "m6": -0.2063,
+   "y1": 0.2456,
+   "off_high": -0.2919
+  },
+  {
+   "theme": "Fuel Cells & Hydrogen",
+   "ticker": "APD",
+   "name": "Air Products and Chemicals Inc.",
+   "d5": 0.0191,
+   "d20": 0.1138,
+   "m6": 0.0297,
+   "y1": 0.2901,
+   "off_high": -0.0109
+  },
+  {
+   "theme": "Fuel Cells & Hydrogen",
+   "ticker": "LIN",
+   "name": "Linde plc",
+   "d5": 0.0057,
+   "d20": 0.0441,
+   "m6": 0.0225,
+   "y1": 0.2229,
+   "off_high": -0.0642
+  },
+  {
+   "theme": "Fuel Cells & Hydrogen",
+   "ticker": "CMI",
+   "name": "Cummins Inc.",
+   "d5": -0.0564,
+   "d20": -0.0647,
+   "m6": -0.2581,
+   "y1": 0.144,
+   "off_high": -0.3119
+  },
+  {
+   "theme": "Defense Primes",
+   "ticker": "LMT",
+   "name": "Lockheed Martin Corporation",
+   "d5": 0.0257,
+   "d20": 0.2526,
+   "m6": 0.2556,
+   "y1": 0.2991,
+   "off_high": -0.0557
+  },
+  {
+   "theme": "Defense Primes",
+   "ticker": "NOC",
+   "name": "Northrop Grumman Corporation",
+   "d5": -0.0017,
+   "d20": 0.1391,
+   "m6": -0.0149,
+   "y1": -0.0568,
+   "off_high": -0.2835
+  },
+  {
+   "theme": "Defense Primes",
+   "ticker": "RTX",
+   "name": "RTX Corporation",
+   "d5": 0.0474,
+   "d20": 0.112,
+   "m6": 0.179,
+   "y1": 0.1418,
+   "off_high": -0.0961
+  },
+  {
+   "theme": "Defense Primes",
+   "ticker": "LHX",
+   "name": "L3Harris Technologies Inc.",
+   "d5": 0.0704,
+   "d20": 0.1672,
+   "m6": -0.0825,
+   "y1": -0.0395,
+   "off_high": -0.2664
+  },
+  {
+   "theme": "Defense Primes",
+   "ticker": "GD",
+   "name": "General Dynamics Corporation",
+   "d5": 0.0553,
+   "d20": 0.1303,
+   "m6": 0.0726,
+   "y1": 0.0858,
+   "off_high": -0.0542
+  },
+  {
+   "theme": "Defense Primes",
+   "ticker": "HII",
+   "name": "Huntington Ingalls Industries Inc.",
+   "d5": 0.1266,
+   "d20": 0.2016,
+   "m6": -0.0282,
+   "y1": -0.0158,
+   "off_high": -0.3015
+  },
+  {
+   "theme": "Defense Primes",
+   "ticker": "BDL",
+   "name": "Flanigan's Enterprises Inc.",
+   "d5": 0.2893,
+   "d20": 0.3968,
+   "m6": 1.263,
+   "y1": 1.0742,
+   "off_high": -0.0122
+  },
+  {
+   "theme": "Defense Primes",
+   "ticker": "ESLT",
+   "name": "Elbit Systems Ltd.",
+   "d5": -0.0423,
+   "d20": 0.0948,
+   "m6": -0.1112,
+   "y1": 0.587,
+   "off_high": -0.2541
+  },
+  {
+   "theme": "Defense Primes",
+   "ticker": "MRCY",
+   "name": "Mercury Systems Inc",
+   "d5": 0.0225,
+   "d20": -0.03,
+   "m6": -0.0318,
+   "y1": 0.0376,
+   "off_high": -0.3636
+  },
+  {
+   "theme": "Defense Primes",
+   "ticker": "DRS",
+   "name": "Leonardo DRS Inc.",
+   "d5": 0.0797,
+   "d20": 0.0566,
+   "m6": -0.0212,
+   "y1": 0.0629,
+   "off_high": -0.218
+  },
+  {
+   "theme": "Defense Tech & Drones",
+   "ticker": "AVAV",
+   "name": "AeroVironment Inc.",
+   "d5": -0.0253,
+   "d20": -0.1394,
+   "m6": -0.2589,
+   "y1": -0.6661,
+   "off_high": -0.6856
+  },
+  {
+   "theme": "Defense Tech & Drones",
+   "ticker": "KTOS",
+   "name": "Kratos Defense & Security Solutions Inc.",
+   "d5": -0.008,
+   "d20": -0.0622,
+   "m6": -0.3089,
+   "y1": -0.5476,
+   "off_high": -0.6864
+  },
+  {
+   "theme": "Defense Tech & Drones",
+   "ticker": "RCAT",
+   "name": "Red Cat Holdings Inc.",
+   "d5": -0.0842,
+   "d20": -0.2965,
+   "m6": -0.5724,
+   "y1": -0.6036,
+   "off_high": -0.7431
+  },
+  {
+   "theme": "Defense Tech & Drones",
+   "ticker": "ONDS",
+   "name": "Ondas Inc.",
+   "d5": -0.1293,
+   "d20": -0.2186,
+   "m6": -0.3794,
+   "y1": -0.1009,
+   "off_high": -0.5867
+  },
+  {
+   "theme": "Defense Tech & Drones",
+   "ticker": "BBAI",
+   "name": "BigBear.ai Inc.",
+   "d5": 0.0766,
+   "d20": -0.0194,
+   "m6": -0.3889,
+   "y1": -0.6344,
+   "off_high": -0.6471
+  },
+  {
+   "theme": "Defense Tech & Drones",
+   "ticker": "TDY",
+   "name": "Teledyne Technologies Incorporated",
+   "d5": 0.0132,
+   "d20": 0.0666,
+   "m6": 0.0503,
+   "y1": 0.2597,
+   "off_high": -0.04
+  },
+  {
+   "theme": "Defense Tech & Drones",
+   "ticker": "AVEX",
+   "name": "AEVEX Corp.",
+   "d5": 0.0374,
+   "d20": -0.2125,
+   "m6": -0.5268,
+   "y1": null,
+   "off_high": -0.7053
+  },
+  {
+   "theme": "Defense Tech & Drones",
+   "ticker": "CACI",
+   "name": "CACI International Inc.",
+   "d5": 0.0208,
+   "d20": 0.1342,
+   "m6": 0.3766,
+   "y1": 0.2096,
+   "off_high": -0.0006
+  },
+  {
+   "theme": "Defense Tech & Drones",
+   "ticker": "LDOS",
+   "name": "Leidos Holdings Inc.",
+   "d5": -0.0352,
+   "d20": 0.1545,
+   "m6": -0.018,
+   "y1": -0.2927,
+   "off_high": -0.3249
+  },
+  {
+   "theme": "Commercial Aerospace",
+   "ticker": "HWM",
+   "name": "Howmet Aerospace Inc.",
+   "d5": 0.1621,
+   "d20": -0.0366,
+   "m6": -0.0806,
+   "y1": 0.0834,
+   "off_high": -0.2376
+  },
+  {
+   "theme": "Commercial Aerospace",
+   "ticker": "BA",
+   "name": "Boeing Company (The)",
+   "d5": 0.0305,
+   "d20": -0.087,
+   "m6": -0.2276,
+   "y1": -0.1378,
+   "off_high": -0.3127
+  },
+  {
+   "theme": "Commercial Aerospace",
+   "ticker": "GE",
+   "name": "GE Aerospace",
+   "d5": 0.0773,
+   "d20": 0.0365,
+   "m6": 0.1186,
+   "y1": 0.0379,
+   "off_high": -0.1588
+  },
+  {
+   "theme": "Commercial Aerospace",
+   "ticker": "TDG",
+   "name": "Transdigm Group Incorporated",
+   "d5": 0.0688,
+   "d20": 0.0949,
+   "m6": 0.014,
+   "y1": -0.0768,
+   "off_high": -0.1669
+  },
+  {
+   "theme": "Commercial Aerospace",
+   "ticker": "HEI",
+   "name": "Heico Corporation",
+   "d5": 0.0935,
+   "d20": 0.1136,
+   "m6": 0.2178,
+   "y1": 0.0628,
+   "off_high": -0.0986
+  },
+  {
+   "theme": "Commercial Aerospace",
+   "ticker": "TXT",
+   "name": "Textron Inc.",
+   "d5": 0.1224,
+   "d20": 0.1618,
+   "m6": -0.0423,
+   "y1": 0.0859,
+   "off_high": -0.1292
+  },
+  {
+   "theme": "Commercial Aerospace",
+   "ticker": "HXL",
+   "name": "Hexcel Corporation",
+   "d5": 0.0371,
+   "d20": -0.0486,
+   "m6": -0.1188,
+   "y1": 0.1461,
+   "off_high": -0.258
+  },
+  {
+   "theme": "Commercial Aerospace",
+   "ticker": "ATI",
+   "name": "ATI Inc.",
+   "d5": 0.0854,
+   "d20": -0.0738,
+   "m6": 0.1608,
+   "y1": 0.8221,
+   "off_high": -0.222
+  },
+  {
+   "theme": "Commercial Aerospace",
+   "ticker": "AIN",
+   "name": "Albany International Corporation",
+   "d5": 0.175,
+   "d20": 0.2421,
+   "m6": 0.2597,
+   "y1": 0.3021,
+   "off_high": -0.0343
+  },
+  {
+   "theme": "Commercial Aerospace",
+   "ticker": "CSTM",
+   "name": "Constellium SE",
+   "d5": -0.0623,
+   "d20": -0.0969,
+   "m6": -0.3013,
+   "y1": 0.4641,
+   "off_high": -0.3629
+  },
+  {
+   "theme": "Commercial Aerospace",
+   "ticker": "KALU",
+   "name": "Kaiser Aluminum Corporation",
+   "d5": 0.0159,
+   "d20": -0.232,
+   "m6": -0.3287,
+   "y1": 0.3045,
+   "off_high": -0.3963
+  },
+  {
+   "theme": "Commercial Aerospace",
+   "ticker": "PPG",
+   "name": "PPG Industries Inc.",
+   "d5": 0.0688,
+   "d20": 0.1382,
+   "m6": 0.1394,
+   "y1": 0.2403,
+   "off_high": -0.0784
+  },
+  {
+   "theme": "Gold & Silver",
+   "ticker": "NEM",
+   "name": "Newmont Corporation",
+   "d5": -0.0459,
+   "d20": -0.0766,
+   "m6": -0.0141,
+   "y1": 0.3273,
+   "off_high": -0.2048
+  },
+  {
+   "theme": "Gold & Silver",
+   "ticker": "AEM",
+   "name": "Agnico Eagle Mines Limited",
+   "d5": -0.0743,
+   "d20": -0.1008,
+   "m6": -0.061,
+   "y1": 0.0402,
+   "off_high": -0.3367
+  },
+  {
+   "theme": "Gold & Silver",
+   "ticker": "AU",
+   "name": "AngloGold Ashanti PLC",
+   "d5": -0.0613,
+   "d20": -0.1298,
+   "m6": -0.1044,
+   "y1": 0.1972,
+   "off_high": -0.3653
+  },
+  {
+   "theme": "Gold & Silver",
+   "ticker": "WPM",
+   "name": "Wheaton Precious Metals Corp",
+   "d5": -0.0675,
+   "d20": -0.147,
+   "m6": -0.0624,
+   "y1": 0.2165,
+   "off_high": -0.2915
+  },
+  {
+   "theme": "Gold & Silver",
+   "ticker": "B",
+   "name": "Barrick Mining Corporation",
+   "d5": -0.0563,
+   "d20": -0.0901,
+   "m6": -0.0431,
+   "y1": 0.1296,
+   "off_high": -0.3007
+  },
+  {
+   "theme": "Gold & Silver",
+   "ticker": "FNV",
+   "name": "Franco-Nevada Corporation",
+   "d5": -0.044,
+   "d20": -0.0737,
+   "m6": 0.0041,
+   "y1": 0.2109,
+   "off_high": -0.1952
+  },
+  {
+   "theme": "Gold & Silver",
+   "ticker": "HL",
+   "name": "Hecla Mining Company",
+   "d5": -0.0964,
+   "d20": -0.2275,
+   "m6": -0.2252,
+   "y1": 0.0264,
+   "off_high": -0.5847
+  },
+  {
+   "theme": "Gold & Silver",
+   "ticker": "CDE",
+   "name": "Coeur Mining Inc.",
+   "d5": -0.0563,
+   "d20": -0.219,
+   "m6": -0.2172,
+   "y1": -0.219,
+   "off_high": -0.5061
+  },
+  {
+   "theme": "Gold & Silver",
+   "ticker": "KGC",
+   "name": "Kinross Gold Corporation",
+   "d5": -0.1335,
+   "d20": -0.163,
+   "m6": -0.3082,
+   "y1": -0.1424,
+   "off_high": -0.4765
+  },
+  {
+   "theme": "Gold & Silver",
+   "ticker": "PAAS",
+   "name": "Pan American Silver Corp.",
+   "d5": -0.0809,
+   "d20": -0.1662,
+   "m6": -0.2421,
+   "y1": 0.0875,
+   "off_high": -0.4426
+  },
+  {
+   "theme": "Gold & Silver",
+   "ticker": "AG",
+   "name": "First Majestic Silver Corp.",
+   "d5": -0.0985,
+   "d20": -0.1961,
+   "m6": -0.2618,
+   "y1": 0.1042,
+   "off_high": -0.5595
+  },
+  {
+   "theme": "Gold & Silver",
+   "ticker": "SSRM",
+   "name": "SSR Mining Inc.",
+   "d5": -0.1059,
+   "d20": -0.2369,
+   "m6": -0.074,
+   "y1": 0.1596,
+   "off_high": -0.3328
+  },
+  {
+   "theme": "Gold & Silver",
+   "ticker": "GFI",
+   "name": "Gold Fields Limited",
+   "d5": -0.0327,
+   "d20": -0.0445,
+   "m6": -0.1722,
+   "y1": -0.1002,
+   "off_high": -0.4381
+  },
+  {
+   "theme": "Gold & Silver",
+   "ticker": "OR",
+   "name": "OR Royalties Inc.",
+   "d5": -0.0566,
+   "d20": -0.0667,
+   "m6": -0.1086,
+   "y1": 0.0059,
+   "off_high": -0.326
+  },
+  {
+   "theme": "Gold & Silver",
+   "ticker": "RGLD",
+   "name": "Royal Gold Inc.",
+   "d5": -0.0365,
+   "d20": -0.0146,
+   "m6": 0.0222,
+   "y1": 0.3211,
+   "off_high": -0.2411
+  },
+  {
+   "theme": "Copper",
+   "ticker": "FCX",
+   "name": "Freeport-McMoRan Inc.",
+   "d5": -0.0634,
+   "d20": -0.1487,
+   "m6": 0.0709,
+   "y1": 0.4813,
+   "off_high": -0.227
+  },
+  {
+   "theme": "Copper",
+   "ticker": "SCCO",
+   "name": "Southern Copper Corporation",
+   "d5": -0.0982,
+   "d20": -0.1416,
+   "m6": 0.0478,
+   "y1": 0.3132,
+   "off_high": -0.202
+  },
+  {
+   "theme": "Copper",
+   "ticker": "TECK",
+   "name": "Teck Resources Ltd",
+   "d5": -0.0075,
+   "d20": -0.0788,
+   "m6": 0.0694,
+   "y1": 0.4401,
+   "off_high": -0.1412
+  },
+  {
+   "theme": "Copper",
+   "ticker": "HBM",
+   "name": "Hudbay Minerals Inc.",
+   "d5": -0.0834,
+   "d20": -0.2045,
+   "m6": -0.0407,
+   "y1": 0.34,
+   "off_high": -0.3273
+  },
+  {
+   "theme": "Critical Minerals & Lithium",
+   "ticker": "MP",
+   "name": "MP Materials Corp.",
+   "d5": -0.0744,
+   "d20": -0.2205,
+   "m6": -0.4442,
+   "y1": -0.4004,
+   "off_high": -0.4793
+  },
+  {
+   "theme": "Critical Minerals & Lithium",
+   "ticker": "USAR",
+   "name": "USA Rare Earth Inc.",
+   "d5": -0.1625,
+   "d20": -0.3661,
+   "m6": -0.6823,
+   "y1": -0.5522,
+   "off_high": -0.7163
+  },
+  {
+   "theme": "Critical Minerals & Lithium",
+   "ticker": "ALB",
+   "name": "Albemarle Corporation",
+   "d5": -0.0886,
+   "d20": -0.152,
+   "m6": -0.5371,
+   "y1": -0.0818,
+   "off_high": -0.5817
+  },
+  {
+   "theme": "Critical Minerals & Lithium",
+   "ticker": "SQM",
+   "name": "Sociedad Quimica y Minera S.A.",
+   "d5": -0.1093,
+   "d20": -0.1883,
+   "m6": -0.4202,
+   "y1": 0.0963,
+   "off_high": -0.4365
+  },
+  {
+   "theme": "Critical Minerals & Lithium",
+   "ticker": "LAC",
+   "name": "Lithium Americas Corp.",
+   "d5": -0.1296,
+   "d20": -0.2598,
+   "m6": -0.6594,
+   "y1": -0.6582,
+   "off_high": -0.7081
+  },
+  {
+   "theme": "Critical Minerals & Lithium",
+   "ticker": "SGML",
+   "name": "Sigma Lithium Corporation",
+   "d5": -0.345,
+   "d20": -0.43,
+   "m6": -0.7543,
+   "y1": -0.1471,
+   "off_high": -0.766
+  },
+  {
+   "theme": "Critical Minerals & Lithium",
+   "ticker": "UAMY",
+   "name": "United States Antimony Corporation",
+   "d5": -0.1299,
+   "d20": -0.2782,
+   "m6": -0.7417,
+   "y1": -0.6431,
+   "off_high": -0.7716
+  },
+  {
+   "theme": "Critical Minerals & Lithium",
+   "ticker": "TMC",
+   "name": "TMC the metals company Inc.",
+   "d5": -0.16,
+   "d20": -0.3757,
+   "m6": -0.5592,
+   "y1": -0.6733,
+   "off_high": -0.7553
+  },
+  {
+   "theme": "Critical Minerals & Lithium",
+   "ticker": "NB",
+   "name": "NioCorp Developments Ltd.",
+   "d5": -0.1261,
+   "d20": -0.1534,
+   "m6": -0.4949,
+   "y1": -0.5957,
+   "off_high": -0.613
+  },
+  {
+   "theme": "Critical Minerals & Lithium",
+   "ticker": "NEO",
+   "name": "NeoGenomics Inc.",
+   "d5": -0.0255,
+   "d20": 0.0194,
+   "m6": 0.8995,
+   "y1": 0.7226,
+   "off_high": -0.1547
+  },
+  {
+   "theme": "Critical Minerals & Lithium",
+   "ticker": "EFR",
+   "name": "Eaton Vance Senior Floating-Rate Fund",
+   "d5": 0.0069,
+   "d20": -0.0183,
+   "m6": -0.0332,
+   "y1": -0.107,
+   "off_high": -0.1062
+  },
+  {
+   "theme": "Critical Minerals & Lithium",
+   "ticker": "RIO",
+   "name": "Rio Tinto Plc",
+   "d5": -0.0481,
+   "d20": -0.1488,
+   "m6": -0.1879,
+   "y1": 0.1377,
+   "off_high": -0.2715
+  },
+  {
+   "theme": "Critical Minerals & Lithium",
+   "ticker": "MIN",
+   "name": "Aberdeen Intermediate Income Fund",
+   "d5": 0.0179,
+   "d20": 0.0245,
+   "m6": -0.0379,
+   "y1": -0.0932,
+   "off_high": -0.1103
+  },
+  {
+   "theme": "Steel & Aluminium",
+   "ticker": "NUE",
+   "name": "Nucor Corporation",
+   "d5": 0.0101,
+   "d20": 0.0895,
+   "m6": 0.1787,
+   "y1": 0.8229,
+   "off_high": -0.0148
+  },
+  {
+   "theme": "Steel & Aluminium",
+   "ticker": "STLD",
+   "name": "Steel Dynamics Inc.",
+   "d5": 0.0035,
+   "d20": 0.0398,
+   "m6": 0.043,
+   "y1": 0.5795,
+   "off_high": -0.1241
+  },
+  {
+   "theme": "Steel & Aluminium",
+   "ticker": "CLF",
+   "name": "Cleveland-Cliffs Inc.",
+   "d5": 0.0173,
+   "d20": 0.1543,
+   "m6": 0.3277,
+   "y1": 0.1376,
+   "off_high": -0.063
+  },
+  {
+   "theme": "Steel & Aluminium",
+   "ticker": "AA",
+   "name": "Alcoa Corporation Common Stock ",
+   "d5": -0.011,
+   "d20": -0.0852,
+   "m6": -0.3738,
+   "y1": 0.0734,
+   "off_high": -0.5287
+  },
+  {
+   "theme": "Steel & Aluminium",
+   "ticker": "CENX",
+   "name": "Century Aluminum Company",
+   "d5": -0.0009,
+   "d20": -0.1036,
+   "m6": -0.4648,
+   "y1": 0.1253,
+   "off_high": -0.5153
+  },
+  {
+   "theme": "Steel & Aluminium",
+   "ticker": "CMC",
+   "name": "Commercial Metals Company",
+   "d5": 0.0435,
+   "d20": 0.0226,
+   "m6": -0.0489,
+   "y1": 0.1183,
+   "off_high": -0.2023
+  },
+  {
+   "theme": "Steel & Aluminium",
+   "ticker": "RS",
+   "name": "Reliance Inc.",
+   "d5": 0.0255,
+   "d20": 0.1055,
+   "m6": 0.193,
+   "y1": 0.5715,
+   "off_high": -0.0095
+  },
+  {
+   "theme": "Steel & Aluminium",
+   "ticker": "WS",
+   "name": "Worthington Steel Inc.",
+   "d5": -0.0581,
+   "d20": 0.0534,
+   "m6": -0.001,
+   "y1": 0.2576,
+   "off_high": -0.1738
+  },
+  {
+   "theme": "Steel & Aluminium",
+   "ticker": "AMR",
+   "name": "Alpha Metallurgical Resources Inc.",
+   "d5": -0.0946,
+   "d20": -0.1376,
+   "m6": -0.1904,
+   "y1": -0.1191,
+   "off_high": -0.3886
+  },
+  {
+   "theme": "Chemicals",
+   "ticker": "DOW",
+   "name": "Dow Inc. Common Stock ",
+   "d5": 0.0003,
+   "d20": 0.1999,
+   "m6": -0.1718,
+   "y1": 0.4168,
+   "off_high": -0.193
+  },
+  {
+   "theme": "Chemicals",
+   "ticker": "LYB",
+   "name": "LyondellBasell Industries NV",
+   "d5": -0.0199,
+   "d20": 0.1215,
+   "m6": -0.1501,
+   "y1": 0.4237,
+   "off_high": -0.1977
+  },
+  {
+   "theme": "Chemicals",
+   "ticker": "CE",
+   "name": "Celanese Corporation",
+   "d5": 0.0356,
+   "d20": 0.1229,
+   "m6": -0.2703,
+   "y1": 0.3101,
+   "off_high": -0.2727
+  },
+  {
+   "theme": "Chemicals",
+   "ticker": "OLN",
+   "name": "Olin Corporation",
+   "d5": 0.0586,
+   "d20": 0.0814,
+   "m6": -0.3894,
+   "y1": -0.1531,
+   "off_high": -0.4184
+  },
+  {
+   "theme": "Chemicals",
+   "ticker": "DD",
+   "name": "DuPont de Nemours Inc.",
+   "d5": 0.1147,
+   "d20": 0.1514,
+   "m6": 0.0389,
+   "y1": 0.4973,
+   "off_high": -0.0073
+  },
+  {
+   "theme": "Chemicals",
+   "ticker": "EMN",
+   "name": "Eastman Chemical Company",
+   "d5": -0.0118,
+   "d20": 0.0192,
+   "m6": -0.1546,
+   "y1": 0.0978,
+   "off_high": -0.1969
+  },
+  {
+   "theme": "Chemicals",
+   "ticker": "SCL",
+   "name": "Stepan Company",
+   "d5": 0.0529,
+   "d20": 0.1005,
+   "m6": 0.3131,
+   "y1": 0.5839,
+   "off_high": -0.0233
+  },
+  {
+   "theme": "Chemicals",
+   "ticker": "WLK",
+   "name": "Westlake Corporation",
+   "d5": 0.0348,
+   "d20": 0.0801,
+   "m6": -0.3465,
+   "y1": -0.0049,
+   "off_high": -0.4451
+  },
+  {
+   "theme": "Agriculture",
+   "ticker": "CTVA",
+   "name": "Corteva Inc. Common Stock ",
+   "d5": 0.0215,
+   "d20": -0.1459,
+   "m6": -0.0563,
+   "y1": 0.2887,
+   "off_high": -0.1779
+  },
+  {
+   "theme": "Agriculture",
+   "ticker": "CF",
+   "name": "CF Industries Holdings Inc.",
+   "d5": -0.0309,
+   "d20": 0.0068,
+   "m6": -0.0877,
+   "y1": 0.4024,
+   "off_high": -0.1613
+  },
+  {
+   "theme": "Agriculture",
+   "ticker": "MOS",
+   "name": "Mosaic Company (The)",
+   "d5": -0.0197,
+   "d20": -0.1203,
+   "m6": -0.2081,
+   "y1": -0.329,
+   "off_high": -0.4126
+  },
+  {
+   "theme": "Agriculture",
+   "ticker": "FMC",
+   "name": "FMC Corporation",
+   "d5": 0.293,
+   "d20": -0.3256,
+   "m6": -0.5905,
+   "y1": -0.5985,
+   "off_high": -0.663
+  },
+  {
+   "theme": "Agriculture",
+   "ticker": "UAN",
+   "name": "CVR Partners LP Common Units representin",
+   "d5": -0.0415,
+   "d20": -0.0532,
+   "m6": -0.1219,
+   "y1": 0.2527,
+   "off_high": -0.1466
+  },
+  {
+   "theme": "Agriculture",
+   "ticker": "SMG",
+   "name": "Scotts Miracle-Gro Company (The)",
+   "d5": 0.0411,
+   "d20": 0.2233,
+   "m6": 0.029,
+   "y1": 0.1547,
+   "off_high": -0.1588
+  },
+  {
+   "theme": "Agriculture",
+   "ticker": "NTR",
+   "name": "Nutrien Ltd.",
+   "d5": -0.0007,
+   "d20": -0.0264,
+   "m6": -0.1025,
+   "y1": 0.2731,
+   "off_high": -0.1742
+  },
+  {
+   "theme": "Agriculture",
+   "ticker": "AGCO",
+   "name": "AGCO Corporation",
+   "d5": 0.0751,
+   "d20": -0.0432,
+   "m6": -0.0295,
+   "y1": 0.0776,
+   "off_high": -0.2087
+  },
+  {
+   "theme": "Agriculture",
+   "ticker": "LNN",
+   "name": "Lindsay Corporation",
+   "d5": 0.032,
+   "d20": -0.0642,
+   "m6": -0.0213,
+   "y1": -0.0348,
+   "off_high": -0.2124
+  },
+  {
+   "theme": "Agriculture",
+   "ticker": "CNH",
+   "name": "CNH Industrial N.V.",
+   "d5": 0.053,
+   "d20": -0.1161,
+   "m6": 0.1366,
+   "y1": 0.1182,
+   "off_high": -0.1854
+  },
+  {
+   "theme": "Agriculture",
+   "ticker": "VMI",
+   "name": "Valmont Industries Inc.",
+   "d5": 0.0021,
+   "d20": -0.1007,
+   "m6": -0.155,
+   "y1": 0.0591,
+   "off_high": -0.2496
+  },
+  {
+   "theme": "Agriculture",
+   "ticker": "TRMB",
+   "name": "Trimble Inc.",
+   "d5": 0.0388,
+   "d20": 0.0765,
+   "m6": -0.0404,
+   "y1": -0.1773,
+   "off_high": -0.2144
+  },
+  {
+   "theme": "Agriculture",
+   "ticker": "GNS",
+   "name": "Genius Group Limited",
+   "d5": -0.1391,
+   "d20": -0.2516,
+   "m6": -0.601,
+   "y1": -0.8586,
+   "off_high": -0.8728
+  },
+  {
+   "theme": "Oil Producers",
+   "ticker": "COP",
+   "name": "ConocoPhillips",
+   "d5": -0.0241,
+   "d20": 0.1164,
+   "m6": 0.1709,
+   "y1": 0.625,
+   "off_high": -0.0625
+  },
+  {
+   "theme": "Oil Producers",
+   "ticker": "EOG",
+   "name": "EOG Resources Inc.",
+   "d5": -0.0368,
+   "d20": 0.0755,
+   "m6": 0.1019,
+   "y1": 0.4661,
+   "off_high": -0.0626
+  },
+  {
+   "theme": "Oil Producers",
+   "ticker": "FANG",
+   "name": "Diamondback Energy Inc.",
+   "d5": -0.0594,
+   "d20": 0.0398,
+   "m6": -0.0671,
+   "y1": 0.3433,
+   "off_high": -0.0999
+  },
+  {
+   "theme": "Oil Producers",
+   "ticker": "DVN",
+   "name": "Devon Energy Corporation",
+   "d5": -0.0705,
+   "d20": -0.0083,
+   "m6": -0.0661,
+   "y1": 0.4657,
+   "off_high": -0.0869
+  },
+  {
+   "theme": "Oil Producers",
+   "ticker": "OXY",
+   "name": "Occidental Petroleum Corporation",
+   "d5": -0.0367,
+   "d20": 0.036,
+   "m6": 0.0184,
+   "y1": 0.4667,
+   "off_high": -0.0877
+  },
+  {
+   "theme": "Oil Producers",
+   "ticker": "APA",
+   "name": "APA Corporation",
+   "d5": -0.0595,
+   "d20": 0.0832,
+   "m6": 0.1516,
+   "y1": 1.1091,
+   "off_high": -0.0956
+  },
+  {
+   "theme": "Oil Producers",
+   "ticker": "XOM",
+   "name": "ExxonMobil Holdings Corporation",
+   "d5": -0.0136,
+   "d20": 0.0789,
+   "m6": 0.1458,
+   "y1": 0.5518,
+   "off_high": -0.0523
+  },
+  {
+   "theme": "Oil Producers",
+   "ticker": "CVX",
+   "name": "Chevron Corporation",
+   "d5": -0.013,
+   "d20": 0.0852,
+   "m6": 0.1694,
+   "y1": 0.4283,
+   "off_high": -0.0435
+  },
+  {
+   "theme": "Oil Producers",
+   "ticker": "TTE",
+   "name": "TotalEnergies SE",
+   "d5": 0.0038,
+   "d20": 0.1038,
+   "m6": -0.0096,
+   "y1": 0.4894,
+   "off_high": -0.0276
+  },
+  {
+   "theme": "Oil Producers",
+   "ticker": "SHEL",
+   "name": "Shell PLC",
+   "d5": -0.0055,
+   "d20": 0.0674,
+   "m6": 0.1615,
+   "y1": 0.3908,
+   "off_high": -0.0413
+  },
+  {
+   "theme": "Natural Gas Producers",
+   "ticker": "EQT",
+   "name": "EQT Corporation",
+   "d5": -0.0359,
+   "d20": 0.0339,
+   "m6": -0.0761,
+   "y1": 0.0125,
+   "off_high": -0.2014
+  },
+  {
+   "theme": "Natural Gas Producers",
+   "ticker": "EXE",
+   "name": "Expand Energy Corporation",
+   "d5": -0.0496,
+   "d20": 0.0193,
+   "m6": -0.0985,
+   "y1": -0.1295,
+   "off_high": -0.2682
+  },
+  {
+   "theme": "Natural Gas Producers",
+   "ticker": "CRK",
+   "name": "Comstock Resources Inc.",
+   "d5": -0.0711,
+   "d20": 0.0139,
+   "m6": -0.2014,
+   "y1": -0.2619,
+   "off_high": -0.4943
+  },
+  {
+   "theme": "Natural Gas Producers",
+   "ticker": "AR",
+   "name": "Antero Resources Corporation",
+   "d5": -0.0515,
+   "d20": 0.1179,
+   "m6": 0.0204,
+   "y1": 0.2918,
+   "off_high": -0.1156
+  },
+  {
+   "theme": "Natural Gas Producers",
+   "ticker": "RRC",
+   "name": "Range Resources Corporation",
+   "d5": -0.042,
+   "d20": 0.3496,
+   "m6": 0.2549,
+   "y1": 0.5193,
+   "off_high": -0.042
+  },
+  {
+   "theme": "Natural Gas Producers",
+   "ticker": "EQNR",
+   "name": "Equinor ASA",
+   "d5": -0.0304,
+   "d20": 0.0609,
+   "m6": 0.1032,
+   "y1": 0.9044,
+   "off_high": -0.0653
+  },
+  {
+   "theme": "Natural Gas Producers",
+   "ticker": "CNX",
+   "name": "CNX Resources Corporation",
+   "d5": -0.0518,
+   "d20": 0.1005,
+   "m6": -0.0379,
+   "y1": 0.0867,
+   "off_high": -0.1415
+  },
+  {
+   "theme": "Midstream & LNG",
+   "ticker": "LNG",
+   "name": "Cheniere Energy Inc.",
+   "d5": 0.0381,
+   "d20": 0.1305,
+   "m6": 0.1545,
+   "y1": 0.4678,
+   "off_high": -0.058
+  },
+  {
+   "theme": "Midstream & LNG",
+   "ticker": "WMB",
+   "name": "Williams Companies Inc. (The)",
+   "d5": -0.0219,
+   "d20": 0.0011,
+   "m6": -0.048,
+   "y1": 0.2523,
+   "off_high": -0.0873
+  },
+  {
+   "theme": "Midstream & LNG",
+   "ticker": "KMI",
+   "name": "Kinder Morgan Inc.",
+   "d5": -0.029,
+   "d20": 0.0221,
+   "m6": 0.018,
+   "y1": 0.2551,
+   "off_high": -0.0453
+  },
+  {
+   "theme": "Midstream & LNG",
+   "ticker": "OKE",
+   "name": "ONEOK Inc.",
+   "d5": -0.0424,
+   "d20": 0.0304,
+   "m6": 0.0213,
+   "y1": 0.3722,
+   "off_high": -0.0571
+  },
+  {
+   "theme": "Midstream & LNG",
+   "ticker": "CQP",
+   "name": "Cheniere Energy Partners LP Common Units",
+   "d5": -0.0415,
+   "d20": -0.0147,
+   "m6": -0.0489,
+   "y1": 0.2082,
+   "off_high": -0.115
+  },
+  {
+   "theme": "Midstream & LNG",
+   "ticker": "GLNG",
+   "name": "Golar Lng Ltd",
+   "d5": -0.0002,
+   "d20": -0.0879,
+   "m6": -0.2007,
+   "y1": 0.1116,
+   "off_high": -0.2045
+  },
+  {
+   "theme": "Midstream & LNG",
+   "ticker": "VG",
+   "name": "Venture Global Inc.",
+   "d5": -0.0587,
+   "d20": -0.0377,
+   "m6": -0.0015,
+   "y1": 0.5169,
+   "off_high": -0.2584
+  },
+  {
+   "theme": "Midstream & LNG",
+   "ticker": "EE",
+   "name": "Excelerate Energy Inc.",
+   "d5": 0.0553,
+   "d20": 0.0153,
+   "m6": -0.0118,
+   "y1": 0.3558,
+   "off_high": -0.1809
+  },
+  {
+   "theme": "Midstream & LNG",
+   "ticker": "ET",
+   "name": "",
+   "d5": -0.0122,
+   "d20": -0.028,
+   "m6": -0.0113,
+   "y1": 0.1979,
+   "off_high": -0.0723
+  },
+  {
+   "theme": "Midstream & LNG",
+   "ticker": "TRGP",
+   "name": "Targa Resources Inc.",
+   "d5": -0.0134,
+   "d20": 0.0449,
+   "m6": 0.1495,
+   "y1": 0.9382,
+   "off_high": -0.0522
+  },
+  {
+   "theme": "Midstream & LNG",
+   "ticker": "DTM",
+   "name": "DT Midstream Inc. Common Stock ",
+   "d5": -0.0464,
+   "d20": -0.0162,
+   "m6": -0.1631,
+   "y1": 0.1196,
+   "off_high": -0.1889
+  },
+  {
+   "theme": "Midstream & LNG",
+   "ticker": "SRG",
+   "name": "Seritage Growth Properties",
+   "d5": 0.0,
+   "d20": -0.0174,
+   "m6": -0.3623,
+   "y1": -0.5837,
+   "off_high": -0.5986
+  },
+  {
+   "theme": "Midstream & LNG",
+   "ticker": "TRP",
+   "name": "TC Energy Corporation",
+   "d5": 0.0086,
+   "d20": 0.0531,
+   "m6": -0.0426,
+   "y1": 0.2646,
+   "off_high": -0.1055
+  },
+  {
+   "theme": "Oil Services & Offshore",
+   "ticker": "NE",
+   "name": "Noble Corporation plc A",
+   "d5": -0.0276,
+   "d20": 0.0608,
+   "m6": -0.1197,
+   "y1": 0.4981,
+   "off_high": -0.1913
+  },
+  {
+   "theme": "Oil Services & Offshore",
+   "ticker": "SLB",
+   "name": "SLB Limited",
+   "d5": -0.0361,
+   "d20": 0.0426,
+   "m6": -0.0691,
+   "y1": 0.4456,
+   "off_high": -0.1326
+  },
+  {
+   "theme": "Oil Services & Offshore",
+   "ticker": "HAL",
+   "name": "Halliburton Company",
+   "d5": -0.0435,
+   "d20": 0.0413,
+   "m6": -0.1834,
+   "y1": 0.2694,
+   "off_high": -0.2073
+  },
+  {
+   "theme": "Oil Services & Offshore",
+   "ticker": "NOV",
+   "name": "NOV Inc.",
+   "d5": -0.1002,
+   "d20": -0.0268,
+   "m6": -0.081,
+   "y1": 0.2664,
+   "off_high": -0.1483
+  },
+  {
+   "theme": "Oil Services & Offshore",
+   "ticker": "WFRD",
+   "name": "Weatherford International plc",
+   "d5": -0.0216,
+   "d20": 0.0971,
+   "m6": -0.1925,
+   "y1": 0.1901,
+   "off_high": -0.2129
+  },
+  {
+   "theme": "Oil Services & Offshore",
+   "ticker": "VAL",
+   "name": "Valaris Limited",
+   "d5": -0.0837,
+   "d20": 0.0974,
+   "m6": -0.0304,
+   "y1": 0.6035,
+   "off_high": -0.2066
+  },
+  {
+   "theme": "Oil Services & Offshore",
+   "ticker": "RIG",
+   "name": "Transocean Ltd (Switzerland)",
+   "d5": -0.0867,
+   "d20": 0.0926,
+   "m6": -0.056,
+   "y1": 0.5365,
+   "off_high": -0.2216
+  },
+  {
+   "theme": "Oil Services & Offshore",
+   "ticker": "TDW",
+   "name": "Tidewater Inc.",
+   "d5": -0.0948,
+   "d20": -0.0564,
+   "m6": -0.089,
+   "y1": 0.5307,
+   "off_high": -0.2303
+  },
+  {
+   "theme": "Oil Services & Offshore",
+   "ticker": "OII",
+   "name": "Oceaneering International Inc.",
+   "d5": -0.0796,
+   "d20": -0.1512,
+   "m6": 0.0135,
+   "y1": 0.6389,
+   "off_high": -0.2946
+  },
+  {
+   "theme": "Oil Services & Offshore",
+   "ticker": "FTI",
+   "name": "TechnipFMC plc Ordinary Share",
+   "d5": -0.065,
+   "d20": -0.0451,
+   "m6": -0.1105,
+   "y1": 0.614,
+   "off_high": -0.1666
+  },
+  {
+   "theme": "Oil Services & Offshore",
+   "ticker": "LBRT",
+   "name": "Liberty Energy Inc.",
+   "d5": -0.1257,
+   "d20": -0.2639,
+   "m6": -0.5605,
+   "y1": -0.1822,
+   "off_high": -0.5635
+  },
+  {
+   "theme": "Oil Services & Offshore",
+   "ticker": "HP",
+   "name": "Helmerich & Payne Inc.",
+   "d5": -0.0458,
+   "d20": -0.0437,
+   "m6": -0.0879,
+   "y1": 0.4425,
+   "off_high": -0.2049
+  },
+  {
+   "theme": "Oil Services & Offshore",
+   "ticker": "PTEN",
+   "name": "Patterson-UTI Energy Inc.",
+   "d5": -0.0377,
+   "d20": 0.0298,
+   "m6": -0.0532,
+   "y1": 0.874,
+   "off_high": -0.1179
+  },
+  {
+   "theme": "Oil Services & Offshore",
+   "ticker": "SDRL",
+   "name": "Seadrill Limited",
+   "d5": -0.0911,
+   "d20": 0.0273,
+   "m6": -0.0528,
+   "y1": 0.4677,
+   "off_high": -0.1547
+  },
+  {
+   "theme": "Oil Services & Offshore",
+   "ticker": "TGS",
+   "name": "Transportadora de Gas del Sur SA TGS",
+   "d5": -0.0611,
+   "d20": -0.1195,
+   "m6": -0.2002,
+   "y1": -0.2351,
+   "off_high": -0.3259
+  },
+  {
+   "theme": "Refiners",
+   "ticker": "VLO",
+   "name": "Valero Energy Corporation",
+   "d5": 0.0008,
+   "d20": -0.0753,
+   "m6": 0.5295,
+   "y1": 1.2862,
+   "off_high": -0.1569
+  },
+  {
+   "theme": "Refiners",
+   "ticker": "MPC",
+   "name": "Marathon Petroleum Corporation",
+   "d5": -0.0198,
+   "d20": -0.0116,
+   "m6": 0.6404,
+   "y1": 1.1925,
+   "off_high": -0.1187
+  },
+  {
+   "theme": "Refiners",
+   "ticker": "PSX",
+   "name": "Phillips 66",
+   "d5": 0.0127,
+   "d20": 0.008,
+   "m6": 0.5086,
+   "y1": 0.9975,
+   "off_high": -0.0853
+  },
+  {
+   "theme": "Refiners",
+   "ticker": "PBF",
+   "name": "PBF Energy Inc.",
+   "d5": 0.0568,
+   "d20": -0.0612,
+   "m6": 0.6846,
+   "y1": 1.2771,
+   "off_high": -0.1465
+  },
+  {
+   "theme": "Refiners",
+   "ticker": "DK",
+   "name": "Delek US Holdings Inc.",
+   "d5": 0.0078,
+   "d20": -0.0637,
+   "m6": 0.4447,
+   "y1": 0.8763,
+   "off_high": -0.1312
+  },
+  {
+   "theme": "Tankers & Shipping",
+   "ticker": "FRO",
+   "name": "Frontline Plc",
+   "d5": -0.0245,
+   "d20": -0.0061,
+   "m6": 0.3766,
+   "y1": 1.0946,
+   "off_high": -0.1139
+  },
+  {
+   "theme": "Tankers & Shipping",
+   "ticker": "STNG",
+   "name": "Scorpio Tankers Inc.",
+   "d5": 0.0236,
+   "d20": 0.0129,
+   "m6": 0.0083,
+   "y1": 0.4156,
+   "off_high": -0.0813
+  },
+  {
+   "theme": "Tankers & Shipping",
+   "ticker": "ZIM",
+   "name": "ZIM Integrated Shipping Services Ltd.",
+   "d5": -0.0145,
+   "d20": 0.0034,
+   "m6": 0.0263,
+   "y1": 0.9051,
+   "off_high": -0.0518
+  },
+  {
+   "theme": "Tankers & Shipping",
+   "ticker": "DHT",
+   "name": "DHT Holdings Inc.",
+   "d5": -0.0087,
+   "d20": 0.017,
+   "m6": 0.2524,
+   "y1": 0.8012,
+   "off_high": -0.1004
+  },
+  {
+   "theme": "Tankers & Shipping",
+   "ticker": "INSW",
+   "name": "International Seaways Inc. Common Stock ",
+   "d5": -0.0598,
+   "d20": -0.1005,
+   "m6": 0.1891,
+   "y1": 1.0447,
+   "off_high": -0.1623
+  },
+  {
+   "theme": "Tankers & Shipping",
+   "ticker": "TNK",
+   "name": "Teekay Tankers Ltd.",
+   "d5": -0.0257,
+   "d20": -0.0559,
+   "m6": 0.157,
+   "y1": 0.5669,
+   "off_high": -0.1185
+  },
+  {
+   "theme": "Tankers & Shipping",
+   "ticker": "LPG",
+   "name": "Dorian LPG Ltd.",
+   "d5": -0.0427,
+   "d20": -0.0795,
+   "m6": 0.2977,
+   "y1": 0.801,
+   "off_high": -0.1089
+  },
+  {
+   "theme": "Coal",
+   "ticker": "BTU",
+   "name": "Peabody Energy Corporation Common Stock ",
+   "d5": -0.1141,
+   "d20": -0.1876,
+   "m6": -0.1736,
+   "y1": -0.2465,
+   "off_high": -0.477
+  },
+  {
+   "theme": "Coal",
+   "ticker": "HCC",
+   "name": "Warrior Met Coal Inc.",
+   "d5": -0.0766,
+   "d20": -0.1272,
+   "m6": -0.0686,
+   "y1": 0.189,
+   "off_high": -0.2686
+  },
+  {
+   "theme": "Coal",
+   "ticker": "ARLP",
+   "name": "Alliance Resource Partners L.P. Common U",
+   "d5": -0.0206,
+   "d20": 0.0592,
+   "m6": -0.0019,
+   "y1": 0.0678,
+   "off_high": -0.0987
+  },
+  {
+   "theme": "Coal",
+   "ticker": "NRP",
+   "name": "Natural Resource Partners LP Limited Par",
+   "d5": -0.0048,
+   "d20": 0.0621,
+   "m6": -0.0067,
+   "y1": 0.1302,
+   "off_high": -0.0663
+  },
+  {
+   "theme": "Coal",
+   "ticker": "WKC",
+   "name": "World Kinect Corporation",
+   "d5": 0.0443,
+   "d20": 0.0403,
+   "m6": 0.375,
+   "y1": 0.4696,
+   "off_high": -0.0561
+  },
+  {
+   "theme": "Big Banks & Wealth",
+   "ticker": "MS",
+   "name": "Morgan Stanley",
+   "d5": -0.0044,
+   "d20": -0.0258,
+   "m6": -0.0167,
+   "y1": 0.1347,
+   "off_high": -0.1858
+  },
+  {
+   "theme": "Big Banks & Wealth",
+   "ticker": "BAC",
+   "name": "Bank of America Corporation",
+   "d5": -0.0201,
+   "d20": -0.0819,
+   "m6": -0.0651,
+   "y1": -0.0709,
+   "off_high": -0.2338
+  },
+  {
+   "theme": "Big Banks & Wealth",
+   "ticker": "GS",
+   "name": "Goldman Sachs Group Inc. (The)",
+   "d5": -0.0172,
+   "d20": -0.0012,
+   "m6": -0.0248,
+   "y1": 0.1352,
+   "off_high": -0.2222
+  },
+  {
+   "theme": "Big Banks & Wealth",
+   "ticker": "JPM",
+   "name": "JP Morgan Chase & Co.",
+   "d5": 0.0065,
+   "d20": 0.0202,
+   "m6": 0.0924,
+   "y1": 0.0863,
+   "off_high": -0.0745
+  },
+  {
+   "theme": "Big Banks & Wealth",
+   "ticker": "C",
+   "name": "Citigroup Inc.",
+   "d5": 0.0002,
+   "d20": -0.0452,
+   "m6": -0.0414,
+   "y1": 0.2122,
+   "off_high": -0.1576
+  },
+  {
+   "theme": "Big Banks & Wealth",
+   "ticker": "WFC",
+   "name": "Wells Fargo & Company",
+   "d5": 0.0347,
+   "d20": 0.0493,
+   "m6": 0.0706,
+   "y1": -0.0166,
+   "off_high": -0.1127
+  },
+  {
+   "theme": "Big Banks & Wealth",
+   "ticker": "LPLA",
+   "name": "LPL Financial Holdings Inc.",
+   "d5": -0.0627,
+   "d20": -0.1045,
+   "m6": -0.0913,
+   "y1": -0.2111,
+   "off_high": -0.2431
+  },
+  {
+   "theme": "Big Banks & Wealth",
+   "ticker": "RJF",
+   "name": "Raymond James Financial Inc.",
+   "d5": 0.0225,
+   "d20": 0.0141,
+   "m6": 0.0176,
+   "y1": 0.0189,
+   "off_high": -0.1077
+  },
+  {
+   "theme": "Big Banks & Wealth",
+   "ticker": "SCHW",
+   "name": "Charles Schwab Corporation (The)",
+   "d5": -0.0002,
+   "d20": -0.0777,
+   "m6": -0.0338,
+   "y1": -0.0554,
+   "off_high": -0.2144
+  },
+  {
+   "theme": "Big Banks & Wealth",
+   "ticker": "AMP",
+   "name": "Ameriprise Financial Inc.",
+   "d5": 0.0244,
+   "d20": 0.0167,
+   "m6": 0.0637,
+   "y1": 0.1151,
+   "off_high": -0.1153
+  },
+  {
+   "theme": "Big Banks & Wealth",
+   "ticker": "NTRS",
+   "name": "Northern Trust Corporation",
+   "d5": 0.0132,
+   "d20": 0.0185,
+   "m6": 0.0681,
+   "y1": 0.3414,
+   "off_high": -0.0986
+  },
+  {
+   "theme": "Big Banks & Wealth",
+   "ticker": "SEIC",
+   "name": "SEI Investments Company",
+   "d5": 0.0251,
+   "d20": 0.0253,
+   "m6": 0.1616,
+   "y1": 0.3083,
+   "off_high": -0.0553
+  },
+  {
+   "theme": "Big Banks & Wealth",
+   "ticker": "EVR",
+   "name": "Evercore Inc.",
+   "d5": 0.1437,
+   "d20": 0.1086,
+   "m6": -0.0893,
+   "y1": 0.009,
+   "off_high": -0.2243
+  },
+  {
+   "theme": "Big Banks & Wealth",
+   "ticker": "HLI",
+   "name": "Houlihan Lokey Inc.",
+   "d5": 0.1087,
+   "d20": 0.1469,
+   "m6": -0.0228,
+   "y1": -0.1806,
+   "off_high": -0.236
+  },
+  {
+   "theme": "Big Banks & Wealth",
+   "ticker": "PJT",
+   "name": "PJT Partners Inc.",
+   "d5": 0.026,
+   "d20": 0.0497,
+   "m6": -0.0351,
+   "y1": -0.0901,
+   "off_high": -0.2342
+  },
+  {
+   "theme": "Regional Banks",
+   "ticker": "HBAN",
+   "name": "Huntington Bancshares Incorporated",
+   "d5": 0.0095,
+   "d20": 0.0346,
+   "m6": -0.0335,
+   "y1": 0.0272,
+   "off_high": -0.177
+  },
+  {
+   "theme": "Regional Banks",
+   "ticker": "ZION",
+   "name": "Zions Bancorporation N.A.",
+   "d5": 0.0011,
+   "d20": 0.0461,
+   "m6": 0.0415,
+   "y1": 0.2618,
+   "off_high": -0.1031
+  },
+  {
+   "theme": "Regional Banks",
+   "ticker": "KEY",
+   "name": "KeyCorp",
+   "d5": 0.0038,
+   "d20": 0.0541,
+   "m6": -0.0293,
+   "y1": 0.2069,
+   "off_high": -0.115
+  },
+  {
+   "theme": "Regional Banks",
+   "ticker": "CFG",
+   "name": "Citizens Financial Group Inc.",
+   "d5": -0.0144,
+   "d20": 0.0044,
+   "m6": 0.0002,
+   "y1": 0.2654,
+   "off_high": -0.1386
+  },
+  {
+   "theme": "Regional Banks",
+   "ticker": "RF",
+   "name": "Regions Financial Corporation",
+   "d5": 0.0035,
+   "d20": 0.0573,
+   "m6": 0.02,
+   "y1": 0.1818,
+   "off_high": -0.1173
+  },
+  {
+   "theme": "Regional Banks",
+   "ticker": "FITB",
+   "name": "Fifth Third Bancorp",
+   "d5": 0.0063,
+   "d20": 0.0575,
+   "m6": 0.0722,
+   "y1": 0.2958,
+   "off_high": -0.0916
+  },
+  {
+   "theme": "Regional Banks",
+   "ticker": "WAL",
+   "name": "Western Alliance Bancorporation Common S",
+   "d5": 0.0048,
+   "d20": 0.0089,
+   "m6": -0.0622,
+   "y1": -0.0075,
+   "off_high": -0.201
+  },
+  {
+   "theme": "Regional Banks",
+   "ticker": "EWBC",
+   "name": "East West Bancorp Inc.",
+   "d5": 0.0076,
+   "d20": 0.0416,
+   "m6": 0.0717,
+   "y1": 0.3032,
+   "off_high": -0.0307
+  },
+  {
+   "theme": "Regional Banks",
+   "ticker": "PNC",
+   "name": "PNC Financial Services Group Inc. (The)",
+   "d5": 0.0082,
+   "d20": 0.042,
+   "m6": 0.0351,
+   "y1": 0.2567,
+   "off_high": -0.1072
+  },
+  {
+   "theme": "Regional Banks",
+   "ticker": "FLG",
+   "name": "Flagstar Bank N.A.",
+   "d5": 0.0394,
+   "d20": -0.0882,
+   "m6": -0.2417,
+   "y1": -0.0771,
+   "off_high": -0.3138
+  },
+  {
+   "theme": "Regional Banks",
+   "ticker": "BAP",
+   "name": "Credicorp Ltd.",
+   "d5": -0.0384,
+   "d20": -0.088,
+   "m6": 0.1032,
+   "y1": 0.3458,
+   "off_high": -0.1268
+  },
+  {
+   "theme": "Regional Banks",
+   "ticker": "WSBC",
+   "name": "WesBanco Inc.",
+   "d5": 0.0023,
+   "d20": 0.0463,
+   "m6": 0.138,
+   "y1": 0.2904,
+   "off_high": -0.0904
+  },
+  {
+   "theme": "Regional Banks",
+   "ticker": "USB",
+   "name": "U.S. Bancorp",
+   "d5": 0.0025,
+   "d20": 0.0454,
+   "m6": 0.0772,
+   "y1": 0.283,
+   "off_high": -0.0845
+  },
+  {
+   "theme": "Brokers & Exchanges",
+   "ticker": "CME",
+   "name": "CME Group Inc.",
+   "d5": 0.0361,
+   "d20": 0.1254,
+   "m6": 0.0601,
+   "y1": 0.1453,
+   "off_high": -0.0686
+  },
+  {
+   "theme": "Brokers & Exchanges",
+   "ticker": "ICE",
+   "name": "Intercontinental Exchange Inc.",
+   "d5": 0.0997,
+   "d20": 0.1136,
+   "m6": 0.1008,
+   "y1": 0.1684,
+   "off_high": -0.0238
+  },
+  {
+   "theme": "Brokers & Exchanges",
+   "ticker": "CBOE",
+   "name": "Cboe Global Markets Inc.",
+   "d5": 0.0604,
+   "d20": 0.2375,
+   "m6": 0.0009,
+   "y1": 0.4016,
+   "off_high": -0.0611
+  },
+  {
+   "theme": "Brokers & Exchanges",
+   "ticker": "NDAQ",
+   "name": "Nasdaq Inc.",
+   "d5": 0.025,
+   "d20": 0.1593,
+   "m6": 0.2019,
+   "y1": 0.2513,
+   "off_high": -0.0152
+  },
+  {
+   "theme": "Brokers & Exchanges",
+   "ticker": "IBKR",
+   "name": "Interactive Brokers Group Inc.",
+   "d5": -0.0582,
+   "d20": -0.1448,
+   "m6": -0.0769,
+   "y1": 0.1009,
+   "off_high": -0.2111
+  },
+  {
+   "theme": "Brokers & Exchanges",
+   "ticker": "VIRT",
+   "name": "Virtu Financial Inc.",
+   "d5": -0.032,
+   "d20": -0.1362,
+   "m6": 0.0518,
+   "y1": 0.5278,
+   "off_high": -0.2164
+  },
+  {
+   "theme": "Brokers & Exchanges",
+   "ticker": "TW",
+   "name": "Tradeweb Markets Inc.",
+   "d5": 0.0506,
+   "d20": 0.1691,
+   "m6": 0.1407,
+   "y1": 0.1929,
+   "off_high": -0.0067
+  },
+  {
+   "theme": "Brokers & Exchanges",
+   "ticker": "MIAX",
+   "name": "Miami International Holdings Inc.",
+   "d5": 0.0409,
+   "d20": 0.0997,
+   "m6": -0.2903,
+   "y1": -0.2252,
+   "off_high": -0.4043
+  },
+  {
+   "theme": "Brokers & Exchanges",
+   "ticker": "MKTX",
+   "name": "MarketAxess Holdings Inc.",
+   "d5": 0.0033,
+   "d20": 0.0101,
+   "m6": 0.0951,
+   "y1": 0.0351,
+   "off_high": -0.1443
+  },
+  {
+   "theme": "Alt Managers & PE",
+   "ticker": "BX",
+   "name": "Blackstone Inc.",
+   "d5": 0.0128,
+   "d20": 0.0426,
+   "m6": -0.0369,
+   "y1": -0.194,
+   "off_high": -0.2771
+  },
+  {
+   "theme": "Alt Managers & PE",
+   "ticker": "OWL",
+   "name": "Blue Owl Capital Inc.",
+   "d5": 0.1096,
+   "d20": 0.1389,
+   "m6": -0.0391,
+   "y1": -0.345,
+   "off_high": -0.3803
+  },
+  {
+   "theme": "Alt Managers & PE",
+   "ticker": "KKR",
+   "name": "KKR & Co. Inc.",
+   "d5": 0.0443,
+   "d20": 0.0587,
+   "m6": -0.0589,
+   "y1": -0.1888,
+   "off_high": -0.3277
+  },
+  {
+   "theme": "Alt Managers & PE",
+   "ticker": "APO",
+   "name": "Apollo Global Management Inc. (New)",
+   "d5": -0.0062,
+   "d20": -0.0207,
+   "m6": -0.1285,
+   "y1": -0.0866,
+   "off_high": -0.2564
+  },
+  {
+   "theme": "Alt Managers & PE",
+   "ticker": "CG",
+   "name": "The Carlyle Group Inc.",
+   "d5": 0.0615,
+   "d20": 0.052,
+   "m6": -0.2026,
+   "y1": -0.2329,
+   "off_high": -0.3814
+  },
+  {
+   "theme": "Alt Managers & PE",
+   "ticker": "TPG",
+   "name": "TPG Inc.",
+   "d5": 0.0855,
+   "d20": 0.0761,
+   "m6": 0.061,
+   "y1": -0.1208,
+   "off_high": -0.3053
+  },
+  {
+   "theme": "Alt Managers & PE",
+   "ticker": "HLNE",
+   "name": "Hamilton Lane Incorporated",
+   "d5": 0.0899,
+   "d20": 0.0246,
+   "m6": -0.0409,
+   "y1": -0.2223,
+   "off_high": -0.4239
+  },
+  {
+   "theme": "Alt Managers & PE",
+   "ticker": "ARES",
+   "name": "Ares Management Corporation",
+   "d5": 0.0552,
+   "d20": 0.095,
+   "m6": 0.0486,
+   "y1": -0.133,
+   "off_high": -0.2768
+  },
+  {
+   "theme": "Alt Managers & PE",
+   "ticker": "STEP",
+   "name": "StepStone Group Inc.",
+   "d5": 0.0582,
+   "d20": -0.0173,
+   "m6": -0.1935,
+   "y1": -0.271,
+   "off_high": -0.4181
+  },
+  {
+   "theme": "Alt Managers & PE",
+   "ticker": "BLK",
+   "name": "BlackRock Inc.",
+   "d5": 0.0222,
+   "d20": 0.0759,
+   "m6": 0.1072,
+   "y1": 0.0725,
+   "off_high": -0.0182
+  },
+  {
+   "theme": "Alt Managers & PE",
+   "ticker": "BEN",
+   "name": "Franklin Templeton Inc.",
+   "d5": 0.0362,
+   "d20": -0.0025,
+   "m6": 0.0624,
+   "y1": 0.4312,
+   "off_high": -0.0953
+  },
+  {
+   "theme": "Alt Managers & PE",
+   "ticker": "TROW",
+   "name": "T. Rowe Price Group Inc.",
+   "d5": 0.0251,
+   "d20": 0.0254,
+   "m6": 0.0204,
+   "y1": 0.0361,
+   "off_high": -0.127
+  },
+  {
+   "theme": "Alt Managers & PE",
+   "ticker": "IVZ",
+   "name": "Invesco Ltd",
+   "d5": -0.006,
+   "d20": -0.0698,
+   "m6": 0.0533,
+   "y1": 0.1924,
+   "off_high": -0.1516
+  },
+  {
+   "theme": "Alt Managers & PE",
+   "ticker": "AB",
+   "name": "AllianceBernstein Holding L.P.  Units",
+   "d5": -0.0068,
+   "d20": -0.0011,
+   "m6": -0.1311,
+   "y1": -0.1285,
+   "off_high": -0.1811
+  },
+  {
+   "theme": "Private Credit (BDCs)",
+   "ticker": "ARCC",
+   "name": "Ares Capital Corporation",
+   "d5": 0.027,
+   "d20": 0.0198,
+   "m6": -0.0176,
+   "y1": -0.0658,
+   "off_high": -0.0961
+  },
+  {
+   "theme": "Private Credit (BDCs)",
+   "ticker": "FSK",
+   "name": "FS KKR Capital Corp.",
+   "d5": 0.0441,
+   "d20": 0.0296,
+   "m6": -0.0322,
+   "y1": -0.2624,
+   "off_high": -0.31
+  },
+  {
+   "theme": "Private Credit (BDCs)",
+   "ticker": "MAIN",
+   "name": "Main Street Capital Corporation",
+   "d5": 0.0424,
+   "d20": 0.0285,
+   "m6": -0.018,
+   "y1": -0.0104,
+   "off_high": -0.128
+  },
+  {
+   "theme": "Private Credit (BDCs)",
+   "ticker": "OBDC",
+   "name": "Blue Owl Capital Corporation",
+   "d5": 0.0335,
+   "d20": 0.0469,
+   "m6": -0.1184,
+   "y1": -0.1935,
+   "off_high": -0.2211
+  },
+  {
+   "theme": "Private Credit (BDCs)",
+   "ticker": "BXSL",
+   "name": "Blackstone Secured Lending Fund",
+   "d5": 0.0048,
+   "d20": -0.0128,
+   "m6": -0.069,
+   "y1": -0.1218,
+   "off_high": -0.1821
+  },
+  {
+   "theme": "Private Credit (BDCs)",
+   "ticker": "TSLX",
+   "name": "Sixth Street Specialty Lending Inc.",
+   "d5": 0.0401,
+   "d20": 0.0365,
+   "m6": -0.0867,
+   "y1": -0.2087,
+   "off_high": -0.2139
+  },
+  {
+   "theme": "Private Credit (BDCs)",
+   "ticker": "GBDC",
+   "name": "Golub Capital BDC Inc.",
+   "d5": 0.0307,
+   "d20": 0.0451,
+   "m6": -0.0493,
+   "y1": -0.0958,
+   "off_high": -0.1134
+  },
+  {
+   "theme": "Private Credit (BDCs)",
+   "ticker": "OCSL",
+   "name": "Oaktree Specialty Lending Corporation",
+   "d5": 0.0463,
+   "d20": 0.0427,
+   "m6": 0.0033,
+   "y1": -0.1248,
+   "off_high": -0.1185
+  },
+  {
+   "theme": "Payments & Fintech",
+   "ticker": "PYPL",
+   "name": "PayPal Holdings Inc.",
+   "d5": 0.0378,
+   "d20": 0.0659,
+   "m6": 0.2521,
+   "y1": -0.1597,
+   "off_high": -0.1482
+  },
+  {
+   "theme": "Payments & Fintech",
+   "ticker": "SOFI",
+   "name": "SoFi Technologies Inc. Common Stock  ",
+   "d5": 0.0226,
+   "d20": 0.0641,
+   "m6": 0.0468,
+   "y1": -0.435,
+   "off_high": -0.4794
+  },
+  {
+   "theme": "Payments & Fintech",
+   "ticker": "MQ",
+   "name": "Marqeta Inc.",
+   "d5": -0.0133,
+   "d20": 0.0755,
+   "m6": -0.0067,
+   "y1": -0.0177,
+   "off_high": -0.124
+  },
+  {
+   "theme": "Payments & Fintech",
+   "ticker": "XYZ",
+   "name": "Block Inc.",
+   "d5": 0.0151,
+   "d20": -0.0071,
+   "m6": 0.0667,
+   "y1": 0.0008,
+   "off_high": -0.1043
+  },
+  {
+   "theme": "Payments & Fintech",
+   "ticker": "DAVE",
+   "name": "Dave Inc.",
+   "d5": -0.0419,
+   "d20": -0.0828,
+   "m6": 0.193,
+   "y1": 0.3151,
+   "off_high": -0.2888
+  },
+  {
+   "theme": "Payments & Fintech",
+   "ticker": "ALKT",
+   "name": "Alkami Technology Inc.",
+   "d5": -0.1237,
+   "d20": -0.0461,
+   "m6": -0.2012,
+   "y1": -0.3366,
+   "off_high": -0.4313
+  },
+  {
+   "theme": "Payments & Fintech",
+   "ticker": "QTWO",
+   "name": "Q2 Holdings Inc.",
+   "d5": 0.0455,
+   "d20": 0.2405,
+   "m6": 0.3606,
+   "y1": 0.1533,
+   "off_high": -0.0564
+  },
+  {
+   "theme": "Payments & Fintech",
+   "ticker": "V",
+   "name": "Visa Inc.",
+   "d5": 0.0462,
+   "d20": 0.1343,
+   "m6": 0.3055,
+   "y1": 0.2338,
+   "off_high": -0.012
+  },
+  {
+   "theme": "Payments & Fintech",
+   "ticker": "MA",
+   "name": "Mastercard Incorporated",
+   "d5": 0.0612,
+   "d20": 0.1423,
+   "m6": 0.302,
+   "y1": 0.1724,
+   "off_high": -0.0166
+  },
+  {
+   "theme": "Payments & Fintech",
+   "ticker": "AFRM",
+   "name": "Affirm Holdings Inc.",
+   "d5": -0.0098,
+   "d20": -0.0389,
+   "m6": 0.0772,
+   "y1": 0.0013,
+   "off_high": -0.161
+  },
+  {
+   "theme": "Payments & Fintech",
+   "ticker": "TOST",
+   "name": "Toast Inc.",
+   "d5": 0.0554,
+   "d20": 0.1084,
+   "m6": 0.1748,
+   "y1": -0.0722,
+   "off_high": -0.1407
+  },
+  {
+   "theme": "Payments & Fintech",
+   "ticker": "CHYM",
+   "name": "Chime Financial Inc.",
+   "d5": -0.0123,
+   "d20": 0.0199,
+   "m6": 0.3564,
+   "y1": 0.6424,
+   "off_high": -0.1838
+  },
+  {
+   "theme": "Payments & Fintech",
+   "ticker": "NU",
+   "name": "Nu Holdings Ltd.",
+   "d5": -0.0637,
+   "d20": -0.2586,
+   "m6": -0.1853,
+   "y1": -0.2793,
+   "off_high": -0.3811
+  },
+  {
+   "theme": "Payments & Fintech",
+   "ticker": "ALLY",
+   "name": "Ally Financial Inc.",
+   "d5": -0.0207,
+   "d20": 0.008,
+   "m6": -0.1224,
+   "y1": -0.0269,
+   "off_high": -0.1975
+  },
+  {
+   "theme": "Payments & Fintech",
+   "ticker": "JKHY",
+   "name": "Jack Henry & Associates Inc.",
+   "d5": 0.0215,
+   "d20": 0.1193,
+   "m6": 0.0825,
+   "y1": 0.0854,
+   "off_high": -0.1606
+  },
+  {
+   "theme": "Mortgage & Housing Finance",
+   "ticker": "RKT",
+   "name": "Rocket Companies Inc.",
+   "d5": 0.1664,
+   "d20": 0.1915,
+   "m6": -0.0199,
+   "y1": -0.1711,
+   "off_high": -0.4108
+  },
+  {
+   "theme": "Mortgage & Housing Finance",
+   "ticker": "UWMC",
+   "name": "UWM Holdings Corporation",
+   "d5": 0.0192,
+   "d20": 0.325,
+   "m6": -0.5364,
+   "y1": -0.7176,
+   "off_high": -0.7393
+  },
+  {
+   "theme": "Mortgage & Housing Finance",
+   "ticker": "PFSI",
+   "name": "PennyMac Financial Services Inc.",
+   "d5": -0.0042,
+   "d20": 0.0182,
+   "m6": -0.2695,
+   "y1": -0.4921,
+   "off_high": -0.5993
+  },
+  {
+   "theme": "Mortgage & Housing Finance",
+   "ticker": "NLY",
+   "name": "Annaly Capital Management Inc.",
+   "d5": -0.006,
+   "d20": -0.0103,
+   "m6": -0.1854,
+   "y1": -0.1389,
+   "off_high": -0.2529
+  },
+  {
+   "theme": "Mortgage & Housing Finance",
+   "ticker": "RITM",
+   "name": "Rithm Capital Corp.",
+   "d5": -0.0181,
+   "d20": 0.0647,
+   "m6": -0.0495,
+   "y1": -0.1595,
+   "off_high": -0.2355
+  },
+  {
+   "theme": "Mortgage & Housing Finance",
+   "ticker": "BXMT",
+   "name": "Blackstone Mortgage Trust Inc.",
+   "d5": 0.0365,
+   "d20": -0.0151,
+   "m6": -0.4205,
+   "y1": -0.4004,
+   "off_high": -0.4629
+  },
+  {
+   "theme": "Mortgage & Housing Finance",
+   "ticker": "LADR",
+   "name": "Ladder Capital Corp",
+   "d5": -0.0257,
+   "d20": 0.0495,
+   "m6": -0.1121,
+   "y1": -0.1381,
+   "off_high": -0.2023
+  },
+  {
+   "theme": "Mortgage & Housing Finance",
+   "ticker": "AGNC",
+   "name": "AGNC Investment Corp.",
+   "d5": -0.0383,
+   "d20": -0.0195,
+   "m6": -0.2043,
+   "y1": -0.147,
+   "off_high": -0.2991
+  },
+  {
+   "theme": "Mortgage & Housing Finance",
+   "ticker": "FNMA",
+   "name": "",
+   "d5": 0.296,
+   "d20": 0.3594,
+   "m6": -0.3102,
+   "y1": -0.4554,
+   "off_high": -0.5347
+  },
+  {
+   "theme": "Mortgage & Housing Finance",
+   "ticker": "FMCC",
+   "name": "",
+   "d5": 0.2839,
+   "d20": 0.3245,
+   "m6": -0.293,
+   "y1": -0.4732,
+   "off_high": -0.5569
+  },
+  {
+   "theme": "Mortgage & Housing Finance",
+   "ticker": "WD",
+   "name": "Walker & Dunlop Inc",
+   "d5": 0.0156,
+   "d20": 0.002,
+   "m6": -0.3125,
+   "y1": -0.5599,
+   "off_high": -0.562
+  },
+  {
+   "theme": "Mortgage & Housing Finance",
+   "ticker": "STWD",
+   "name": "STARWOOD PROPERTY TRUST INC. Starwood Pr",
+   "d5": 0.0072,
+   "d20": -0.0309,
+   "m6": -0.3138,
+   "y1": -0.3108,
+   "off_high": -0.3267
+  },
+  {
+   "theme": "Mortgage & Housing Finance",
+   "ticker": "CIM",
+   "name": "Chimera Investment Corporation",
+   "d5": -0.0119,
+   "d20": -0.0989,
+   "m6": -0.3922,
+   "y1": -0.3503,
+   "off_high": -0.4112
+  },
+  {
+   "theme": "Mortgage & Housing Finance",
+   "ticker": "ARR",
+   "name": "ARMOUR Residential REIT Inc.",
+   "d5": -0.0411,
+   "d20": -0.1008,
+   "m6": -0.2992,
+   "y1": -0.2522,
+   "off_high": -0.3656
+  },
+  {
+   "theme": "Mortgage & Housing Finance",
+   "ticker": "DX",
+   "name": "Dynex Capital Inc.",
+   "d5": -0.0476,
+   "d20": -0.0415,
+   "m6": -0.2204,
+   "y1": -0.2145,
+   "off_high": -0.2944
+  },
+  {
+   "theme": "Insurance",
+   "ticker": "PGR",
+   "name": "Progressive Corporation (The)",
+   "d5": 0.0156,
+   "d20": 0.0805,
+   "m6": 0.1586,
+   "y1": 0.1122,
+   "off_high": -0.0307
+  },
+  {
+   "theme": "Insurance",
+   "ticker": "CB",
+   "name": "Chubb Limited",
+   "d5": 0.0289,
+   "d20": 0.0967,
+   "m6": 0.1363,
+   "y1": 0.3235,
+   "off_high": -0.0066
+  },
+  {
+   "theme": "Insurance",
+   "ticker": "TRV",
+   "name": "The Travelers Companies Inc.",
+   "d5": -0.0041,
+   "d20": 0.0964,
+   "m6": 0.3121,
+   "y1": 0.472,
+   "off_high": -0.0247
+  },
+  {
+   "theme": "Insurance",
+   "ticker": "ALL",
+   "name": "Allstate Corporation (The)",
+   "d5": 0.0389,
+   "d20": 0.166,
+   "m6": 0.1967,
+   "y1": 0.3654,
+   "off_high": -0.0495
+  },
+  {
+   "theme": "Insurance",
+   "ticker": "AIG",
+   "name": "American International Group Inc. New",
+   "d5": 0.0119,
+   "d20": 0.0722,
+   "m6": 0.0263,
+   "y1": 0.0199,
+   "off_high": -0.07
+  },
+  {
+   "theme": "Insurance",
+   "ticker": "HIG",
+   "name": "The Hartford Insurance Group Inc.",
+   "d5": 0.0106,
+   "d20": 0.0641,
+   "m6": 0.0057,
+   "y1": 0.0865,
+   "off_high": -0.0739
+  },
+  {
+   "theme": "Insurance",
+   "ticker": "AFL",
+   "name": "AFLAC Incorporated",
+   "d5": 0.0168,
+   "d20": 0.0916,
+   "m6": 0.0837,
+   "y1": 0.1572,
+   "off_high": -0.0425
+  },
+  {
+   "theme": "Insurance",
+   "ticker": "UNM",
+   "name": "Unum Group",
+   "d5": 0.021,
+   "d20": -0.0087,
+   "m6": 0.1262,
+   "y1": 0.2399,
+   "off_high": -0.0574
+  },
+  {
+   "theme": "Insurance",
+   "ticker": "PRU",
+   "name": "Prudential Financial Inc.",
+   "d5": 0.0312,
+   "d20": 0.0464,
+   "m6": 0.1849,
+   "y1": 0.1424,
+   "off_high": -0.0505
+  },
+  {
+   "theme": "Insurance",
+   "ticker": "AON",
+   "name": "Aon plc",
+   "d5": 0.0914,
+   "d20": 0.205,
+   "m6": 0.0496,
+   "y1": -0.0309,
+   "off_high": -0.134
+  },
+  {
+   "theme": "Credit Bureaus & Fin Data",
+   "ticker": "FICO",
+   "name": "Fair Isaac Corporation",
+   "d5": 0.0472,
+   "d20": 0.0416,
+   "m6": -0.3206,
+   "y1": -0.5635,
+   "off_high": -0.6074
+  },
+  {
+   "theme": "Credit Bureaus & Fin Data",
+   "ticker": "TRU",
+   "name": "TransUnion",
+   "d5": 0.0415,
+   "d20": 0.2386,
+   "m6": 0.1511,
+   "y1": -0.0324,
+   "off_high": -0.1071
+  },
+  {
+   "theme": "Credit Bureaus & Fin Data",
+   "ticker": "EFX",
+   "name": "Equifax Inc.",
+   "d5": 0.0684,
+   "d20": 0.3175,
+   "m6": 0.1041,
+   "y1": -0.1108,
+   "off_high": -0.1729
+  },
+  {
+   "theme": "Credit Bureaus & Fin Data",
+   "ticker": "SPGI",
+   "name": "S&P Global Inc.",
+   "d5": 0.0381,
+   "d20": 0.1765,
+   "m6": 0.1621,
+   "y1": 0.0111,
+   "off_high": -0.0984
+  },
+  {
+   "theme": "Credit Bureaus & Fin Data",
+   "ticker": "UPST",
+   "name": "Upstart Holdings Inc. Common stock",
+   "d5": -0.0987,
+   "d20": -0.1044,
+   "m6": -0.3144,
+   "y1": -0.5503,
+   "off_high": -0.5785
+  },
+  {
+   "theme": "Credit Bureaus & Fin Data",
+   "ticker": "AXP",
+   "name": "American Express Company",
+   "d5": 0.0402,
+   "d20": 0.0688,
+   "m6": 0.0302,
+   "y1": -0.0977,
+   "off_high": -0.1543
+  },
+  {
+   "theme": "Credit Bureaus & Fin Data",
+   "ticker": "COF",
+   "name": "Capital One Financial Corporation",
+   "d5": 0.0259,
+   "d20": 0.0658,
+   "m6": 0.1003,
+   "y1": -0.0513,
+   "off_high": -0.1909
+  },
+  {
+   "theme": "Credit Bureaus & Fin Data",
+   "ticker": "SYF",
+   "name": "Synchrony Financial",
+   "d5": 0.0028,
+   "d20": 0.0419,
+   "m6": 0.019,
+   "y1": 0.0108,
+   "off_high": -0.1502
+  },
+  {
+   "theme": "Credit Bureaus & Fin Data",
+   "ticker": "MCO",
+   "name": "Moody's Corporation",
+   "d5": 0.0626,
+   "d20": 0.1136,
+   "m6": 0.1081,
+   "y1": 0.0487,
+   "off_high": -0.0666
+  },
+  {
+   "theme": "Credit Bureaus & Fin Data",
+   "ticker": "OMF",
+   "name": "OneMain Holdings Inc.",
+   "d5": -0.0053,
+   "d20": 0.0071,
+   "m6": 0.0278,
+   "y1": -0.0441,
+   "off_high": -0.2072
+  },
+  {
+   "theme": "Credit Bureaus & Fin Data",
+   "ticker": "SLM",
+   "name": "SLM Corporation",
+   "d5": -0.0448,
+   "d20": -0.2059,
+   "m6": -0.2045,
+   "y1": -0.3322,
+   "off_high": -0.4188
+  },
+  {
+   "theme": "Credit Bureaus & Fin Data",
+   "ticker": "BR",
+   "name": "Broadridge Financial Solutions Inc.",
+   "d5": 0.0377,
+   "d20": 0.1582,
+   "m6": 0.2078,
+   "y1": -0.1662,
+   "off_high": -0.208
+  },
+  {
+   "theme": "Credit Bureaus & Fin Data",
+   "ticker": "FDS",
+   "name": "FactSet Research Systems Inc.",
+   "d5": 0.0745,
+   "d20": 0.2227,
+   "m6": 0.5158,
+   "y1": 0.2466,
+   "off_high": -0.0324
+  },
+  {
+   "theme": "Credit Bureaus & Fin Data",
+   "ticker": "SSNC",
+   "name": "SS&C Technologies Holdings Inc.",
+   "d5": 0.0082,
+   "d20": 0.0371,
+   "m6": 0.1674,
+   "y1": -0.0476,
+   "off_high": -0.0975
+  },
+  {
+   "theme": "Credit Bureaus & Fin Data",
+   "ticker": "OPFI",
+   "name": "OppFi Inc.",
+   "d5": 0.0716,
+   "d20": -0.055,
+   "m6": -0.401,
+   "y1": -0.401,
+   "off_high": -0.4868
+  },
+  {
+   "theme": "Real Estate (REITs)",
+   "ticker": "AMH",
+   "name": "American Homes 4 Rent",
+   "d5": -0.0101,
+   "d20": 0.0345,
+   "m6": -0.0235,
+   "y1": -0.0025,
+   "off_high": -0.0945
+  },
+  {
+   "theme": "Real Estate (REITs)",
+   "ticker": "INVH",
+   "name": "Invitation Homes Inc.",
+   "d5": -0.0217,
+   "d20": 0.008,
+   "m6": -0.0716,
+   "y1": -0.0551,
+   "off_high": -0.1304
+  },
+  {
+   "theme": "Real Estate (REITs)",
+   "ticker": "UMH",
+   "name": "UMH Properties Inc.",
+   "d5": -0.0385,
+   "d20": -0.0435,
+   "m6": -0.0605,
+   "y1": 0.0144,
+   "off_high": -0.1146
+  },
+  {
+   "theme": "Real Estate (REITs)",
+   "ticker": "ELS",
+   "name": "Equity Lifestyle Properties Inc.",
+   "d5": 0.0136,
+   "d20": 0.0266,
+   "m6": -0.0352,
+   "y1": -0.0123,
+   "off_high": -0.118
+  },
+  {
+   "theme": "Real Estate (REITs)",
+   "ticker": "UDR",
+   "name": "UDR Inc.",
+   "d5": 0.009,
+   "d20": 0.0596,
+   "m6": -0.0273,
+   "y1": 0.0665,
+   "off_high": -0.1288
+  },
+  {
+   "theme": "Real Estate (REITs)",
+   "ticker": "SUI",
+   "name": "Sun Communities Inc.",
+   "d5": 0.0029,
+   "d20": 0.0288,
+   "m6": -0.0796,
+   "y1": -0.0893,
+   "off_high": -0.1595
+  },
+  {
+   "theme": "Real Estate (REITs)",
+   "ticker": "ESS",
+   "name": "Essex Property Trust Inc.",
+   "d5": -0.0362,
+   "d20": -0.0279,
+   "m6": -0.0067,
+   "y1": 0.0522,
+   "off_high": -0.1121
+  },
+  {
+   "theme": "Real Estate (REITs)",
+   "ticker": "CPT",
+   "name": "Camden Property Trust",
+   "d5": -0.0083,
+   "d20": 0.031,
+   "m6": -0.0387,
+   "y1": 0.0121,
+   "off_high": -0.1437
+  },
+  {
+   "theme": "Real Estate (REITs)",
+   "ticker": "SPG",
+   "name": "Simon Property Group Inc.",
+   "d5": 0.0462,
+   "d20": 0.1008,
+   "m6": 0.0977,
+   "y1": 0.2635,
+   "off_high": -0.0618
+  },
+  {
+   "theme": "Real Estate (REITs)",
+   "ticker": "KIM",
+   "name": "Kimco Realty Corporation (HC)",
+   "d5": 0.0544,
+   "d20": 0.1287,
+   "m6": 0.0616,
+   "y1": 0.2096,
+   "off_high": -0.0527
+  },
+  {
+   "theme": "Real Estate (REITs)",
+   "ticker": "REG",
+   "name": "Regency Centers Corporation",
+   "d5": 0.012,
+   "d20": 0.0525,
+   "m6": -0.0472,
+   "y1": 0.0902,
+   "off_high": -0.0908
+  },
+  {
+   "theme": "Real Estate (REITs)",
+   "ticker": "BRX",
+   "name": "Brixmor Property Group Inc.",
+   "d5": 0.0244,
+   "d20": 0.071,
+   "m6": -0.0236,
+   "y1": 0.1242,
+   "off_high": -0.1003
+  },
+  {
+   "theme": "Real Estate (REITs)",
+   "ticker": "MAC",
+   "name": "Macerich Company (The)",
+   "d5": 0.0244,
+   "d20": 0.078,
+   "m6": 0.1507,
+   "y1": 0.4426,
+   "off_high": -0.0668
+  },
+  {
+   "theme": "Real Estate (REITs)",
+   "ticker": "SKT",
+   "name": "Tanger Inc.",
+   "d5": 0.0262,
+   "d20": 0.0764,
+   "m6": 0.039,
+   "y1": 0.1551,
+   "off_high": -0.1069
+  },
+  {
+   "theme": "Real Estate (REITs)",
+   "ticker": "ADC",
+   "name": "Agree Realty Corporation",
+   "d5": 0.0278,
+   "d20": 0.0467,
+   "m6": -0.0934,
+   "y1": -0.0568,
+   "off_high": -0.1594
+  },
+  {
+   "theme": "Homebuilders & Home Improvement",
+   "ticker": "DHI",
+   "name": "D.R. Horton Inc.",
+   "d5": -0.0122,
+   "d20": 0.062,
+   "m6": -0.0085,
+   "y1": -0.0258,
+   "off_high": -0.1344
+  },
+  {
+   "theme": "Homebuilders & Home Improvement",
+   "ticker": "LEN",
+   "name": "Lennar Corporation",
+   "d5": 0.0179,
+   "d20": 0.1121,
+   "m6": -0.0013,
+   "y1": -0.3044,
+   "off_high": -0.3533
+  },
+  {
+   "theme": "Homebuilders & Home Improvement",
+   "ticker": "PHM",
+   "name": "PulteGroup Inc.",
+   "d5": 0.0432,
+   "d20": 0.0929,
+   "m6": 0.0755,
+   "y1": 0.0585,
+   "off_high": -0.11
+  },
+  {
+   "theme": "Homebuilders & Home Improvement",
+   "ticker": "TOL",
+   "name": "Toll Brothers Inc.",
+   "d5": 0.0514,
+   "d20": 0.0814,
+   "m6": 0.0871,
+   "y1": 0.1059,
+   "off_high": -0.1016
+  },
+  {
+   "theme": "Homebuilders & Home Improvement",
+   "ticker": "KBH",
+   "name": "KB Home",
+   "d5": 0.0462,
+   "d20": 0.0778,
+   "m6": 0.0105,
+   "y1": -0.2161,
+   "off_high": -0.2627
+  },
+  {
+   "theme": "Homebuilders & Home Improvement",
+   "ticker": "TREX",
+   "name": "Trex Company Inc.",
+   "d5": 0.003,
+   "d20": 0.1146,
+   "m6": 0.3301,
+   "y1": 0.0348,
+   "off_high": -0.0223
+  },
+  {
+   "theme": "Homebuilders & Home Improvement",
+   "ticker": "MBC",
+   "name": "MasterBrand Inc.",
+   "d5": -0.0029,
+   "d20": -0.0296,
+   "m6": -0.1827,
+   "y1": -0.4545,
+   "off_high": -0.5014
+  },
+  {
+   "theme": "Homebuilders & Home Improvement",
+   "ticker": "NVR",
+   "name": "NVR Inc.",
+   "d5": 0.0377,
+   "d20": -0.0036,
+   "m6": 0.0034,
+   "y1": -0.1645,
+   "off_high": -0.256
+  },
+  {
+   "theme": "Homebuilders & Home Improvement",
+   "ticker": "BLDR",
+   "name": "Builders FirstSource Inc.",
+   "d5": 0.1219,
+   "d20": 0.1314,
+   "m6": -0.1469,
+   "y1": -0.4524,
+   "off_high": -0.5067
+  },
+  {
+   "theme": "Homebuilders & Home Improvement",
+   "ticker": "MTH",
+   "name": "Meritage Homes Corporation",
+   "d5": 0.0491,
+   "d20": 0.0678,
+   "m6": 0.0462,
+   "y1": -0.0071,
+   "off_high": -0.2125
+  },
+  {
+   "theme": "Homebuilders & Home Improvement",
+   "ticker": "CCS",
+   "name": "Century Communities Inc.",
+   "d5": -0.0914,
+   "d20": -0.1099,
+   "m6": -0.0156,
+   "y1": -0.1175,
+   "off_high": -0.2996
+  },
+  {
+   "theme": "Homebuilders & Home Improvement",
+   "ticker": "MHO",
+   "name": "M/I Homes Inc.",
+   "d5": 0.0212,
+   "d20": -0.0334,
+   "m6": 0.0028,
+   "y1": 0.0292,
+   "off_high": -0.2096
+  },
+  {
+   "theme": "Homebuilders & Home Improvement",
+   "ticker": "HD",
+   "name": "Home Depot Inc. (The)",
+   "d5": 0.0476,
+   "d20": 0.1638,
+   "m6": 0.0578,
+   "y1": -0.121,
+   "off_high": -0.1468
+  },
+  {
+   "theme": "Homebuilders & Home Improvement",
+   "ticker": "LOW",
+   "name": "Lowe's Companies Inc.",
+   "d5": 0.0767,
+   "d20": 0.1618,
+   "m6": -0.0526,
+   "y1": -0.1039,
+   "off_high": -0.2575
+  },
+  {
+   "theme": "Homebuilders & Home Improvement",
+   "ticker": "MAS",
+   "name": "Masco Corporation",
+   "d5": 0.0933,
+   "d20": 0.1752,
+   "m6": 0.1672,
+   "y1": 0.269,
+   "off_high": -0.0159
+  },
+  {
+   "theme": "Athletic, Apparel & Luxury",
+   "ticker": "NKE",
+   "name": "Nike Inc.",
+   "d5": 0.0245,
+   "d20": 0.1118,
+   "m6": -0.1064,
+   "y1": -0.4042,
+   "off_high": -0.4323
+  },
+  {
+   "theme": "Athletic, Apparel & Luxury",
+   "ticker": "RL",
+   "name": "Ralph Lauren Corporation",
+   "d5": 0.0081,
+   "d20": 0.0698,
+   "m6": 0.0955,
+   "y1": 0.2338,
+   "off_high": -0.0479
+  },
+  {
+   "theme": "Athletic, Apparel & Luxury",
+   "ticker": "ONON",
+   "name": "On Holding AG",
+   "d5": 0.1346,
+   "d20": 0.1017,
+   "m6": 0.0552,
+   "y1": -0.0175,
+   "off_high": -0.2791
+  },
+  {
+   "theme": "Athletic, Apparel & Luxury",
+   "ticker": "DECK",
+   "name": "Deckers Outdoor Corporation",
+   "d5": 0.0441,
+   "d20": 0.0298,
+   "m6": -0.1466,
+   "y1": 0.0318,
+   "off_high": -0.3047
+  },
+  {
+   "theme": "Athletic, Apparel & Luxury",
+   "ticker": "LULU",
+   "name": "lululemon athletica inc.",
+   "d5": 0.0226,
+   "d20": 0.1425,
+   "m6": -0.1786,
+   "y1": -0.3729,
+   "off_high": -0.5046
+  },
+  {
+   "theme": "Athletic, Apparel & Luxury",
+   "ticker": "BIRK",
+   "name": "Birkenstock Holding plc",
+   "d5": 0.1014,
+   "d20": 0.045,
+   "m6": -0.0505,
+   "y1": -0.1097,
+   "off_high": -0.2745
+  },
+  {
+   "theme": "Athletic, Apparel & Luxury",
+   "ticker": "DKS",
+   "name": "Dick's Sporting Goods Inc",
+   "d5": -0.0312,
+   "d20": 0.0163,
+   "m6": -0.3639,
+   "y1": -0.381,
+   "off_high": -0.4269
+  },
+  {
+   "theme": "Athletic, Apparel & Luxury",
+   "ticker": "ASO",
+   "name": "Academy Sports and Outdoors Inc.",
+   "d5": 0.0258,
+   "d20": 0.1634,
+   "m6": 0.1702,
+   "y1": 0.2708,
+   "off_high": -0.0158
+  },
+  {
+   "theme": "Athletic, Apparel & Luxury",
+   "ticker": "UAA",
+   "name": "Under Armour Inc.",
+   "d5": 0.1392,
+   "d20": 0.0902,
+   "m6": -0.1515,
+   "y1": 0.154,
+   "off_high": -0.3464
+  },
+  {
+   "theme": "Athletic, Apparel & Luxury",
+   "ticker": "TPR",
+   "name": "Tapestry Inc.",
+   "d5": 0.0865,
+   "d20": 0.0366,
+   "m6": -0.1441,
+   "y1": 0.102,
+   "off_high": -0.2656
+  },
+  {
+   "theme": "Athletic, Apparel & Luxury",
+   "ticker": "CPRI",
+   "name": "Capri Holdings Limited",
+   "d5": 0.3009,
+   "d20": 0.3674,
+   "m6": 0.0785,
+   "y1": -0.0333,
+   "off_high": -0.2748
+  },
+  {
+   "theme": "Athletic, Apparel & Luxury",
+   "ticker": "EL",
+   "name": "Estee Lauder Companies Inc. (The)",
+   "d5": -0.0273,
+   "d20": 0.1289,
+   "m6": 0.2721,
+   "y1": 0.09,
+   "off_high": -0.1189
+  },
+  {
+   "theme": "Athletic, Apparel & Luxury",
+   "ticker": "AS",
+   "name": "Amer Sports Inc.",
+   "d5": 0.0816,
+   "d20": 0.0983,
+   "m6": -0.1233,
+   "y1": -0.0237,
+   "off_high": -0.2734
+  },
+  {
+   "theme": "Athletic, Apparel & Luxury",
+   "ticker": "UA",
+   "name": "Under Armour Inc. Class C",
+   "d5": 0.1297,
+   "d20": 0.089,
+   "m6": -0.1546,
+   "y1": 0.1577,
+   "off_high": -0.3477
+  },
+  {
+   "theme": "Athletic, Apparel & Luxury",
+   "ticker": "GOLF",
+   "name": "Acushnet Holdings Corp.",
+   "d5": 0.0598,
+   "d20": 0.0536,
+   "m6": -0.068,
+   "y1": 0.1304,
+   "off_high": -0.2625
+  },
+  {
+   "theme": "Sports & Live Events",
+   "ticker": "TKO",
+   "name": "TKO Group Holdings Inc.",
+   "d5": 0.0872,
+   "d20": 0.0609,
+   "m6": 0.0014,
+   "y1": -0.0064,
+   "off_high": -0.1679
+  },
+  {
+   "theme": "Sports & Live Events",
+   "ticker": "FWONK",
+   "name": "Liberty Media Corporation Series C",
+   "d5": 0.0765,
+   "d20": 0.0002,
+   "m6": 0.0934,
+   "y1": -0.043,
+   "off_high": -0.1041
+  },
+  {
+   "theme": "Sports & Live Events",
+   "ticker": "MSGS",
+   "name": "",
+   "d5": 0.0715,
+   "d20": 0.0289,
+   "m6": null,
+   "y1": null,
+   "off_high": -0.0107
+  },
+  {
+   "theme": "Sports & Live Events",
+   "ticker": "CHDN",
+   "name": "Churchill Downs Incorporated",
+   "d5": 0.1979,
+   "d20": 0.2486,
+   "m6": 0.0539,
+   "y1": -0.0156,
+   "off_high": -0.1696
+  },
+  {
+   "theme": "Sports & Live Events",
+   "ticker": "GENI",
+   "name": "Genius Sports Limited",
+   "d5": 0.0759,
+   "d20": 0.0932,
+   "m6": 0.5704,
+   "y1": -0.3961,
+   "off_high": -0.4019
+  },
+  {
+   "theme": "Sports & Live Events",
+   "ticker": "LYV",
+   "name": "Live Nation Entertainment Inc.",
+   "d5": 0.0401,
+   "d20": 0.0412,
+   "m6": 0.1374,
+   "y1": 0.1962,
+   "off_high": -0.0509
+  },
+  {
+   "theme": "Sports & Live Events",
+   "ticker": "SPHR",
+   "name": "Sphere Entertainment Co.",
+   "d5": -0.0844,
+   "d20": -0.0031,
+   "m6": -0.231,
+   "y1": 0.534,
+   "off_high": -0.4044
+  },
+  {
+   "theme": "Sports & Live Events",
+   "ticker": "MSGE",
+   "name": "Madison Square Garden Entertainment Corp",
+   "d5": 0.0091,
+   "d20": -0.0061,
+   "m6": 0.2047,
+   "y1": 0.8003,
+   "off_high": -0.1009
+  },
+  {
+   "theme": "Sports & Live Events",
+   "ticker": "BATRA",
+   "name": "Atlanta Braves Holdings Inc. Series A",
+   "d5": 0.0387,
+   "d20": -0.0232,
+   "m6": 0.0589,
+   "y1": 0.3076,
+   "off_high": -0.0537
+  },
+  {
+   "theme": "Sports & Live Events",
+   "ticker": "MANU",
+   "name": "Manchester United Ltd.",
+   "d5": 0.0396,
+   "d20": 0.0544,
+   "m6": 0.1589,
+   "y1": 0.2934,
+   "off_high": -0.1108
+  },
+  {
+   "theme": "Betting & Casinos",
+   "ticker": "PENN",
+   "name": "PENN Entertainment Inc.",
+   "d5": 0.151,
+   "d20": 0.0729,
+   "m6": -0.0018,
+   "y1": 0.0371,
+   "off_high": -0.2262
+  },
+  {
+   "theme": "Betting & Casinos",
+   "ticker": "DKNG",
+   "name": "DraftKings Inc.",
+   "d5": 0.0553,
+   "d20": 0.1104,
+   "m6": -0.0927,
+   "y1": -0.2831,
+   "off_high": -0.3949
+  },
+  {
+   "theme": "Betting & Casinos",
+   "ticker": "FLUT",
+   "name": "Flutter Entertainment plc",
+   "d5": 0.07,
+   "d20": 0.0982,
+   "m6": -0.1896,
+   "y1": -0.64,
+   "off_high": -0.6428
+  },
+  {
+   "theme": "Betting & Casinos",
+   "ticker": "MGM",
+   "name": "MGM Resorts International",
+   "d5": 0.1083,
+   "d20": 0.0157,
+   "m6": -0.1817,
+   "y1": -0.0315,
+   "off_high": -0.388
+  },
+  {
+   "theme": "Betting & Casinos",
+   "ticker": "CZR",
+   "name": "Caesars Entertainment Inc.",
+   "d5": 0.0073,
+   "d20": -0.0199,
+   "m6": 0.0342,
+   "y1": 0.4458,
+   "off_high": -0.0444
+  },
+  {
+   "theme": "Betting & Casinos",
+   "ticker": "RSI",
+   "name": "Rush Street Interactive Inc.",
+   "d5": -0.1869,
+   "d20": -0.3906,
+   "m6": -0.5704,
+   "y1": -0.2612,
+   "off_high": -0.637
+  },
+  {
+   "theme": "Betting & Casinos",
+   "ticker": "GENI",
+   "name": "Genius Sports Limited",
+   "d5": 0.0759,
+   "d20": 0.0932,
+   "m6": 0.5704,
+   "y1": -0.3961,
+   "off_high": -0.4019
+  },
+  {
+   "theme": "Betting & Casinos",
+   "ticker": "SRAD",
+   "name": "Sportradar Group AG",
+   "d5": 0.1611,
+   "d20": 0.1658,
+   "m6": 0.0573,
+   "y1": -0.4455,
+   "off_high": -0.4557
+  },
+  {
+   "theme": "Betting & Casinos",
+   "ticker": "SGHC",
+   "name": "Super Group (SGHC) Limited",
+   "d5": 0.0616,
+   "d20": -0.0201,
+   "m6": -0.1541,
+   "y1": 0.037,
+   "off_high": -0.2816
+  },
+  {
+   "theme": "Betting & Casinos",
+   "ticker": "LVS",
+   "name": "Las Vegas Sands Corp.",
+   "d5": 0.0592,
+   "d20": 0.0537,
+   "m6": -0.2679,
+   "y1": -0.3553,
+   "off_high": -0.4494
+  },
+  {
+   "theme": "Betting & Casinos",
+   "ticker": "WYNN",
+   "name": "Wynn Resorts Limited Common stock",
+   "d5": 0.0726,
+   "d20": 0.0138,
+   "m6": -0.2688,
+   "y1": -0.3472,
+   "off_high": -0.4163
+  },
+  {
+   "theme": "Betting & Casinos",
+   "ticker": "VICI",
+   "name": "VICI Properties Inc.",
+   "d5": 0.0304,
+   "d20": 0.0744,
+   "m6": -0.1362,
+   "y1": -0.1857,
+   "off_high": -0.2027
+  },
+  {
+   "theme": "Betting & Casinos",
+   "ticker": "BYD",
+   "name": "Boyd Gaming Corporation",
+   "d5": 0.0679,
+   "d20": 0.0902,
+   "m6": -0.087,
+   "y1": -0.0143,
+   "off_high": -0.1589
+  },
+  {
+   "theme": "Betting & Casinos",
+   "ticker": "RRR",
+   "name": "Red Rock Resorts Inc.",
+   "d5": 0.0328,
+   "d20": -0.0127,
+   "m6": -0.0289,
+   "y1": -0.036,
+   "off_high": -0.236
+  },
+  {
+   "theme": "Airlines",
+   "ticker": "UAL",
+   "name": "United Airlines Holdings Inc.",
+   "d5": 0.0239,
+   "d20": -0.0417,
+   "m6": 0.1446,
+   "y1": 0.14,
+   "off_high": -0.2123
+  },
+  {
+   "theme": "Airlines",
+   "ticker": "DAL",
+   "name": "Delta Air Lines Inc.",
+   "d5": 0.0225,
+   "d20": -0.0045,
+   "m6": 0.1753,
+   "y1": 0.4514,
+   "off_high": -0.1108
+  },
+  {
+   "theme": "Airlines",
+   "ticker": "AAL",
+   "name": "American Airlines Group Inc.",
+   "d5": 0.0167,
+   "d20": -0.0138,
+   "m6": 0.0364,
+   "y1": -0.0236,
+   "off_high": -0.2937
+  },
+  {
+   "theme": "Airlines",
+   "ticker": "LUV",
+   "name": "Southwest Airlines Company",
+   "d5": 0.0002,
+   "d20": 0.0236,
+   "m6": 0.0942,
+   "y1": 0.434,
+   "off_high": -0.2071
+  },
+  {
+   "theme": "Airlines",
+   "ticker": "ALK",
+   "name": "Alaska Air Group Inc.",
+   "d5": 0.0242,
+   "d20": -0.078,
+   "m6": -0.0449,
+   "y1": -0.1186,
+   "off_high": -0.3891
+  },
+  {
+   "theme": "Airlines",
+   "ticker": "JBLU",
+   "name": "JetBlue Airways Corporation",
+   "d5": 0.1277,
+   "d20": -0.2109,
+   "m6": -0.343,
+   "y1": -0.2429,
+   "off_high": -0.5077
+  },
+  {
+   "theme": "Airlines",
+   "ticker": "ALGT",
+   "name": "Allegiant Travel Company",
+   "d5": 0.0118,
+   "d20": -0.0397,
+   "m6": -0.017,
+   "y1": 0.1975,
+   "off_high": -0.3751
+  },
+  {
+   "theme": "Airlines",
+   "ticker": "SKYW",
+   "name": "SkyWest Inc.",
+   "d5": -0.1879,
+   "d20": -0.2048,
+   "m6": -0.0663,
+   "y1": -0.2267,
+   "off_high": -0.3298
+  },
+  {
+   "theme": "Cruise, Hotels & Online Travel",
+   "ticker": "MAR",
+   "name": "Marriott International",
+   "d5": 0.067,
+   "d20": 0.1525,
+   "m6": 0.1745,
+   "y1": 0.5979,
+   "off_high": 0.0
+  },
+  {
+   "theme": "Cruise, Hotels & Online Travel",
+   "ticker": "HLT",
+   "name": "Hilton Worldwide Holdings Inc. Common St",
+   "d5": 0.0557,
+   "d20": 0.1278,
+   "m6": 0.1633,
+   "y1": 0.4159,
+   "off_high": -0.0024
+  },
+  {
+   "theme": "Cruise, Hotels & Online Travel",
+   "ticker": "H",
+   "name": "Hyatt Hotels Corporation",
+   "d5": 0.0721,
+   "d20": 0.1654,
+   "m6": 0.1448,
+   "y1": 0.3495,
+   "off_high": -0.0824
+  },
+  {
+   "theme": "Cruise, Hotels & Online Travel",
+   "ticker": "RCL",
+   "name": "Royal Caribbean Cruises Ltd.",
+   "d5": 0.0583,
+   "d20": 0.0845,
+   "m6": 0.1863,
+   "y1": 0.0918,
+   "off_high": -0.1002
+  },
+  {
+   "theme": "Cruise, Hotels & Online Travel",
+   "ticker": "CCL",
+   "name": "Carnival Corporation Ltd.",
+   "d5": 0.0526,
+   "d20": 0.0986,
+   "m6": 0.1331,
+   "y1": 0.0128,
+   "off_high": -0.1409
+  },
+  {
+   "theme": "Cruise, Hotels & Online Travel",
+   "ticker": "NCLH",
+   "name": "Norwegian Cruise Line Holdings Ltd.",
+   "d5": 0.106,
+   "d20": 0.1231,
+   "m6": 0.0283,
+   "y1": -0.223,
+   "off_high": -0.3038
+  },
+  {
+   "theme": "Cruise, Hotels & Online Travel",
+   "ticker": "VIK",
+   "name": "Viking Holdings Ltd",
+   "d5": 0.005,
+   "d20": 0.0514,
+   "m6": 0.0505,
+   "y1": 0.4107,
+   "off_high": -0.2071
+  },
+  {
+   "theme": "Cruise, Hotels & Online Travel",
+   "ticker": "BKNG",
+   "name": "Booking Holdings Inc.",
+   "d5": 0.0368,
+   "d20": -0.0124,
+   "m6": -0.0713,
+   "y1": -0.2336,
+   "off_high": -0.2914
+  },
+  {
+   "theme": "Cruise, Hotels & Online Travel",
+   "ticker": "EXPE",
+   "name": "Expedia Group Inc.",
+   "d5": 0.0277,
+   "d20": 0.0988,
+   "m6": 0.1493,
+   "y1": 0.299,
+   "off_high": -0.1573
+  },
+  {
+   "theme": "Cruise, Hotels & Online Travel",
+   "ticker": "ABNB",
+   "name": "Airbnb Inc.",
+   "d5": -0.011,
+   "d20": 0.041,
+   "m6": 0.1949,
+   "y1": 0.3194,
+   "off_high": -0.1236
+  },
+  {
+   "theme": "Cruise, Hotels & Online Travel",
+   "ticker": "WH",
+   "name": "Wyndham Hotels & Resorts Inc. Common Sto",
+   "d5": 0.084,
+   "d20": 0.0885,
+   "m6": -0.0162,
+   "y1": 0.0769,
+   "off_high": -0.1205
+  },
+  {
+   "theme": "Cruise, Hotels & Online Travel",
+   "ticker": "HST",
+   "name": "Host Hotels & Resorts Inc.",
+   "d5": 0.0222,
+   "d20": 0.1468,
+   "m6": 0.2098,
+   "y1": 0.6092,
+   "off_high": 0.0
+  },
+  {
+   "theme": "Cruise, Hotels & Online Travel",
+   "ticker": "PK",
+   "name": "Park Hotels & Resorts Inc. Common Stock ",
+   "d5": -0.003,
+   "d20": 0.0964,
+   "m6": 0.4705,
+   "y1": 0.6249,
+   "off_high": -0.0159
+  },
+  {
+   "theme": "Cruise, Hotels & Online Travel",
+   "ticker": "OSW",
+   "name": "OneSpaWorld Holdings Limited",
+   "d5": 0.204,
+   "d20": 0.2904,
+   "m6": 0.2496,
+   "y1": 0.2909,
+   "off_high": -0.006
+  },
+  {
+   "theme": "Cruise, Hotels & Online Travel",
+   "ticker": "LIND",
+   "name": "Lindblad Expeditions Holdings Inc.",
+   "d5": -0.0664,
+   "d20": -0.092,
+   "m6": 0.6004,
+   "y1": 1.7164,
+   "off_high": -0.1236
+  },
+  {
+   "theme": "Restaurants",
+   "ticker": "CMG",
+   "name": "Chipotle Mexican Grill Inc.",
+   "d5": 0.1887,
+   "d20": 0.0764,
+   "m6": 0.0294,
+   "y1": 0.0495,
+   "off_high": -0.1862
+  },
+  {
+   "theme": "Restaurants",
+   "ticker": "CAVA",
+   "name": "CAVA Group Inc.",
+   "d5": 0.1629,
+   "d20": 0.1457,
+   "m6": -0.3324,
+   "y1": 0.1225,
+   "off_high": -0.3807
+  },
+  {
+   "theme": "Restaurants",
+   "ticker": "WING",
+   "name": "Wingstop Inc.",
+   "d5": 0.308,
+   "d20": 0.44,
+   "m6": 0.1011,
+   "y1": -0.2542,
+   "off_high": -0.4324
+  },
+  {
+   "theme": "Restaurants",
+   "ticker": "MCD",
+   "name": "McDonald's Corporation",
+   "d5": 0.0544,
+   "d20": 0.1316,
+   "m6": -0.0776,
+   "y1": -0.1186,
+   "off_high": -0.2288
+  },
+  {
+   "theme": "Restaurants",
+   "ticker": "TXRH",
+   "name": "Texas Roadhouse Inc.",
+   "d5": 0.1067,
+   "d20": 0.1279,
+   "m6": 0.1674,
+   "y1": 0.1278,
+   "off_high": -0.139
+  },
+  {
+   "theme": "Restaurants",
+   "ticker": "SG",
+   "name": "Sweetgreen Inc.",
+   "d5": 0.1067,
+   "d20": 0.2484,
+   "m6": 0.673,
+   "y1": 0.814,
+   "off_high": -0.0052
+  },
+  {
+   "theme": "Restaurants",
+   "ticker": "SBUX",
+   "name": "Starbucks Corporation",
+   "d5": 0.0168,
+   "d20": 0.0901,
+   "m6": -0.0016,
+   "y1": 0.2955,
+   "off_high": -0.0348
+  },
+  {
+   "theme": "Restaurants",
+   "ticker": "DPZ",
+   "name": "Domino's Pizza Inc",
+   "d5": 0.0354,
+   "d20": 0.0668,
+   "m6": -0.026,
+   "y1": -0.1892,
+   "off_high": -0.2631
+  },
+  {
+   "theme": "Restaurants",
+   "ticker": "SHAK",
+   "name": "Shake Shack Inc.",
+   "d5": 0.0868,
+   "d20": 0.0856,
+   "m6": -0.274,
+   "y1": -0.2732,
+   "off_high": -0.33
+  },
+  {
+   "theme": "Restaurants",
+   "ticker": "YUM",
+   "name": "Yum! Brands Inc.",
+   "d5": 0.05,
+   "d20": 0.1228,
+   "m6": 0.0203,
+   "y1": 0.136,
+   "off_high": -0.0663
+  },
+  {
+   "theme": "Restaurants",
+   "ticker": "WEN",
+   "name": "Wendy's Company (The)",
+   "d5": 0.184,
+   "d20": 0.1802,
+   "m6": 0.0998,
+   "y1": -0.1487,
+   "off_high": -0.2029
+  },
+  {
+   "theme": "Restaurants",
+   "ticker": "DRI",
+   "name": "Darden Restaurants Inc.",
+   "d5": 0.0254,
+   "d20": 0.08,
+   "m6": 0.128,
+   "y1": 0.2178,
+   "off_high": -0.0364
+  },
+  {
+   "theme": "Value Retail & Grocery",
+   "ticker": "WMT",
+   "name": "Walmart Inc.",
+   "d5": 0.0464,
+   "d20": 0.1647,
+   "m6": -0.0453,
+   "y1": 0.234,
+   "off_high": -0.0696
+  },
+  {
+   "theme": "Value Retail & Grocery",
+   "ticker": "COST",
+   "name": "Costco Wholesale Corporation",
+   "d5": 0.0273,
+   "d20": 0.0893,
+   "m6": 0.0028,
+   "y1": 0.1183,
+   "off_high": -0.0686
+  },
+  {
+   "theme": "Value Retail & Grocery",
+   "ticker": "TJX",
+   "name": "TJX Companies Inc. (The)",
+   "d5": -0.0183,
+   "d20": 0.0044,
+   "m6": -0.1118,
+   "y1": -0.0179,
+   "off_high": -0.1828
+  },
+  {
+   "theme": "Value Retail & Grocery",
+   "ticker": "ROST",
+   "name": "Ross Stores Inc.",
+   "d5": 0.0066,
+   "d20": 0.033,
+   "m6": 0.0184,
+   "y1": 0.4573,
+   "off_high": -0.0926
+  },
+  {
+   "theme": "Value Retail & Grocery",
+   "ticker": "BURL",
+   "name": "Burlington Stores Inc.",
+   "d5": 0.0202,
+   "d20": -0.1321,
+   "m6": -0.2328,
+   "y1": -0.1231,
+   "off_high": -0.3554
+  },
+  {
+   "theme": "Value Retail & Grocery",
+   "ticker": "DG",
+   "name": "Dollar General Corporation",
+   "d5": 0.0289,
+   "d20": 0.0588,
+   "m6": 0.1155,
+   "y1": 0.3229,
+   "off_high": -0.1646
+  },
+  {
+   "theme": "Value Retail & Grocery",
+   "ticker": "DLTR",
+   "name": "Dollar Tree Inc.",
+   "d5": 0.0843,
+   "d20": 0.1539,
+   "m6": 0.431,
+   "y1": 0.3526,
+   "off_high": -0.0506
+  },
+  {
+   "theme": "Value Retail & Grocery",
+   "ticker": "FIVE",
+   "name": "Five Below Inc.",
+   "d5": 0.0214,
+   "d20": 0.1251,
+   "m6": 0.0418,
+   "y1": 0.5018,
+   "off_high": -0.101
+  },
+  {
+   "theme": "Value Retail & Grocery",
+   "ticker": "BJ",
+   "name": "BJ's Wholesale Club Holdings Inc.",
+   "d5": 0.0413,
+   "d20": 0.1447,
+   "m6": 0.1605,
+   "y1": 0.2402,
+   "off_high": -0.0109
+  },
+  {
+   "theme": "Value Retail & Grocery",
+   "ticker": "OLLI",
+   "name": "Ollie's Bargain Outlet Holdings Inc.",
+   "d5": 0.0503,
+   "d20": 0.014,
+   "m6": 0.088,
+   "y1": -0.2635,
+   "off_high": -0.3082
+  },
+  {
+   "theme": "Value Retail & Grocery",
+   "ticker": "KR",
+   "name": "Kroger Company (The)",
+   "d5": 0.0143,
+   "d20": 0.1438,
+   "m6": -0.0016,
+   "y1": 0.05,
+   "off_high": -0.1163
+  },
+  {
+   "theme": "Value Retail & Grocery",
+   "ticker": "ACI",
+   "name": "Albertsons Companies Inc.",
+   "d5": -0.0328,
+   "d20": 0.1559,
+   "m6": -0.1773,
+   "y1": -0.2499,
+   "off_high": -0.2889
+  },
+  {
+   "theme": "Value Retail & Grocery",
+   "ticker": "SFM",
+   "name": "Sprouts Farmers Market Inc.",
+   "d5": -0.1851,
+   "d20": -0.1946,
+   "m6": -0.3335,
+   "y1": -0.3352,
+   "off_high": -0.4169
+  },
+  {
+   "theme": "Value Retail & Grocery",
+   "ticker": "UNFI",
+   "name": "United Natural Foods Inc.",
+   "d5": -0.0666,
+   "d20": 0.0183,
+   "m6": -0.1212,
+   "y1": 0.1979,
+   "off_high": -0.1877
+  },
+  {
+   "theme": "Staples, Beverages & Pet",
+   "ticker": "KO",
+   "name": "Coca-Cola Company (The)",
+   "d5": 0.0397,
+   "d20": 0.1002,
+   "m6": 0.208,
+   "y1": 0.3759,
+   "off_high": -0.0107
+  },
+  {
+   "theme": "Staples, Beverages & Pet",
+   "ticker": "PEP",
+   "name": "PepsiCo Inc.",
+   "d5": 0.0282,
+   "d20": 0.092,
+   "m6": -0.1146,
+   "y1": -0.0604,
+   "off_high": -0.1949
+  },
+  {
+   "theme": "Staples, Beverages & Pet",
+   "ticker": "PG",
+   "name": "Procter & Gamble Company (The)",
+   "d5": 0.0178,
+   "d20": 0.092,
+   "m6": 0.1184,
+   "y1": 0.0777,
+   "off_high": -0.0307
+  },
+  {
+   "theme": "Staples, Beverages & Pet",
+   "ticker": "CL",
+   "name": "Colgate-Palmolive Company",
+   "d5": 0.0374,
+   "d20": 0.0959,
+   "m6": 0.1076,
+   "y1": 0.241,
+   "off_high": -0.0355
+  },
+  {
+   "theme": "Staples, Beverages & Pet",
+   "ticker": "MDLZ",
+   "name": "Mondelez International Inc.",
+   "d5": 0.0444,
+   "d20": 0.0923,
+   "m6": 0.0613,
+   "y1": 0.1333,
+   "off_high": -0.019
+  },
+  {
+   "theme": "Staples, Beverages & Pet",
+   "ticker": "KMB",
+   "name": "Kimberly-Clark Corporation",
+   "d5": -0.0425,
+   "d20": 0.0795,
+   "m6": 0.0747,
+   "y1": -0.1274,
+   "off_high": -0.0896
+  },
+  {
+   "theme": "Staples, Beverages & Pet",
+   "ticker": "MNST",
+   "name": "Monster Beverage Corporation",
+   "d5": 0.0383,
+   "d20": 0.0909,
+   "m6": 0.2449,
+   "y1": 0.4119,
+   "off_high": -0.0558
+  },
+  {
+   "theme": "Staples, Beverages & Pet",
+   "ticker": "CELH",
+   "name": "Celsius Holdings Inc.",
+   "d5": 0.0707,
+   "d20": 0.0986,
+   "m6": -0.1056,
+   "y1": -0.5022,
+   "off_high": -0.4997
+  },
+  {
+   "theme": "Staples, Beverages & Pet",
+   "ticker": "SAM",
+   "name": "Boston Beer Company Inc. (The)",
+   "d5": 0.0757,
+   "d20": 0.2647,
+   "m6": 0.0447,
+   "y1": 0.0409,
+   "off_high": -0.1715
+  },
+  {
+   "theme": "Staples, Beverages & Pet",
+   "ticker": "COCO",
+   "name": "The Vita Coco Company Inc.",
+   "d5": 0.09,
+   "d20": 0.0956,
+   "m6": -0.1195,
+   "y1": 0.4495,
+   "off_high": -0.2896
+  },
+  {
+   "theme": "Staples, Beverages & Pet",
+   "ticker": "BRBR",
+   "name": "BellRing Brands Inc. Common Stock ",
+   "d5": 0.0228,
+   "d20": 0.225,
+   "m6": -0.1138,
+   "y1": -0.6874,
+   "off_high": -0.7171
+  },
+  {
+   "theme": "Staples, Beverages & Pet",
+   "ticker": "FRPT",
+   "name": "Freshpet Inc.",
+   "d5": 0.0811,
+   "d20": 0.1088,
+   "m6": 0.1567,
+   "y1": 0.4143,
+   "off_high": -0.186
+  },
+  {
+   "theme": "Staples, Beverages & Pet",
+   "ticker": "IDXX",
+   "name": "IDEXX Laboratories Inc.",
+   "d5": 0.1974,
+   "d20": 0.3039,
+   "m6": 0.1937,
+   "y1": 0.0676,
+   "off_high": -0.1234
+  },
+  {
+   "theme": "Staples, Beverages & Pet",
+   "ticker": "ZTS",
+   "name": "Zoetis Inc.",
+   "d5": 0.0608,
+   "d20": 0.1635,
+   "m6": -0.2626,
+   "y1": -0.424,
+   "off_high": -0.4251
+  },
+  {
+   "theme": "Staples, Beverages & Pet",
+   "ticker": "TRUP",
+   "name": "Trupanion Inc.",
+   "d5": 0.0654,
+   "d20": 0.2609,
+   "m6": 0.2011,
+   "y1": -0.2218,
+   "off_high": -0.2676
+  },
+  {
+   "theme": "Education",
+   "ticker": "COUR",
+   "name": "Coursera Inc.",
+   "d5": -0.2189,
+   "d20": -0.2754,
+   "m6": -0.3744,
+   "y1": -0.5594,
+   "off_high": -0.564
+  },
+  {
+   "theme": "Education",
+   "ticker": "DUOL",
+   "name": "Duolingo Inc.",
+   "d5": -0.0942,
+   "d20": -0.1359,
+   "m6": 0.2304,
+   "y1": -0.527,
+   "off_high": -0.5169
+  },
+  {
+   "theme": "Education",
+   "ticker": "LRN",
+   "name": "Stride Inc.",
+   "d5": -0.0525,
+   "d20": -0.0589,
+   "m6": -0.1996,
+   "y1": 0.103,
+   "off_high": -0.2644
+  },
+  {
+   "theme": "Education",
+   "ticker": "LOPE",
+   "name": "Grand Canyon Education Inc.",
+   "d5": -0.0545,
+   "d20": -0.0438,
+   "m6": -0.1212,
+   "y1": -0.2101,
+   "off_high": -0.1954
+  },
+  {
+   "theme": "Education",
+   "ticker": "MH",
+   "name": "McGraw Hill Inc.",
+   "d5": -0.134,
+   "d20": -0.0593,
+   "m6": 0.0454,
+   "y1": 0.0941,
+   "off_high": -0.3213
+  },
+  {
+   "theme": "Education",
+   "ticker": "STRA",
+   "name": "Strategic Education Inc.",
+   "d5": -0.0726,
+   "d20": -0.0724,
+   "m6": -0.0621,
+   "y1": -0.0255,
+   "off_high": -0.155
+  },
+  {
+   "theme": "Education",
+   "ticker": "APEI",
+   "name": "American Public Education Inc.",
+   "d5": -0.0832,
+   "d20": -0.0842,
+   "m6": -0.2717,
+   "y1": 0.264,
+   "off_high": -0.3045
+  },
+  {
+   "theme": "Education",
+   "ticker": "DAO",
+   "name": "Youdao Inc.",
+   "d5": 0.0384,
+   "d20": 0.1695,
+   "m6": 0.7553,
+   "y1": 0.8808,
+   "off_high": -0.0179
+  },
+  {
+   "theme": "GLP-1 & Obesity",
+   "ticker": "LLY",
+   "name": "Eli Lilly and Company",
+   "d5": 0.0994,
+   "d20": 0.2176,
+   "m6": 0.4252,
+   "y1": 0.6334,
+   "off_high": -0.0058
+  },
+  {
+   "theme": "GLP-1 & Obesity",
+   "ticker": "NVO",
+   "name": "Novo Nordisk A/S",
+   "d5": 0.0393,
+   "d20": 0.0709,
+   "m6": -0.1043,
+   "y1": -0.1874,
+   "off_high": -0.3718
+  },
+  {
+   "theme": "GLP-1 & Obesity",
+   "ticker": "VKTX",
+   "name": "Viking Therapeutics Inc.",
+   "d5": 0.0482,
+   "d20": -0.0807,
+   "m6": -0.1667,
+   "y1": -0.3149,
+   "off_high": -0.3807
+  },
+  {
+   "theme": "GLP-1 & Obesity",
+   "ticker": "HIMS",
+   "name": "Hims & Hers Health Inc.",
+   "d5": -0.0795,
+   "d20": -0.1279,
+   "m6": -0.0239,
+   "y1": -0.4347,
+   "off_high": -0.421
+  },
+  {
+   "theme": "GLP-1 & Obesity",
+   "ticker": "GPCR",
+   "name": "Structure Therapeutics Inc.",
+   "d5": -0.0557,
+   "d20": -0.2592,
+   "m6": -0.5049,
+   "y1": -0.3893,
+   "off_high": -0.783
+  },
+  {
+   "theme": "GLP-1 & Obesity",
+   "ticker": "ALT",
+   "name": "Altimmune Inc.",
+   "d5": 0.0,
+   "d20": -0.236,
+   "m6": -0.3333,
+   "y1": -0.4963,
+   "off_high": -0.6699
+  },
+  {
+   "theme": "GLP-1 & Obesity",
+   "ticker": "RYTM",
+   "name": "Rhythm Pharmaceuticals Inc.",
+   "d5": -0.0623,
+   "d20": -0.0477,
+   "m6": -0.0636,
+   "y1": -0.2402,
+   "off_high": -0.2651
+  },
+  {
+   "theme": "GLP-1 & Obesity",
+   "ticker": "WST",
+   "name": "West Pharmaceutical Services Inc.",
+   "d5": 0.0218,
+   "d20": 0.0922,
+   "m6": 0.313,
+   "y1": 0.4429,
+   "off_high": -0.0232
+  },
+  {
+   "theme": "GLP-1 & Obesity",
+   "ticker": "OMDA",
+   "name": "Omada Health Inc.",
+   "d5": -0.0226,
+   "d20": -0.1037,
+   "m6": 0.1872,
+   "y1": -0.2438,
+   "off_high": -0.2762
+  },
+  {
+   "theme": "GLP-1 & Obesity",
+   "ticker": "PODD",
+   "name": "Insulet Corporation",
+   "d5": 0.0336,
+   "d20": 0.1494,
+   "m6": -0.0756,
+   "y1": -0.5053,
+   "off_high": -0.5529
+  },
+  {
+   "theme": "GLP-1 & Obesity",
+   "ticker": "TNDM",
+   "name": "Tandem Diabetes Care Inc.",
+   "d5": -0.0817,
+   "d20": 0.0922,
+   "m6": -0.0911,
+   "y1": 0.2607,
+   "off_high": -0.3754
+  },
+  {
+   "theme": "GLP-1 & Obesity",
+   "ticker": "ABT",
+   "name": "Abbott Laboratories",
+   "d5": 0.0611,
+   "d20": 0.1145,
+   "m6": 0.255,
+   "y1": -0.115,
+   "off_high": -0.1623
+  },
+  {
+   "theme": "GLP-1 & Obesity",
+   "ticker": "MNKD",
+   "name": "MannKind Corporation",
+   "d5": 0.1337,
+   "d20": 0.0054,
+   "m6": 0.3042,
+   "y1": -0.3327,
+   "off_high": -0.3994
+  },
+  {
+   "theme": "Large Pharma & Biotech",
+   "ticker": "MRK",
+   "name": "Merck & Company Inc. Common Stock (new)",
+   "d5": 0.0201,
+   "d20": 0.0192,
+   "m6": 0.2786,
+   "y1": 0.6826,
+   "off_high": -0.0753
+  },
+  {
+   "theme": "Large Pharma & Biotech",
+   "ticker": "BMY",
+   "name": "Bristol-Myers Squibb Company",
+   "d5": 0.0026,
+   "d20": 0.0356,
+   "m6": 0.0836,
+   "y1": 0.3395,
+   "off_high": -0.0937
+  },
+  {
+   "theme": "Large Pharma & Biotech",
+   "ticker": "AMGN",
+   "name": "Amgen Inc.",
+   "d5": 0.0297,
+   "d20": 0.1457,
+   "m6": 0.3995,
+   "y1": 0.5456,
+   "off_high": -0.0102
+  },
+  {
+   "theme": "Large Pharma & Biotech",
+   "ticker": "VRTX",
+   "name": "Vertex Pharmaceuticals Incorporated",
+   "d5": 0.0187,
+   "d20": 0.0566,
+   "m6": 0.2507,
+   "y1": 0.2472,
+   "off_high": -0.0503
+  },
+  {
+   "theme": "Large Pharma & Biotech",
+   "ticker": "REGN",
+   "name": "Regeneron Pharmaceuticals Inc.",
+   "d5": 0.1927,
+   "d20": 0.3176,
+   "m6": 0.386,
+   "y1": 0.4933,
+   "off_high": 0.0
+  },
+  {
+   "theme": "Large Pharma & Biotech",
+   "ticker": "PFE",
+   "name": "Pfizer Inc.",
+   "d5": 0.0067,
+   "d20": 0.0909,
+   "m6": 0.1342,
+   "y1": 0.217,
+   "off_high": -0.0218
+  },
+  {
+   "theme": "Large Pharma & Biotech",
+   "ticker": "ABBV",
+   "name": "AbbVie Inc.",
+   "d5": -0.0014,
+   "d20": 0.0724,
+   "m6": 0.3876,
+   "y1": 0.3117,
+   "off_high": -0.0301
+  },
+  {
+   "theme": "Large Pharma & Biotech",
+   "ticker": "JNJ",
+   "name": "Johnson & Johnson",
+   "d5": -0.0095,
+   "d20": 0.0447,
+   "m6": 0.1801,
+   "y1": 0.4093,
+   "off_high": -0.044
+  },
+  {
+   "theme": "Large Pharma & Biotech",
+   "ticker": "AZN",
+   "name": "AstraZeneca PLC",
+   "d5": 0.0811,
+   "d20": 0.1593,
+   "m6": 0.0146,
+   "y1": 0.1158,
+   "off_high": -0.1222
+  },
+  {
+   "theme": "Large Pharma & Biotech",
+   "ticker": "EXEL",
+   "name": "Exelixis Inc.",
+   "d5": 0.1065,
+   "d20": 0.2397,
+   "m6": 0.6279,
+   "y1": 0.8699,
+   "off_high": 0.0
+  },
+  {
+   "theme": "Large Pharma & Biotech",
+   "ticker": "INCY",
+   "name": "Incyte Corp.",
+   "d5": 0.0085,
+   "d20": 0.0431,
+   "m6": 0.2064,
+   "y1": 0.2579,
+   "off_high": -0.095
+  },
+  {
+   "theme": "Large Pharma & Biotech",
+   "ticker": "SNDX",
+   "name": "Syndax Pharmaceuticals Inc.",
+   "d5": 0.0438,
+   "d20": -0.1773,
+   "m6": -0.2891,
+   "y1": 0.0431,
+   "off_high": -0.4318
+  },
+  {
+   "theme": "Large Pharma & Biotech",
+   "ticker": "IOVA",
+   "name": "Iovance Biotherapeutics Inc.",
+   "d5": -0.3944,
+   "d20": -0.3187,
+   "m6": 1.2186,
+   "y1": 3.4822,
+   "off_high": -0.4058
+  },
+  {
+   "theme": "Large Pharma & Biotech",
+   "ticker": "NVCR",
+   "name": "NovoCure Limited",
+   "d5": -0.0814,
+   "d20": -0.1029,
+   "m6": -0.1543,
+   "y1": 0.0484,
+   "off_high": -0.3282
+  },
+  {
+   "theme": "Large Pharma & Biotech",
+   "ticker": "IMCR",
+   "name": "Immunocore Holdings plc",
+   "d5": -0.0604,
+   "d20": 0.0162,
+   "m6": 0.0413,
+   "y1": -0.0925,
+   "off_high": -0.2533
+  },
+  {
+   "theme": "Gene Editing & RNA",
+   "ticker": "CRSP",
+   "name": "CRISPR Therapeutics AG",
+   "d5": -0.0288,
+   "d20": -0.0743,
+   "m6": -0.0456,
+   "y1": -0.2188,
+   "off_high": -0.1933
+  },
+  {
+   "theme": "Gene Editing & RNA",
+   "ticker": "NTLA",
+   "name": "Intellia Therapeutics Inc.",
+   "d5": -0.0342,
+   "d20": -0.0412,
+   "m6": -0.1089,
+   "y1": -0.0602,
+   "off_high": -0.3352
+  },
+  {
+   "theme": "Gene Editing & RNA",
+   "ticker": "ALNY",
+   "name": "Alnylam Pharmaceuticals Inc.",
+   "d5": -0.295,
+   "d20": -0.286,
+   "m6": -0.469,
+   "y1": -0.6494,
+   "off_high": -0.6622
+  },
+  {
+   "theme": "Gene Editing & RNA",
+   "ticker": "BEAM",
+   "name": "Beam Therapeutics Inc.",
+   "d5": 0.0574,
+   "d20": 0.0436,
+   "m6": -0.0889,
+   "y1": 0.0528,
+   "off_high": -0.3056
+  },
+  {
+   "theme": "Gene Editing & RNA",
+   "ticker": "WVE",
+   "name": "Wave Life Sciences Inc.",
+   "d5": 0.0377,
+   "d20": 0.017,
+   "m6": -0.5014,
+   "y1": -0.604,
+   "off_high": -0.832
+  },
+  {
+   "theme": "Gene Editing & RNA",
+   "ticker": "SRPT",
+   "name": "Sarepta Therapeutics Inc. Common Stock (",
+   "d5": -0.0185,
+   "d20": 0.0711,
+   "m6": -0.1492,
+   "y1": -0.2278,
+   "off_high": -0.2417
+  },
+  {
+   "theme": "Gene Editing & RNA",
+   "ticker": "ARWR",
+   "name": "Arrowhead Pharmaceuticals Inc.",
+   "d5": 0.0085,
+   "d20": -0.0327,
+   "m6": -0.2055,
+   "y1": 0.4043,
+   "off_high": -0.3355
+  },
+  {
+   "theme": "Gene Editing & RNA",
+   "ticker": "IONS",
+   "name": "Ionis Pharmaceuticals Inc.",
+   "d5": -0.0805,
+   "d20": -0.0814,
+   "m6": -0.4629,
+   "y1": -0.456,
+   "off_high": -0.5327
+  },
+  {
+   "theme": "Gene Editing & RNA",
+   "ticker": "QURE",
+   "name": "uniQure N.V.",
+   "d5": -0.0169,
+   "d20": 0.0351,
+   "m6": 0.1281,
+   "y1": -0.6474,
+   "off_high": -0.5324
+  },
+  {
+   "theme": "Gene Editing & RNA",
+   "ticker": "KRYS",
+   "name": "Krystal Biotech Inc.",
+   "d5": -0.0485,
+   "d20": -0.0666,
+   "m6": 0.0719,
+   "y1": 0.5444,
+   "off_high": -0.1934
+  },
+  {
+   "theme": "Gene Editing & RNA",
+   "ticker": "TSHA",
+   "name": "Taysha Gene Therapies Inc.",
+   "d5": -0.0376,
+   "d20": -0.0683,
+   "m6": -0.4107,
+   "y1": -0.1754,
+   "off_high": -0.414
+  },
+  {
+   "theme": "Gene Editing & RNA",
+   "ticker": "LEGN",
+   "name": "Legend Biotech Corporation",
+   "d5": -0.0037,
+   "d20": 0.1474,
+   "m6": -0.2466,
+   "y1": -0.337,
+   "off_high": -0.4079
+  },
+  {
+   "theme": "Gene Editing & RNA",
+   "ticker": "BNTX",
+   "name": "BioNTech SE",
+   "d5": -0.0016,
+   "d20": -0.092,
+   "m6": -0.0898,
+   "y1": -0.1635,
+   "off_high": -0.2717
+  },
+  {
+   "theme": "Medtech & Surgical Robotics",
+   "ticker": "ISRG",
+   "name": "Intuitive Surgical Inc.",
+   "d5": -0.0115,
+   "d20": 0.0889,
+   "m6": -0.0236,
+   "y1": -0.1751,
+   "off_high": -0.2566
+  },
+  {
+   "theme": "Medtech & Surgical Robotics",
+   "ticker": "SYK",
+   "name": "Stryker Corporation",
+   "d5": 0.0303,
+   "d20": 0.1163,
+   "m6": 0.0518,
+   "y1": -0.1283,
+   "off_high": -0.1985
+  },
+  {
+   "theme": "Medtech & Surgical Robotics",
+   "ticker": "MDT",
+   "name": "Medtronic plc.",
+   "d5": 0.0525,
+   "d20": 0.1354,
+   "m6": 0.2711,
+   "y1": 0.0902,
+   "off_high": -0.0614
+  },
+  {
+   "theme": "Medtech & Surgical Robotics",
+   "ticker": "DXCM",
+   "name": "DexCom Inc.",
+   "d5": 0.0561,
+   "d20": -0.005,
+   "m6": 0.3949,
+   "y1": 0.4251,
+   "off_high": -0.1015
+  },
+  {
+   "theme": "Medtech & Surgical Robotics",
+   "ticker": "BSX",
+   "name": "Boston Scientific Corporation",
+   "d5": -0.0346,
+   "d20": 0.0311,
+   "m6": -0.2229,
+   "y1": -0.5681,
+   "off_high": -0.5856
+  },
+  {
+   "theme": "Medtech & Surgical Robotics",
+   "ticker": "GMED",
+   "name": "Globus Medical Inc.",
+   "d5": -0.0163,
+   "d20": 0.0412,
+   "m6": -0.1161,
+   "y1": 0.3178,
+   "off_high": -0.1781
+  },
+  {
+   "theme": "Medtech & Surgical Robotics",
+   "ticker": "GEHC",
+   "name": "GE HealthCare Technologies Inc. Common S",
+   "d5": 0.1343,
+   "d20": 0.2453,
+   "m6": 0.3214,
+   "y1": 0.0762,
+   "off_high": -0.0851
+  },
+  {
+   "theme": "Medtech & Surgical Robotics",
+   "ticker": "ZBH",
+   "name": "Zimmer Biomet Holdings Inc.",
+   "d5": 0.0104,
+   "d20": 0.0823,
+   "m6": 0.1693,
+   "y1": -0.0348,
+   "off_high": -0.0593
+  },
+  {
+   "theme": "Medtech & Surgical Robotics",
+   "ticker": "BDX",
+   "name": "Becton Dickinson and Company",
+   "d5": 0.0161,
+   "d20": 0.0991,
+   "m6": 0.3746,
+   "y1": 0.4105,
+   "off_high": -0.0112
+  },
+  {
+   "theme": "Medtech & Surgical Robotics",
+   "ticker": "PRCT",
+   "name": "PROCEPT BioRobotics Corporation",
+   "d5": 0.0187,
+   "d20": 0.1519,
+   "m6": -0.199,
+   "y1": -0.4073,
+   "off_high": -0.4413
+  },
+  {
+   "theme": "Medtech & Surgical Robotics",
+   "ticker": "NOVT",
+   "name": "Novanta Inc.",
+   "d5": -0.0125,
+   "d20": -0.0108,
+   "m6": 0.1149,
+   "y1": 0.1612,
+   "off_high": -0.126
+  },
+  {
+   "theme": "Medtech & Surgical Robotics",
+   "ticker": "IRTC",
+   "name": "iRhythm Holdings Inc.",
+   "d5": 0.0212,
+   "d20": 0.1788,
+   "m6": 0.0699,
+   "y1": -0.3253,
+   "off_high": -0.3323
+  },
+  {
+   "theme": "Medtech & Surgical Robotics",
+   "ticker": "RMD",
+   "name": "ResMed Inc.",
+   "d5": -0.0946,
+   "d20": 0.029,
+   "m6": 0.0924,
+   "y1": -0.0802,
+   "off_high": -0.1771
+  },
+  {
+   "theme": "Medtech & Surgical Robotics",
+   "ticker": "CDNA",
+   "name": "CareDx Inc.",
+   "d5": 0.2544,
+   "d20": 0.3869,
+   "m6": 3.2739,
+   "y1": 4.898,
+   "off_high": 0.0
+  },
+  {
+   "theme": "Medtech & Surgical Robotics",
+   "ticker": "IRMD",
+   "name": "iRadimed Corporation",
+   "d5": -0.0338,
+   "d20": -0.0437,
+   "m6": -0.0553,
+   "y1": 0.056,
+   "off_high": -0.2286
+  },
+  {
+   "theme": "Diagnostics & Genomics",
+   "ticker": "NTRA",
+   "name": "Natera Inc.",
+   "d5": -0.054,
+   "d20": -0.03,
+   "m6": 0.8795,
+   "y1": 0.9536,
+   "off_high": -0.1086
+  },
+  {
+   "theme": "Diagnostics & Genomics",
+   "ticker": "GH",
+   "name": "Guardant Health Inc.",
+   "d5": -0.0172,
+   "d20": 0.0253,
+   "m6": 0.9549,
+   "y1": 0.8813,
+   "off_high": -0.0653
+  },
+  {
+   "theme": "Diagnostics & Genomics",
+   "ticker": "TEM",
+   "name": "Tempus AI Inc.",
+   "d5": 0.0783,
+   "d20": 0.0809,
+   "m6": 0.4389,
+   "y1": -0.1341,
+   "off_high": -0.123
+  },
+  {
+   "theme": "Diagnostics & Genomics",
+   "ticker": "ILMN",
+   "name": "Illumina Inc.",
+   "d5": -0.1476,
+   "d20": -0.1292,
+   "m6": 0.7129,
+   "y1": 0.9282,
+   "off_high": -0.1889
+  },
+  {
+   "theme": "Diagnostics & Genomics",
+   "ticker": "TWST",
+   "name": "Twist Bioscience Corporation",
+   "d5": -0.1223,
+   "d20": -0.1597,
+   "m6": 1.4744,
+   "y1": 3.2657,
+   "off_high": -0.3156
+  },
+  {
+   "theme": "Diagnostics & Genomics",
+   "ticker": "WGS",
+   "name": "GeneDx Holdings Corp.",
+   "d5": 0.094,
+   "d20": -0.0403,
+   "m6": 0.989,
+   "y1": -0.4986,
+   "off_high": -0.5902
+  },
+  {
+   "theme": "Diagnostics & Genomics",
+   "ticker": "CAI",
+   "name": "Caris Life Sciences Inc.",
+   "d5": -0.0244,
+   "d20": 0.1965,
+   "m6": 0.7335,
+   "y1": 0.0921,
+   "off_high": -0.091
+  },
+  {
+   "theme": "Diagnostics & Genomics",
+   "ticker": "ADPT",
+   "name": "Adaptive Biotechnologies Corporation",
+   "d5": -0.0672,
+   "d20": -0.0409,
+   "m6": 0.8723,
+   "y1": 0.4862,
+   "off_high": -0.1354
+  },
+  {
+   "theme": "Diagnostics & Genomics",
+   "ticker": "DGX",
+   "name": "Quest Diagnostics Incorporated",
+   "d5": 0.0186,
+   "d20": 0.0817,
+   "m6": 0.2946,
+   "y1": 0.4041,
+   "off_high": -0.0232
+  },
+  {
+   "theme": "Diagnostics & Genomics",
+   "ticker": "LH",
+   "name": "Labcorp Holdings Inc.",
+   "d5": 0.0687,
+   "d20": 0.1354,
+   "m6": 0.3764,
+   "y1": 0.3936,
+   "off_high": -0.0387
+  },
+  {
+   "theme": "Diagnostics & Genomics",
+   "ticker": "QDEL",
+   "name": "QuidelOrtho Corporation",
+   "d5": 0.0368,
+   "d20": 0.1209,
+   "m6": 0.2084,
+   "y1": -0.478,
+   "off_high": -0.6018
+  },
+  {
+   "theme": "Diagnostics & Genomics",
+   "ticker": "RDNT",
+   "name": "RadNet Inc.",
+   "d5": -0.0049,
+   "d20": 0.0413,
+   "m6": 0.2399,
+   "y1": -0.037,
+   "off_high": -0.1338
+  },
+  {
+   "theme": "Managed Care & Providers",
+   "ticker": "UNH",
+   "name": "UnitedHealth Group Incorporated Common S",
+   "d5": -0.0145,
+   "d20": 0.0747,
+   "m6": 0.1115,
+   "y1": 0.1841,
+   "off_high": -0.0731
+  },
+  {
+   "theme": "Managed Care & Providers",
+   "ticker": "ELV",
+   "name": "Elevance Health Inc.",
+   "d5": -0.0184,
+   "d20": 0.0341,
+   "m6": 0.1211,
+   "y1": 0.3044,
+   "off_high": -0.0708
+  },
+  {
+   "theme": "Managed Care & Providers",
+   "ticker": "CI",
+   "name": "The Cigna Group",
+   "d5": -0.0095,
+   "d20": 0.0768,
+   "m6": 0.0718,
+   "y1": 0.2088,
+   "off_high": -0.0647
+  },
+  {
+   "theme": "Managed Care & Providers",
+   "ticker": "HUM",
+   "name": "Humana Inc.",
+   "d5": 0.0073,
+   "d20": 0.0336,
+   "m6": 0.7445,
+   "y1": 0.5021,
+   "off_high": -0.0361
+  },
+  {
+   "theme": "Managed Care & Providers",
+   "ticker": "CNC",
+   "name": "Centene Corporation",
+   "d5": -0.0179,
+   "d20": 0.0444,
+   "m6": 0.2737,
+   "y1": 0.9078,
+   "off_high": -0.0528
+  },
+  {
+   "theme": "Managed Care & Providers",
+   "ticker": "MOH",
+   "name": "Molina Healthcare Inc",
+   "d5": 0.0421,
+   "d20": 0.065,
+   "m6": 0.0816,
+   "y1": 0.358,
+   "off_high": -0.1442
+  },
+  {
+   "theme": "Managed Care & Providers",
+   "ticker": "HCA",
+   "name": "HCA Healthcare Inc.",
+   "d5": 0.0287,
+   "d20": 0.0709,
+   "m6": 0.0795,
+   "y1": 0.0069,
+   "off_high": -0.1509
+  },
+  {
+   "theme": "Managed Care & Providers",
+   "ticker": "THC",
+   "name": "Tenet Healthcare Corporation",
+   "d5": 0.0177,
+   "d20": 0.0318,
+   "m6": 0.4268,
+   "y1": 0.2915,
+   "off_high": -0.0501
+  },
+  {
+   "theme": "Managed Care & Providers",
+   "ticker": "UHS",
+   "name": "Universal Health Services Inc.",
+   "d5": -0.0011,
+   "d20": 0.0003,
+   "m6": 0.0709,
+   "y1": -0.1838,
+   "off_high": -0.2746
+  },
+  {
+   "theme": "Managed Care & Providers",
+   "ticker": "VTR",
+   "name": "Ventas Inc.",
+   "d5": 0.0444,
+   "d20": 0.0633,
+   "m6": 0.003,
+   "y1": 0.1796,
+   "off_high": -0.1342
+  },
+  {
+   "theme": "Managed Care & Providers",
+   "ticker": "EHC",
+   "name": "Encompass Health Corporation",
+   "d5": 0.1091,
+   "d20": 0.081,
+   "m6": 0.2818,
+   "y1": 0.1839,
+   "off_high": -0.0175
+  },
+  {
+   "theme": "Managed Care & Providers",
+   "ticker": "ACHC",
+   "name": "Acadia Healthcare Company Inc.",
+   "d5": -0.0094,
+   "d20": 0.02,
+   "m6": 0.1721,
+   "y1": 0.3777,
+   "off_high": -0.1682
+  },
+  {
+   "theme": "Managed Care & Providers",
+   "ticker": "ENSG",
+   "name": "The Ensign Group Inc.",
+   "d5": 0.075,
+   "d20": 0.059,
+   "m6": 0.0356,
+   "y1": 0.0117,
+   "off_high": -0.1558
+  },
+  {
+   "theme": "Managed Care & Providers",
+   "ticker": "WELL",
+   "name": "Welltower Inc.",
+   "d5": 0.0637,
+   "d20": 0.0682,
+   "m6": 0.1254,
+   "y1": 0.3321,
+   "off_high": -0.0432
+  },
+  {
+   "theme": "Managed Care & Providers",
+   "ticker": "TDOC",
+   "name": "Teladoc Health Inc.",
+   "d5": 0.3783,
+   "d20": 0.5407,
+   "m6": 0.3348,
+   "y1": 0.0301,
+   "off_high": -0.0854
+  },
+  {
+   "theme": "Rails, Trucking & Logistics",
+   "ticker": "UNP",
+   "name": "Union Pacific Corporation",
+   "d5": 0.0118,
+   "d20": 0.097,
+   "m6": 0.1493,
+   "y1": 0.3769,
+   "off_high": -0.0231
+  },
+  {
+   "theme": "Rails, Trucking & Logistics",
+   "ticker": "JBHT",
+   "name": "J.B. Hunt Transport Services Inc.",
+   "d5": -0.0315,
+   "d20": -0.0057,
+   "m6": -0.0757,
+   "y1": 0.3303,
+   "off_high": -0.2472
+  },
+  {
+   "theme": "Rails, Trucking & Logistics",
+   "ticker": "CSX",
+   "name": "CSX Corporation",
+   "d5": -0.0297,
+   "d20": 0.0678,
+   "m6": 0.1264,
+   "y1": 0.4081,
+   "off_high": -0.0472
+  },
+  {
+   "theme": "Rails, Trucking & Logistics",
+   "ticker": "NSC",
+   "name": "Norfolk Southern Corporation",
+   "d5": 0.0036,
+   "d20": 0.0779,
+   "m6": 0.0873,
+   "y1": 0.2032,
+   "off_high": -0.0341
+  },
+  {
+   "theme": "Rails, Trucking & Logistics",
+   "ticker": "ODFL",
+   "name": "Old Dominion Freight Line Inc.",
+   "d5": -0.05,
+   "d20": -0.0019,
+   "m6": -0.0938,
+   "y1": 0.2653,
+   "off_high": -0.2857
+  },
+  {
+   "theme": "Rails, Trucking & Logistics",
+   "ticker": "XPO",
+   "name": "XPO Inc.",
+   "d5": 0.0172,
+   "d20": 0.0417,
+   "m6": -0.079,
+   "y1": 0.3286,
+   "off_high": -0.163
+  },
+  {
+   "theme": "Rails, Trucking & Logistics",
+   "ticker": "SAIA",
+   "name": "Saia Inc.",
+   "d5": 0.0361,
+   "d20": 0.0337,
+   "m6": -0.1637,
+   "y1": 0.2075,
+   "off_high": -0.275
+  },
+  {
+   "theme": "Rails, Trucking & Logistics",
+   "ticker": "CHRW",
+   "name": "C.H. Robinson Worldwide Inc.",
+   "d5": -0.0702,
+   "d20": -0.0114,
+   "m6": -0.2012,
+   "y1": -0.133,
+   "off_high": -0.3625
+  },
+  {
+   "theme": "Rails, Trucking & Logistics",
+   "ticker": "RXO",
+   "name": "RXO Inc.",
+   "d5": -0.0296,
+   "d20": -0.0105,
+   "m6": 0.5525,
+   "y1": 0.5928,
+   "off_high": -0.0362
+  },
+  {
+   "theme": "Rails, Trucking & Logistics",
+   "ticker": "LSTR",
+   "name": "Landstar System Inc.",
+   "d5": -0.105,
+   "d20": -0.1064,
+   "m6": -0.1623,
+   "y1": 0.1762,
+   "off_high": -0.3297
+  },
+  {
+   "theme": "Rails, Trucking & Logistics",
+   "ticker": "YMM",
+   "name": "Full Truck Alliance Co. Ltd.",
+   "d5": 0.0333,
+   "d20": 0.0308,
+   "m6": -0.0203,
+   "y1": -0.3308,
+   "off_high": -0.3349
+  },
+  {
+   "theme": "Rails, Trucking & Logistics",
+   "ticker": "EXPD",
+   "name": "Expeditors International of Washington I",
+   "d5": 0.0234,
+   "d20": 0.0652,
+   "m6": 0.3347,
+   "y1": 0.676,
+   "off_high": 0.0
+  },
+  {
+   "theme": "Rails, Trucking & Logistics",
+   "ticker": "ARCB",
+   "name": "ArcBest Corporation",
+   "d5": 0.0318,
+   "d20": 0.0487,
+   "m6": 0.138,
+   "y1": 0.8095,
+   "off_high": -0.2236
+  },
+  {
+   "theme": "Rails, Trucking & Logistics",
+   "ticker": "FDX",
+   "name": "FedEx Corporation",
+   "d5": 0.0356,
+   "d20": 0.1003,
+   "m6": 0.088,
+   "y1": 0.5549,
+   "off_high": -0.0629
+  },
+  {
+   "theme": "Rails, Trucking & Logistics",
+   "ticker": "UPS",
+   "name": "United Parcel Service Inc.",
+   "d5": 0.029,
+   "d20": 0.1725,
+   "m6": 0.1132,
+   "y1": 0.1322,
+   "off_high": -0.0903
+  },
+  {
+   "theme": "Machinery",
+   "ticker": "CAT",
+   "name": "Caterpillar Inc.",
+   "d5": -0.1253,
+   "d20": -0.2774,
+   "m6": -0.3103,
+   "y1": 0.0809,
+   "off_high": -0.4141
+  },
+  {
+   "theme": "Machinery",
+   "ticker": "DE",
+   "name": "Deere & Company",
+   "d5": 0.041,
+   "d20": -0.0248,
+   "m6": 0.1564,
+   "y1": 0.4423,
+   "off_high": -0.0615
+  },
+  {
+   "theme": "Machinery",
+   "ticker": "FLS",
+   "name": "Flowserve Corporation",
+   "d5": 0.1438,
+   "d20": 0.1049,
+   "m6": 0.1539,
+   "y1": 0.1873,
+   "off_high": -0.1196
+  },
+  {
+   "theme": "Machinery",
+   "ticker": "IR",
+   "name": "Ingersoll Rand Inc.",
+   "d5": 0.1196,
+   "d20": 0.0675,
+   "m6": 0.1153,
+   "y1": 0.1078,
+   "off_high": -0.1438
+  },
+  {
+   "theme": "Machinery",
+   "ticker": "GGG",
+   "name": "Graco Inc.",
+   "d5": 0.0406,
+   "d20": -0.1233,
+   "m6": -0.121,
+   "y1": -0.1542,
+   "off_high": -0.2706
+  },
+  {
+   "theme": "Machinery",
+   "ticker": "TEX",
+   "name": "Terex Corporation",
+   "d5": 0.1578,
+   "d20": 0.0132,
+   "m6": -0.0557,
+   "y1": 0.2499,
+   "off_high": -0.2287
+  },
+  {
+   "theme": "Machinery",
+   "ticker": "LECO",
+   "name": "Lincoln Electric Holdings Inc.",
+   "d5": 0.0077,
+   "d20": 0.0327,
+   "m6": 0.067,
+   "y1": 0.2137,
+   "off_high": -0.0479
+  },
+  {
+   "theme": "Machinery",
+   "ticker": "NDSN",
+   "name": "Nordson Corporation",
+   "d5": 0.0208,
+   "d20": -0.0095,
+   "m6": 0.1711,
+   "y1": 0.4273,
+   "off_high": -0.0109
+  },
+  {
+   "theme": "Water & Waste",
+   "ticker": "XYL",
+   "name": "Xylem Inc. Common Stock New",
+   "d5": 0.0367,
+   "d20": -0.0794,
+   "m6": -0.1729,
+   "y1": -0.3618,
+   "off_high": -0.3638
+  },
+  {
+   "theme": "Water & Waste",
+   "ticker": "AWK",
+   "name": "American Water Works Company Inc.",
+   "d5": 0.0377,
+   "d20": 0.1435,
+   "m6": 0.1616,
+   "y1": 0.1401,
+   "off_high": -0.0069
+  },
+  {
+   "theme": "Water & Waste",
+   "ticker": "PNR",
+   "name": "Pentair plc. Ordinary Share",
+   "d5": 0.1194,
+   "d20": 0.3172,
+   "m6": -0.1042,
+   "y1": -0.3443,
+   "off_high": -0.3585
+  },
+  {
+   "theme": "Water & Waste",
+   "ticker": "VLTO",
+   "name": "Veralto Corp Common Stock ",
+   "d5": 0.1272,
+   "d20": 0.206,
+   "m6": 0.3199,
+   "y1": 0.1788,
+   "off_high": 0.0
+  },
+  {
+   "theme": "Water & Waste",
+   "ticker": "ECL",
+   "name": "Ecolab Inc.",
+   "d5": 0.046,
+   "d20": 0.085,
+   "m6": 0.1825,
+   "y1": 0.1883,
+   "off_high": -0.012
+  },
+  {
+   "theme": "Water & Waste",
+   "ticker": "WMS",
+   "name": "Advanced Drainage Systems Inc.",
+   "d5": 0.0386,
+   "d20": 0.0456,
+   "m6": -0.0466,
+   "y1": -0.0289,
+   "off_high": -0.2245
+  },
+  {
+   "theme": "Water & Waste",
+   "ticker": "ZWS",
+   "name": "Zurn Elkay Water Solutions Corporation",
+   "d5": -0.1023,
+   "d20": -0.078,
+   "m6": -0.1298,
+   "y1": -0.0635,
+   "off_high": -0.1704
+  },
+  {
+   "theme": "Water & Waste",
+   "ticker": "CWT",
+   "name": "California Water Service Group",
+   "d5": 0.027,
+   "d20": 0.0782,
+   "m6": 0.141,
+   "y1": 0.1066,
+   "off_high": -0.0635
+  },
+  {
+   "theme": "Water & Waste",
+   "ticker": "WM",
+   "name": "Waste Management Inc.",
+   "d5": -0.0048,
+   "d20": 0.1289,
+   "m6": 0.0453,
+   "y1": 0.1747,
+   "off_high": -0.048
+  },
+  {
+   "theme": "Water & Waste",
+   "ticker": "RSG",
+   "name": "Republic Services Inc.",
+   "d5": 0.0306,
+   "d20": 0.131,
+   "m6": 0.1912,
+   "y1": 0.1663,
+   "off_high": -0.0126
+  },
+  {
+   "theme": "Water & Waste",
+   "ticker": "CLH",
+   "name": "Clean Harbors Inc.",
+   "d5": -0.0579,
+   "d20": -0.0731,
+   "m6": -0.0602,
+   "y1": 0.4005,
+   "off_high": -0.0966
+  },
+  {
+   "theme": "Water & Waste",
+   "ticker": "CWST",
+   "name": "Casella Waste Systems Inc.",
+   "d5": 0.0269,
+   "d20": 0.1727,
+   "m6": 0.1092,
+   "y1": 0.0865,
+   "off_high": -0.1035
+  },
+  {
+   "theme": "Water & Waste",
+   "ticker": "DAR",
+   "name": "Darling Ingredients Inc.",
+   "d5": -0.0368,
+   "d20": -0.1234,
+   "m6": -0.173,
+   "y1": 0.673,
+   "off_high": -0.2154
+  },
+  {
+   "theme": "Water & Waste",
+   "ticker": "FSS",
+   "name": "Federal Signal Corporation",
+   "d5": 0.0115,
+   "d20": -0.0085,
+   "m6": -0.036,
+   "y1": -0.0075,
+   "off_high": -0.1249
+  },
+  {
+   "theme": "Water & Waste",
+   "ticker": "WCN",
+   "name": "Waste Connections Inc.",
+   "d5": 0.0258,
+   "d20": 0.2072,
+   "m6": 0.1839,
+   "y1": 0.1132,
+   "off_high": -0.008
+  },
+  {
+   "theme": "Towers & Telecom",
+   "ticker": "TMUS",
+   "name": "T-Mobile US Inc.",
+   "d5": 0.0516,
+   "d20": -0.0694,
+   "m6": -0.2053,
+   "y1": -0.2649,
+   "off_high": -0.3044
+  },
+  {
+   "theme": "Towers & Telecom",
+   "ticker": "AMT",
+   "name": "American Tower Corporation (REIT)",
+   "d5": 0.0188,
+   "d20": 0.1366,
+   "m6": 0.0515,
+   "y1": 0.0464,
+   "off_high": -0.0352
+  },
+  {
+   "theme": "Towers & Telecom",
+   "ticker": "CCI",
+   "name": "Crown Castle Inc.",
+   "d5": -0.0147,
+   "d20": 0.268,
+   "m6": -0.0283,
+   "y1": -0.0403,
+   "off_high": -0.0837
+  },
+  {
+   "theme": "Towers & Telecom",
+   "ticker": "SBAC",
+   "name": "SBA Communications Corporation",
+   "d5": 0.0024,
+   "d20": 0.0883,
+   "m6": -0.1504,
+   "y1": -0.0355,
+   "off_high": -0.1746
+  },
+  {
+   "theme": "Towers & Telecom",
+   "ticker": "VZ",
+   "name": "Verizon Communications Inc.",
+   "d5": 0.0298,
+   "d20": -0.0161,
+   "m6": -0.0444,
+   "y1": 0.1384,
+   "off_high": -0.1207
+  },
+  {
+   "theme": "Towers & Telecom",
+   "ticker": "T",
+   "name": "AT&T Inc.",
+   "d5": 0.0215,
+   "d20": -0.1244,
+   "m6": -0.1741,
+   "y1": -0.1358,
+   "off_high": -0.2649
+  },
+  {
+   "theme": "Towers & Telecom",
+   "ticker": "IHS",
+   "name": "IHS Holding Limited",
+   "d5": -0.0059,
+   "d20": 0.0,
+   "m6": 0.033,
+   "y1": 0.2321,
+   "off_high": -0.0332
+  },
+  {
+   "theme": "Towers & Telecom",
+   "ticker": "UNIT",
+   "name": "Uniti Group Inc.",
+   "d5": -0.0039,
+   "d20": -0.3753,
+   "m6": -0.56,
+   "y1": -0.1215,
+   "off_high": -0.6031
+  },
+  {
+   "theme": "Towers & Telecom",
+   "ticker": "CHTR",
+   "name": "Charter Communications Inc.",
+   "d5": 0.0844,
+   "d20": 0.0474,
+   "m6": -0.2809,
+   "y1": -0.5134,
+   "off_high": -0.5415
+  },
+  {
+   "theme": "Towers & Telecom",
+   "ticker": "LBTYA",
+   "name": "Liberty Global Ltd.",
+   "d5": 0.0895,
+   "d20": -0.0678,
+   "m6": -0.2918,
+   "y1": -0.2255,
+   "off_high": -0.3461
+  },
+  {
+   "theme": "Towers & Telecom",
+   "ticker": "CALX",
+   "name": "Calix Inc",
+   "d5": -0.1319,
+   "d20": -0.0578,
+   "m6": -0.2743,
+   "y1": -0.514,
+   "off_high": -0.5055
+  }
+ ]
+}

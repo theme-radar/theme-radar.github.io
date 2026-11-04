@@ -1,0 +1,32 @@
+# Theme Radar
+
+> Thematic equity research and the baskets that track it. Free and open. Market data to the 2026-11-03 close.
+
+Research pieces are written as theses with named tickers, dated numbers and sources. Each idea is tracked as a basket from its start date.
+
+## Research
+- [Passport Control for Robots: SAIL vs OKTA](https://theme-radar.github.io/research/passport-control-for-robots.md): 2026-10-09. Cyber Security. SAIL, OKTA. AI agents pay the identity registry, not the login. Governance is priced per identity, login per employee. Within listed identity, SailPoint owns the better-placed layer at the lower multiple.
+- [The Mall Is Closing: Shopify, Meta's Muse and the Agentic Storefront](https://theme-radar.github.io/research/the-mall-is-closing.md): 2026-10-07. Agentic Commerce. SHOP, META, AMZN. When AI agents do the shopping, the rails get paid every time (Shopify), the assistant that knows the buyer earns a commission (Meta), and the everything store has to reinvent itself or shrink (Amazon).
+
+## Baskets
+- [Cyber Security](https://theme-radar.github.io/baskets/cyber-security.md): from 2026-09-18, -5.5% since start, label Avoid for now. Nine security platforms that sit where AI agents run, connect and get permissions: endpoint, network, zero trust, identity, data and observability. Started with the 18-Sep-26 cybersecurity primer.
+- [AI Science](https://theme-radar.github.io/baskets/ai-science.md): from 2026-08-17, +13.4% since start, label Avoid for now. Own the bench: the instruments, genomics and synthetic DNA that AI-driven life-science research runs on, whichever drug or model wins.
+- [US Dollar Devaluation](https://theme-radar.github.io/baskets/usd-devaluation.md): from 2026-05-20, -3.9% since start, label Avoid for now. Gold royalty, streaming and mining names as a hedge against a weaker dollar. ALS is priced in Canadian dollars (TSX).
+- [Programmable Rails](https://theme-radar.github.io/baskets/programmable-rails.md): from 2026-11-02, +0.2% since start, label No signal. The licensed control points of payments and markets (Visa, Mastercard, ICE, Adyen at 12.5% each) plus the new rails and on-ramps (Circle, Coinbase, Robinhood, Shopify, BHYP at 10% each). Adyen is priced in EUR.
+- [Payments Value](https://theme-radar.github.io/baskets/payments-value.md): from 2026-11-02, +5.7% since start, label Already moving. Incumbent payment processors priced as value and takeout candidates: PayPal and Fiserv, equal weight.
+
+## Market views
+- [Rotation](https://theme-radar.github.io/rotation.md): 77 themes on a weekly rotation chart against SPY
+- [Sector ETFs](https://theme-radar.github.io/etfs.md)
+
+## Data
+- [baskets.json](https://theme-radar.github.io/data/baskets.json)
+- [themes.json](https://theme-radar.github.io/data/themes.json)
+- [rotation.json](https://theme-radar.github.io/data/rotation.json)
+- [theme_members.json](https://theme-radar.github.io/data/theme_members.json)
+- [etfs.json](https://theme-radar.github.io/data/etfs.json)
+- [research.json](https://theme-radar.github.io/data/research.json)
+
+## Optional
+- [All research in one file](https://theme-radar.github.io/llms-full.txt)
+- [About](https://theme-radar.github.io/about.md)

@@ -1,0 +1,15 @@
+- name: Cyber Security
+  slug: cyber-security
+  summary: How AI agents change security spending, and which layers get paid.
+- name: AI Science
+  slug: ai-science
+  summary: AI in drug discovery and life-science research, and the tools it runs on.
+- name: Agentic Commerce
+  slug: agentic-commerce
+  summary: Who gets paid when AI agents do the shopping.
+- name: Payments and Financial Rails
+  slug: payments
+  summary: Payment networks, exchanges and the new on-chain rails.
+- name: Gold and the Dollar
+  slug: gold-and-the-dollar
+  summary: Gold equities as a hedge against a weaker dollar.
