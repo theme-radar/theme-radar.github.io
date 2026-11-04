@@ -5,6 +5,7 @@ Market data to the 2026-11-03 close.
 
 ## Latest research
 
+- [If frontier AI labs are becoming the next generation of biotech platforms, how should we position?](https://theme-radar.github.io/research/ai-frontier-labs-biotech.md) (2026-10-31, AI Science)
 - [Passport Control for Robots: SAIL vs OKTA](https://theme-radar.github.io/research/passport-control-for-robots.md) (2026-10-09, Cyber Security)
 - [The Mall Is Closing: Shopify, Meta's Muse and the Agentic Storefront](https://theme-radar.github.io/research/the-mall-is-closing.md) (2026-10-07, Agentic Commerce)
 

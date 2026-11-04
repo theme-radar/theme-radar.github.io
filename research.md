@@ -10,6 +10,7 @@ How AI agents change security spending, and which layers get paid.
 
 AI in drug discovery and life-science research, and the tools it runs on.
 
+- [If frontier AI labs are becoming the next generation of biotech platforms, how should we position?](https://theme-radar.github.io/research/ai-frontier-labs-biotech.md) (2026-10-31): Frontier AI labs are buying biotechs, building wet labs and starting their own drug programmes. Design gets cheap and validation stays scarce, so the physical layer gets paid: molecule makers, lab tools, testing services and data owners.
 
 ## Agentic Commerce
 

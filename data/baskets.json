@@ -1,7 +1,7 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-03",
- "generated": "2026-11-04T04:20:19Z",
+ "generated": "2026-11-04T04:30:17Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "baskets": [
@@ -136,7 +136,9 @@
    "m6": 0.8341,
    "y1": 1.2253,
    "weighting": "Equal weight",
-   "research": [],
+   "research": [
+    "/research/ai-frontier-labs-biotech/"
+   ],
    "members": [
     {
      "ticker": "TMO",
