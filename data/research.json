@@ -1,7 +1,7 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-03",
- "generated": "2026-11-04T07:44:55Z",
+ "generated": "2026-11-04T07:46:51Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "research": [
@@ -23,6 +23,36 @@
    "summary": "The largest crypto theft on record ran through a poisoned package, a fake job offer, an over-privileged token and an internal AI tool. No change to the basket, but it points to identity and software supply chain. A fear-driven slowdown in AI agents helps the basket. A return-driven one is the real risk.",
    "url": "https://theme-radar.github.io/research/binance-heist-cyber-basket/",
    "markdown": "https://theme-radar.github.io/research/binance-heist-cyber-basket.md"
+  },
+  {
+   "title": "Channel check: what an mRNA lab at Penn told us about AI, monkeys and the wet lab",
+   "date": "2026-11-04",
+   "theme": "AI Science",
+   "tickers": [
+    "CRL",
+    "2395.T",
+    "ICLR",
+    "TWST",
+    "DHR",
+    "TMO",
+    "TECN",
+    "WAT",
+    "A",
+    "BRKR",
+    "RVTY",
+    "DNA",
+    "GENB",
+    "RXRX",
+    "CERT",
+    "NTRA",
+    "TEM"
+   ],
+   "baskets": [
+    "ai-science"
+   ],
+   "summary": "A Penn mRNA scientist confirmed that monkeys, wet-lab capacity and labour are the scarce inputs in drug discovery, and flagged two risks: AI still needs heavy human checking, and China is now the cheapest source of lab kit.",
+   "url": "https://theme-radar.github.io/research/penn-mrna-channel-check/",
+   "markdown": "https://theme-radar.github.io/research/penn-mrna-channel-check.md"
   },
   {
    "title": "Cybersecurity hardware: Fortinet and F5",

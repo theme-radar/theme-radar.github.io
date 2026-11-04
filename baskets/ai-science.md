@@ -22,4 +22,5 @@ Start: 2026-08-17. Weighting: Equal weight. Label: No signal. Since start: +16.8
 | LLY | Eli Lilly | 7.1% | +19.1% | +9.9% | +21.8% | +42.5% |
 
 Research:
+- https://theme-radar.github.io/research/penn-mrna-channel-check.md
 - https://theme-radar.github.io/research/ai-frontier-labs-biotech.md
