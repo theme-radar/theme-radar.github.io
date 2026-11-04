@@ -1,7 +1,7 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-03",
- "generated": "2026-11-04T07:03:55Z",
+ "generated": "2026-11-04T07:15:14Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "methodology": [
@@ -16,12 +16,25 @@
    "start": "2026-09-18",
    "summary": "Fifteen names across the security platforms and services that AI agents depend on: endpoint, network, zero trust, identity, software supply chain, data, observability and recovery.",
    "label": "Avoid for now",
-   "since_start": 0.0195,
+   "since_start": 0.0077,
    "d5": -0.1157,
    "d20": -0.0658,
    "m6": 0.5558,
    "y1": 0.3663,
    "weighting": "Equal weight",
+   "adds": [
+    {
+     "date": "2026-10-26",
+     "tickers": [
+      "MSFT",
+      "FROG",
+      "QLYS",
+      "ACN",
+      "CACI",
+      "MITK"
+     ]
+    }
+   ],
    "research": [
     "/research/binance-heist-cyber-basket/",
     "/research/cyber-hardware-ftnt-ffiv/",
@@ -37,7 +50,8 @@
      "d20": 0.0605,
      "m6": 0.5923,
      "off_high": -0.3306,
-     "priced": true
+     "priced": true,
+     "added": null
     },
     {
      "ticker": "RBRK",
@@ -48,7 +62,8 @@
      "d20": -0.0738,
      "m6": 1.0394,
      "off_high": -0.1433,
-     "priced": true
+     "priced": true,
+     "added": null
     },
     {
      "ticker": "DDOG",
@@ -59,7 +74,8 @@
      "d20": -0.2074,
      "m6": 0.5132,
      "off_high": -0.248,
-     "priced": true
+     "priced": true,
+     "added": null
     },
     {
      "ticker": "SAIL",
@@ -70,7 +86,8 @@
      "d20": -0.0462,
      "m6": 0.563,
      "off_high": -0.1519,
-     "priced": true
+     "priced": true,
+     "added": null
     },
     {
      "ticker": "CRWD",
@@ -81,7 +98,8 @@
      "d20": -0.1226,
      "m6": 1.0538,
      "off_high": -0.1226,
-     "priced": true
+     "priced": true,
+     "added": null
     },
     {
      "ticker": "FTNT",
@@ -92,7 +110,8 @@
      "d20": -0.3302,
      "m6": 0.4247,
      "off_high": -0.3422,
-     "priced": true
+     "priced": true,
+     "added": null
     },
     {
      "ticker": "FFIV",
@@ -103,7 +122,8 @@
      "d20": -0.2951,
      "m6": -0.0257,
      "off_high": -0.3099,
-     "priced": true
+     "priced": true,
+     "added": null
     },
     {
      "ticker": "PANW",
@@ -114,7 +134,8 @@
      "d20": -0.166,
      "m6": 0.9035,
      "off_high": -0.166,
-     "priced": true
+     "priced": true,
+     "added": null
     },
     {
      "ticker": "NET",
@@ -125,73 +146,80 @@
      "d20": -0.2293,
      "m6": 0.1194,
      "off_high": -0.2419,
-     "priced": true
+     "priced": true,
+     "added": null
     },
     {
      "ticker": "MSFT",
      "name": "Microsoft",
      "weight": 0.0667,
-     "since_start": 0.0551,
+     "since_start": -0.0218,
      "d5": -0.0195,
      "d20": -0.0157,
      "m6": 0.2664,
      "off_high": -0.0413,
-     "priced": true
+     "priced": true,
+     "added": "2026-10-26"
     },
     {
      "ticker": "FROG",
      "name": "JFrog",
      "weight": 0.0667,
-     "since_start": -0.0465,
+     "since_start": -0.1116,
      "d5": -0.1192,
      "d20": -0.1017,
      "m6": 0.6264,
      "off_high": -0.1494,
-     "priced": true
+     "priced": true,
+     "added": "2026-10-26"
     },
     {
      "ticker": "QLYS",
      "name": "Qualys",
      "weight": 0.0667,
-     "since_start": 0.2035,
+     "since_start": -0.0648,
      "d5": -0.076,
      "d20": 0.0532,
      "m6": 1.2853,
      "off_high": -0.0856,
-     "priced": true
+     "priced": true,
+     "added": "2026-10-26"
     },
     {
      "ticker": "ACN",
      "name": "Accenture",
      "weight": 0.0667,
-     "since_start": 0.4042,
+     "since_start": 0.0296,
      "d5": 0.0825,
      "d20": 0.3162,
      "m6": 0.422,
      "off_high": -0.1178,
-     "priced": true
+     "priced": true,
+     "added": "2026-10-26"
     },
     {
      "ticker": "CACI",
      "name": "CACI International",
      "weight": 0.0667,
-     "since_start": 0.0849,
+     "since_start": 0.0227,
      "d5": 0.0208,
      "d20": 0.1342,
      "m6": 0.3766,
      "off_high": -0.0006,
-     "priced": true
+     "priced": true,
+     "added": "2026-10-26"
     },
     {
      "ticker": "MITK",
      "name": "Mitek Systems",
      "weight": 0.0667,
-     "since_start": 0.0831,
+     "since_start": -0.0321,
      "d5": -0.0141,
      "d20": 0.0372,
      "m6": 0.1766,
      "off_high": -0.1003,
-     "priced": true
+     "priced": true,
+     "added": "2026-10-26"
     }
    ]
   },
@@ -208,6 +236,7 @@
    "m6": 0.7967,
    "y1": 1.0411,
    "weighting": "Equal weight",
+   "adds": [],
    "research": [
     "/research/ai-frontier-labs-biotech/"
    ],
@@ -381,6 +410,7 @@
    "m6": -0.0365,
    "y1": 0.1938,
    "weighting": "Equal weight",
+   "adds": [],
    "research": [],
    "members": [
     {
@@ -442,6 +472,7 @@
    "m6": 0.1358,
    "y1": -0.142,
    "weighting": "Equal weight",
+   "adds": [],
    "research": [],
    "members": [
     {

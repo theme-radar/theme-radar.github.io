@@ -19,7 +19,7 @@ Research pieces are written as theses with named tickers, dated numbers and sour
 - [Payments Value](https://theme-radar.github.io/themes/payments-value.md): Incumbent payment processors priced as value and takeout candidates.
 
 ## Thematic Baskets (equal weight, buy-and-hold)
-- [Cyber Security](https://theme-radar.github.io/baskets/cyber-security.md): from 2026-09-18, +1.9% since start, label Avoid for now. Fifteen names across the security platforms and services that AI agents depend on: endpoint, network, zero trust, identity, software supply chain, data, observability and recovery.
+- [Cyber Security](https://theme-radar.github.io/baskets/cyber-security.md): from 2026-09-18, +0.8% since start, label Avoid for now. Fifteen names across the security platforms and services that AI agents depend on: endpoint, network, zero trust, identity, software supply chain, data, observability and recovery.
 - [AI Science](https://theme-radar.github.io/baskets/ai-science.md): from 2026-08-17, +16.8% since start, label No signal. Frontier AI labs are becoming biotech platforms, so the physical layer gets paid: molecule makers, lab tools, testing services, AI drug developers and pharma. 14 names, equal weight. SNBL (2395.T) is priced in yen.
 - [US Dollar Devaluation](https://theme-radar.github.io/baskets/usd-devaluation.md): from 2026-05-20, -3.9% since start, label Avoid for now. Gold royalty, streaming and mining names as a hedge against a weaker dollar. ALS is priced in Canadian dollars (TSX).
 - [Payments Value](https://theme-radar.github.io/baskets/payments-value.md): from 2026-11-02, +5.7% since start, label Already moving. Incumbent payment processors priced as value and takeout candidates: PayPal and Fiserv, equal weight.

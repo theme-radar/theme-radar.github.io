@@ -263,6 +263,37 @@ METHOD = [
 METHOD_HTML = '<ul class="small">' + ''.join(f'<li>{E(x)}</li>' for x in METHOD) + '</ul>'
 METHOD_MD = '\n'.join(f'- {x}' for x in METHOD)
 
+def yahoo_closes(sym):
+    import urllib.request
+    u = f'https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=1y&interval=1d'
+    r = json.load(urllib.request.urlopen(urllib.request.Request(u, headers={'User-Agent': 'Mozilla/5.0'}), timeout=30))['chart']['result'][0]
+    out = {}
+    for ts, c in zip(r['timestamp'], r['indicators']['quote'][0]['close']):
+        if c is not None: out[dt.datetime.fromtimestamp(ts, dt.timezone.utc).date().isoformat()] = c
+    return out
+
+def chain_return(start, adds, members, asof):
+    """Equal-weight buy-and-hold from start, re-set to equal weight across all names at each add date (close). Returns (total, None) or (None, err)."""
+    try:
+        px = {m['ticker']: yahoo_closes(m.get('yahoo') or m['ticker']) for m in members}
+        def first_on_or_after(t, d): 
+            ks = sorted(k for k in px[t] if k >= d and k <= asof); return px[t][ks[0]] if ks else None
+        def last_on_or_before(t, d):
+            ks = sorted(k for k in px[t] if k <= d); return px[t][ks[-1]] if ks else None
+        added = {t for a in adds for t in a['tickers']}
+        legs = [(start, [m['ticker'] for m in members if m['ticker'] not in added])]
+        for a in sorted(adds, key=lambda a: str(a['date'])):
+            legs.append((str(a['date']), legs[-1][1] + list(a['tickers'])))
+        total = 1.0
+        for i, (d0, names) in enumerate(legs):
+            d1 = legs[i + 1][0] if i + 1 < len(legs) else asof
+            p0 = {t: (first_on_or_after(t, d0) if i == 0 else last_on_or_before(t, d0)) for t in names}
+            r = sum(last_on_or_before(t, d1) / p0[t] - 1 for t in names) / len(names)
+            total *= 1 + r
+        return total - 1, None
+    except Exception as e:
+        return None, str(e)
+
 # ---------- build ----------
 def build(data, out, asof, base):
     if os.path.exists(out):
@@ -308,11 +339,18 @@ def build(data, out, asof, base):
         baskets.append(dict(slug=b['slug'], name=b['name'], thread=b['thread'], start=str(b['start']),
             summary=' '.join(b['summary'].split()), label=r.get('stage'), since_start=r.get('since'),
             d5=r.get('d5'), d20=r.get('d20'), m6=r.get('m6'), y1=r.get('y1'),
-            weighting='Equal weight',
+            weighting='Equal weight', adds=[dict(date=str(a['date']), tickers=list(a['tickers'])) for a in b.get('adds', [])],
             research=[p['url'] for p in posts if b['slug'] in (p.get('baskets') or [])],
             members=[dict(ticker=m['ticker'], name=m['name'], weight=m['weight'], since_start=m.get('since'),
                           d5=m.get('d5'), d20=m.get('d20'), m6=m.get('m6'), off_high=m.get('off'), priced=m.get('priced'))
                      for m in mem]))
+    for b in baskets:
+        if b['adds']:
+            tot, err = chain_return(b['start'], b['adds'], [m for m in mraw if m['basket'] == next(x['source'] for x in bdefs if x['slug'] == b['slug'])], asof)
+            if tot is not None: b['since_start'] = round(tot, 4)
+            else: print('chain-link failed for', b['slug'], err)
+            added = {t: a['date'] for a in b['adds'] for t in a['tickers']}
+            for m in b['members']: m['added'] = added.get(m['ticker'])
     bslug = {b['slug']: b for b in baskets}
 
     # themes + trails
@@ -378,18 +416,31 @@ def build(data, out, asof, base):
                  (pct(m['since_start']), cls(m['since_start'])), (pct(m['d20']), cls(m['d20'])), (pct(m['m6']), cls(m['m6']) + ' hs')] for m in mem]
         items = ''.join(f'<div class="ritem" style="--tc:{t["color"]}"><span class="di">{DOC}</span><div><a href="{p["url"]}">{E(p["title"])}</a>'
                         f'<div class="meta">{E(p.get("kind", "Research"))} · {", ".join(E(x) for x in p.get("tickers", []))}</div></div><span class="dt">{dfmt(p["date"])}</span></div>' for p in tp)
-        rows = [[(f'<b>{E(m["ticker"])}</b><br><span class="mute small">{E(m["name"])}</span>', ''),
-                 (pct(m['since_start']), cls(m['since_start'])), (pct(m['m6']), cls(m['m6']))] for m in mem]
+        if b.get('adds'):
+            ad = b['adds'][0]['date']
+            orig = [m for m in mem if not m.get('added')]; new = [m for m in mem if m.get('added')]
+            rows = [[(f'<b>{E(m["ticker"])}</b><br><span class="mute small">{E(m["name"])}</span>', ''),
+                     ('' if m.get('added') else pct(m['since_start']), '' if m.get('added') else cls(m['since_start'])),
+                     (pct(m['since_start']) if m.get('added') else '', cls(m['since_start']) if m.get('added') else '')] for m in orig + new]
+            col_heads = ['Name', f'Since {dfmt(b["start"])[:-5]}', f'Since {dfmt(ad)[:-5]}']
+        else:
+            rows = [[(f'<b>{E(m["ticker"])}</b><br><span class="mute small">{E(m["name"])}</span>', ''),
+                     (pct(m['since_start']), cls(m['since_start'])), (pct(m['m6']), cls(m['m6']))] for m in mem]
+            col_heads = ['Name', 'Since inception', '6M']
         head = (f'<div class="th tpanel"><div class="thead">{icon(t, 44)}<div><h1>{E(t["name"])}</h1>'
                 f'<div class="incep">Theme inception · {b_long(b["start"])}</div></div></div>'
                 '<div class="stats">'
-                f'<div class="stat"><div class="k">Basket</div><div class="big">{len(b["members"])} stocks</div><div class="sub">Equal-weighted at inception</div><div class="tick">{ticks}</div></div>'
+                f'<div class="stat"><div class="k">Basket</div><div class="big">{len(b["members"])} stocks</div><div class="sub">{add_note(b)}</div><div class="tick">{ticks}</div></div>'
                 f'<div class="stat"><div class="k">Performance since inception</div><div class="big {cls(b["since_start"])}">{pct(b["since_start"])}</div>'
                 f'<div class="mid">{b_long(b["start"])}</div><div class="sub">Buy-and-hold · {chip(b["label"])}</div></div></div></div>')
         research = f'<div class="tr tbox"><h3>Latest research</h3><div class="rlist">{items or "<p class=\"mute small\">No published piece yet.</p>"}</div></div>'
-        basket = (f'<div class="tb tbox"><h3>Basket constituents</h3><p class="mute small" style="margin:0 0 6px">All {len(b["members"])} tickers, performance since inception. Data to the {dfmt(asof)} close.</p>'
-                  + table(['Name', 'Since inception', '6M'], rows) + '</div>')
+        basket = (f'<div class="tb tbox"><h3>Basket constituents</h3><p class="mute small" style="margin:0 0 6px">All {len(b["members"])} tickers{", each measured from the date it joined" if b.get("adds") else ", performance since inception"}. Data to the {dfmt(asof)} close.</p>'
+                  + table(col_heads, rows) + '</div>')
         return f'<div class="tgrid">{head}{research}{basket}</div>'
+    def add_note(b):
+        if not b.get('adds'): return 'Equal-weighted at inception'
+        n0 = len(b['members']) - sum(len(a['tickers']) for a in b['adds'])
+        return f'{n0} from {dfmt(b["start"])}, ' + ', '.join(f'{len(a["tickers"])} added {dfmt(a["date"])}' for a in b['adds']) + '. Equal weight.'
     def b_long(d):
         d = dt.date.fromisoformat(str(d)); return f'{d.day} {d.strftime("%B %Y")}'
     # theme pages

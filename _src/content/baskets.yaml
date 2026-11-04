@@ -9,6 +9,9 @@
     Fifteen names across the security platforms and services that AI agents
     depend on: endpoint, network, zero trust, identity, software supply
     chain, data, observability and recovery.
+  adds:
+    - date: 2026-10-26
+      tickers: [MSFT, FROG, QLYS, ACN, CACI, MITK]
 - slug: ai-science
   name: AI Science
   source: AI Science_Claire

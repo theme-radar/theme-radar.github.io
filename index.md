@@ -20,7 +20,7 @@ Market data to the 2026-11-03 close.
 
 | Basket | Start | Since start | 6M | Label |
 |---|---|---|---|---|
-| [Cyber Security](https://theme-radar.github.io/baskets/cyber-security.md) | 2026-09-18 | +1.9% | +55.6% | Avoid for now |
+| [Cyber Security](https://theme-radar.github.io/baskets/cyber-security.md) | 2026-09-18 | +0.8% | +55.6% | Avoid for now |
 | [AI Science](https://theme-radar.github.io/baskets/ai-science.md) | 2026-08-17 | +16.8% | +79.7% | No signal |
 | [US Dollar Devaluation](https://theme-radar.github.io/baskets/usd-devaluation.md) | 2026-05-20 | -3.9% | -3.6% | Avoid for now |
 | [Payments Value](https://theme-radar.github.io/baskets/payments-value.md) | 2026-11-02 | +5.7% | +13.6% | Already moving |
