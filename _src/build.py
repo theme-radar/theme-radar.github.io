@@ -192,7 +192,7 @@ def md_table(head, rows):
     return '\n'.join(out)
 
 def md_to_html(md):
-    r = subprocess.run(['pandoc', '-f', 'gfm', '-t', 'html5', '--no-highlight'], input=md, capture_output=True, text=True, check=True)
+    r = subprocess.run(['pandoc', '-f', 'gfm-tex_math_dollars', '-t', 'html5', '--no-highlight'], input=md, capture_output=True, text=True, check=True)
     h = r.stdout
     return h.replace('<table>', '<div class="tbl"><table>').replace('</table>', '</table></div>')
 

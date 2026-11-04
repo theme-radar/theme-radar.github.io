@@ -22,4 +22,5 @@ Start: 2026-10-14. Weighting: Equal weight. Label: No signal. Since start: -0.5%
 | BBY | Best Buy | 7.1% | +5.3% | -4.7% | +10.6% | +63.9% |
 
 Research:
+- https://theme-radar.github.io/research/agentic-commerce-q3-2026-earnings.md
 - https://theme-radar.github.io/research/the-mall-is-closing.md

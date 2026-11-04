@@ -1,10 +1,27 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-03",
- "generated": "2026-11-04T10:21:41Z",
+ "generated": "2026-11-04T13:32:49Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "research": [
+  {
+   "title": "Earnings update Q3 2026: Amazon, Meta, Shopify",
+   "date": "2026-11-04",
+   "theme": "Agentic Commerce",
+   "tickers": [
+    "AMZN",
+    "META",
+    "SHOP",
+    "V"
+   ],
+   "baskets": [
+    "agentic-commerce"
+   ],
+   "summary": "Amazon is open to outside agents on its own terms, Meta's Muse works but the bill arrived as negative free cash flow and a $95bn raise, and Shopify's rail held while the stock fell. Visa says agent volume is still too small to matter in 2027.",
+   "url": "https://theme-radar.github.io/research/agentic-commerce-q3-2026-earnings/",
+   "markdown": "https://theme-radar.github.io/research/agentic-commerce-q3-2026-earnings.md"
+  },
   {
    "title": "Binance heist: what it means for our cyber basket",
    "date": "2026-11-04",

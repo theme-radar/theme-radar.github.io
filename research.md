@@ -7,6 +7,7 @@
 
 ## All pieces
 
+- [Earnings update Q3 2026: Amazon, Meta, Shopify](https://theme-radar.github.io/research/agentic-commerce-q3-2026-earnings.md) (2026-11-04, Agentic Commerce)
 - [Binance heist: what it means for our cyber basket](https://theme-radar.github.io/research/binance-heist-cyber-basket.md) (2026-11-04, Cybersecurity)
 - [Channel check: what a Nobel Prize-winning mRNA lab at Penn told us about AI, monkeys and the wet lab](https://theme-radar.github.io/research/penn-mrna-channel-check.md) (2026-11-04, AI Science)
 - [Cybersecurity hardware: Fortinet and F5](https://theme-radar.github.io/research/cyber-hardware-ftnt-ffiv.md) (2026-11-02, Cybersecurity)
