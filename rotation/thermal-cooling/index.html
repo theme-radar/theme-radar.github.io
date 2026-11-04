@@ -69,7 +69,7 @@ nav.util a{margin-right:14px}
 .thead{display:flex;align-items:center;gap:14px;margin:4px 0 6px}.thead h1{margin:0}
 .pcard{border-left:4px solid var(--tc)}
 .tlabel{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--tc);font-weight:600}
-.tpanel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 22px 10px;margin:8px 0 18px}
+.tpanel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 22px 6px;margin:8px 0 18px}
 .tpanel .thead h1{font-size:30px}.tpanel .incep{color:var(--mute);font-size:15px;margin-top:2px}
 .stats{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
 @media (max-width:600px){.stats{grid-template-columns:1fr}}
@@ -79,6 +79,12 @@ nav.util a{margin-right:14px}
 .tick{font-size:12px;color:var(--mute);line-height:1.6;margin-top:6px;letter-spacing:.2px}
 .rlist{margin:6px 0 4px}.ritem{display:flex;gap:12px;padding:12px 0;border-top:1px solid var(--line)}
 .ritem:first-child{border-top:0}.ritem .di{flex:none;color:var(--tc);margin-top:3px}
+.ritem>div:nth-child(2){flex:1;min-width:0}.ritem .dt{flex:none;font-size:14px;color:var(--mute);white-space:nowrap;margin-top:3px}
+.tgrid{display:grid;grid-template-columns:minmax(0,1fr);grid-template-areas:"head" "basket" "research";gap:0 24px}
+@media (min-width:1000px){.tgrid{grid-template-columns:minmax(0,1fr) 420px;grid-template-areas:"head head" "research basket"}.tgrid .tb{position:sticky;top:12px;align-self:start}}
+.tgrid .th{grid-area:head}.tgrid .tr{grid-area:research;align-self:start}.tgrid .tb{grid-area:basket}
+.tbox{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:0 0 18px}
+.tbox h3{margin:0 0 4px}
 .ritem a{font-weight:600;font-size:17px;color:var(--fg)}.ritem .meta{font-size:14px;color:var(--mute);margin-top:2px}
 .tpanel h3{font-size:17px;margin:20px 0 4px}
 footer{border-top:1px solid var(--line);padding:18px 0 30px;color:var(--mute);font-size:13px}

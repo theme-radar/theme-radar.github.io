@@ -118,7 +118,7 @@ nav.util a{margin-right:14px}
 .thead{display:flex;align-items:center;gap:14px;margin:4px 0 6px}.thead h1{margin:0}
 .pcard{border-left:4px solid var(--tc)}
 .tlabel{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--tc);font-weight:600}
-.tpanel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 22px 10px;margin:8px 0 18px}
+.tpanel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 22px 6px;margin:8px 0 18px}
 .tpanel .thead h1{font-size:30px}.tpanel .incep{color:var(--mute);font-size:15px;margin-top:2px}
 .stats{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
 @media (max-width:600px){.stats{grid-template-columns:1fr}}
@@ -128,6 +128,12 @@ nav.util a{margin-right:14px}
 .tick{font-size:12px;color:var(--mute);line-height:1.6;margin-top:6px;letter-spacing:.2px}
 .rlist{margin:6px 0 4px}.ritem{display:flex;gap:12px;padding:12px 0;border-top:1px solid var(--line)}
 .ritem:first-child{border-top:0}.ritem .di{flex:none;color:var(--tc);margin-top:3px}
+.ritem>div:nth-child(2){flex:1;min-width:0}.ritem .dt{flex:none;font-size:14px;color:var(--mute);white-space:nowrap;margin-top:3px}
+.tgrid{display:grid;grid-template-columns:minmax(0,1fr);grid-template-areas:"head" "basket" "research";gap:0 24px}
+@media (min-width:1000px){.tgrid{grid-template-columns:minmax(0,1fr) 420px;grid-template-areas:"head head" "research basket"}.tgrid .tb{position:sticky;top:12px;align-self:start}}
+.tgrid .th{grid-area:head}.tgrid .tr{grid-area:research;align-self:start}.tgrid .tb{grid-area:basket}
+.tbox{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:0 0 18px}
+.tbox h3{margin:0 0 4px}
 .ritem a{font-weight:600;font-size:17px;color:var(--fg)}.ritem .meta{font-size:14px;color:var(--mute);margin-top:2px}
 .tpanel h3{font-size:17px;margin:20px 0 4px}
 footer{border-top:1px solid var(--line);padding:18px 0 30px;color:var(--mute);font-size:13px}
@@ -360,22 +366,28 @@ def build(data, out, asof, base):
                         f'<div class="meta">{E(p.get("kind", "Research"))} · {", ".join(E(x) for x in p.get("tickers", []))} · {dfmt(p["date"])}</div></div></div>' for p in tp)
         rows = [[(f'<b>{E(m["ticker"])}</b><br><span class="mute small">{E(m["name"])}</span>', ''),
                  (pct(m['since_start']), cls(m['since_start'])), (pct(m['d20']), cls(m['d20'])), (pct(m['m6']), cls(m['m6']) + ' hs')] for m in mem]
-        return (f'<div class="tpanel"><div class="thead">{icon(t, 44)}<div><h1>{E(t["name"])}</h1>'
+        items = ''.join(f'<div class="ritem" style="--tc:{t["color"]}"><span class="di">{DOC}</span><div><a href="{p["url"]}">{E(p["title"])}</a>'
+                        f'<div class="meta">{E(p.get("kind", "Research"))} · {", ".join(E(x) for x in p.get("tickers", []))}</div></div><span class="dt">{dfmt(p["date"])}</span></div>' for p in tp)
+        rows = [[(f'<b>{E(m["ticker"])}</b><br><span class="mute small">{E(m["name"])}</span>', ''),
+                 (pct(m['since_start']), cls(m['since_start'])), (pct(m['m6']), cls(m['m6']))] for m in mem]
+        head = (f'<div class="th tpanel"><div class="thead">{icon(t, 44)}<div><h1>{E(t["name"])}</h1>'
                 f'<div class="incep">Theme inception · {b_long(b["start"])}</div></div></div>'
                 '<div class="stats">'
                 f'<div class="stat"><div class="k">Basket</div><div class="big">{len(b["members"])} stocks</div><div class="sub">Equal-weighted at inception</div><div class="tick">{ticks}</div></div>'
                 f'<div class="stat"><div class="k">Performance since inception</div><div class="big {cls(b["since_start"])}">{pct(b["since_start"])}</div>'
-                f'<div class="mid">{b_long(b["start"])}</div><div class="sub">Buy-and-hold · {chip(b["label"])}</div></div></div>'
-                f'<h3>Latest research</h3><div class="rlist">{items or "<p class=\"mute small\">No published piece yet.</p>"}</div></div>'
-                f'<h2>Basket constituents</h2><p class="mute small">All {len(b["members"])} tickers, with individual performance since inception. Data to the {dfmt(asof)} close.</p>'
-                + table(['Name', 'Since inception', '20D', '6M'], rows, hide=(3,)))
+                f'<div class="mid">{b_long(b["start"])}</div><div class="sub">Buy-and-hold · {chip(b["label"])}</div></div></div></div>')
+        research = f'<div class="tr tbox"><h3>Latest research</h3><div class="rlist">{items or "<p class=\"mute small\">No published piece yet.</p>"}</div></div>'
+        basket = (f'<div class="tb tbox"><h3>Basket constituents</h3><p class="mute small" style="margin:0 0 6px">All {len(b["members"])} tickers, performance since inception. Data to the {dfmt(asof)} close.</p>'
+                  + table(['Name', 'Since inception', '6M'], rows) + '</div>')
+        return f'<div class="tgrid">{head}{research}{basket}</div>'
     def b_long(d):
         d = dt.date.fromisoformat(str(d)); return f'{d.day} {d.strftime("%B %Y")}'
     # theme pages
     for t in threads:
         tp = [p for p in posts if p['thread'] == t['name']]
         tb = [b for b in baskets if b['thread'] == t['name']]
-        if t.get('layout') == 'panel' and tb:
+        wide = t.get('layout') == 'panel' and bool(tb)
+        if wide:
             body = theme_panel(t, tp, tb[0])
         else:
             body = (f'<div class="thead">{icon(t, 52)}<div><h1>{E(t["name"])}</h1><div class="mute">{E(t["summary"])}</div></div></div>'
@@ -387,7 +399,7 @@ def build(data, out, asof, base):
         if tb:
             md += ['', '## Thematic Baskets', '', md_table(['Basket', 'Start', 'Since start', '20D', '6M', 'Label'],
                    [[f'[{b["name"]}]({base}/baskets/{b["slug"]}.md)', b['start'], pct(b['since_start']), pct(b['d20']), pct(b['m6']), b['label']] for b in tb])]
-        S.html(f'/themes/{t["slug"]}/', t['name'], body, 't:' + t['slug'], t['summary'], '\n'.join(md))
+        S.html(f'/themes/{t["slug"]}/', t['name'], body, 't:' + t['slug'], t['summary'], '\n'.join(md), wide=wide)
     # research library (all themes)
     body = ('<h1>Research library</h1><p class="mute">Thematic research, organised by theme. Pick a theme to see every piece and the baskets that track it.</p>'
             f'<div class="themegrid">{"".join(tcard(t) for t in threads)}</div><h2>All pieces, newest first</h2>' + ''.join(pcard(p) for p in posts))
