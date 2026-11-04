@@ -17,7 +17,7 @@ Start: 2026-08-17. Weighting: Equal weight. Label: No signal. Since start: +16.8
 | A | Agilent | 7.1% | +18.2% | -1.1% | +3.6% | +49.3% |
 | ICLR | ICON | 7.1% | +20.2% | +11.4% | +26.0% | +68.0% |
 | CRL | Charles River Laboratories | 7.1% | +22.8% | -1.9% | +15.4% | +89.8% |
-| 2395.T | Shin Nippon Biomedical Laboratories (Tokyo, JPY) | 7.1% | -3.8% | -4.9% | +7.4% | -0.2% |
+| 2395.T | Shin Nippon Biomedical Laboratories (Tokyo, JPY) | 7.1% | -3.4% | -4.6% | +7.8% | +0.1% |
 | GENB | Generate Biomedicines | 7.1% | -11.7% | +4.8% | +0.4% | -10.2% |
 | LLY | Eli Lilly | 7.1% | +19.1% | +9.9% | +21.8% | +42.5% |
 

@@ -6,9 +6,9 @@
   thread: Cybersecurity
   start: 2026-09-18
   summary: >-
-    Nine security platforms that sit where AI agents run, connect and get
-    permissions: endpoint, network, zero trust, identity, data and
-    observability. Started with the 18-Sep-26 cybersecurity primer.
+    Fifteen names across the security platforms and services that AI agents
+    depend on: endpoint, network, zero trust, identity, software supply
+    chain, data, observability and recovery.
 - slug: ai-science
   name: AI Science
   source: AI Science_Claire

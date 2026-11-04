@@ -1,7 +1,7 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-03",
- "generated": "2026-11-04T06:59:44Z",
+ "generated": "2026-11-04T07:03:55Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "methodology": [
@@ -14,13 +14,13 @@
    "name": "Cyber Security",
    "thread": "Cybersecurity",
    "start": "2026-09-18",
-   "summary": "Nine security platforms that sit where AI agents run, connect and get permissions: endpoint, network, zero trust, identity, data and observability. Started with the 18-Sep-26 cybersecurity primer.",
+   "summary": "Fifteen names across the security platforms and services that AI agents depend on: endpoint, network, zero trust, identity, software supply chain, data, observability and recovery.",
    "label": "Avoid for now",
-   "since_start": -0.0546,
-   "d5": -0.1789,
-   "d20": -0.1567,
-   "m6": 0.576,
-   "y1": 0.3024,
+   "since_start": 0.0195,
+   "d5": -0.1157,
+   "d20": -0.0658,
+   "m6": 0.5558,
+   "y1": 0.3663,
    "weighting": "Equal weight",
    "research": [
     "/research/binance-heist-cyber-basket/",
@@ -31,7 +31,7 @@
     {
      "ticker": "ZS",
      "name": "Zscaler",
-     "weight": 0.1111,
+     "weight": 0.0667,
      "since_start": 0.1408,
      "d5": -0.1348,
      "d20": 0.0605,
@@ -42,7 +42,7 @@
     {
      "ticker": "RBRK",
      "name": "Rubrik",
-     "weight": 0.1111,
+     "weight": 0.0667,
      "since_start": 0.0918,
      "d5": -0.1417,
      "d20": -0.0738,
@@ -53,7 +53,7 @@
     {
      "ticker": "DDOG",
      "name": "Datadog",
-     "weight": 0.1111,
+     "weight": 0.0667,
      "since_start": -0.0409,
      "d5": -0.2147,
      "d20": -0.2074,
@@ -64,7 +64,7 @@
     {
      "ticker": "SAIL",
      "name": "SailPoint",
-     "weight": 0.1111,
+     "weight": 0.0667,
      "since_start": -0.0424,
      "d5": -0.1519,
      "d20": -0.0462,
@@ -75,7 +75,7 @@
     {
      "ticker": "CRWD",
      "name": "CrowdStrike",
-     "weight": 0.1111,
+     "weight": 0.0667,
      "since_start": 0.0296,
      "d5": -0.0871,
      "d20": -0.1226,
@@ -86,7 +86,7 @@
     {
      "ticker": "FTNT",
      "name": "Fortinet",
-     "weight": 0.1111,
+     "weight": 0.0667,
      "since_start": -0.2457,
      "d5": -0.3075,
      "d20": -0.3302,
@@ -97,7 +97,7 @@
     {
      "ticker": "FFIV",
      "name": "F5",
-     "weight": 0.1111,
+     "weight": 0.0667,
      "since_start": -0.2335,
      "d5": -0.2791,
      "d20": -0.2951,
@@ -108,7 +108,7 @@
     {
      "ticker": "PANW",
      "name": "Palo Alto Networks",
-     "weight": 0.1111,
+     "weight": 0.0667,
      "since_start": -0.0368,
      "d5": -0.1282,
      "d20": -0.166,
@@ -119,12 +119,78 @@
     {
      "ticker": "NET",
      "name": "Cloudflare",
-     "weight": 0.1111,
+     "weight": 0.0667,
      "since_start": -0.1544,
      "d5": -0.1653,
      "d20": -0.2293,
      "m6": 0.1194,
      "off_high": -0.2419,
+     "priced": true
+    },
+    {
+     "ticker": "MSFT",
+     "name": "Microsoft",
+     "weight": 0.0667,
+     "since_start": 0.0551,
+     "d5": -0.0195,
+     "d20": -0.0157,
+     "m6": 0.2664,
+     "off_high": -0.0413,
+     "priced": true
+    },
+    {
+     "ticker": "FROG",
+     "name": "JFrog",
+     "weight": 0.0667,
+     "since_start": -0.0465,
+     "d5": -0.1192,
+     "d20": -0.1017,
+     "m6": 0.6264,
+     "off_high": -0.1494,
+     "priced": true
+    },
+    {
+     "ticker": "QLYS",
+     "name": "Qualys",
+     "weight": 0.0667,
+     "since_start": 0.2035,
+     "d5": -0.076,
+     "d20": 0.0532,
+     "m6": 1.2853,
+     "off_high": -0.0856,
+     "priced": true
+    },
+    {
+     "ticker": "ACN",
+     "name": "Accenture",
+     "weight": 0.0667,
+     "since_start": 0.4042,
+     "d5": 0.0825,
+     "d20": 0.3162,
+     "m6": 0.422,
+     "off_high": -0.1178,
+     "priced": true
+    },
+    {
+     "ticker": "CACI",
+     "name": "CACI International",
+     "weight": 0.0667,
+     "since_start": 0.0849,
+     "d5": 0.0208,
+     "d20": 0.1342,
+     "m6": 0.3766,
+     "off_high": -0.0006,
+     "priced": true
+    },
+    {
+     "ticker": "MITK",
+     "name": "Mitek Systems",
+     "weight": 0.0667,
+     "since_start": 0.0831,
+     "d5": -0.0141,
+     "d20": 0.0372,
+     "m6": 0.1766,
+     "off_high": -0.1003,
      "priced": true
     }
    ]
@@ -136,11 +202,11 @@
    "start": "2026-08-17",
    "summary": "Frontier AI labs are becoming biotech platforms, so the physical layer gets paid: molecule makers, lab tools, testing services, AI drug developers and pharma. 14 names, equal weight. SNBL (2395.T) is priced in yen.",
    "label": "No signal",
-   "since_start": 0.1677,
-   "d5": -0.0159,
-   "d20": 0.0501,
-   "m6": 0.7965,
-   "y1": 1.0408,
+   "since_start": 0.1679,
+   "d5": -0.0156,
+   "d20": 0.0503,
+   "m6": 0.7967,
+   "y1": 1.0411,
    "weighting": "Equal weight",
    "research": [
     "/research/ai-frontier-labs-biotech/"
@@ -271,11 +337,11 @@
      "ticker": "2395.T",
      "name": "Shin Nippon Biomedical Laboratories (Tokyo, JPY)",
      "weight": 0.0714,
-     "since_start": -0.0375,
-     "d5": -0.0492,
-     "d20": 0.0738,
-     "m6": -0.0021,
-     "off_high": -0.2766,
+     "since_start": -0.0341,
+     "d5": -0.0458,
+     "d20": 0.0776,
+     "m6": 0.0014,
+     "off_high": -0.2741,
      "priced": true
     },
     {
