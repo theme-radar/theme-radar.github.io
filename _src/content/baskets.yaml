@@ -15,21 +15,10 @@
   thread: AI Science
   start: 2026-08-17
   summary: >-
-    Own the bench: the instruments, genomics and synthetic DNA that
-    AI-driven life-science research runs on, whichever drug or model wins.
-    The first AI Science call. The wider follow-up is the AI Frontier Labs
-    Biotech basket.
-- slug: ai-frontier-labs-biotech
-  name: AI Frontier Labs Biotech
-  source: AI Frontier Labs Biotech_Claire
-  thread: AI Science
-  start: 2026-10-31
-  summary: >-
     Frontier AI labs are becoming biotech platforms, so the physical layer
     gets paid: molecule makers, lab tools, testing services, AI drug
-    developers and pharma, with Thermo Fisher and Agilent as ballast. 14
-    names, equal weight, from the first close after the 31-Oct-26 piece.
-    SNBL (2395.T) is priced in yen.
+    developers and pharma. 14 names, equal weight. SNBL (2395.T) is priced
+    in yen.
 - slug: usd-devaluation
   name: US Dollar Devaluation
   source: US Dollar Devaluation_Claire
@@ -38,15 +27,6 @@
   summary: >-
     Gold royalty, streaming and mining names as a hedge against a weaker
     dollar. ALS is priced in Canadian dollars (TSX).
-- slug: programmable-rails
-  name: Programmable Rails
-  source: Programmable Rails_Claire
-  thread: Agentic Commerce
-  start: 2026-11-02
-  summary: >-
-    The licensed control points of payments and markets (Visa, Mastercard,
-    ICE, Adyen at 12.5% each) plus the new rails and on-ramps (Circle,
-    Coinbase, Robinhood, Shopify, BHYP at 10% each). Adyen is priced in EUR.
 - slug: payments-value
   name: Payments Value
   source: Payments Value_Claire

@@ -1,7 +1,7 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-03",
- "generated": "2026-11-04T04:53:36Z",
+ "generated": "2026-11-04T05:08:46Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "research": [
@@ -41,7 +41,6 @@
     "TEM"
    ],
    "baskets": [
-    "ai-frontier-labs-biotech",
     "ai-science"
    ],
    "summary": "Frontier AI labs are buying biotechs, building wet labs and starting their own drug programmes. Design gets cheap and validation stays scarce, so the physical layer gets paid: molecule makers, lab tools, testing services and data owners.",
@@ -72,9 +71,7 @@
     "META",
     "AMZN"
    ],
-   "baskets": [
-    "programmable-rails"
-   ],
+   "baskets": [],
    "summary": "When AI agents do the shopping, the rails get paid every time (Shopify), the assistant that knows the buyer earns a commission (Meta), and the everything store has to reinvent itself or shrink (Amazon).",
    "url": "https://theme-radar.github.io/research/the-mall-is-closing/",
    "markdown": "https://theme-radar.github.io/research/the-mall-is-closing.md"

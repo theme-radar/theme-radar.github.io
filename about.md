@@ -3,7 +3,7 @@
 Theme Radar publishes thematic equity research and tracks each idea as a basket of listed stocks from the day it is written.
 
 - **Themes** hold the research: Cybersecurity, AI Science, Agentic Commerce and US Dollar Devaluation. Each theme builds over time as earnings and news add evidence, and links to the baskets that track it.
-- **Baskets** are fixed at their start date and tracked from the first close on or after it. Price returns only, in each stock's home currency, no costs.
+- **Thematic Baskets** express each theme as a group of stocks, equal weight from the start date, buy-and-hold.
 - **Rotation** places market themes on a relative rotation chart against the S&P 500, using weekly closes.
 - **Sector ETFs** give market context.
 

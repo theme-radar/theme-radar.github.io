@@ -6,7 +6,7 @@ Gold equities as a hedge against a weaker dollar.
 
 None yet.
 
-## Baskets
+## Thematic Baskets
 
 | Basket | Start | Since start | 20D | 6M | Label |
 |---|---|---|---|---|---|

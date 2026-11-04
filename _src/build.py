@@ -126,7 +126,7 @@ def icon(t, size=28):
     return f'<span class="ico" style="--tc:{t["color"]};width:{size}px;height:{size}px"><svg viewBox="0 0 24 24" width="{px}" height="{px}" aria-hidden="true">{t["icon"]}</svg></span>'
 
 def page(title, body, active='', desc='', md_href=None, canonical='', wide=False, scripts=''):
-    nav = [('/', 'Home', 'home'), ('/baskets/', 'Baskets', 'baskets'),
+    nav = [('/', 'Home', 'home'), ('/baskets/', 'Thematic Baskets', 'baskets'),
            ('/rotation/', 'Rotation', 'rotation'), ('/etfs/', 'Sector ETFs', 'etfs'), ('/about/', 'About', 'about')]
     navh = ''.join(f'<a href="{h}" class="{"on" if k == active else ""}">{t}</a>' for h, t, k in nav)
     tabs = ''.join(f'<a class="tab {"on" if active == "t:" + t["slug"] else ""}" style="--tc:{t["color"]}" href="/themes/{t["slug"]}/">{icon(t, 24)}{E(t["name"])}</a>' for t in THREADS)
@@ -238,6 +238,13 @@ FORMULA_MD = """Each theme is an equal-weight index of its stocks (daily returns
 
 SMA10 = 10-week simple average. EMA3 = 3-week exponential average (alpha = 0.5). mean40 and sd40 = mean and standard deviation over the last 40 weeks. 100 is neutral on both axes. Quadrants: Leading (both > 100), Weakening (RS-Ratio > 100, RS-Momentum < 100), Lagging (both < 100), Improving (RS-Ratio < 100, RS-Momentum > 100). Heading is the direction of the latest weekly move."""
 
+METHOD = [
+    "Each basket expresses a research theme. The theme matters more than any single ticker.",
+    "Equal weight at the start date, then buy-and-hold. Price returns from the first close on or after the start date, in each stock's home currency, no dividends or costs.",
+]
+METHOD_HTML = '<ul class="small">' + ''.join(f'<li>{E(x)}</li>' for x in METHOD) + '</ul>'
+METHOD_MD = '\n'.join(f'- {x}' for x in METHOD)
+
 # ---------- build ----------
 def build(data, out, asof, base):
     if os.path.exists(out):
@@ -283,7 +290,7 @@ def build(data, out, asof, base):
         baskets.append(dict(slug=b['slug'], name=b['name'], thread=b['thread'], start=str(b['start']),
             summary=' '.join(b['summary'].split()), label=r.get('stage'), since_start=r.get('since'),
             d5=r.get('d5'), d20=r.get('d20'), m6=r.get('m6'), y1=r.get('y1'),
-            weighting='Equal weight' if r.get('weighting') == 'Equal weight' else 'Stated weights',
+            weighting='Equal weight',
             research=[p['url'] for p in posts if b['slug'] in (p.get('baskets') or [])],
             members=[dict(ticker=m['ticker'], name=m['name'], weight=m['weight'], since_start=m.get('since'),
                           d5=m.get('d5'), d20=m.get('d20'), m6=m.get('m6'), off_high=m.get('off'), priced=m.get('priced'))
@@ -340,11 +347,11 @@ def build(data, out, asof, base):
         body = (f'<div class="thead">{icon(t, 52)}<div><h1>{E(t["name"])}</h1><div class="mute">{E(t["summary"])}</div></div></div>'
                 f'<h2>Research ({len(tp)})</h2>' + (''.join(pcard(p) for p in tp) or '<p class="mute small">No published piece yet.</p>'))
         if tb:
-            body += '<h2>Baskets</h2>' + ''.join(bcard(b) for b in tb)
+            body += '<h2>Thematic Baskets</h2>' + ''.join(bcard(b) for b in tb)
         md = [f'# {t["name"]}', '', t['summary'], '', '## Research', '']
         md += [f'- [{p["title"]}]({base}{p["url"].rstrip("/")}.md) ({p["date"]}): {p["summary"]}' for p in tp] or ['None yet.']
         if tb:
-            md += ['', '## Baskets', '', md_table(['Basket', 'Start', 'Since start', '20D', '6M', 'Label'],
+            md += ['', '## Thematic Baskets', '', md_table(['Basket', 'Start', 'Since start', '20D', '6M', 'Label'],
                    [[f'[{b["name"]}]({base}/baskets/{b["slug"]}.md)', b['start'], pct(b['since_start']), pct(b['d20']), pct(b['m6']), b['label']] for b in tb])]
         S.html(f'/themes/{t["slug"]}/', t['name'], body, 't:' + t['slug'], t['summary'], '\n'.join(md))
     # research library (all themes)
@@ -355,24 +362,25 @@ def build(data, out, asof, base):
     S.html('/research/', 'Research library', body, '', 'All research, organised by theme.', '\n'.join(mdl))
 
     # ---------- basket pages ----------
-    body = (f'<h1>Baskets</h1><p class="mute">Each basket is fixed at its start date and tracked from the first close on or after it. '
-            f'Returns are price only, in each stock\'s home currency. Data to the {dfmt(asof)} close.</p>' + ''.join(bcard(b) for b in baskets))
-    md = ['# Baskets', '', f'Data to the {asof} close. Price returns, home currency.', '',
+    body = (f'<h1>Thematic Baskets</h1><p class="mute">Reference baskets for each research theme. Data to the {dfmt(asof)} close.</p>'
+            + ''.join(bcard(b) for b in baskets) + '<h2>How the baskets work</h2>' + METHOD_HTML)
+    md = ['# Thematic Baskets', '', f'Data to the {asof} close.', '', '## How the baskets work', '', METHOD_MD, '',
           md_table(['Basket', 'Start', 'Since start', '5D', '20D', '6M', 'Label'],
                    [[f'[{b["name"]}]({base}/baskets/{b["slug"]}.md)', b['start'], pct(b['since_start']), pct(b['d5']), pct(b['d20']), pct(b['m6']), b['label']] for b in baskets])]
-    S.html('/baskets/', 'Baskets', body, 'baskets', 'Thematic baskets tracked from their start dates.', '\n'.join(md))
+    S.html('/baskets/', 'Thematic Baskets', body, 'baskets', 'Buy-and-hold thematic reference baskets, equal-weighted at inception.', '\n'.join(md))
     for b in baskets:
         rows = [[(f'<b>{E(m["ticker"])}</b><br><span class="mute small">{E(m["name"])}</span>', ''),
                  (f'{m["weight"]*100:.1f}%' if m['weight'] is not None else '—', 'hs'),
                  (pct(m['since_start']), cls(m['since_start'])), (pct(m['d5']), cls(m['d5'])), (pct(m['d20']), cls(m['d20'])), (pct(m['m6']), cls(m['m6'])),
                  (pct(m['off_high'], 0), '')] for m in sorted(b['members'], key=lambda m: -(m['since_start'] or -9))]
         rl = ''.join(f'<li><a href="{u}">{E(next(p["title"] for p in posts if p["url"] == u))}</a></li>' for u in b['research'])
-        body = (f'<div class="row" style="justify-content:flex-start"><a class="small" href="/baskets/">Baskets</a> {tl(b["thread"])}</div><h1>{E(b["name"])}</h1>'
+        body = (f'<div class="row" style="justify-content:flex-start"><a class="small" href="/baskets/">Thematic Baskets</a> {tl(b["thread"])}</div><h1>{E(b["name"])}</h1>'
                 f'<div class="row">{chip(b["label"])}</div><p>{E(b["summary"])}</p>'
                 f'<div class="kv">Start <b>{dfmt(b["start"])}</b> · Since start <b class="{cls(b["since_start"])}">{pct(b["since_start"])}</b> · 6M <b class="{cls(b["m6"])}">{pct(b["m6"])}</b> · {b["weighting"]} · {len(b["members"])} names</div>'
                 + table(['Name', 'Weight', 'Since start', '5D', '20D', '6M', 'Off high'], rows, hide=(1, 3, 6))
                 + f'<p class="small mute">{E(b["label"] or "")}: {E(LABEL_TEXT.get(b["label"], ""))}</p>'
-                + (f'<h2>Research</h2><ul>{rl}</ul>' if rl else ''))
+                + (f'<h2>Research</h2><ul>{rl}</ul>' if rl else '')
+                )
         md = [f'# {b["name"]} basket', '', b['summary'], '', f'Start: {b["start"]}. Weighting: {b["weighting"]}. Label: {b["label"]}. Since start: {pct(b["since_start"])}. Data to the {asof} close.', '',
               md_table(['Ticker', 'Name', 'Weight', 'Since start', '5D', '20D', '6M'],
                        [[m['ticker'], m['name'], f'{m["weight"]*100:.1f}%' if m['weight'] is not None else '', pct(m['since_start']), pct(m['d5']), pct(m['d20']), pct(m['m6'])] for m in b['members']])]
@@ -434,7 +442,7 @@ def build(data, out, asof, base):
 {SITE_NAME} publishes thematic equity research and tracks each idea as a basket of listed stocks from the day it is written.
 
 - **Themes** hold the research: Cybersecurity, AI Science, Agentic Commerce and US Dollar Devaluation. Each theme builds over time as earnings and news add evidence, and links to the baskets that track it.
-- **Baskets** are fixed at their start date and tracked from the first close on or after it. Price returns only, in each stock's home currency, no costs.
+- **Thematic Baskets** express each theme as a group of stocks, equal weight from the start date, buy-and-hold.
 - **Rotation** places market themes on a relative rotation chart against the S&P 500, using weekly closes.
 - **Sector ETFs** give market context.
 
@@ -463,7 +471,7 @@ Not investment advice. Positions may be held in the securities discussed. Figure
     body = (f'<h1>{SITE_NAME}</h1><p class="mute">{TAGLINE} Market data to the {dfmt(asof)} close.</p>'
             '<h2>Latest research</h2>' + ''.join(pcard(p) for p in posts[:2])
             + f'<h2>Research by theme</h2><div class="themegrid">{"".join(tcard(t) for t in threads)}</div>'
-            + '<h2>Baskets</h2>' + table(['Basket', 'Since start', '20D', '6M'], hide=(2,), rows=
+            + '<h2>Thematic Baskets</h2>' + table(['Basket', 'Since start', '20D', '6M'], hide=(2,), rows=
                 [[(f'<a href="/baskets/{b["slug"]}/">{E(b["name"])}</a><br><span class="mute small">from {dfmt(b["start"])}</span><br>{chip(b["label"])}', ''),
                   (pct(b['since_start']), cls(b['since_start'])), (pct(b['d20']), cls(b['d20'])), (pct(b['m6']), cls(b['m6']))] for b in baskets])
             + '<h2>Heading into Leading</h2><p class="small mute">Themes in Improving or Leading whose weekly path points toward Leading.</p>'
@@ -473,13 +481,13 @@ Not investment advice. Positions may be held in the securities discussed. Figure
     md = [f'# {SITE_NAME}', '', TAGLINE, f'Market data to the {asof} close.', '', '## Latest research', '']
     md += [f'- [{p["title"]}]({base}{p["url"].rstrip("/")}.md) ({p["date"]}, {p["thread"]})' for p in posts[:2]]
     md += ['', '## Themes', ''] + [f'- [{t["name"]}]({base}/themes/{t["slug"]}.md): {t["summary"]}' for t in threads]
-    md += ['', '## Baskets', '', md_table(['Basket', 'Start', 'Since start', '6M', 'Label'], [[f'[{b["name"]}]({base}/baskets/{b["slug"]}.md)', b['start'], pct(b['since_start']), pct(b['m6']), b['label']] for b in baskets])]
+    md += ['', '## Thematic Baskets', '', md_table(['Basket', 'Start', 'Since start', '6M', 'Label'], [[f'[{b["name"]}]({base}/baskets/{b["slug"]}.md)', b['start'], pct(b['since_start']), pct(b['m6']), b['label']] for b in baskets])]
     S.html('/', SITE_NAME, body, 'home', TAGLINE, '\n'.join(md))
 
     # ---------- data ----------
     now = dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
     meta = dict(site=SITE_NAME, asof=asof, generated=now, units='returns are decimal fractions (0.05 = +5%)', source='daily closes, public market data')
-    D = {'baskets.json': dict(meta, baskets=baskets), 'themes.json': dict(meta, benchmark='SPY', themes=themes_pub),
+    D = {'baskets.json': dict(meta, methodology=METHOD, baskets=baskets), 'themes.json': dict(meta, benchmark='SPY', themes=themes_pub),
          'rotation.json': dict(meta, method=FORMULA_MD, points=[dict(theme=r['theme'], sector=r['sector'], benchmark=r['bench'], week=r['date'], weeks_ago=r['ago'], rs_ratio=round(r['rr'], 3), rs_momentum=round(r['rm'], 3)) for r in rrg_all]),
          'theme_members.json': dict(meta, members=[dict(theme=m['theme'], ticker=m['ticker'], name=m['name'], d5=m['d5'], d20=m['d20'], m6=m['m6'], y1=m['y1'], off_high=m['off']) for m in tmem]),
          'etfs.json': dict(meta, etfs=etfs),
@@ -495,7 +503,7 @@ Not investment advice. Positions may be held in the securities discussed. Figure
             '## Research']
     llms += [f'- [{p["title"]}]({base}{p["url"].rstrip("/")}.md): {p["date"]}. Theme: {p["thread"]}. {", ".join(p.get("tickers", []))}. {p["summary"]}' for p in posts]
     llms += ['', '## Themes'] + [f'- [{t["name"]}]({base}/themes/{t["slug"]}.md): {t["summary"]}' for t in threads]
-    llms += ['', '## Baskets'] + [f'- [{b["name"]}]({base}/baskets/{b["slug"]}.md): from {b["start"]}, {pct(b["since_start"])} since start, label {b["label"]}. {b["summary"]}' for b in baskets]
+    llms += ['', '## Thematic Baskets (equal weight, buy-and-hold)'] + [f'- [{b["name"]}]({base}/baskets/{b["slug"]}.md): from {b["start"]}, {pct(b["since_start"])} since start, label {b["label"]}. {b["summary"]}' for b in baskets]
     llms += ['', '## Market views', f'- [Rotation]({base}/rotation.md): {len(themes)} themes on a weekly rotation chart against SPY', f'- [Sector ETFs]({base}/etfs.md)', '',
              '## Data', ] + [f'- [{k}]({base}/data/{k})' for k in D] + ['', '## Optional', f'- [All research in one file]({base}/llms-full.txt)', f'- [About]({base}/about.md)']
     S.write('/llms.txt', '\n'.join(llms) + '\n')
