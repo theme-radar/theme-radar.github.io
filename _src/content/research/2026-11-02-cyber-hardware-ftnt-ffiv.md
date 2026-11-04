@@ -4,7 +4,7 @@ slug: cyber-hardware-ftnt-ffiv
 date: 2026-11-02
 thread: Cybersecurity
 tickers: [FTNT, FFIV]
-baskets: []
+baskets: [cyber-security]
 summary: "Both names fell about 20% on earnings in the same week. The moat is being physically in the data path inside the customer's building, which AI cannot vibe-code. Own the category at equal weight, but wait: the entry conditions and kill triggers are set out name by name."
 ---
 **Basket: Cybersecurity hardware. FTNT and FFIV at equal weight, waiting for an entry point.**

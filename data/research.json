@@ -1,7 +1,7 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-03",
- "generated": "2026-11-04T05:08:46Z",
+ "generated": "2026-11-04T05:09:29Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "research": [
@@ -13,7 +13,9 @@
     "FTNT",
     "FFIV"
    ],
-   "baskets": [],
+   "baskets": [
+    "cyber-security"
+   ],
    "summary": "Both names fell about 20% on earnings in the same week. The moat is being physically in the data path inside the customer's building, which AI cannot vibe-code. Own the category at equal weight, but wait: the entry conditions and kill triggers are set out name by name.",
    "url": "https://theme-radar.github.io/research/cyber-hardware-ftnt-ffiv/",
    "markdown": "https://theme-radar.github.io/research/cyber-hardware-ftnt-ffiv.md"
