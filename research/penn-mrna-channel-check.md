@@ -1,4 +1,4 @@
-# Channel check: what an mRNA lab at Penn told us about AI, monkeys and the wet lab
+# Channel check: what a Nobel Prize-winning mRNA lab at Penn told us about AI, monkeys and the wet lab
 
 Date: 2026-11-04
 Theme: AI Science

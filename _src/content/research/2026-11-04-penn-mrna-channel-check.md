@@ -1,5 +1,5 @@
 ---
-title: "Channel check: what an mRNA lab at Penn told us about AI, monkeys and the wet lab"
+title: "Channel check: what a Nobel Prize-winning mRNA lab at Penn told us about AI, monkeys and the wet lab"
 slug: penn-mrna-channel-check
 date: 2026-11-04
 kind: Channel check

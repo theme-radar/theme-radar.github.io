@@ -6,7 +6,7 @@ Market data to the 2026-11-03 close.
 ## Latest research
 
 - [Binance heist: what it means for our cyber basket](https://theme-radar.github.io/research/binance-heist-cyber-basket.md) (2026-11-04, Cybersecurity)
-- [Channel check: what an mRNA lab at Penn told us about AI, monkeys and the wet lab](https://theme-radar.github.io/research/penn-mrna-channel-check.md) (2026-11-04, AI Science)
+- [Channel check: what a Nobel Prize-winning mRNA lab at Penn told us about AI, monkeys and the wet lab](https://theme-radar.github.io/research/penn-mrna-channel-check.md) (2026-11-04, AI Science)
 
 ## Themes
 

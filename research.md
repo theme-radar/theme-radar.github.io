@@ -9,7 +9,7 @@
 ## All pieces
 
 - [Binance heist: what it means for our cyber basket](https://theme-radar.github.io/research/binance-heist-cyber-basket.md) (2026-11-04, Cybersecurity)
-- [Channel check: what an mRNA lab at Penn told us about AI, monkeys and the wet lab](https://theme-radar.github.io/research/penn-mrna-channel-check.md) (2026-11-04, AI Science)
+- [Channel check: what a Nobel Prize-winning mRNA lab at Penn told us about AI, monkeys and the wet lab](https://theme-radar.github.io/research/penn-mrna-channel-check.md) (2026-11-04, AI Science)
 - [Cybersecurity hardware: Fortinet and F5](https://theme-radar.github.io/research/cyber-hardware-ftnt-ffiv.md) (2026-11-02, Cybersecurity)
 - [If frontier AI labs are becoming the next generation of biotech platforms, how should we position?](https://theme-radar.github.io/research/ai-frontier-labs-biotech.md) (2026-10-31, AI Science)
 - [Update on the cybersecurity basket: six new names](https://theme-radar.github.io/research/cyber-basket-update-oct26.md) (2026-10-26, Cybersecurity)
