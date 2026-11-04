@@ -1,7 +1,7 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-03",
- "generated": "2026-11-04T06:46:10Z",
+ "generated": "2026-11-04T06:59:44Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "methodology": [
@@ -23,6 +23,7 @@
    "y1": 0.3024,
    "weighting": "Equal weight",
    "research": [
+    "/research/binance-heist-cyber-basket/",
     "/research/cyber-hardware-ftnt-ffiv/",
     "/research/passport-control-for-robots/"
    ],

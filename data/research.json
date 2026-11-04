@@ -1,10 +1,29 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-03",
- "generated": "2026-11-04T06:46:10Z",
+ "generated": "2026-11-04T06:59:44Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "research": [
+  {
+   "title": "Binance heist: what it means for our cyber basket",
+   "date": "2026-11-04",
+   "theme": "Cybersecurity",
+   "tickers": [
+    "PANW",
+    "SAIL",
+    "FROG",
+    "CRWD",
+    "DDOG",
+    "NET"
+   ],
+   "baskets": [
+    "cyber-security"
+   ],
+   "summary": "The largest crypto theft on record ran through a poisoned package, a fake job offer, an over-privileged token and an internal AI tool. No change to the basket, but it points to identity and software supply chain. A fear-driven slowdown in AI agents helps the basket. A return-driven one is the real risk.",
+   "url": "https://theme-radar.github.io/research/binance-heist-cyber-basket/",
+   "markdown": "https://theme-radar.github.io/research/binance-heist-cyber-basket.md"
+  },
   {
    "title": "Cybersecurity hardware: Fortinet and F5",
    "date": "2026-11-02",

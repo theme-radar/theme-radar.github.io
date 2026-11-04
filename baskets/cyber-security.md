@@ -17,5 +17,6 @@ Start: 2026-09-18. Weighting: Equal weight. Label: Avoid for now. Since start: -
 | NET | Cloudflare | 11.1% | -15.4% | -16.5% | -22.9% | +11.9% |
 
 Research:
+- https://theme-radar.github.io/research/binance-heist-cyber-basket.md
 - https://theme-radar.github.io/research/cyber-hardware-ftnt-ffiv.md
 - https://theme-radar.github.io/research/passport-control-for-robots.md

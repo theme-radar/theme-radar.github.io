@@ -8,6 +8,7 @@
 
 ## All pieces
 
+- [Binance heist: what it means for our cyber basket](https://theme-radar.github.io/research/binance-heist-cyber-basket.md) (2026-11-04, Cybersecurity)
 - [Cybersecurity hardware: Fortinet and F5](https://theme-radar.github.io/research/cyber-hardware-ftnt-ffiv.md) (2026-11-02, Cybersecurity)
 - [If frontier AI labs are becoming the next generation of biotech platforms, how should we position?](https://theme-radar.github.io/research/ai-frontier-labs-biotech.md) (2026-10-31, AI Science)
 - [Passport Control for Robots: SAIL vs OKTA](https://theme-radar.github.io/research/passport-control-for-robots.md) (2026-10-09, Cybersecurity)
