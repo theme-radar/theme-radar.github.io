@@ -28,4 +28,4 @@ Everything here is free to read and reuse with attribution. No sign-up, no paywa
 
 ## Disclaimer
 
-Not investment advice. The author may hold positions in the securities discussed. Figures come from company filings, earnings materials and public market data, and may contain errors.
+Not investment advice. Positions may be held in the securities discussed. Figures come from company filings, earnings materials and public market data, and may contain errors.

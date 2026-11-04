@@ -80,7 +80,7 @@ th{font-weight:600;color:var(--mute);font-size:12px;text-transform:uppercase;let
 td.l{text-align:left}
 @media (max-width:600px){.hs{display:none}h1{font-size:24px}}
 .kv{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;color:var(--mute);margin:6px 0}
-.kv b{color:var(--fg);font-weight:600}
+.kv b{color:var(--fg);font-weight:600}.kv b.up,b.up{color:var(--up)}.kv b.dn,b.dn{color:var(--dn)}
 article{font-size:17px;line-height:1.7;overflow-wrap:anywhere}article pre{overflow-x:auto;white-space:pre-wrap}
 article h2{font-size:22px}article img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:8px;margin:8px 0}
 article table{font-size:14px}article .tbl td,article .tbl th{white-space:normal;text-align:left}
@@ -276,29 +276,29 @@ def build(data, out, asof, base):
     # ---------- basket pages ----------
     def bcard(b):
         return (f'<div class="card"><div class="row"><h3><a href="/baskets/{b["slug"]}/">{E(b["name"])}</a></h3>{chip(b["label"])}</div>'
-                f'<div class="kv">Since {dfmt(b["start"])}: <b class="{cls(b["since_start"])}">{pct(b["since_start"])}</b> 5D: <b class="{cls(b["d5"])}">{pct(b["d5"])}</b> 20D: <b class="{cls(b["d20"])}">{pct(b["d20"])}</b></div>'
+                f'<div class="kv">Since {dfmt(b["start"])}: <b class="{cls(b["since_start"])}">{pct(b["since_start"])}</b> 5D: <b class="{cls(b["d5"])}">{pct(b["d5"])}</b> 20D: <b class="{cls(b["d20"])}">{pct(b["d20"])}</b> 6M: <b class="{cls(b["m6"])}">{pct(b["m6"])}</b></div>'
                 f'<p class="small" style="margin:4px 0 0">{E(b["summary"])}</p></div>')
     body = (f'<h1>Baskets</h1><p class="mute">Each basket is fixed at its start date and tracked from the first close on or after it. '
             f'Returns are price only, in each stock\'s home currency. Data to the {dfmt(asof)} close.</p>' + ''.join(bcard(b) for b in baskets))
     md = ['# Baskets', '', f'Data to the {asof} close. Price returns, home currency.', '',
-          md_table(['Basket', 'Start', 'Since start', '5D', '20D', 'Label'],
-                   [[f'[{b["name"]}]({base}/baskets/{b["slug"]}.md)', b['start'], pct(b['since_start']), pct(b['d5']), pct(b['d20']), b['label']] for b in baskets])]
+          md_table(['Basket', 'Start', 'Since start', '5D', '20D', '6M', 'Label'],
+                   [[f'[{b["name"]}]({base}/baskets/{b["slug"]}.md)', b['start'], pct(b['since_start']), pct(b['d5']), pct(b['d20']), pct(b['m6']), b['label']] for b in baskets])]
     S.html('/baskets/', 'Baskets', body, 'baskets', 'Thematic baskets tracked from their start dates.', '\n'.join(md))
     for b in baskets:
         rows = [[(f'<b>{E(m["ticker"])}</b><br><span class="mute small">{E(m["name"])}</span>', ''),
                  (f'{m["weight"]*100:.1f}%' if m['weight'] is not None else '—', 'hs'),
-                 (pct(m['since_start']), cls(m['since_start'])), (pct(m['d5']), cls(m['d5'])), (pct(m['d20']), cls(m['d20'])),
+                 (pct(m['since_start']), cls(m['since_start'])), (pct(m['d5']), cls(m['d5'])), (pct(m['d20']), cls(m['d20'])), (pct(m['m6']), cls(m['m6'])),
                  (pct(m['off_high'], 0), '')] for m in sorted(b['members'], key=lambda m: -(m['since_start'] or -9))]
         rl = ''.join(f'<li><a href="{u}">{E(next(p["title"] for p in posts if p["url"] == u))}</a></li>' for u in b['research'])
         body = (f'<p class="mute small"><a href="/baskets/">Baskets</a> · {E(b["thread"])}</p><h1>{E(b["name"])}</h1>'
                 f'<div class="row">{chip(b["label"])}</div><p>{E(b["summary"])}</p>'
                 f'<div class="kv">Start <b>{dfmt(b["start"])}</b> · Since start <b class="{cls(b["since_start"])}">{pct(b["since_start"])}</b> · 6M <b class="{cls(b["m6"])}">{pct(b["m6"])}</b> · {b["weighting"]} · {len(b["members"])} names</div>'
-                + table(['Name', 'Weight', 'Since start', '5D', '20D', 'Off high'], rows, hide=(1, 5))
+                + table(['Name', 'Weight', 'Since start', '5D', '20D', '6M', 'Off high'], rows, hide=(1, 3, 6))
                 + f'<p class="small mute">{E(b["label"] or "")}: {E(LABEL_TEXT.get(b["label"], ""))}</p>'
                 + (f'<h2>Research</h2><ul>{rl}</ul>' if rl else ''))
         md = [f'# {b["name"]} basket', '', b['summary'], '', f'Start: {b["start"]}. Weighting: {b["weighting"]}. Label: {b["label"]}. Since start: {pct(b["since_start"])}. Data to the {asof} close.', '',
-              md_table(['Ticker', 'Name', 'Weight', 'Since start', '5D', '20D'],
-                       [[m['ticker'], m['name'], f'{m["weight"]*100:.1f}%' if m['weight'] is not None else '', pct(m['since_start']), pct(m['d5']), pct(m['d20'])] for m in b['members']])]
+              md_table(['Ticker', 'Name', 'Weight', 'Since start', '5D', '20D', '6M'],
+                       [[m['ticker'], m['name'], f'{m["weight"]*100:.1f}%' if m['weight'] is not None else '', pct(m['since_start']), pct(m['d5']), pct(m['d20']), pct(m['m6'])] for m in b['members']])]
         if b['research']: md += ['', 'Research:'] + [f'- {base}{u.rstrip("/")}.md' for u in b['research']]
         S.html(f'/baskets/{b["slug"]}/', b['name'] + ' basket', body, 'baskets', b['summary'], '\n'.join(md))
 
@@ -367,7 +367,7 @@ Everything here is free to read and reuse with attribution. No sign-up, no paywa
 
 ## Disclaimer
 
-Not investment advice. The author may hold positions in the securities discussed. Figures come from company filings, earnings materials and public market data, and may contain errors.
+Not investment advice. Positions may be held in the securities discussed. Figures come from company filings, earnings materials and public market data, and may contain errors.
 """
     S.html('/about/', 'About', md_to_html(about_md), 'about', 'What this site is and how to use its data.', about_md)
 
@@ -375,16 +375,16 @@ Not investment advice. The author may hold positions in the securities discussed
     lead = sorted([t for t in themes_pub if t['quadrant'] in ('Improving', 'Leading') and t['heading_to'] == 'Leading'], key=lambda t: -(t['d20'] or 0))[:8]
     body = (f'<h1>{SITE_NAME}</h1><p class="mute">{TAGLINE} Market data to the {dfmt(asof)} close.</p>'
             '<h2>Latest research</h2>' + ''.join(f'<div class="card"><div class="mute small">{E(p["thread"])} · {dfmt(p["date"])}</div><h3><a href="{p["url"]}">{E(p["title"])}</a></h3><p class="small" style="margin:4px 0 0">{E(p["summary"])}</p></div>' for p in posts[:5])
-            + '<h2>Baskets</h2>' + table(['Basket', 'Since start', '20D', 'Label'], hide=(2,), rows=
+            + '<h2>Baskets</h2>' + table(['Basket', 'Since start', '20D', '6M', 'Label'], hide=(2,), rows=
                 [[(f'<a href="/baskets/{b["slug"]}/">{E(b["name"])}</a><br><span class="mute small">from {dfmt(b["start"])}</span>', ''),
-                  (pct(b['since_start']), cls(b['since_start'])), (pct(b['d20']), cls(b['d20'])), (chip(b['label']), '')] for b in baskets])
+                  (pct(b['since_start']), cls(b['since_start'])), (pct(b['d20']), cls(b['d20'])), (pct(b['m6']), cls(b['m6'])), (chip(b['label']), '')] for b in baskets])
             + '<h2>Heading into Leading</h2><p class="small mute">Themes in Improving or Leading whose weekly path points toward Leading.</p>'
             + table(['Theme', 'Quadrant', '20D', 'Label'], hide=(1,), rows=[[(f'<a href="/rotation/{t["slug"]}/">{E(t["theme"])}</a>', ''), (qchip(t['quadrant']), ''),
                 (pct(t['d20']), cls(t['d20'])), (chip(t['label']), '')] for t in lead])
             + '<p><a href="/rotation/">Full rotation map →</a> · <a href="/etfs/">Sector ETFs →</a></p>')
     md = [f'# {SITE_NAME}', '', TAGLINE, f'Market data to the {asof} close.', '', '## Latest research', '']
     md += [f'- [{p["title"]}]({base}{p["url"].rstrip("/")}.md) ({p["date"]}, {p["thread"]})' for p in posts[:10]]
-    md += ['', '## Baskets', '', md_table(['Basket', 'Start', 'Since start', 'Label'], [[f'[{b["name"]}]({base}/baskets/{b["slug"]}.md)', b['start'], pct(b['since_start']), b['label']] for b in baskets])]
+    md += ['', '## Baskets', '', md_table(['Basket', 'Start', 'Since start', '6M', 'Label'], [[f'[{b["name"]}]({base}/baskets/{b["slug"]}.md)', b['start'], pct(b['since_start']), pct(b['m6']), b['label']] for b in baskets])]
     S.html('/', SITE_NAME, body, 'home', TAGLINE, '\n'.join(md))
 
     # ---------- data ----------
