@@ -1,14 +1,14 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-03",
- "generated": "2026-11-04T04:37:18Z",
+ "generated": "2026-11-04T04:43:22Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "baskets": [
   {
    "slug": "cyber-security",
    "name": "Cyber Security",
-   "thread": "Cyber Security",
+   "thread": "Cybersecurity",
    "start": "2026-09-18",
    "summary": "Nine security platforms that sit where AI agents run, connect and get permissions: endpoint, network, zero trust, identity, data and observability. Started with the 18-Sep-26 cybersecurity primer.",
    "label": "Avoid for now",
@@ -362,7 +362,7 @@
   {
    "slug": "usd-devaluation",
    "name": "US Dollar Devaluation",
-   "thread": "Gold and the Dollar",
+   "thread": "US Dollar Devaluation",
    "start": "2026-05-20",
    "summary": "Gold royalty, streaming and mining names as a hedge against a weaker dollar. ALS is priced in Canadian dollars (TSX).",
    "label": "Avoid for now",
@@ -423,7 +423,7 @@
   {
    "slug": "programmable-rails",
    "name": "Programmable Rails",
-   "thread": "Payments and Financial Rails",
+   "thread": "Agentic Commerce",
    "start": "2026-11-02",
    "summary": "The licensed control points of payments and markets (Visa, Mastercard, ICE, Adyen at 12.5% each) plus the new rails and on-ramps (Circle, Coinbase, Robinhood, Shopify, BHYP at 10% each). Adyen is priced in EUR.",
    "label": "No signal",
@@ -541,7 +541,7 @@
   {
    "slug": "payments-value",
    "name": "Payments Value",
-   "thread": "Payments and Financial Rails",
+   "thread": "Agentic Commerce",
    "start": "2026-11-02",
    "summary": "Incumbent payment processors priced as value and takeout candidates: PayPal and Fiserv, equal weight.",
    "label": "Already moving",

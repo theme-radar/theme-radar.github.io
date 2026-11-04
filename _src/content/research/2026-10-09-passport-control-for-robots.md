@@ -2,7 +2,7 @@
 title: "Passport Control for Robots: SAIL vs OKTA"
 slug: passport-control-for-robots
 date: 2026-10-09
-thread: Cyber Security
+thread: Cybersecurity
 tickers: [SAIL, OKTA]
 baskets: [cyber-security]
 summary: "AI agents pay the identity registry, not the login. Governance is priced per identity, login per employee. Within listed identity, SailPoint owns the better-placed layer at the lower multiple."

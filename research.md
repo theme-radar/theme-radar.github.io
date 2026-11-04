@@ -1,29 +1,12 @@
-# Research
+# Research library
 
-## Cyber Security
+- [Cybersecurity](https://theme-radar.github.io/themes/cybersecurity.md): How AI agents change security spending, and which layers get paid.
+- [AI Science](https://theme-radar.github.io/themes/ai-science.md): AI-driven scientific discovery, and the tools, labs and data it runs on.
+- [Agentic Commerce](https://theme-radar.github.io/themes/agentic-commerce.md): Agentic shopping, e-commerce, payments and the financial rails underneath.
+- [US Dollar Devaluation](https://theme-radar.github.io/themes/us-dollar-devaluation.md): Gold equities as a hedge against a weaker dollar.
 
-How AI agents change security spending, and which layers get paid.
+## All pieces
 
-- [Passport Control for Robots: SAIL vs OKTA](https://theme-radar.github.io/research/passport-control-for-robots.md) (2026-10-09): AI agents pay the identity registry, not the login. Governance is priced per identity, login per employee. Within listed identity, SailPoint owns the better-placed layer at the lower multiple.
-
-## AI Science
-
-AI in drug discovery and life-science research, and the tools it runs on.
-
-- [If frontier AI labs are becoming the next generation of biotech platforms, how should we position?](https://theme-radar.github.io/research/ai-frontier-labs-biotech.md) (2026-10-31): Frontier AI labs are buying biotechs, building wet labs and starting their own drug programmes. Design gets cheap and validation stays scarce, so the physical layer gets paid: molecule makers, lab tools, testing services and data owners.
-
-## Agentic Commerce
-
-Who gets paid when AI agents do the shopping.
-
-- [The Mall Is Closing: Shopify, Meta's Muse and the Agentic Storefront](https://theme-radar.github.io/research/the-mall-is-closing.md) (2026-10-07): When AI agents do the shopping, the rails get paid every time (Shopify), the assistant that knows the buyer earns a commission (Meta), and the everything store has to reinvent itself or shrink (Amazon).
-
-## Payments and Financial Rails
-
-Payment networks, exchanges and the new on-chain rails.
-
-
-## Gold and the Dollar
-
-Gold equities as a hedge against a weaker dollar.
-
+- [If frontier AI labs are becoming the next generation of biotech platforms, how should we position?](https://theme-radar.github.io/research/ai-frontier-labs-biotech.md) (2026-10-31, AI Science)
+- [Passport Control for Robots: SAIL vs OKTA](https://theme-radar.github.io/research/passport-control-for-robots.md) (2026-10-09, Cybersecurity)
+- [The Mall Is Closing: Shopify, Meta's Muse and the Agentic Storefront](https://theme-radar.github.io/research/the-mall-is-closing.md) (2026-10-07, Agentic Commerce)

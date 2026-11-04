@@ -32,6 +32,9 @@ def dfmt(d):
     if isinstance(d, str): d = dt.date.fromisoformat(d)
     return f"{d.day} {d.strftime('%b %Y')}"
 
+THREADS = yaml.safe_load(open(os.path.join(CONTENT, 'threads.yaml')))
+THREAD = {t['name']: t for t in THREADS}
+
 LABEL_TEXT = {
     'Research now': 'Turning up after a weak six months. Early, so the reason behind the move needs checking.',
     'Already moving': 'A broad move inside an established uptrend, not yet stretched to highs.',
@@ -100,13 +103,33 @@ body.wide .wrap{max-width:1240px}
 .formula{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;font-size:14px}
 .formula h3{margin:0 0 8px}.formula ol{padding-left:20px;margin:8px 0}.formula li{margin:8px 0}
 .formula .eq{font-family:Georgia,"Times New Roman",serif;font-size:15px;display:block;margin-top:2px;color:var(--fg)}
+nav.util a{margin-right:14px}
+.tabs{border-top:1px solid var(--line);background:var(--card)}
+.tabs .wrap{display:flex;flex-wrap:wrap;gap:6px;padding-top:8px;padding-bottom:8px}
+.tab{display:inline-flex;align-items:center;gap:7px;white-space:nowrap;padding:5px 12px 5px 6px;border-radius:999px;border:1px solid var(--line);color:var(--fg);font-size:14px}
+.tab:hover{text-decoration:none;border-color:var(--tc)}
+.tab.on{border-color:var(--tc);background:color-mix(in srgb,var(--tc) 12%,transparent);font-weight:600}
+.ico{display:inline-flex;align-items:center;justify-content:center;border-radius:8px;background:var(--tc);color:#fff;flex:none}
+.ico svg{fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.themegrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:12px;margin:10px 0}
+.tcard{display:block;background:var(--card);border:1px solid var(--line);border-top:4px solid var(--tc);border-radius:10px;padding:14px;color:var(--fg)}
+.tcard:hover{text-decoration:none;border-color:var(--tc)}
+.tcard .nm{font-weight:700;margin:10px 0 4px}.tcard .ct{font-size:13px;color:var(--mute)}
+.thead{display:flex;align-items:center;gap:14px;margin:4px 0 6px}.thead h1{margin:0}
+.pcard{border-left:4px solid var(--tc)}
+.tlabel{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--tc);font-weight:600}
 footer{border-top:1px solid var(--line);padding:18px 0 30px;color:var(--mute);font-size:13px}
 """
 
+def icon(t, size=28):
+    px = round(size * 0.62)
+    return f'<span class="ico" style="--tc:{t["color"]};width:{size}px;height:{size}px"><svg viewBox="0 0 24 24" width="{px}" height="{px}" aria-hidden="true">{t["icon"]}</svg></span>'
+
 def page(title, body, active='', desc='', md_href=None, canonical='', wide=False, scripts=''):
-    nav = [('/', 'Home', 'home'), ('/research/', 'Research', 'research'), ('/baskets/', 'Baskets', 'baskets'),
+    nav = [('/', 'Home', 'home'), ('/baskets/', 'Baskets', 'baskets'),
            ('/rotation/', 'Rotation', 'rotation'), ('/etfs/', 'Sector ETFs', 'etfs'), ('/about/', 'About', 'about')]
     navh = ''.join(f'<a href="{h}" class="{"on" if k == active else ""}">{t}</a>' for h, t, k in nav)
+    tabs = ''.join(f'<a class="tab {"on" if active == "t:" + t["slug"] else ""}" style="--tc:{t["color"]}" href="/themes/{t["slug"]}/">{icon(t, 24)}{E(t["name"])}</a>' for t in THREADS)
     alt = f'<link rel="alternate" type="text/markdown" href="{md_href}">' if md_href else ''
     full = title if title == SITE_NAME else f'{title} · {SITE_NAME}'
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
@@ -114,7 +137,7 @@ def page(title, body, active='', desc='', md_href=None, canonical='', wide=False
 <title>{E(full)}</title><meta name="description" content="{E(desc or TAGLINE)}">
 <link rel="alternate" type="application/rss+xml" title="{SITE_NAME} research" href="/feed.xml">
 {alt}<link rel="canonical" href="{E(canonical)}"><style>{CSS}</style></head><body class="{'wide' if wide else ''}">
-<header class="site"><div class="wrap top"><a class="brand" href="/">{SITE_NAME}</a><nav>{navh}</nav></div></header>
+<header class="site"><div class="wrap top"><a class="brand" href="/">{SITE_NAME}</a><nav class="util">{navh}</nav></div><div class="tabs" aria-label="Research themes"><div class="wrap">{tabs}</div></div></header>
 <main><div class="wrap">{body}</div></main>{scripts}
 <footer><div class="wrap">Not investment advice. Prices are daily closes from public market data and may contain errors.
 Machine-readable: <a href="/llms.txt">llms.txt</a> · <a href="/data/">data</a> · <a href="/feed.xml">RSS</a>{f' · <a href="{md_href}">this page as markdown</a>' if md_href else ''}</div></footer>
@@ -228,7 +251,7 @@ def build(data, out, asof, base):
     shutil.copytree(os.path.join(CONTENT, 'assets'), os.path.join(out, 'assets'), dirs_exist_ok=True)
     open(os.path.join(out, '.nojekyll'), 'w').close()
 
-    threads = yaml.safe_load(open(os.path.join(CONTENT, 'threads.yaml')))
+    threads = THREADS
     bdefs = yaml.safe_load(open(os.path.join(CONTENT, 'baskets.yaml')))
     braw = {b['basket']: b for b in S.load('baskets.json')}
     mraw = S.load('members.json')
@@ -281,40 +304,57 @@ def build(data, out, asof, base):
                   for t in themes]
     sectors = sorted({t['sector'] for t in themes})
 
+    def tl(name):
+        t = THREAD[name]
+        return f'<a class="tlabel" style="--tc:{t["color"]}" href="/themes/{t["slug"]}/">{icon(t, 20)}{E(t["name"])}</a>'
+    def pcard(p):
+        t = THREAD[p['thread']]
+        return (f'<div class="card pcard" style="--tc:{t["color"]}"><div class="row">{tl(p["thread"])}<span class="mute small">{dfmt(p["date"])}</span></div>'
+                f'<h3 style="margin:8px 0 4px"><a href="{p["url"]}">{E(p["title"])}</a></h3><p class="small" style="margin:0">{E(p["summary"])}</p>'
+                f'<div class="mute small" style="margin-top:6px">{", ".join(E(x) for x in p.get("tickers", []))}</div></div>')
+    def tcard(t):
+        n = sum(1 for p in posts if p['thread'] == t['name']); nb = sum(1 for b in baskets if b['thread'] == t['name'])
+        return (f'<a class="tcard" style="--tc:{t["color"]}" href="/themes/{t["slug"]}/">{icon(t, 40)}<div class="nm">{E(t["name"])}</div>'
+                f'<div class="small">{E(t["summary"])}</div><div class="ct" style="margin-top:6px">{n} piece{"s" if n != 1 else ""} · {nb} basket{"s" if nb != 1 else ""}</div></a>')
+
+    def bcard(b):
+        return (f'<div class="card pcard" style="--tc:{THREAD[b["thread"]]["color"]}"><div class="row">{tl(b["thread"])}{chip(b["label"])}</div><h3 style="margin:8px 0 2px"><a href="/baskets/{b["slug"]}/">{E(b["name"])}</a></h3>'
+                f'<div class="kv">Since {dfmt(b["start"])}: <b class="{cls(b["since_start"])}">{pct(b["since_start"])}</b> 5D: <b class="{cls(b["d5"])}">{pct(b["d5"])}</b> 20D: <b class="{cls(b["d20"])}">{pct(b["d20"])}</b> 6M: <b class="{cls(b["m6"])}">{pct(b["m6"])}</b></div>'
+                f'<p class="small" style="margin:4px 0 0">{E(b["summary"])}</p></div>')
+
     # ---------- research pages ----------
     for p in posts:
         bl = ''.join(f'<a href="/baskets/{s}/">{E(bslug[s]["name"])} basket</a>' for s in p.get('baskets') or [] if s in bslug)
-        head = (f'<p class="mute small"><a href="/research/#{thread_slug.get(p["thread"], "")}">{E(p["thread"])}</a> · {dfmt(p["date"])}</p>'
+        head = (f'<div class="row" style="justify-content:flex-start">{tl(p["thread"])}<span class="mute small">{dfmt(p["date"])}</span></div>'
                 f'<h1>{E(p["title"])}</h1><p class="mute">{E(p["summary"])}</p>'
                 f'<div class="kv">Tickers: <b>{", ".join(E(t) for t in p.get("tickers", []))}</b></div>'
                 + (f'<div class="tags">Tracked in: {bl}</div>' if bl else ''))
-        md = (f'# {p["title"]}\n\nDate: {p["date"]}\nThread: {p["thread"]}\nTickers: {", ".join(p.get("tickers", []))}\n'
+        md = (f'# {p["title"]}\n\nDate: {p["date"]}\nTheme: {p["thread"]}\nTickers: {", ".join(p.get("tickers", []))}\n'
               f'Canonical: {base}{p["url"]}\n\nSummary: {p["summary"]}\n\n{p["body"]}\n')
         S.html(p['url'], p['title'], head + '<hr style="border:0;border-top:1px solid var(--line)"><article>' + md_to_html(p['body']) + '</article>',
-               'research', p['summary'], md)
-    # research index
-    body = f'<h1>Research</h1><p class="mute">Thought pieces, grouped by thread. Each links to the basket that tracks it.</p>'
-    mdl = ['# Research', '']
+               't:' + THREAD[p['thread']]['slug'], p['summary'], md)
+    # theme pages
     for t in threads:
         tp = [p for p in posts if p['thread'] == t['name']]
         tb = [b for b in baskets if b['thread'] == t['name']]
-        body += f'<h2 id="{t["slug"]}">{E(t["name"])}</h2><p class="mute small">{E(t["summary"])}</p>'
-        mdl += [f'## {t["name"]}', '', t['summary'], '']
-        for p in tp:
-            body += f'<div class="card"><h3><a href="{p["url"]}">{E(p["title"])}</a></h3><div class="mute small">{dfmt(p["date"])} · {", ".join(p.get("tickers", []))}</div><p class="small" style="margin:6px 0 0">{E(p["summary"])}</p></div>'
-            mdl.append(f'- [{p["title"]}]({base}{p["url"].rstrip("/")}.md) ({p["date"]}): {p["summary"]}')
-        if not tp:
-            body += '<p class="small mute">No published piece yet.</p>'
+        body = (f'<div class="thead">{icon(t, 52)}<div><h1>{E(t["name"])}</h1><div class="mute">{E(t["summary"])}</div></div></div>'
+                f'<h2>Research ({len(tp)})</h2>' + (''.join(pcard(p) for p in tp) or '<p class="mute small">No published piece yet.</p>'))
         if tb:
-            body += '<p class="small">Basket: ' + ' · '.join(f'<a href="/baskets/{b["slug"]}/">{E(b["name"])}</a>' for b in tb) + '</p>'
-        mdl.append('')
-    S.html('/research/', 'Research', body, 'research', 'Thought pieces grouped by thread.', '\n'.join(mdl))
+            body += '<h2>Baskets</h2>' + ''.join(bcard(b) for b in tb)
+        md = [f'# {t["name"]}', '', t['summary'], '', '## Research', '']
+        md += [f'- [{p["title"]}]({base}{p["url"].rstrip("/")}.md) ({p["date"]}): {p["summary"]}' for p in tp] or ['None yet.']
+        if tb:
+            md += ['', '## Baskets', '', md_table(['Basket', 'Start', 'Since start', '20D', '6M', 'Label'],
+                   [[f'[{b["name"]}]({base}/baskets/{b["slug"]}.md)', b['start'], pct(b['since_start']), pct(b['d20']), pct(b['m6']), b['label']] for b in tb])]
+        S.html(f'/themes/{t["slug"]}/', t['name'], body, 't:' + t['slug'], t['summary'], '\n'.join(md))
+    # research library (all themes)
+    body = ('<h1>Research library</h1><p class="mute">Thematic research, organised by theme. Pick a theme to see every piece and the baskets that track it.</p>'
+            f'<div class="themegrid">{"".join(tcard(t) for t in threads)}</div><h2>All pieces, newest first</h2>' + ''.join(pcard(p) for p in posts))
+    mdl = ['# Research library', ''] + [f'- [{t["name"]}]({base}/themes/{t["slug"]}.md): {t["summary"]}' for t in threads] + ['', '## All pieces', '']
+    mdl += [f'- [{p["title"]}]({base}{p["url"].rstrip("/")}.md) ({p["date"]}, {p["thread"]})' for p in posts]
+    S.html('/research/', 'Research library', body, '', 'All research, organised by theme.', '\n'.join(mdl))
 
     # ---------- basket pages ----------
-    def bcard(b):
-        return (f'<div class="card"><div class="row"><h3><a href="/baskets/{b["slug"]}/">{E(b["name"])}</a></h3>{chip(b["label"])}</div>'
-                f'<div class="kv">Since {dfmt(b["start"])}: <b class="{cls(b["since_start"])}">{pct(b["since_start"])}</b> 5D: <b class="{cls(b["d5"])}">{pct(b["d5"])}</b> 20D: <b class="{cls(b["d20"])}">{pct(b["d20"])}</b> 6M: <b class="{cls(b["m6"])}">{pct(b["m6"])}</b></div>'
-                f'<p class="small" style="margin:4px 0 0">{E(b["summary"])}</p></div>')
     body = (f'<h1>Baskets</h1><p class="mute">Each basket is fixed at its start date and tracked from the first close on or after it. '
             f'Returns are price only, in each stock\'s home currency. Data to the {dfmt(asof)} close.</p>' + ''.join(bcard(b) for b in baskets))
     md = ['# Baskets', '', f'Data to the {asof} close. Price returns, home currency.', '',
@@ -327,7 +367,7 @@ def build(data, out, asof, base):
                  (pct(m['since_start']), cls(m['since_start'])), (pct(m['d5']), cls(m['d5'])), (pct(m['d20']), cls(m['d20'])), (pct(m['m6']), cls(m['m6'])),
                  (pct(m['off_high'], 0), '')] for m in sorted(b['members'], key=lambda m: -(m['since_start'] or -9))]
         rl = ''.join(f'<li><a href="{u}">{E(next(p["title"] for p in posts if p["url"] == u))}</a></li>' for u in b['research'])
-        body = (f'<p class="mute small"><a href="/baskets/">Baskets</a> · {E(b["thread"])}</p><h1>{E(b["name"])}</h1>'
+        body = (f'<div class="row" style="justify-content:flex-start"><a class="small" href="/baskets/">Baskets</a> {tl(b["thread"])}</div><h1>{E(b["name"])}</h1>'
                 f'<div class="row">{chip(b["label"])}</div><p>{E(b["summary"])}</p>'
                 f'<div class="kv">Start <b>{dfmt(b["start"])}</b> · Since start <b class="{cls(b["since_start"])}">{pct(b["since_start"])}</b> · 6M <b class="{cls(b["m6"])}">{pct(b["m6"])}</b> · {b["weighting"]} · {len(b["members"])} names</div>'
                 + table(['Name', 'Weight', 'Since start', '5D', '20D', '6M', 'Off high'], rows, hide=(1, 3, 6))
@@ -393,7 +433,7 @@ def build(data, out, asof, base):
 
 {SITE_NAME} publishes thematic equity research and tracks each idea as a basket of listed stocks from the day it is written.
 
-- **Research** holds the thought pieces, grouped by thread. Threads build over time as earnings and news add evidence.
+- **Themes** hold the research: Cybersecurity, AI Science, Agentic Commerce and US Dollar Devaluation. Each theme builds over time as earnings and news add evidence, and links to the baskets that track it.
 - **Baskets** are fixed at their start date and tracked from the first close on or after it. Price returns only, in each stock's home currency, no costs.
 - **Rotation** places market themes on a relative rotation chart against the S&P 500, using weekly closes.
 - **Sector ETFs** give market context.
@@ -421,16 +461,18 @@ Not investment advice. Positions may be held in the securities discussed. Figure
     # ---------- home ----------
     lead = sorted([t for t in themes_pub if t['quadrant'] in ('Improving', 'Leading') and t['heading_to'] == 'Leading'], key=lambda t: -(t['d20'] or 0))[:8]
     body = (f'<h1>{SITE_NAME}</h1><p class="mute">{TAGLINE} Market data to the {dfmt(asof)} close.</p>'
-            '<h2>Latest research</h2>' + ''.join(f'<div class="card"><div class="mute small">{E(p["thread"])} · {dfmt(p["date"])}</div><h3><a href="{p["url"]}">{E(p["title"])}</a></h3><p class="small" style="margin:4px 0 0">{E(p["summary"])}</p></div>' for p in posts[:5])
-            + '<h2>Baskets</h2>' + table(['Basket', 'Since start', '20D', '6M', 'Label'], hide=(2,), rows=
-                [[(f'<a href="/baskets/{b["slug"]}/">{E(b["name"])}</a><br><span class="mute small">from {dfmt(b["start"])}</span>', ''),
-                  (pct(b['since_start']), cls(b['since_start'])), (pct(b['d20']), cls(b['d20'])), (pct(b['m6']), cls(b['m6'])), (chip(b['label']), '')] for b in baskets])
+            '<h2>Latest research</h2>' + ''.join(pcard(p) for p in posts[:2])
+            + f'<h2>Research by theme</h2><div class="themegrid">{"".join(tcard(t) for t in threads)}</div>'
+            + '<h2>Baskets</h2>' + table(['Basket', 'Since start', '20D', '6M'], hide=(2,), rows=
+                [[(f'<a href="/baskets/{b["slug"]}/">{E(b["name"])}</a><br><span class="mute small">from {dfmt(b["start"])}</span><br>{chip(b["label"])}', ''),
+                  (pct(b['since_start']), cls(b['since_start'])), (pct(b['d20']), cls(b['d20'])), (pct(b['m6']), cls(b['m6']))] for b in baskets])
             + '<h2>Heading into Leading</h2><p class="small mute">Themes in Improving or Leading whose weekly path points toward Leading.</p>'
             + table(['Theme', 'Quadrant', '20D', 'Label'], hide=(1,), rows=[[(f'<a href="/rotation/{t["slug"]}/">{E(t["theme"])}</a>', ''), (qchip(t['quadrant']), ''),
                 (pct(t['d20']), cls(t['d20'])), (chip(t['label']), '')] for t in lead])
             + '<p><a href="/rotation/">Full rotation map →</a> · <a href="/etfs/">Sector ETFs →</a></p>')
     md = [f'# {SITE_NAME}', '', TAGLINE, f'Market data to the {asof} close.', '', '## Latest research', '']
-    md += [f'- [{p["title"]}]({base}{p["url"].rstrip("/")}.md) ({p["date"]}, {p["thread"]})' for p in posts[:10]]
+    md += [f'- [{p["title"]}]({base}{p["url"].rstrip("/")}.md) ({p["date"]}, {p["thread"]})' for p in posts[:2]]
+    md += ['', '## Themes', ''] + [f'- [{t["name"]}]({base}/themes/{t["slug"]}.md): {t["summary"]}' for t in threads]
     md += ['', '## Baskets', '', md_table(['Basket', 'Start', 'Since start', '6M', 'Label'], [[f'[{b["name"]}]({base}/baskets/{b["slug"]}.md)', b['start'], pct(b['since_start']), pct(b['m6']), b['label']] for b in baskets])]
     S.html('/', SITE_NAME, body, 'home', TAGLINE, '\n'.join(md))
 
@@ -441,7 +483,7 @@ Not investment advice. Positions may be held in the securities discussed. Figure
          'rotation.json': dict(meta, method=FORMULA_MD, points=[dict(theme=r['theme'], sector=r['sector'], benchmark=r['bench'], week=r['date'], weeks_ago=r['ago'], rs_ratio=round(r['rr'], 3), rs_momentum=round(r['rm'], 3)) for r in rrg_all]),
          'theme_members.json': dict(meta, members=[dict(theme=m['theme'], ticker=m['ticker'], name=m['name'], d5=m['d5'], d20=m['d20'], m6=m['m6'], y1=m['y1'], off_high=m['off']) for m in tmem]),
          'etfs.json': dict(meta, etfs=etfs),
-         'research.json': dict(meta, research=[dict(title=p['title'], date=p['date'], thread=p['thread'], tickers=p.get('tickers', []), baskets=p.get('baskets', []),
+         'research.json': dict(meta, research=[dict(title=p['title'], date=p['date'], theme=p['thread'], tickers=p.get('tickers', []), baskets=p.get('baskets', []),
                                summary=p['summary'], url=base + p['url'], markdown=base + p['url'].rstrip('/') + '.md') for p in posts])}
     for k, v in D.items(): S.write('/data/' + k, json.dumps(v, indent=1, ensure_ascii=False))
     dbody = '<h1>Data</h1><p class="mute">Free to use with attribution. Refreshed after each US close.</p><ul>' + ''.join(f'<li><a href="/data/{k}">{k}</a></li>' for k in D) + '</ul>'
@@ -451,12 +493,13 @@ Not investment advice. Positions may be held in the securities discussed. Figure
     llms = [f'# {SITE_NAME}', '', f'> {TAGLINE} Free and open. Market data to the {asof} close.', '',
             'Research pieces are written as theses with named tickers, dated numbers and sources. Each idea is tracked as a basket from its start date.', '',
             '## Research']
-    llms += [f'- [{p["title"]}]({base}{p["url"].rstrip("/")}.md): {p["date"]}. {p["thread"]}. {", ".join(p.get("tickers", []))}. {p["summary"]}' for p in posts]
+    llms += [f'- [{p["title"]}]({base}{p["url"].rstrip("/")}.md): {p["date"]}. Theme: {p["thread"]}. {", ".join(p.get("tickers", []))}. {p["summary"]}' for p in posts]
+    llms += ['', '## Themes'] + [f'- [{t["name"]}]({base}/themes/{t["slug"]}.md): {t["summary"]}' for t in threads]
     llms += ['', '## Baskets'] + [f'- [{b["name"]}]({base}/baskets/{b["slug"]}.md): from {b["start"]}, {pct(b["since_start"])} since start, label {b["label"]}. {b["summary"]}' for b in baskets]
     llms += ['', '## Market views', f'- [Rotation]({base}/rotation.md): {len(themes)} themes on a weekly rotation chart against SPY', f'- [Sector ETFs]({base}/etfs.md)', '',
              '## Data', ] + [f'- [{k}]({base}/data/{k})' for k in D] + ['', '## Optional', f'- [All research in one file]({base}/llms-full.txt)', f'- [About]({base}/about.md)']
     S.write('/llms.txt', '\n'.join(llms) + '\n')
-    S.write('/llms-full.txt', '\n\n---\n\n'.join(f'# {p["title"]}\n\nDate: {p["date"]}\nThread: {p["thread"]}\nURL: {base}{p["url"]}\n\n{p["body"]}' for p in posts) + '\n')
+    S.write('/llms-full.txt', '\n\n---\n\n'.join(f'# {p["title"]}\n\nDate: {p["date"]}\nTheme: {p["thread"]}\nURL: {base}{p["url"]}\n\n{p["body"]}' for p in posts) + '\n')
     items = ''.join(f'<item><title>{E(p["title"])}</title><link>{base}{p["url"]}</link><guid>{base}{p["url"]}</guid>'
                     f'<pubDate>{format_datetime(dt.datetime.fromisoformat(p["date"]).replace(tzinfo=dt.timezone.utc))}</pubDate><category>{E(p["thread"])}</category>'
                     f'<description>{E(p["summary"])}</description></item>' for p in posts)

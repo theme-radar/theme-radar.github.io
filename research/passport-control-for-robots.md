@@ -1,7 +1,7 @@
 # Passport Control for Robots: SAIL vs OKTA
 
 Date: 2026-10-09
-Thread: Cyber Security
+Theme: Cybersecurity
 Tickers: SAIL, OKTA
 Canonical: https://theme-radar.github.io/research/passport-control-for-robots/
 

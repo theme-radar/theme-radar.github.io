@@ -3,7 +3,7 @@
 - slug: cyber-security
   name: Cyber Security
   source: Cyber Security_Claire
-  thread: Cyber Security
+  thread: Cybersecurity
   start: 2026-09-18
   summary: >-
     Nine security platforms that sit where AI agents run, connect and get
@@ -33,7 +33,7 @@
 - slug: usd-devaluation
   name: US Dollar Devaluation
   source: US Dollar Devaluation_Claire
-  thread: Gold and the Dollar
+  thread: US Dollar Devaluation
   start: 2026-05-20
   summary: >-
     Gold royalty, streaming and mining names as a hedge against a weaker
@@ -41,7 +41,7 @@
 - slug: programmable-rails
   name: Programmable Rails
   source: Programmable Rails_Claire
-  thread: Payments and Financial Rails
+  thread: Agentic Commerce
   start: 2026-11-02
   summary: >-
     The licensed control points of payments and markets (Visa, Mastercard,
@@ -50,7 +50,7 @@
 - slug: payments-value
   name: Payments Value
   source: Payments Value_Claire
-  thread: Payments and Financial Rails
+  thread: Agentic Commerce
   start: 2026-11-02
   summary: >-
     Incumbent payment processors priced as value and takeout candidates:

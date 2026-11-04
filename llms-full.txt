@@ -1,7 +1,7 @@
 # If frontier AI labs are becoming the next generation of biotech platforms, how should we position?
 
 Date: 2026-10-31
-Thread: AI Science
+Theme: AI Science
 URL: https://theme-radar.github.io/research/ai-frontier-labs-biotech/
 
 > **"We've also begun drug discovery efforts of our own."** Anthropic,
@@ -1770,7 +1770,7 @@ Nov), Certara, Ginkgo and Recursion also report. Times are Bangkok
 # Passport Control for Robots: SAIL vs OKTA
 
 Date: 2026-10-09
-Thread: Cyber Security
+Theme: Cybersecurity
 URL: https://theme-radar.github.io/research/passport-control-for-robots/
 
 *AI agents pay the identity registry, not the login. Two identity pure plays, one agent boom, and why the market is backing the wrong layer.*
@@ -2715,7 +2715,7 @@ For a long-term holder of SailPoint, the question is whether it can reach its FY
 # The Mall Is Closing: Shopify, Meta's Muse and the Agentic Storefront
 
 Date: 2026-10-07
-Thread: Agentic Commerce
+Theme: Agentic Commerce
 URL: https://theme-radar.github.io/research/the-mall-is-closing/
 
 *What follows is a scenario, not a prediction. Every quote and number is
