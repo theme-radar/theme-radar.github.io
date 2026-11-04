@@ -1,7 +1,7 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-03",
- "generated": "2026-11-04T04:30:17Z",
+ "generated": "2026-11-04T04:37:18Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "research": [
@@ -28,6 +28,7 @@
     "TEM"
    ],
    "baskets": [
+    "ai-frontier-labs-biotech",
     "ai-science"
    ],
    "summary": "Frontier AI labs are buying biotechs, building wet labs and starting their own drug programmes. Design gets cheap and validation stays scarce, so the physical layer gets paid: molecule makers, lab tools, testing services and data owners.",

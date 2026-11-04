@@ -1,6 +1,6 @@
 # AI Science basket
 
-Own the bench: the instruments, genomics and synthetic DNA that AI-driven life-science research runs on, whichever drug or model wins.
+Own the bench: the instruments, genomics and synthetic DNA that AI-driven life-science research runs on, whichever drug or model wins. The first AI Science call. The wider follow-up is the AI Frontier Labs Biotech basket.
 
 Start: 2026-08-17. Weighting: Equal weight. Label: Avoid for now. Since start: +13.4%. Data to the 2026-11-03 close.
 

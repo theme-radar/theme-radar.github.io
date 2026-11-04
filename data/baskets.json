@@ -1,7 +1,7 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-03",
- "generated": "2026-11-04T04:30:17Z",
+ "generated": "2026-11-04T04:37:18Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "baskets": [
@@ -128,7 +128,7 @@
    "name": "AI Science",
    "thread": "AI Science",
    "start": "2026-08-17",
-   "summary": "Own the bench: the instruments, genomics and synthetic DNA that AI-driven life-science research runs on, whichever drug or model wins.",
+   "summary": "Own the bench: the instruments, genomics and synthetic DNA that AI-driven life-science research runs on, whichever drug or model wins. The first AI Science call. The wider follow-up is the AI Frontier Labs Biotech basket.",
    "label": "Avoid for now",
    "since_start": 0.1343,
    "d5": -0.0596,
@@ -182,6 +182,179 @@
      "d20": -0.1597,
      "m6": 1.4744,
      "off_high": -0.3156,
+     "priced": true
+    }
+   ]
+  },
+  {
+   "slug": "ai-frontier-labs-biotech",
+   "name": "AI Frontier Labs Biotech",
+   "thread": "AI Science",
+   "start": "2026-10-31",
+   "summary": "Frontier AI labs are becoming biotech platforms, so the physical layer gets paid: molecule makers, lab tools, testing services, AI drug developers and pharma, with Thermo Fisher and Agilent as ballast. 14 names, equal weight, from the first close after the 31-Oct-26 piece. SNBL (2395.T) is priced in yen.",
+   "label": "No signal",
+   "since_start": 0.027,
+   "d5": -0.0161,
+   "d20": 0.0498,
+   "m6": 0.7962,
+   "y1": 1.0406,
+   "weighting": "Equal weight",
+   "research": [
+    "/research/ai-frontier-labs-biotech/"
+   ],
+   "members": [
+    {
+     "ticker": "TWST",
+     "name": "Twist Bioscience",
+     "weight": 0.0714,
+     "since_start": 0.0873,
+     "d5": -0.1223,
+     "d20": -0.1597,
+     "m6": 1.4744,
+     "off_high": -0.3156,
+     "priced": true
+    },
+    {
+     "ticker": "OABI",
+     "name": "OmniAb",
+     "weight": 0.0714,
+     "since_start": 0.0118,
+     "d5": 0.0383,
+     "d20": 0.1839,
+     "m6": 2.6786,
+     "off_high": -0.0246,
+     "priced": true
+    },
+    {
+     "ticker": "DHR",
+     "name": "Danaher",
+     "weight": 0.0714,
+     "since_start": 0.0094,
+     "d5": -0.0081,
+     "d20": 0.0673,
+     "m6": 0.3177,
+     "off_high": -0.0493,
+     "priced": true
+    },
+    {
+     "ticker": "WAT",
+     "name": "Waters",
+     "weight": 0.0714,
+     "since_start": 0.0231,
+     "d5": -0.0185,
+     "d20": 0.0538,
+     "m6": 0.3418,
+     "off_high": -0.042,
+     "priced": true
+    },
+    {
+     "ticker": "RVTY",
+     "name": "Revvity",
+     "weight": 0.0714,
+     "since_start": 0.0784,
+     "d5": 0.01,
+     "d20": 0.0664,
+     "m6": 0.7712,
+     "off_high": -0.0139,
+     "priced": true
+    },
+    {
+     "ticker": "TXG",
+     "name": "10x Genomics",
+     "weight": 0.0714,
+     "since_start": 0.0594,
+     "d5": -0.1632,
+     "d20": -0.1906,
+     "m6": 1.9664,
+     "off_high": -0.332,
+     "priced": true
+    },
+    {
+     "ticker": "ILMN",
+     "name": "Illumina",
+     "weight": 0.0714,
+     "since_start": 0.0513,
+     "d5": -0.1476,
+     "d20": -0.1292,
+     "m6": 0.7129,
+     "off_high": -0.1889,
+     "priced": true
+    },
+    {
+     "ticker": "TMO",
+     "name": "Thermo Fisher Scientific",
+     "weight": 0.0714,
+     "since_start": 0.023,
+     "d5": 0.0077,
+     "d20": 0.0636,
+     "m6": 0.4961,
+     "off_high": -0.0153,
+     "priced": true
+    },
+    {
+     "ticker": "A",
+     "name": "Agilent",
+     "weight": 0.0714,
+     "since_start": 0.0202,
+     "d5": -0.0114,
+     "d20": 0.0362,
+     "m6": 0.4929,
+     "off_high": -0.0332,
+     "priced": true
+    },
+    {
+     "ticker": "ICLR",
+     "name": "ICON",
+     "weight": 0.0714,
+     "since_start": -0.0067,
+     "d5": 0.1136,
+     "d20": 0.2603,
+     "m6": 0.6796,
+     "off_high": -0.0543,
+     "priced": true
+    },
+    {
+     "ticker": "CRL",
+     "name": "Charles River Laboratories",
+     "weight": 0.0714,
+     "since_start": 0.0394,
+     "d5": -0.0194,
+     "d20": 0.1538,
+     "m6": 0.898,
+     "off_high": -0.0644,
+     "priced": true
+    },
+    {
+     "ticker": "2395.T",
+     "name": "Shin Nippon Biomedical Laboratories (Tokyo, JPY)",
+     "weight": 0.0714,
+     "since_start": -0.0657,
+     "d5": -0.0525,
+     "d20": 0.07,
+     "m6": -0.0057,
+     "off_high": -0.2792,
+     "priced": true
+    },
+    {
+     "ticker": "GENB",
+     "name": "Generate Biomedicines",
+     "weight": 0.0714,
+     "since_start": 0.0484,
+     "d5": 0.0484,
+     "d20": 0.0036,
+     "m6": -0.1018,
+     "off_high": -0.3204,
+     "priced": true
+    },
+    {
+     "ticker": "LLY",
+     "name": "Eli Lilly",
+     "weight": 0.0714,
+     "since_start": -0.0011,
+     "d5": 0.0994,
+     "d20": 0.2176,
+     "m6": 0.4252,
+     "off_high": -0.0058,
      "priced": true
     }
    ]

@@ -4,7 +4,7 @@ slug: ai-frontier-labs-biotech
 date: 2026-10-31
 thread: AI Science
 tickers: [TWST, OABI, DHR, WAT, RVTY, TXG, ILMN, TMO, A, ICLR, CRL, 2395.T, GENB, LLY, NTRA, TEM]
-baskets: [ai-science]
+baskets: [ai-frontier-labs-biotech, ai-science]
 summary: "Frontier AI labs are buying biotechs, building wet labs and starting their own drug programmes. Design gets cheap and validation stays scarce, so the physical layer gets paid: molecule makers, lab tools, testing services and data owners."
 ---
 > **"We've also begun drug discovery efforts of our own."** Anthropic,
