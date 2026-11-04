@@ -2,6 +2,7 @@
 title: "Cybersecurity hardware: Fortinet and F5"
 slug: cyber-hardware-ftnt-ffiv
 date: 2026-11-02
+kind: Stock deep dive
 thread: Cybersecurity
 tickers: [FTNT, FFIV]
 baskets: [cyber-security]

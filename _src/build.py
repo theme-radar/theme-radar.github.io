@@ -118,6 +118,18 @@ nav.util a{margin-right:14px}
 .thead{display:flex;align-items:center;gap:14px;margin:4px 0 6px}.thead h1{margin:0}
 .pcard{border-left:4px solid var(--tc)}
 .tlabel{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--tc);font-weight:600}
+.tpanel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 22px 10px;margin:8px 0 18px}
+.tpanel .thead h1{font-size:30px}.tpanel .incep{color:var(--mute);font-size:15px;margin-top:2px}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
+@media (max-width:600px){.stats{grid-template-columns:1fr}}
+.stat{background:color-mix(in srgb,var(--fg) 4%,transparent);border-radius:12px;padding:16px 18px}
+.stat .k{font-size:13px;color:var(--mute)}.stat .big{font-size:34px;font-weight:700;line-height:1.15;margin:6px 0 4px;letter-spacing:-.5px}
+.stat .mid{font-size:20px;font-weight:600;margin:2px 0}.stat .sub{font-size:14px;color:var(--mute)}
+.tick{font-size:12px;color:var(--mute);line-height:1.6;margin-top:6px;letter-spacing:.2px}
+.rlist{margin:6px 0 4px}.ritem{display:flex;gap:12px;padding:12px 0;border-top:1px solid var(--line)}
+.ritem:first-child{border-top:0}.ritem .di{flex:none;color:var(--tc);margin-top:3px}
+.ritem a{font-weight:600;font-size:17px;color:var(--fg)}.ritem .meta{font-size:14px;color:var(--mute);margin-top:2px}
+.tpanel h3{font-size:17px;margin:20px 0 4px}
 footer{border-top:1px solid var(--line);padding:18px 0 30px;color:var(--mute);font-size:13px}
 """
 
@@ -340,14 +352,36 @@ def build(data, out, asof, base):
               f'Canonical: {base}{p["url"]}\n\nSummary: {p["summary"]}\n\n{p["body"]}\n')
         S.html(p['url'], p['title'], head + '<hr style="border:0;border-top:1px solid var(--line)"><article>' + md_to_html(p['body']) + '</article>',
                't:' + THREAD[p['thread']]['slug'], p['summary'], md)
+    DOC = '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2.5"/><path d="M9 9h6M9 13h6M9 17h4"/></svg>'
+    def theme_panel(t, tp, b):
+        mem = sorted(b['members'], key=lambda m: -(m['since_start'] if m['since_start'] is not None else -9))
+        ticks = ' · '.join(E(m['ticker']) for m in sorted(b['members'], key=lambda m: m['ticker']))
+        items = ''.join(f'<div class="ritem" style="--tc:{t["color"]}"><span class="di">{DOC}</span><div><a href="{p["url"]}">{E(p["title"])}</a>'
+                        f'<div class="meta">{E(p.get("kind", "Research"))} · {", ".join(E(x) for x in p.get("tickers", []))} · {dfmt(p["date"])}</div></div></div>' for p in tp)
+        rows = [[(f'<b>{E(m["ticker"])}</b><br><span class="mute small">{E(m["name"])}</span>', ''),
+                 (pct(m['since_start']), cls(m['since_start'])), (pct(m['d20']), cls(m['d20'])), (pct(m['m6']), cls(m['m6']) + ' hs')] for m in mem]
+        return (f'<div class="tpanel"><div class="thead">{icon(t, 44)}<div><h1>{E(t["name"])}</h1>'
+                f'<div class="incep">Theme inception · {b_long(b["start"])}</div></div></div>'
+                '<div class="stats">'
+                f'<div class="stat"><div class="k">Basket</div><div class="big">{len(b["members"])} stocks</div><div class="sub">Equal-weighted at inception</div><div class="tick">{ticks}</div></div>'
+                f'<div class="stat"><div class="k">Performance since inception</div><div class="big {cls(b["since_start"])}">{pct(b["since_start"])}</div>'
+                f'<div class="mid">{b_long(b["start"])}</div><div class="sub">Buy-and-hold · {chip(b["label"])}</div></div></div>'
+                f'<h3>Latest research</h3><div class="rlist">{items or "<p class=\"mute small\">No published piece yet.</p>"}</div></div>'
+                f'<h2>Basket constituents</h2><p class="mute small">All {len(b["members"])} tickers, with individual performance since inception. Data to the {dfmt(asof)} close.</p>'
+                + table(['Name', 'Since inception', '20D', '6M'], rows, hide=(3,)))
+    def b_long(d):
+        d = dt.date.fromisoformat(str(d)); return f'{d.day} {d.strftime("%B %Y")}'
     # theme pages
     for t in threads:
         tp = [p for p in posts if p['thread'] == t['name']]
         tb = [b for b in baskets if b['thread'] == t['name']]
-        body = (f'<div class="thead">{icon(t, 52)}<div><h1>{E(t["name"])}</h1><div class="mute">{E(t["summary"])}</div></div></div>'
-                f'<h2>Research ({len(tp)})</h2>' + (''.join(pcard(p) for p in tp) or '<p class="mute small">No published piece yet.</p>'))
-        if tb:
-            body += '<h2>Thematic Baskets</h2>' + ''.join(bcard(b) for b in tb)
+        if t.get('layout') == 'panel' and tb:
+            body = theme_panel(t, tp, tb[0])
+        else:
+            body = (f'<div class="thead">{icon(t, 52)}<div><h1>{E(t["name"])}</h1><div class="mute">{E(t["summary"])}</div></div></div>'
+                    f'<h2>Research ({len(tp)})</h2>' + (''.join(pcard(p) for p in tp) or '<p class="mute small">No published piece yet.</p>'))
+            if tb:
+                body += '<h2>Thematic Baskets</h2>' + ''.join(bcard(b) for b in tb)
         md = [f'# {t["name"]}', '', t['summary'], '', '## Research', '']
         md += [f'- [{p["title"]}]({base}{p["url"].rstrip("/")}.md) ({p["date"]}): {p["summary"]}' for p in tp] or ['None yet.']
         if tb:

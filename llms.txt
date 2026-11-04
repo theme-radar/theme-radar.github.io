@@ -15,6 +15,7 @@ Research pieces are written as theses with named tickers, dated numbers and sour
 - [AI Science](https://theme-radar.github.io/themes/ai-science.md): AI-driven scientific discovery, and the tools, labs and data it runs on.
 - [Agentic Commerce](https://theme-radar.github.io/themes/agentic-commerce.md): Agentic shopping, e-commerce, payments and the financial rails underneath.
 - [US Dollar Devaluation](https://theme-radar.github.io/themes/us-dollar-devaluation.md): Gold equities as a hedge against a weaker dollar.
+- [Payments Value](https://theme-radar.github.io/themes/payments-value.md): Incumbent payment processors priced as value and takeout candidates.
 
 ## Thematic Baskets (equal weight, buy-and-hold)
 - [Cyber Security](https://theme-radar.github.io/baskets/cyber-security.md): from 2026-09-18, -5.5% since start, label Avoid for now. Nine security platforms that sit where AI agents run, connect and get permissions: endpoint, network, zero trust, identity, data and observability. Started with the 18-Sep-26 cybersecurity primer.

@@ -2,6 +2,7 @@
 title: "The Mall Is Closing: Shopify, Meta's Muse and the Agentic Storefront"
 slug: the-mall-is-closing
 date: 2026-10-07
+kind: Theme research
 thread: Agentic Commerce
 tickers: [SHOP, META, AMZN]
 baskets: []

@@ -1,7 +1,7 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-03",
- "generated": "2026-11-04T05:09:29Z",
+ "generated": "2026-11-04T05:19:39Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "methodology": [
@@ -365,7 +365,7 @@
   {
    "slug": "payments-value",
    "name": "Payments Value",
-   "thread": "Agentic Commerce",
+   "thread": "Payments Value",
    "start": "2026-11-02",
    "summary": "Incumbent payment processors priced as value and takeout candidates: PayPal and Fiserv, equal weight.",
    "label": "Already moving",

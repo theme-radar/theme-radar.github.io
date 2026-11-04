@@ -2,6 +2,7 @@
 title: "Passport Control for Robots: SAIL vs OKTA"
 slug: passport-control-for-robots
 date: 2026-10-09
+kind: Stock deep dive
 thread: Cybersecurity
 tickers: [SAIL, OKTA]
 baskets: [cyber-security]

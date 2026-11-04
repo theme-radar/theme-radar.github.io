@@ -2,6 +2,7 @@
 title: "If frontier AI labs are becoming the next generation of biotech platforms, how should we position?"
 slug: ai-frontier-labs-biotech
 date: 2026-10-31
+kind: Theme research
 thread: AI Science
 tickers: [TWST, OABI, DHR, WAT, RVTY, TXG, ILMN, TMO, A, ICLR, CRL, 2395.T, GENB, LLY, NTRA, TEM]
 baskets: [ai-science]
