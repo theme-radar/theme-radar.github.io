@@ -1,7 +1,7 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-03",
- "generated": "2026-11-04T07:33:50Z",
+ "generated": "2026-11-04T07:44:55Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "method": "Each theme is an equal-weight index of its stocks (daily returns averaged across names). B is the benchmark (SPY or RSP). Weekly points use the last close of each week.\n\n1. Relative strength: RS_t = 100 × P_t / B_t\n2. Trend of relative strength: R_t = EMA3( 100 × RS_t / SMA10(RS)_t )\n3. RS-Ratio (x-axis): RS-Ratio_t = 100 + ( R_t − mean40(R) ) / sd40(R)\n4. Change in RS-Ratio: M_t = EMA3( RS-Ratio_t − RS-Ratio_(t−1) )\n5. RS-Momentum (y-axis): RS-Momentum_t = 100 + ( M_t − mean40(M) ) / sd40(M)\n\nSMA10 = 10-week simple average. EMA3 = 3-week exponential average (alpha = 0.5). mean40 and sd40 = mean and standard deviation over the last 40 weeks. 100 is neutral on both axes. Quadrants: Leading (both > 100), Weakening (RS-Ratio > 100, RS-Momentum < 100), Lagging (both < 100), Improving (RS-Ratio < 100, RS-Momentum > 100). Heading is the direction of the latest weekly move.",

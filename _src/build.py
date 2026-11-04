@@ -414,7 +414,7 @@ def build(data, out, asof, base):
         items = ''.join(f'<div class="ritem" style="--tc:{t["color"]}"><span class="di">{DOC}</span><div><a href="{p["url"]}">{E(p["title"])}</a>'
                         f'<div class="meta">{E(p.get("kind", "Research"))} · {", ".join(E(x) for x in p.get("tickers", []))}</div></div><span class="dt">{dfmt(p["date"])}</span></div>' for p in tp)
         def tk(m):
-            star = f'<sup class="star">*</sup> <span class="mute small" style="white-space:nowrap">(added {dfmt(m["added"])[:-5]})</span>' if m.get('added') else ''
+            star = f'<sup class="star">*</sup>' if m.get('added') else ''
             return f'<b>{E(m["ticker"])}</b>{star}<br><span class="mute small">{E(m["name"])}</span>'
         rows = [[(tk(m), ''), (pct(m['since_start']), cls(m['since_start'])), (pct(m['m6']), cls(m['m6']))] for m in mem]
         col_heads = ['Name', 'Since inception', '6M']
@@ -470,7 +470,7 @@ def build(data, out, asof, base):
                    [[f'[{b["name"]}]({base}/baskets/{b["slug"]}.md)', b['start'], pct(b['since_start']), pct(b['d5']), pct(b['d20']), pct(b['m6']), b['label']] for b in baskets])]
     S.html('/baskets/', 'Thematic Baskets', body, 'baskets', 'Buy-and-hold thematic reference baskets, equal-weighted at inception.', '\n'.join(md))
     for b in baskets:
-        rows = [[(f'<b>{E(m["ticker"])}</b>' + (f'<sup class="star">*</sup> <span class="mute small" style="white-space:nowrap">(added {dfmt(m["added"])[:-5]})</span>' if m.get('added') else '') + f'<br><span class="mute small">{E(m["name"])}</span>', ''),
+        rows = [[(f'<b>{E(m["ticker"])}</b>' + (f'<sup class="star">*</sup>' if m.get('added') else '') + f'<br><span class="mute small">{E(m["name"])}</span>', ''),
                  (f'{m["weight"]*100:.1f}%' if m['weight'] is not None else '—', 'hs'),
                  (pct(m['since_start']), cls(m['since_start'])), (pct(m['d5']), cls(m['d5'])), (pct(m['d20']), cls(m['d20'])), (pct(m['m6']), cls(m['m6'])),
                  (pct(m['off_high'], 0), '')] for m in sorted(b['members'], key=lambda m: -(m['since_start'] or -9))]
