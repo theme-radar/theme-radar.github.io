@@ -13,7 +13,7 @@ Sector: Frontier Tech. Label: Avoid for now. Quadrant: Lagging, heading to Leadi
 | AUR | Aurora Innovation Inc. | -16.6% | -25.7% | -34.6% |
 | APTV | Aptiv PLC | -5.3% | -7.6% | -24.6% |
 | SERV | Serve Robotics Inc. | -11.2% | -45.3% | -71.4% |
-| RR | Richtech Robotics Inc. Class B | -12.7% | -44.4% | -61.4% |
+| RR | Richtech Robotics Inc. Class B | -12.8% | -44.4% | -61.5% |
 | ZBRA | Zebra Technologies Corporation | -13.7% | -14.6% | +44.3% |
 | CGNX | Cognex Corporation | -0.2% | -12.4% | -1.2% |
 | AEVA | Aeva Technologies Inc. | -14.4% | -38.6% | -41.3% |

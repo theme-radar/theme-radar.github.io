@@ -23,7 +23,7 @@
 | [Betting & Casinos](https://theme-radar.github.io/rotation/betting-casinos.md) | Research now | Improving | Leading | 99.9 | 101.65 | +2.5% | -9.4% |
 | [Airlines](https://theme-radar.github.io/rotation/airlines.md) | No signal | Improving | Leading | 99.67 | 100.82 | -7.1% | -0.3% |
 | [Restaurants](https://theme-radar.github.io/rotation/restaurants.md) | Already moving | Leading | Weakening | 102.8 | 102.55 | +15.0% | +4.2% |
-| [Sports & Live Events](https://theme-radar.github.io/rotation/sports-live-events.md) | Already moving | Leading | Leading | 100.52 | 101.56 | +5.0% | +11.7% |
+| [Sports & Live Events](https://theme-radar.github.io/rotation/sports-live-events.md) | Already moving | Leading | Leading | 100.54 | 101.58 | +5.1% | +11.7% |
 | [Athletic, Apparel & Luxury](https://theme-radar.github.io/rotation/athletic-apparel-luxury.md) | Research now | Leading | Weakening | 101.91 | 101.53 | +10.3% | -5.4% |
 | [Cruise, Hotels & Online Travel](https://theme-radar.github.io/rotation/cruise-hotels-online-travel.md) | Already moving | Leading | Weakening | 101.9 | 101.42 | +9.7% | +17.8% |
 | [Homebuilders & Home Improvement](https://theme-radar.github.io/rotation/homebuilders-home-improvement.md) | Already moving | Leading | Weakening | 101.06 | 101.37 | +7.1% | +2.5% |
@@ -100,12 +100,12 @@
 
 | Theme | Label | Quadrant | Heading to | RS-Ratio | RS-Momentum | 20D | 6M |
 |---|---|---|---|---|---|---|---|
-| [Agriculture](https://theme-radar.github.io/rotation/agriculture.md) | No signal | Improving | Leading | 99.41 | 100.71 | -7.2% | -14.2% |
+| [Agriculture](https://theme-radar.github.io/rotation/agriculture.md) | No signal | Improving | Leading | 99.41 | 100.72 | -7.2% | -14.2% |
 | [Critical Minerals & Lithium](https://theme-radar.github.io/rotation/critical-minerals-lithium.md) | Avoid for now | Improving | Leading | 98.25 | 100.19 | -19.6% | -35.8% |
 | [Chemicals](https://theme-radar.github.io/rotation/chemicals.md) | Research now | Leading | Weakening | 100.78 | 101.71 | +11.0% | -14.1% |
 | [Steel & Aluminium](https://theme-radar.github.io/rotation/steel-aluminium.md) | Watch | Leading | Weakening | 100.29 | 100.83 | +1.5% | -3.7% |
 | [Gold & Silver](https://theme-radar.github.io/rotation/gold-silver.md) | Avoid for now | Lagging | Leading | 98.84 | 99.91 | -13.0% | -12.4% |
-| [Copper](https://theme-radar.github.io/rotation/copper.md) | Avoid for now | Lagging | Leading | 98.52 | 99.8 | -14.3% | +3.7% |
+| [Copper](https://theme-radar.github.io/rotation/copper.md) | Avoid for now | Lagging | Leading | 98.52 | 99.79 | -14.3% | +3.7% |
 
 ## Semis & Hardware
 

@@ -35,7 +35,7 @@ td.l{text-align:left}
 @media (max-width:600px){.hs{display:none}h1{font-size:24px}}
 .kv{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;color:var(--mute);margin:6px 0}
 .kv b{color:var(--fg);font-weight:600}.kv b.up,b.up{color:var(--up)}.kv b.dn,b.dn{color:var(--dn)}
-article{font-size:17px;line-height:1.7;overflow-wrap:anywhere}article pre{overflow-x:auto;white-space:pre-wrap}
+article{font-size:17px;line-height:1.7;overflow-wrap:anywhere}article td,article th{overflow-wrap:normal;word-break:normal}article td:first-child{min-width:7em}article pre{overflow-x:auto;white-space:pre-wrap}
 article h2{font-size:22px}article img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:8px;margin:8px 0}
 article table{font-size:14px}article .tbl td,article .tbl th{white-space:normal;text-align:left}
 article blockquote{margin:12px 0;padding:2px 14px;border-left:3px solid var(--line);color:var(--mute)}
@@ -82,6 +82,7 @@ nav.util a{margin-right:14px}
 .ritem>div:nth-child(2){flex:1;min-width:0}.ritem .dt{flex:none;font-size:14px;color:var(--mute);white-space:nowrap;margin-top:3px}
 .tgrid{display:grid;grid-template-columns:minmax(0,1fr);grid-template-areas:"head" "basket" "research";gap:0 24px}
 @media (min-width:1000px){.tgrid{grid-template-columns:minmax(0,1fr) 420px;grid-template-areas:"head head" "research basket"}.tgrid .tb{position:sticky;top:12px;align-self:start}}
+.star{color:var(--acc,#2f6fb0);font-weight:700}.fnote{margin:8px 0 0;line-height:1.4}
 .tgrid .th{grid-area:head}.tgrid .tr{grid-area:research;align-self:start}.tgrid .tb{grid-area:basket}
 .tbox{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:0 0 18px}
 .tbox h3{margin:0 0 4px}

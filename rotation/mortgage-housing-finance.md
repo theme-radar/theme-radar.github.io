@@ -13,7 +13,7 @@ Sector: Financials. Label: No signal. Quadrant: Leading, heading to Leading. Dat
 | LADR | Ladder Capital Corp | -2.6% | +5.0% | -11.2% |
 | AGNC | AGNC Investment Corp. | -3.8% | -1.9% | -20.4% |
 | FNMA |  | +29.6% | +35.9% | -31.0% |
-| FMCC |  | +28.4% | +32.5% | -29.3% |
+| FMCC |  | +27.9% | +31.9% | -29.6% |
 | WD | Walker & Dunlop Inc | +1.6% | +0.2% | -31.2% |
 | STWD | STARWOOD PROPERTY TRUST INC. Starwood Pr | +0.7% | -3.1% | -31.4% |
 | CIM | Chimera Investment Corporation | -1.2% | -9.9% | -39.2% |

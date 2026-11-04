@@ -16,4 +16,4 @@ Sector: Materials. Label: No signal. Quadrant: Improving, heading to Leading. Da
 | CNH | CNH Industrial N.V. | +5.3% | -11.6% | +13.7% |
 | VMI | Valmont Industries Inc. | +0.2% | -10.1% | -15.5% |
 | TRMB | Trimble Inc. | +3.9% | +7.6% | -4.0% |
-| GNS | Genius Group Limited | -13.9% | -25.2% | -60.1% |
+| GNS | Genius Group Limited | -13.5% | -24.8% | -59.9% |

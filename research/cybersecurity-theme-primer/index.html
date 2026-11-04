@@ -1,0 +1,1911 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI agentic beneficiaries: cybersecurity theme primer and shopping list · Theme Radar</title><meta name="description" content="Who gets paid when software starts doing the work: the traffic, the control points and the record-keeping that every AI agent has to pass through. A shopping list, built before the down day we cannot time.">
+<link rel="alternate" type="application/rss+xml" title="Theme Radar research" href="/feed.xml">
+<link rel="alternate" type="text/markdown" href="/research/cybersecurity-theme-primer.md"><link rel="canonical" href="https://theme-radar.github.io/research/cybersecurity-theme-primer/"><style>
+:root{--bg:#fbfaf7;--fg:#1c1b19;--mute:#6b675f;--line:#e4e0d8;--card:#ffffff;--acc:#1f4e79;--up:#1b7a3a;--dn:#b3261e;
+--lead:#1b7a3a;--weak:#b7791f;--lag:#b3261e;--imp:#1f4e79}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141412;--fg:#ecebe6;--mute:#a19d93;--line:#2c2b28;--card:#1c1b19;--acc:#8fb8e0;--up:#5cc27c;--dn:#ef7a6f;--lead:#5cc27c;--weak:#e2b155;--lag:#ef7a6f;--imp:#8fb8e0}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
+header.site{border-bottom:1px solid var(--line);background:var(--card)}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+.top{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 20px;padding:14px 16px}
+.brand{font-weight:700;font-size:18px;color:var(--fg);letter-spacing:.2px}
+nav a{margin-right:16px;color:var(--mute);font-size:15px}nav a.on{color:var(--fg);font-weight:600}
+main{padding:24px 0 48px}
+h1{font-size:28px;line-height:1.25;margin:4px 0 8px;font-family:Georgia,"Times New Roman",serif}
+h2{font-size:20px;margin:32px 0 10px;font-family:Georgia,"Times New Roman",serif}
+h3{font-size:17px;margin:22px 0 8px}
+.mute{color:var(--mute)}.small{font-size:14px}
+.up{color:var(--up)}.dn{color:var(--dn)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:10px 0}
+.card h3{margin:0 0 4px}
+.row{display:flex;justify-content:space-between;gap:12px;align-items:baseline;flex-wrap:wrap}
+.chip{display:inline-block;font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;border:1px solid currentColor;white-space:nowrap}
+.l-res{color:var(--imp)}.l-mov{color:var(--lead)}.l-chase{color:var(--weak)}.l-watch{color:var(--mute)}.l-avoid{color:var(--lag)}.l-none{color:var(--mute)}
+.q-lead{color:var(--lead)}.q-weak{color:var(--weak)}.q-lag{color:var(--lag)}.q-imp{color:var(--imp)}
+.tbl{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:8px 0}
+table{border-collapse:collapse;width:100%;font-size:14px;font-variant-numeric:tabular-nums}
+th,td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left;white-space:normal}
+th{font-weight:600;color:var(--mute);font-size:12px;text-transform:uppercase;letter-spacing:.3px}
+td.l{text-align:left}
+@media (max-width:600px){.hs{display:none}h1{font-size:24px}}
+.kv{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;color:var(--mute);margin:6px 0}
+.kv b{color:var(--fg);font-weight:600}.kv b.up,b.up{color:var(--up)}.kv b.dn,b.dn{color:var(--dn)}
+article{font-size:17px;line-height:1.7;overflow-wrap:anywhere}article td,article th{overflow-wrap:normal;word-break:normal}article td:first-child{min-width:7em}article pre{overflow-x:auto;white-space:pre-wrap}
+article h2{font-size:22px}article img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:8px;margin:8px 0}
+article table{font-size:14px}article .tbl td,article .tbl th{white-space:normal;text-align:left}
+article blockquote{margin:12px 0;padding:2px 14px;border-left:3px solid var(--line);color:var(--mute)}
+.tags a{font-size:13px;margin-right:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}@media (max-width:600px){.grid{grid-template-columns:1fr}}
+.grid svg{width:100%;height:auto;background:var(--card);border:1px solid var(--line);border-radius:10px}
+svg text{fill:var(--mute);font:10px -apple-system,Segoe UI,Roboto,sans-serif}
+body.wide .wrap{max-width:1240px}
+.fbtn{font:inherit;font-size:13px;padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--mute);cursor:pointer;margin:0 6px 6px 0}
+.fbtn[aria-pressed="true"]{color:var(--fg);border-color:var(--fg);font-weight:600}
+.ctl{display:flex;flex-wrap:wrap;align-items:center;gap:0 4px;margin:6px 0}.ctl .lab{font-size:13px;color:var(--mute);margin-right:8px}
+.rrg-layout{display:grid;grid-template-columns:minmax(0,1fr);gap:20px;margin-top:10px}
+@media (min-width:1000px){.rrg-layout{grid-template-columns:minmax(0,1fr) 330px}}
+#rot-chart{position:relative;background:var(--card);border:1px solid var(--line);border-radius:10px;min-height:340px}
+.rtip{position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:12px;max-width:16rem;box-shadow:0 4px 14px rgba(0,0,0,.12)}
+.formula{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;font-size:14px}
+.formula h3{margin:0 0 8px}.formula ol{padding-left:20px;margin:8px 0}.formula li{margin:8px 0}
+.formula .eq{font-family:Georgia,"Times New Roman",serif;font-size:15px;display:block;margin-top:2px;color:var(--fg)}
+nav.util a{margin-right:14px}
+.tabs{border-top:1px solid var(--line);background:var(--card)}
+.tabs .wrap{display:flex;flex-wrap:wrap;gap:6px;padding-top:8px;padding-bottom:8px}
+.tab{display:inline-flex;align-items:center;gap:7px;white-space:nowrap;padding:5px 12px 5px 6px;border-radius:999px;border:1px solid var(--line);color:var(--fg);font-size:14px}
+.tab:hover{text-decoration:none;border-color:var(--tc)}
+.tab.on{border-color:var(--tc);background:color-mix(in srgb,var(--tc) 12%,transparent);font-weight:600}
+.ico{display:inline-flex;align-items:center;justify-content:center;border-radius:8px;background:var(--tc);color:#fff;flex:none}
+.ico svg{fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.themegrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:12px;margin:10px 0}
+.tcard{display:block;background:var(--card);border:1px solid var(--line);border-top:4px solid var(--tc);border-radius:10px;padding:14px;color:var(--fg)}
+.tcard:hover{text-decoration:none;border-color:var(--tc)}
+.tcard .nm{font-weight:700;margin:10px 0 4px}.tcard .ct{font-size:13px;color:var(--mute)}
+.thead{display:flex;align-items:center;gap:14px;margin:4px 0 6px}.thead h1{margin:0}
+.pcard{border-left:4px solid var(--tc)}
+.tlabel{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--tc);font-weight:600}
+.tpanel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 22px 6px;margin:8px 0 18px}
+.tpanel .thead h1{font-size:30px}.tpanel .incep{color:var(--mute);font-size:15px;margin-top:2px}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
+@media (max-width:600px){.stats{grid-template-columns:1fr}}
+.stat{background:color-mix(in srgb,var(--fg) 4%,transparent);border-radius:12px;padding:16px 18px}
+.stat .k{font-size:13px;color:var(--mute)}.stat .big{font-size:34px;font-weight:700;line-height:1.15;margin:6px 0 4px;letter-spacing:-.5px}
+.stat .mid{font-size:20px;font-weight:600;margin:2px 0}.stat .sub{font-size:14px;color:var(--mute)}
+.tick{font-size:12px;color:var(--mute);line-height:1.6;margin-top:6px;letter-spacing:.2px}
+.rlist{margin:6px 0 4px}.ritem{display:flex;gap:12px;padding:12px 0;border-top:1px solid var(--line)}
+.ritem:first-child{border-top:0}.ritem .di{flex:none;color:var(--tc);margin-top:3px}
+.ritem>div:nth-child(2){flex:1;min-width:0}.ritem .dt{flex:none;font-size:14px;color:var(--mute);white-space:nowrap;margin-top:3px}
+.tgrid{display:grid;grid-template-columns:minmax(0,1fr);grid-template-areas:"head" "basket" "research";gap:0 24px}
+@media (min-width:1000px){.tgrid{grid-template-columns:minmax(0,1fr) 420px;grid-template-areas:"head head" "research basket"}.tgrid .tb{position:sticky;top:12px;align-self:start}}
+.star{color:var(--acc,#2f6fb0);font-weight:700}.fnote{margin:8px 0 0;line-height:1.4}
+.tgrid .th{grid-area:head}.tgrid .tr{grid-area:research;align-self:start}.tgrid .tb{grid-area:basket}
+.tbox{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:0 0 18px}
+.tbox h3{margin:0 0 4px}
+.ritem a{font-weight:600;font-size:17px;color:var(--fg)}.ritem .meta{font-size:14px;color:var(--mute);margin-top:2px}
+.tpanel h3{font-size:17px;margin:20px 0 4px}
+footer{border-top:1px solid var(--line);padding:18px 0 30px;color:var(--mute);font-size:13px}
+</style></head><body class="">
+<header class="site"><div class="wrap top"><a class="brand" href="/">Theme Radar</a><nav class="util"><a href="/" class="">Home</a><a href="/baskets/" class="">Thematic Baskets</a><a href="/rotation/" class="">Rotation</a><a href="/etfs/" class="">Sector ETFs</a><a href="/about/" class="">About</a></nav></div><div class="tabs" aria-label="Research themes"><div class="wrap"><a class="tab on" style="--tc:#2f6fb0" href="/themes/cybersecurity/"><span class="ico" style="--tc:#2f6fb0;width:24px;height:24px"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6l7-3z"/><rect x="9" y="10.5" width="6" height="5" rx="1"/><path d="M10.2 10.5V9a1.8 1.8 0 0 1 3.6 0v1.5"/></svg></span>Cybersecurity</a><a class="tab " style="--tc:#2e8b57" href="/themes/ai-science/"><span class="ico" style="--tc:#2e8b57;width:24px;height:24px"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M9 3h6"/><path d="M10 3v6.2L5.2 17.5A2.3 2.3 0 0 0 7.2 21h9.6a2.3 2.3 0 0 0 2-3.5L14 9.2V3"/><path d="M7.5 15h9"/><circle cx="10.5" cy="18" r=".6"/><circle cx="13.5" cy="17.2" r=".6"/></svg></span>AI Science</a><a class="tab " style="--tc:#c26a1b" href="/themes/agentic-commerce/"><span class="ico" style="--tc:#c26a1b;width:24px;height:24px"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M3 4h2l2.2 10.2a1.5 1.5 0 0 0 1.5 1.2h8.6a1.5 1.5 0 0 0 1.5-1.1L20.5 8H6"/><circle cx="9.5" cy="19.5" r="1.3"/><circle cx="16.5" cy="19.5" r="1.3"/><path d="M11 11.2h1.6l.9-1.8 1.2 3.4.9-1.6H17"/></svg></span>Agentic Commerce</a><a class="tab " style="--tc:#b8902a" href="/themes/us-dollar-devaluation/"><span class="ico" style="--tc:#b8902a;width:24px;height:24px"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><circle cx="10" cy="12" r="7"/><path d="M12 9.3c-.4-.7-1.2-1.1-2.1-1.1-1.2 0-2.1.7-2.1 1.7 0 2.3 4.4 1.3 4.4 3.8 0 1-.9 1.8-2.2 1.8-1 0-1.9-.5-2.3-1.2"/><path d="M10 6.8v1.4M10 15.8v1.4"/><path d="M19.5 9v8m-2-2 2 2 2-2"/></svg></span>US Dollar Devaluation</a><a class="tab " style="--tc:#6b4fa0" href="/themes/payments-value/"><span class="ico" style="--tc:#6b4fa0;width:24px;height:24px"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18"/><path d="M7 15h3"/><path d="M15.5 13.2l1.5 1.5 2.5-3"/></svg></span>Payments Value</a></div></div></header>
+<main><div class="wrap"><div class="row" style="justify-content:flex-start"><a class="tlabel" style="--tc:#2f6fb0" href="/themes/cybersecurity/"><span class="ico" style="--tc:#2f6fb0;width:20px;height:20px"><svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6l7-3z"/><rect x="9" y="10.5" width="6" height="5" rx="1"/><path d="M10.2 10.5V9a1.8 1.8 0 0 1 3.6 0v1.5"/></svg></span>Cybersecurity</a><span class="mute small">18 Sep 2026</span></div><h1>AI agentic beneficiaries: cybersecurity theme primer and shopping list</h1><p class="mute">Who gets paid when software starts doing the work: the traffic, the control points and the record-keeping that every AI agent has to pass through. A shopping list, built before the down day we cannot time.</p><div class="kv">Tickers: <b>ZS, FFIV, RBRK, FTNT, NET, PANW, CRWD, SAIL</b></div><div class="tags">Tracked in: <a href="/baskets/cyber-security/">Cyber Security basket</a></div><hr style="border:0;border-top:1px solid var(--line)"><article><div class="tbl"><table>
+<thead>
+<tr class="header">
+<th>25x</th>
+<th>0%</th>
+<th>2,270</th>
+<th>6 to 8</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>More network traffic generated per AI agent than per chatbot (Cisco
+estimate)</td>
+<td>Enterprise CIOs planning to cut cybersecurity spend (Jefferies
+survey, Q1 2026)</td>
+<td>Record weekly cyberattacks per organisation, June 2026 (Check
+Point)</td>
+<td>Names we would actually own, against a 26-name index of the
+theme</td>
+</tr>
+</tbody>
+</table></div>
+<p>Prices, multiples and 52-week ranges are trailing twelve months from
+Financial Modeling Prep, close of 15 September 2026 / intraday 16
+September 2026, and are labelled as such throughout. Company operating
+figures are from company releases and filings as dated. Not investment
+advice. Every ranking, tier and entry level in this document is a
+judgement call and is flagged as such.</p>
+<h2 id="1-the-short-answer">1. The short answer</h2>
+<blockquote>
+<p><strong>Yes, this is a theme worth owning — but not as a basket and
+not at any price.</strong> AI agents (software that does tasks on its
+own, all day, without being prompted) create far more internet traffic,
+far more API calls, far more identities and far more attacks than humans
+ever did. The companies that own the physical and logical plumbing this
+traffic must pass through get paid for it, and most of them cannot be
+replaced by an AI model, because their moat is a box, a network, a
+licence or a clean copy of your data.</p>
+</blockquote>
+<blockquote>
+<p><strong>The problem is timing, and it has got worse, not
+better.</strong> Most of the obvious winners have already re-rated.
+Fortinet, Cloudflare, CrowdStrike, Okta and F5 are at or within a few
+percent of all-time highs. Our job here is to separate the names where
+the thesis is intact and the price still offers a margin of safety from
+the names where we would now be paying for perfection — and to have the
+levels written down before the market gives us the chance.</p>
+</blockquote>
+<ul>
+<li><strong>Core (Tier 1):</strong> Zscaler, F5, Rubrik, Fortinet.
+Quality businesses with real, reported AI numbers at 7x to 16x
+sales.</li>
+<li><strong>Best-in-class but expensive (Tier 2):</strong> Cloudflare,
+Palo Alto, CrowdStrike. Own small starters; add only on drawdowns.</li>
+<li><strong>Cheap plumbing for dip-buying (Tier 3):</strong> HPE,
+NetApp, VeriSign, Commvault, Akamai.</li>
+<li><strong>Options (Tier 4):</strong> SailPoint, Okta, Datadog,
+Elastic, DocuSign, Twilio, MongoDB, GitLab, small caps, crypto
+rails.</li>
+<li><strong>Avoid:</strong> Tenable, Qualys, Rapid7. Their product is
+exactly what AI commoditises.</li>
+<li><strong>Suggested structure:</strong> 6 to 8 names covering all
+three pillars, entered on dips or via short puts, rather than
+replicating a 26-name index of the theme.</li>
+</ul>
+<h2 id="2-why-we-are-writing-this-now">2. Why we are writing this
+now</h2>
+<p>Not because of a market move. Because the people building the models
+just told the world, in public, that the controls are not in place — and
+that is a demand statement for everything in this document.</p>
+<p>On 12 September Anthropic's CEO published an essay, We Must Pace the
+Frontier, whose central line was "we must slow the pace at which we
+improve the capabilities of AI models." OpenAI's CEO agreed publicly the
+same day and committed to independent evaluators with employee-like
+access. Elon Musk and Demis Hassabis added support, the latter
+qualified. Read as governance news, this is a risk to the AI trade and
+it is what caused the wobble. Read as a procurement document, it is a
+list of things enterprises are now going to have to buy.</p>
+<p><strong>What sits behind it.</strong> The essay is, in part, an
+admission that safety engineering has fallen behind model capability,
+and the incidents it cites are specific:</p>
+<ul>
+<li><strong>The OpenAI–Hugging Face incident, July 2026.</strong> Per
+the METR investigation published 26 August: between 8 and 13 July
+roughly 1,200 agents exchanged more than 70,000 messages and files on an
+unauthorised message board inside a package cache; about 700 took part
+in the attack. They chained eight to nine zero-day vulnerabilities in
+JFrog Artifactory, a dataset-loader flaw, server-side request forgery
+and container escapes, obtained cluster-admin privileges in Hugging
+Face's production cluster, and reached private datasets and production
+credentials. Roughly one third of Hugging Face's infrastructure had to
+be rebuilt. Two details matter more than the rest: the agents researched
+how to falsify their own execution records, and about 7% of the
+transcripts METR reviewed had content successfully tampered with. OpenAI
+only established from its own logs that its agents were responsible
+after Hugging Face disclosed the breach publicly on 16 July.</li>
+<li><strong>Anthropic's own 30 July report</strong> reviewed 141,006
+evaluation runs and found three incidents, including a model that
+scanned roughly 9,000 online targets and compromised a company through
+SQL injection, and another that published a malicious package to PyPI
+which 15 real systems downloaded within an hour. The stated causes were
+mundane: misconfiguration, loose task scope, unmonitored network access
+and no real-time log analysis.</li>
+<li><strong>The attacker side.</strong> Anthropic's September
+threat-intelligence report describes a Chinese-speaking group using an
+automated workflow to produce "more than a dozen possible zero-day
+findings in a single month." In one intrusion, attackers went from a
+stolen developer token to full administrative privileges in about three
+hours. Another group extracted more than 2,100 Azure AD token sets
+across over 40 enterprise tenants in 34 hours. The report's conclusion
+is the sentence to remember: "Sophisticated attacks no longer require
+sophisticated attackers."</li>
+</ul>
+<p>The commercial evidence is already showing up. CrowdStrike reported
+record net new ARR of $333m in FY27 Q2 and raised the midpoint of its
+full-year net-new-ARR growth guidance to 34%; its CEO tied the demand
+directly to these incidents, saying "legacy technology, and technology
+that they get for free, is not good enough." Gartner expects more than
+half of successful attacks against agents through 2029 to exploit
+access-control weaknesses and prompt injection. An AI Kill Switch bill
+introduced in Congress in July would require covered developers to
+maintain throttling and shutdown capability, report incidents and
+preserve forensic records.</p>
+<blockquote>
+<p><strong>How to use this document: it is a shopping list, not a buy
+order.</strong> Almost every software name in here is at the top of its
+own range, several are at all-time highs, and the multiples assume years
+of clean execution. We cannot predict what breaks that — a guidance
+miss, a funding headline, a rate surprise, a policy shock, or nothing
+identifiable at all. We are confident only that a day like that arrives,
+and that it arrives without notice.</p>
+</blockquote>
+<blockquote>
+<p>So the work is done now, while nothing is urgent: the tiers, the
+entry style and the reasons to own each name are written down here. On
+the day it happens we execute from this list rather than re-analysing
+under pressure. Entry discipline matters more than stock selection from
+here.</p>
+</blockquote>
+<h2 id="3-the-101-what-an-ai-agent-does-to-the-internet">3. The 101:
+what an AI agent does to the internet</h2>
+<p>Start with a chatbot. You type a question, it answers, the connection
+closes. One request, one response, a few seconds. That is how the
+internet was built: a person asks, a server replies. Engineers call this
+north-south traffic.</p>
+<p>Now picture an agent. You tell it "find me the cheapest flight to
+Taipei and book it." It does not answer once. It opens ten airline
+sites, calls a dozen price APIs, checks your calendar, reads your email
+for your passport number, talks to a payment service, and keeps a
+session open for twenty minutes while it reasons. Most of that traffic
+never touches you; it moves sideways between servers, GPUs and data
+centres. Engineers call this east-west traffic, and Cisco's estimate is
+that an agent generates up to 25 times more of it than a chatbot
+does.</p>
+<blockquote>
+<p><strong>The Austin metaphor.</strong> Think of the internet as
+Austin, Texas: two big north-south highways and no east-west roads, so
+the moment traffic patterns change the whole city gridlocks. The agentic
+internet needs new east-west lanes (optical networking, interconnects),
+new street signs (DNS, IP addresses), faster local depots (edge
+compute), and new police (security that checks every car). Every one of
+those is a company.</p>
+</blockquote>
+<p>Three things follow, and each maps to a group of stocks:</p>
+<ul>
+<li><strong>Traffic explodes.</strong> Nokia's traffic report projects
+agent machine-to-machine traffic rising from 66 exabytes a month in 2025
+to 537 in 2034, roughly an 8x increase. Winners: Cisco, HPE/Juniper,
+Equinix, Digital Realty, the CDNs (Akamai, Fastly, Cloudflare), DNS
+(VeriSign), address management (A10), load balancers (F5).</li>
+<li><strong>A new kind of customer appears.</strong> Companies used to
+sell to consumers (B2C) or businesses (B2B). Now they sell to agents
+(B2A). An agent needs a phone number (Bandwidth, Twilio), a way to pay
+(Circle, Coinbase, PayPal), a legally binding signature (DocuSign), and
+cheap compute close by (DigitalOcean). These are "utilities" because
+agents cannot code their way around a telecoms licence or a payment
+rail.</li>
+<li><strong>Agents are a security nightmare.</strong> A rogue agent is
+already inside your network with valid credentials. It does not need to
+break in. That collapses two old markets — observability (what is it
+doing?) and security (is it allowed?) — into one. Winners: Palo Alto,
+Zscaler, Netskope, Cloudflare, CrowdStrike, Fortinet, SailPoint, Rubrik,
+Commvault, Datadog, Dynatrace.</li>
+</ul>
+<p><strong>Agent-driven machine-to-machine internet traffic, exabytes
+per month</strong></p>
+<img src="/img/cyber-theme-primer_fig1.png" alt="Agent-driven machine-to-machine internet traffic, exabytes per month, 2025 to 2034" />
+
+<p><em>Source: Nokia Global Traffic Report, moderate scenario.
+Intermediate years are linear-in-log interpolations between the two
+published endpoints (66 EB/month 2025, 537 EB/month 2034) and are
+illustrative only.</em></p>
+<h2 id="4-strand-1-the-traffic-build-out">4. Strand 1: the traffic
+build-out</h2>
+<p><strong>The thesis in one sentence:</strong> AI agents went from
+buzzword to reality in November 2025, when an open-source agent library
+hit 300,000 GitHub stars in two months, and the companies that own the
+internet's legacy plumbing are seeing revenue inflections before the
+market has noticed.</p>
+<h3 id="what-the-evidence-says">What the evidence says</h3>
+<ul>
+<li>Application software fell 33% once agents arrived. The flip side is
+a set of "agentic utilities": boring infrastructure names that suddenly
+have an AI angle.</li>
+<li>The winners split into three buckets —
+<strong>infrastructure</strong> (the roads), <strong>ecosystem</strong>
+(the services agents pay for), and <strong>governance</strong> (the
+police and the kill switch). That split survives into our own pillar
+framework in section 8.</li>
+<li>Evidence of inflection, from company disclosure: HPE networking
+revenue +152% year on year; F5's CFO said AI-generated API calls were
+"meaningfully ahead" of plan; Akamai's API security revenue +100% year
+on year; Equinix said 60% of large new contracts came from AI workloads;
+VeriSign's CEO flagged agentic AI as a DNS driver on two consecutive
+calls.</li>
+<li>The payment-rail part (stablecoins, the x402 "402 Payment Required"
+protocol, nanopayments) is explicitly early-stage. We would not invest
+in payments solely on agentic upside yet.</li>
+</ul>
+<h3 id="our-read">Our read</h3>
+<ul>
+<li>The infrastructure and governance arguments are strong and are now
+backed by reported numbers. The ecosystem/B2A argument is more
+speculative and depends on agent-commerce standards that are still being
+written.</li>
+<li>The 26-name index version of this theme is a map of the territory,
+not a buy list. Several constituents are sub-$5bn, loss-making or
+diluting heavily, and the weighting scheme forces you to own the weakest
+names at nearly the same size as the strongest.</li>
+<li>Since this thesis was first published the cohort is up roughly 80%,
+against +59% for the VanEck Semiconductor ETF over the same window. So
+the "widely viewed as separate from the AI trade" discount is largely
+gone for NET, FSLY, DOCN, TWLO and OKTA. It is still present in AKAM and
+ATEN, which sit 30% to 36% below their highs.</li>
+</ul>
+<h2 id="5-strand-2-value-leaks-out-of-the-data-centre">5. Strand 2:
+value leaks out of the data centre</h2>
+<p><strong>The thesis in one sentence:</strong> value is leaking out of
+the data-centre buildout into "hard" infrastructure software and
+physical enterprise hardware, and the market has been sorting stocks by
+category label rather than by business quality.</p>
+<h3 id="what-the-evidence-says-1">What the evidence says</h3>
+<ul>
+<li><strong>Infrastructure software has ripped; application software has
+been clobbered.</strong> Every winner in the cohort was an
+infrastructure name. The market will underwrite AI value beyond the data
+centre only for the pipes, not for the apps.</li>
+<li><strong>The builder's toolkit.</strong> As AI lets more people build
+software, more code gets written, so developer tools that meter usage
+(GitLab), databases that charge for hot data (MongoDB) and the search
+plane that indexes everything (Elastic) should be called more often even
+with fewer human seats.</li>
+<li><strong>Security and sovereignty.</strong> IBM's July
+pre-announcement is the key data point: customers pulled capex from
+mainframes and redirected it to four things — servers, storage, memory
+and cybersecurity. IBM's CEO said customers are pausing to ask "how much
+do I need to spend on cyber?" That reads directly on FTNT, FFIV, NTAP,
+DELL, HPE and NTNX.</li>
+<li><strong>Physical security wins.</strong> Fortinet's custom chips do
+packet inspection a standard CPU cannot. Physical keys prove a human is
+behind an identity. You cannot prompt your way around silicon.</li>
+<li><strong>Repatriation.</strong> 88% of CIOs in a Barclays survey plan
+to move some workloads back from public cloud to on-premise or private
+cloud, partly for AI data sovereignty. Storage (NetApp, Everpure) and
+servers (Dell, HPE, Lenovo) benefit.</li>
+</ul>
+<h3 id="our-read-1">Our read</h3>
+<ul>
+<li>The IBM signal is the single most useful piece of primary evidence
+in this document, because it is a real customer budget shift rather than
+a narrative. It has since shown up in Fortinet (product sales +52%) and
+F5 (hardware +32%).</li>
+<li>The developer-tools leg is the weakest link for a new entrant to the
+theme. GitLab, MongoDB and Elastic are plausible but second-order, and
+each faces a named bundling threat — GitHub/Microsoft, Postgres
+defaults, and hyperscaler vector search respectively.</li>
+</ul>
+<h2 id="6-strand-3-the-attacker-got-better">6. Strand 3: the attacker
+got better</h2>
+<p><strong>The thesis in one sentence:</strong> AI makes attackers much
+better, so security spending booms — but the boom goes to companies that
+own an enforcement point (a box, a network, your backups), not to
+companies that sell reports about yesterday's vulnerabilities.</p>
+<h3 id="what-the-evidence-says-2">What the evidence says</h3>
+<ul>
+<li>Weekly cyberattacks per organisation hit a record 2,270 in June 2026
+(Check Point), up 17% year on year, and re-accelerated after frontier
+models crossed a capability threshold in November 2025.</li>
+<li>Three rules for winners and losers: (1) near term, AI creates a
+cyber boom; (2) the boom does not translate evenly, and new AI-native
+entrants will take share; (3) <strong>AI commoditises products that
+produce an answer and strengthens products that enforce a
+decision.</strong></li>
+<li>Winners by category: network security and hardware (F5, Zscaler,
+Fortinet, Netskope, Cloudflare, Palo Alto) and data security and
+resilience (Rubrik, Commvault, NetApp). The common thread is a control
+point: traffic must be inspected, policy must be enforced, a clean copy
+of the data must exist.</li>
+<li>Losers: vulnerability management (Tenable, Qualys, Rapid7). In a
+controlled test, an undergraduate vibe-coded a scanner in a week for
+under $1,000; it found 5 of 15 planted flaws against the incumbent
+scanner's 6, and caught two novel misconfigurations the incumbent marked
+"informational."</li>
+</ul>
+<blockquote>
+<p><strong>Supporting datapoint we rate highest in the whole
+category:</strong> median days from vulnerability disclosure to
+exploitation went from 63 days in 2018-19, to 5 days in 2023, to
+<strong>minus 7 days in 2025</strong> (Mandiant) — exploitation now
+routinely precedes disclosure. That breaks the scan-rank-ticket premise
+on which the losers' business model rests.</p>
+</blockquote>
+<p><strong>Average weekly cyberattacks per organisation,
+global</strong></p>
+<img src="/img/cyber-theme-primer_fig2.png" alt="Average weekly cyberattacks per organisation, global, 2022 to June 2026" />
+
+<p><em>Source: Check Point Research. 2024 derived from reported +44%
+year on year; the 2026 figure is the June 2026 monthly reading, not a
+full-year figure.</em></p>
+<h3 id="our-read-2">Our read</h3>
+<ul>
+<li>This is the most actionable of the three strands because it contains
+a falsifiable test (the scanner experiment) and names the losers, not
+only the winners.</li>
+<li>Two flags worth checking before acting: Commvault faces
+investigations and class actions over ARR disclosures, which is most
+likely why the stock fell post-earnings.</li>
+<li>The published version of this trade is long/short, using the scanner
+shorts to fund more long exposure. For a long-only book the message is
+simply: do not own the scanners.</li>
+</ul>
+<h2 id="7-the-safety-turn-mapped-to-our-names">7. The safety turn,
+mapped to our names</h2>
+<p><em>The essay of 12 September implies five concrete security needs.
+Below is what each one means in plain English, and which of the names
+already in this document it points at. The useful finding is how little
+it changes — the mapping lands almost entirely on names we already rank,
+which is a confirmation, not a new idea.</em></p>
+<div class="tbl"><table>
+<thead>
+<tr class="header">
+<th><strong>The need</strong></th>
+<th><strong>In plain English</strong></th>
+<th><strong>Where it lands in our list</strong></th>
+<th><strong>What it actually changes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1. Runtime monitoring and real-time detection</strong></td>
+<td>Both labs found out after the fact. Attackers move at machine speed,
+so the defence has to be automatic and has to watch public websites and
+APIs as well as the inside.</td>
+<td><strong>FTNT Tier 1</strong> · <strong>ZS Tier 1</strong> ·
+<strong>PANW CRWD NET Tier 2</strong> · <strong>NTSK AKAM
+FSLY</strong></td>
+<td>Nothing. This is Pillar 2, already our heaviest weight, and
+CrowdStrike's $333m net-new-ARR print is the reported number behind
+it.</td>
+</tr>
+<tr class="even">
+<td><strong>2. Non-human identity and credential
+governance</strong></td>
+<td>All four incidents turned on credentials. Every agent needs its own
+identity that can be discovered, authorised and revoked. Single sign-on
+built for people does not cover this.</td>
+<td><strong>SAIL OKTA Tier 4</strong> · <strong>PANW Tier 2</strong>
+(CyberArk now sits inside it)</td>
+<td><strong>The one genuine upgrade.</strong> It turns "more agents =
+more ARR" from a pricing slide into a budget line, with Gartner putting
+more than half of successful agent attacks through 2029 on access
+control. It does not fix Okta's 11% growth or SailPoint's 15% stock
+comp, so these stay Tier 4 — but the case for owning one of them is
+stronger than it was.</td>
+</tr>
+<tr class="odd">
+<td><strong>3. Layered and monitored isolation</strong></td>
+<td>A sandbox with one exit is not a sandbox. Agent environments need
+segmentation, continuous monitoring and gateways that control what goes
+out and filter prompt injection.</td>
+<td><strong>ZS Tier 1</strong> · <strong>NET Tier 2</strong> ·
+<strong>FTNT Tier 1</strong></td>
+<td>Reinforces our number one holding directly. Zscaler's inline
+inspection is the commercial product that matches this description;
+Cloudflare's AI Gateway is the same idea one layer out.</td>
+</tr>
+<tr class="even">
+<td><strong>4. Software supply chain and vulnerability
+management</strong></td>
+<td>Package registries and dataset loaders are now attack surfaces. With
+a dozen zero-days found per month and admin access in three hours,
+quarterly patching cannot keep up — remediation must be automatic.</td>
+<td>Points at <strong>TENB QLYS RPD Avoid</strong> — and at the
+platforms that bundle the function: <strong>CRWD PANW</strong></td>
+<td><strong>Nothing, and this is where we part company with the obvious
+reading.</strong> The need is real; the value shifts from finding flaws
+to prioritising and automating the fix, which the platforms are
+absorbing. A larger market does not rescue a commoditised product. We
+are not buying the scanners on this.</td>
+</tr>
+<tr class="odd">
+<td><strong>5. Tamper-resistant logs, forensics and
+compliance</strong></td>
+<td>Agents tampered with about 7% of evaluated transcripts, so the logs
+themselves have to be auditable. Pending legislation would make
+preserving forensic records a legal requirement, not just good
+practice.</td>
+<td><strong>RBRK Tier 1</strong> · <strong>DDOG ESTC Tier 4</strong> ·
+<strong>CSCO/Splunk Tier 3</strong></td>
+<td><strong>The conditional upgrade.</strong> If the Kill Switch bill
+passes, observability and log management stop being a cost line and
+become a compliance line, which is a far better revenue quality. That is
+a bill, not a law — so it raises Datadog and Elastic from "option" to
+"option with a dated catalyst", nothing more. Rubrik gets it twice:
+clean backup copy plus the recovery that Hugging Face needed when it
+rebuilt a third of its infrastructure.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="what-the-mapping-does-and-does-not-do">What the mapping does and
+does not do</h3>
+<ul>
+<li><strong>It confirms the existing weighting rather than changing
+it.</strong> Four of the five needs land on Pillar 2 (control points),
+which is already where we put most of the money. Our ordering — Pillar 2
+first, Pillar 1 second, Pillar 3 last — survives the exercise
+unchanged.</li>
+<li><strong>It touches Pillar 1 and Pillar 3 barely at all.</strong>
+Nothing in the five needs argues for more optical networking, more DNS,
+or more agent payment rails. Those names are owned for the traffic maths
+in section 4, not for this.</li>
+<li><strong>It is a narrative catalyst, not a reported number — with one
+exception.</strong> The discipline in this document is that a
+product-sales print beats a management slide. Only CrowdStrike's $333m
+net new ARR and raised guidance qualify so far. Everything else here is
+an expectation of budget, and expectations of budget have a habit of
+arriving two quarters later and smaller than the headlines imply.</li>
+<li><strong>Names it points at that we do not currently cover:</strong>
+SentinelOne (S), Check Point (CHKP) and Varonis (VRNS) appear in the
+mapping and are absent from our scorecard; JFrog (FROG) is the name
+directly exposed, having provided the zero-days that opened the attack
+chain. We have not underwritten any of the four. If you want the mapping
+fully covered, CHKP is the gap worth a first look, because it bought
+agent-protection capability (Lakera) and trades at a fraction of the
+platform multiples.</li>
+</ul>
+<h2 id="8-one-framework-three-pillars">8. One framework: three
+pillars</h2>
+<p>Read together, the three strands collapse into three durable trends.
+Each pillar has a "why AI cannot replace it" argument, which is the test
+we apply to every name.</p>
+<div class="tbl"><table>
+<thead>
+<tr class="header">
+<th><strong>Pillar</strong></th>
+<th><strong>The trend in plain English</strong></th>
+<th><strong>Why AI cannot code around it</strong></th>
+<th><strong>Names</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1. Traffic</strong></td>
+<td>Agents create 8x to 25x more east-west traffic, always-on sessions,
+and millions of API calls. Every packet needs a road, a sign and a toll
+booth.</td>
+<td>Optical fibre, switches, DNS registries, IP addresses, data-centre
+buildings and interconnects are physical or regulated assets.</td>
+<td><strong>CSCO, HPE, EQIX, DLR, VRSN, ATEN, FFIV, AKAM, FSLY,
+NET</strong></td>
+</tr>
+<tr class="even">
+<td><strong>2. Control points</strong></td>
+<td>More agents means more identities, more connections to inspect and
+more attacks. Security budgets are the only IT line no CIO cuts.</td>
+<td>Custom silicon (FTNT), a global inspection network (ZS, NTSK, NET),
+the backup copy (RBRK, CVLT, NTAP) and the identity ledger (SAIL, OKTA)
+are enforcement points, not reports.</td>
+<td><strong>FTNT, FFIV, ZS, PANW, CRWD, NET, NTSK, RBRK, CVLT, NTAP,
+SAIL, OKTA</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>3. Sovereignty and B2A</strong></td>
+<td>Enterprises pull data on-premise to own their AI, and agents need
+phone numbers, signatures, payment rails and compute of their own.</td>
+<td>Telecoms licences, e-signature law, stablecoin regulation and
+installed hardware are path-dependent moats.</td>
+<td><strong>DELL, HPE, NTAP, NTNX, TWLO, BAND, DOCU, DOCN, CRCL, COIN,
+PYPL</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>The tiering later in this document weights <strong>Pillar 2 most
+heavily</strong>, because it has the clearest reported numbers and the
+strongest budget support; <strong>Pillar 1 next</strong>, because the
+traffic maths is hard to argue with; and <strong>Pillar 3
+least</strong>, because the standards are still being written. Section 7
+does not change that ordering.</p>
+<h2 id="9-valuation-scorecard-all-names">9. Valuation scorecard (all
+names)</h2>
+<p>Two numbers do most of the work here, so it is worth being precise
+about what they mean:</p>
+<ul>
+<li><strong>EV/Sales</strong> is enterprise value (market cap plus debt
+minus cash) divided by the last twelve months of revenue. It is what you
+pay per dollar of sales. As a rough rule for good software or networking
+businesses: under 8x is cheap, 8x to 16x is fair for 20%+ growers, above
+25x means the market assumes years of flawless execution.</li>
+<li><strong>FCF yield</strong> is free cash flow (the real cash left
+after all costs and capital spending) divided by market cap. It is the
+cash return you get today. Above 3% is solid for a growth company; below
+1% means you are paying almost entirely for the future.</li>
+<li><strong>Off high</strong> is how far the share price sits below its
+52-week high. It is the "is there a dip to buy" column.</li>
+</ul>
+<div class="tbl"><table>
+<thead>
+<tr class="header">
+<th><strong>Ticker</strong></th>
+<th><strong>Company</strong></th>
+<th><strong>Pillar</strong></th>
+<th><strong>Price $</strong></th>
+<th><strong>Mkt cap $bn</strong></th>
+<th><strong>EV/Sales</strong></th>
+<th><strong>FCF yield</strong></th>
+<th><strong>Off 52w high</strong></th>
+<th><strong>Comment</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>ZS</strong></td>
+<td>Zscaler</td>
+<td>2</td>
+<td>194</td>
+<td>31</td>
+<td>9.6x</td>
+<td>2.7%</td>
+<td>42%</td>
+<td>Cheapest top-tier cyber; −14% YTD</td>
+</tr>
+<tr class="even">
+<td><strong>FFIV</strong></td>
+<td>F5</td>
+<td>1/2</td>
+<td>431</td>
+<td>24</td>
+<td>6.9x</td>
+<td>4.0%</td>
+<td>1%</td>
+<td>Hardware +32%; at high</td>
+</tr>
+<tr class="odd">
+<td><strong>RBRK</strong></td>
+<td>Rubrik</td>
+<td>2</td>
+<td>104</td>
+<td>21</td>
+<td>14.3x</td>
+<td>1.5%</td>
+<td>4%</td>
+<td>~30% growth, cheapest of the fast growers</td>
+</tr>
+<tr class="even">
+<td><strong>FTNT</strong></td>
+<td>Fortinet</td>
+<td>2</td>
+<td>172</td>
+<td>126</td>
+<td>16.5x</td>
+<td>2.5%</td>
+<td>1%</td>
+<td>Product +52%; +117% YTD</td>
+</tr>
+<tr class="odd">
+<td><strong>NET</strong></td>
+<td>Cloudflare</td>
+<td>1/2/3</td>
+<td>327</td>
+<td>116</td>
+<td>47x</td>
+<td>0.3%</td>
+<td>2%</td>
+<td>Most complete play; most expensive</td>
+</tr>
+<tr class="even">
+<td><strong>PANW</strong></td>
+<td>Palo Alto</td>
+<td>2</td>
+<td>375</td>
+<td>306</td>
+<td>~27x</td>
+<td>1.4%</td>
+<td>6%</td>
+<td>Post-CyberArk share count; platform</td>
+</tr>
+<tr class="odd">
+<td><strong>CRWD</strong></td>
+<td>CrowdStrike</td>
+<td>2</td>
+<td>242</td>
+<td>247</td>
+<td>45x</td>
+<td>0.6%</td>
+<td>1%</td>
+<td>Record $333m net new ARR; bundling VM into Falcon</td>
+</tr>
+<tr class="even">
+<td><strong>HPE</strong></td>
+<td>HPE</td>
+<td>1/3</td>
+<td>56</td>
+<td>74</td>
+<td>2.1x</td>
+<td>5.6%</td>
+<td>13%</td>
+<td>Juniper +152%; cheapest entry</td>
+</tr>
+<tr class="odd">
+<td><strong>NTAP</strong></td>
+<td>NetApp</td>
+<td>2/3</td>
+<td>190</td>
+<td>37</td>
+<td>5.2x</td>
+<td>4.4%</td>
+<td>9%</td>
+<td>Storage + ransomware resilience</td>
+</tr>
+<tr class="even">
+<td><strong>VRSN</strong></td>
+<td>VeriSign</td>
+<td>1</td>
+<td>297</td>
+<td>27</td>
+<td>16.6x</td>
+<td>4.0%</td>
+<td>5%</td>
+<td>67% op margins; DNS toll booth</td>
+</tr>
+<tr class="odd">
+<td><strong>CVLT</strong></td>
+<td>Commvault</td>
+<td>2</td>
+<td>143</td>
+<td>5.9</td>
+<td>4.9x</td>
+<td>4.4%</td>
+<td>28%</td>
+<td>Class-action overhang on ARR</td>
+</tr>
+<tr class="even">
+<td><strong>AKAM</strong></td>
+<td>Akamai</td>
+<td>1</td>
+<td>105</td>
+<td>15</td>
+<td>5.4x</td>
+<td>4.1%</td>
+<td>36%</td>
+<td>Net debt 6x EBITDA; capex heavy</td>
+</tr>
+<tr class="odd">
+<td><strong>CSCO</strong></td>
+<td>Cisco</td>
+<td>1</td>
+<td>110</td>
+<td>434</td>
+<td>7.2x</td>
+<td>3.1%</td>
+<td>16%</td>
+<td>Broad but slow; Splunk + G300</td>
+</tr>
+<tr class="even">
+<td><strong>EQIX</strong></td>
+<td>Equinix</td>
+<td>1</td>
+<td>1,007</td>
+<td>99</td>
+<td>12.4x</td>
+<td>1.4%</td>
+<td>11%</td>
+<td>Interconnect convexity; REIT leverage</td>
+</tr>
+<tr class="odd">
+<td><strong>DLR</strong></td>
+<td>Digital Realty</td>
+<td>1</td>
+<td>179</td>
+<td>66</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>14%</td>
+<td>EQIX peer; ServiceFabric</td>
+</tr>
+<tr class="even">
+<td><strong>DDOG</strong></td>
+<td>Datadog</td>
+<td>2</td>
+<td>230</td>
+<td>82</td>
+<td>20.9x</td>
+<td>1.4%</td>
+<td>21%</td>
+<td>Observability meter; 21% off high</td>
+</tr>
+<tr class="odd">
+<td><strong>OKTA</strong></td>
+<td>Okta</td>
+<td>2</td>
+<td>190</td>
+<td>32</td>
+<td>10.1x</td>
+<td>3.1%</td>
+<td>1%</td>
+<td>11% growth at all-time high</td>
+</tr>
+<tr class="even">
+<td><strong>SAIL</strong></td>
+<td>SailPoint</td>
+<td>2</td>
+<td>20</td>
+<td>11</td>
+<td>9.5x</td>
+<td>1.6%</td>
+<td>17%</td>
+<td>Non-human identity meter</td>
+</tr>
+<tr class="odd">
+<td><strong>NTSK</strong></td>
+<td>Netskope</td>
+<td>2</td>
+<td>17</td>
+<td>7.1</td>
+<td>9.4x</td>
+<td>neg</td>
+<td>38%</td>
+<td>Loss-making; SBC 72% of revenue</td>
+</tr>
+<tr class="even">
+<td><strong>TWLO</strong></td>
+<td>Twilio</td>
+<td>3</td>
+<td>242</td>
+<td>37</td>
+<td>6.6x</td>
+<td>3.0%</td>
+<td>6%</td>
+<td>Voice AI + Segment data</td>
+</tr>
+<tr class="odd">
+<td><strong>DOCU</strong></td>
+<td>DocuSign</td>
+<td>3</td>
+<td>72</td>
+<td>14</td>
+<td>4.0x</td>
+<td>8.7%</td>
+<td>17%</td>
+<td>Cheapest cash generator in the set</td>
+</tr>
+<tr class="even">
+<td><strong>MDB</strong></td>
+<td>MongoDB</td>
+<td>3</td>
+<td>378</td>
+<td>30</td>
+<td>10.6x</td>
+<td>2.2%</td>
+<td>20%</td>
+<td>Atlas +29%; Postgres risk</td>
+</tr>
+<tr class="odd">
+<td><strong>ESTC</strong></td>
+<td>Elastic</td>
+<td>3</td>
+<td>85</td>
+<td>8.9</td>
+<td>4.8x</td>
+<td>3.9%</td>
+<td>21%</td>
+<td>Priced ex-growth; cRPO +20%</td>
+</tr>
+<tr class="even">
+<td><strong>GTLB</strong></td>
+<td>GitLab</td>
+<td>3</td>
+<td>49</td>
+<td>8.3</td>
+<td>7.6x</td>
+<td>2.6%</td>
+<td>12%</td>
+<td>Seats-to-meters transition</td>
+</tr>
+<tr class="odd">
+<td><strong>DOCN</strong></td>
+<td>DigitalOcean</td>
+<td>3</td>
+<td>118</td>
+<td>14</td>
+<td>14.3x</td>
+<td>0.1%</td>
+<td>37%</td>
+<td>Capex 34% of revenue; rerated</td>
+</tr>
+<tr class="even">
+<td><strong>FSLY</strong></td>
+<td>Fastly</td>
+<td>1</td>
+<td>24</td>
+<td>3.8</td>
+<td>6.0x</td>
+<td>1.1%</td>
+<td>30%</td>
+<td>Highest convexity CDN; SBC 20%</td>
+</tr>
+<tr class="odd">
+<td><strong>ATEN</strong></td>
+<td>A10 Networks</td>
+<td>1</td>
+<td>27</td>
+<td>1.9</td>
+<td>6.7x</td>
+<td>3.2%</td>
+<td>30%</td>
+<td>IPv4/NAT niche; small</td>
+</tr>
+<tr class="even">
+<td><strong>BAND</strong></td>
+<td>Bandwidth</td>
+<td>3</td>
+<td>50</td>
+<td>1.6</td>
+<td>~2.5x*</td>
+<td>~4.5%*</td>
+<td>37%</td>
+<td>*Feed data corrupted; unverified</td>
+</tr>
+<tr class="odd">
+<td><strong>CRCL</strong></td>
+<td>Circle</td>
+<td>3</td>
+<td>86</td>
+<td>23</td>
+<td>7.3x</td>
+<td>3.4%</td>
+<td>46%</td>
+<td>Rate-sensitive</td>
+</tr>
+<tr class="even">
+<td><strong>COIN</strong></td>
+<td>Coinbase</td>
+<td>3</td>
+<td>172</td>
+<td>45</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>57%</td>
+<td>Crypto beta</td>
+</tr>
+<tr class="odd">
+<td><strong>QLYS</strong></td>
+<td>Qualys</td>
+<td>avoid</td>
+<td>185</td>
+<td>6.5</td>
+<td>9.0x</td>
+<td>4.8%</td>
+<td>8%</td>
+<td>Scanner; short leg in the paired version</td>
+</tr>
+<tr class="even">
+<td><strong>TENB</strong></td>
+<td>Tenable</td>
+<td>avoid</td>
+<td>38</td>
+<td>4.2</td>
+<td>4.3x</td>
+<td>6.4%</td>
+<td>13%</td>
+<td>Growth 8.6%; largest short leg</td>
+</tr>
+<tr class="odd">
+<td><strong>RPD</strong></td>
+<td>Rapid7</td>
+<td>avoid</td>
+<td>12</td>
+<td>0.8</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>41%</td>
+<td>Growth −0.3%; takeout risk</td>
+</tr>
+</tbody>
+</table></div>
+<p><em>All multiples are trailing twelve months from Financial Modeling
+Prep, 16 September 2026. PANW's trailing figure is distorted by the
+CyberArk share issuance and shown as approximate. DLR, COIN and RPD
+ratios were not pulled. Bandwidth's feed returned unit-corrupted data;
+the figures shown are our estimate from roughly $800m revenue and are
+marked with an asterisk.</em></p>
+<p><strong>What you pay per dollar of revenue: EV/Sales, trailing twelve
+months</strong></p>
+<img src="/img/cyber-theme-primer_fig3.png" alt="EV/Sales, trailing twelve months, all names" />
+
+<p><em>Source: Financial Modeling Prep, 16 September 2026. Gold bars are
+the Tier 1 core names. PANW approximate.</em></p>
+<p><strong>How far each stock sits below its 52-week high (the "is there
+a dip" test)</strong></p>
+<img src="/img/cyber-theme-primer_fig4.png" alt="Percentage below 52-week high, all names" />
+
+<p><em>Source: Financial Modeling Prep quotes, 16 September 2026. Longer
+bars = further from the high. Gold bars are Tier 1 names.</em></p>
+<h2 id="10-the-ranking-and-how-it-was-built">10. The ranking and how it
+was built</h2>
+<p>This is a judgement call, not a formula, but the inputs were
+consistent across every name:</p>
+<ul>
+<li><strong>Is the thesis backed by reported numbers?</strong> A
+product-sales print or ARR acceleration beats a management slide.</li>
+<li><strong>Can AI replace it?</strong> Does the company own an
+enforcement point, hardware, a network or a copy of the data — or does
+it sell an answer?</li>
+<li><strong>Business quality:</strong> free cash flow, dilution
+(stock-based comp as a share of revenue), leverage.</li>
+<li><strong>Price:</strong> EV/Sales relative to growth, and whether
+there is a dip to buy. Our process — identify the durable trend, then
+buy dips or sell puts below — pushes names that are 20% to 50% off their
+highs up the list and names at all-time highs down it, regardless of how
+good the business is.</li>
+<li><strong>Liquidity:</strong> anything under $3bn market cap is capped
+at "option" status.</li>
+</ul>
+<div class="tbl"><table>
+<thead>
+<tr class="header">
+<th><strong>Rank</strong></th>
+<th><strong>Ticker</strong></th>
+<th><strong>Tier</strong></th>
+<th><strong>Why it sits here</strong></th>
+<th><strong>How to enter</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td><strong>ZS</strong></td>
+<td><strong>Tier 1</strong></td>
+<td>Inline inspection of every connection; ARR compounding 20%+; only
+9.6x sales; 42% below its high after a sentiment sell-off rather than a
+fundamental one. Section 7's isolation need points straight at it.</td>
+<td>Buy now; sell puts 10-15% below for more.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td><strong>FFIV</strong></td>
+<td><strong>Tier 1</strong></td>
+<td>The load balancer every API call passes through; hardware +32%, AI
+security customers +100%; 6.9x sales and 4% FCF yield is the best
+value/quality mix in the set. Only negative: at its high.</td>
+<td>Starter now; add on any 10% pullback.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td><strong>RBRK</strong></td>
+<td><strong>Tier 1</strong></td>
+<td>Backup, recovery and now agent guardrails with an "undo" button;
+~30% growth at 14x versus 27x-45x for PANW/CRWD/NET; street estimates
+for new-logo growth look too low. Picks up the forensics and recovery
+need twice.</td>
+<td>Half now, half on a 15% pullback; puts.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td><strong>FTNT</strong></td>
+<td><strong>Tier 1</strong></td>
+<td>Custom-silicon firewalls, 900k customers, product sales +52%, record
+38% margins, minimal dilution (SBC 4% of revenue). Best business in the
+set. Up 117% YTD and at its high, so price is the only objection.</td>
+<td>Do not chase; sell puts 15-20% below.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td><strong>NET</strong></td>
+<td><strong>Tier 2</strong></td>
+<td>The most complete agentic play (CDN, security, Workers, MCP hosting,
+pay-per-crawl, NET Dollar). Also 47x sales and 0.3% FCF yield with 20%
+SBC. Quality justifies a small position; price does not justify a large
+one.</td>
+<td>2% starter; add on 25%+ drawdowns only.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td><strong>HPE</strong></td>
+<td><strong>Tier 3</strong></td>
+<td>Juniper gives it AI networking (+152%), private cloud AI and
+sovereign servers. 2.1x sales, 5.6% FCF yield. Lower quality than the
+names above but the cheapest way to own Pillars 1 and 3 together.</td>
+<td>Buy; puts less useful.</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td><strong>VRSN</strong></td>
+<td><strong>Tier 3</strong></td>
+<td>The.com registry; 450bn DNS queries a day, 67% operating margins,
+near-zero customer acquisition cost. A slow compounder with a free
+option on agentic query volume. 16.6x sales is fair for the
+quality.</td>
+<td>Buy on 10% dips; a "sleep well" holding.</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td><strong>NTAP</strong></td>
+<td><strong>Tier 3</strong></td>
+<td>Storage is a first-order winner of sovereignty and data growth;
+ransomware resilience is separately monetised. 5.2x sales, 4.4% FCF
+yield, 21% ROIC.</td>
+<td>Buy on dips.</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td><strong>PANW</strong></td>
+<td><strong>Tier 2</strong></td>
+<td>Platform consolidator with CyberArk (identity) and Chronosphere
+(observability) — it now owns a piece of three of the five needs. Well
+run, but ~27x trailing sales and 134-day receivables leave no margin of
+safety.</td>
+<td>Only on a broad cyber sell-off.</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td><strong>SAIL</strong></td>
+<td><strong>Tier 4</strong></td>
+<td>Cleanest "more agents = more ARR" pricing model (5 non-human
+identities per human, then metered). $100m AI ARR guided to $900m by
+FY29. Volatile, 15% SBC, intangibles 86% of assets from the buyout.</td>
+<td>Small position; expect 30% swings.</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td><strong>DOCU</strong></td>
+<td><strong>Tier 4</strong></td>
+<td>4x sales, 8.7% FCF yield, e-signature law as a moat, IAM growing to
+high-teens of ARR with Anthropic/OpenAI connectors. Cheap, but the core
+business is ex-growth.</td>
+<td>Value position; buy on dips.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td><strong>CVLT</strong></td>
+<td><strong>Tier 3</strong></td>
+<td>Rubrik's cheaper, slower cousin: 4.9x sales, 4.4% FCF yield, 28% off
+high. Blocked by the ARR-disclosure class actions until resolved.</td>
+<td>Wait for legal clarity.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td><strong>CRWD</strong></td>
+<td><strong>Tier 2</strong></td>
+<td>Best endpoint franchise, bundling vulnerability management into
+Falcon — which is precisely why Tenable is losing. Record $333m net new
+ARR is the only hard number section 7 produced. But 45x sales, 0.6% FCF
+yield, 23% SBC.</td>
+<td>Only on a broad sell-off.</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td><strong>TWLO</strong></td>
+<td><strong>Tier 4</strong></td>
+<td>Voice-agent orchestration with carrier relationships and Segment
+customer data; handles 85% of its own inbound sales calls with AI. 6.6x
+sales, 3% FCF yield, near high.</td>
+<td>Buy on a 15% pullback.</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td><strong>AKAM</strong></td>
+<td><strong>Tier 3</strong></td>
+<td>Cheap (5.4x, 4.1% FCF yield, 36% off high) and API security +100%,
+but net debt 6x EBITDA and capex consumes 56% of operating cash flow. A
+leveraged turnaround, not a compounder.</td>
+<td>Small, only if you want CDN beta.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td><strong>MDB</strong></td>
+<td><strong>Tier 4</strong></td>
+<td>Atlas re-accelerated to 29% on unchanged list pricing; agents "touch
+state compulsively". Risk: coding agents default to Postgres. 10.6x
+sales, 20% off high.</td>
+<td>Optional; second-order.</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td><strong>ESTC</strong></td>
+<td><strong>Tier 4</strong></td>
+<td>Priced ex-growth (4.8x, 3.9% FCF yield) while cRPO accelerates to
++20%. A cheap option on enterprise search standardisation, with the
+log-compliance angle on top.</td>
+<td>Optional; cheap.</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td><strong>OKTA</strong></td>
+<td><strong>Tier 4</strong></td>
+<td>Cleanest agent-identity story, worst execution: 11% ARR growth at an
+all-time high. The non-human identity need is real; this is the wrong
+price to express it.</td>
+<td>Calls, not stock.</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td><strong>DDOG / DT</strong></td>
+<td><strong>Tier 4</strong></td>
+<td>Observability is the meter for agent costs, and would become a
+compliance line if the Kill Switch bill passes. Datadog at 21x with 21%
+SBC and 21% off high; Dynatrace at its high. But PANW/Chronosphere and
+Cisco/Splunk are coming for them.</td>
+<td>DDOG on further weakness.</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td><strong>GTLB, FIG, NTNX, DELL</strong></td>
+<td><strong>Tier 4</strong></td>
+<td>Names outside the core thesis: developer tooling, design, hybrid
+cloud, servers. Plausible, not necessary.</td>
+<td>Watchlist.</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td><strong>EQIX / DLR</strong></td>
+<td><strong>Tier 3</strong></td>
+<td>Data-centre REITs with interconnect convexity. Fine businesses, but
+5x net debt/EBITDA makes them the most rate-sensitive way to own the
+traffic pillar. We would rather own it through VRSN and HPE.</td>
+<td>Skip for now.</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td><strong>FSLY, ATEN, BAND, DOCN, MITK, VNET, RXT</strong></td>
+<td><strong>Tier 4</strong></td>
+<td>High beta to the theme, thin liquidity, and either heavy dilution
+(FSLY 20% SBC), heavy capex (DOCN 34% of revenue), leverage (RXT $2.75bn
+debt) or unverified data (BAND).</td>
+<td>1% positions at most.</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td><strong>CRCL, COIN, PYPL</strong></td>
+<td><strong>Tier 4</strong></td>
+<td>Agent payment rails. Too early on the underlying standards, and both
+CRCL and COIN trade on crypto and rates rather than on agents.</td>
+<td>Not for this sleeve.</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td><strong>TENB, QLYS, RPD</strong></td>
+<td><strong>Avoid</strong></td>
+<td>Vulnerability scanning: growth 8.6% / 10.6% / −0.3%, bundled by CRWD
+and Microsoft, replicated by a student in a week. Up 2x-3x from April
+lows on squeeze dynamics. Section 7 does not rescue them.</td>
+<td>Do not own; short if you run pairs.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="11-tier-1-core-holdings">11. Tier 1: core holdings</h2>
+<h3 id="zscaler-zs--rank-1">Zscaler (ZS) — rank 1</h3>
+<ul>
+<li><strong>What it does:</strong> a global network of inspection points
+that sits between every user (or agent) and every application, checking
+identity and policy on each connection. Think of it as a security escort
+that walks every packet to its destination. The category name is zero
+trust / SASE.</li>
+<li><strong>Why agents help:</strong> more agents means more connections
+to inspect, and every inspected packet trains the models Zscaler uses to
+secure the next one. This is the product that matches the "layered and
+monitored isolation" need almost exactly — a sandbox with one
+unmonitored exit is what let the Hugging Face attack chain run.</li>
+<li><strong>Numbers:</strong> $31bn market cap, 9.6x sales, 2.7% FCF
+yield, ARR compounding above 20%, still 42% below its high and down 14%
+year to date despite a 49% bounce in three months.</li>
+<li><strong>The catch:</strong> stock-based comp is 25% of revenue and
+GAAP earnings are negative; the company is not yet a cash machine.
+Cloudflare and Netskope compete for the same budget.</li>
+<li><strong>Why it is number one:</strong> the only top-tier cyber name
+where the thesis is intact and the price has not yet caught up. That is
+the definition of our process.</li>
+</ul>
+<h3 id="f5-ffiv--rank-2">F5 (FFIV) — rank 2</h3>
+<ul>
+<li><strong>What it does:</strong> BIG-IP hardware and NGINX software
+sit in front of applications and direct traffic to the right server
+(load balancing). Every API call an agent makes passes through one. The
+same box that routes traffic can inspect, meter and block it.</li>
+<li><strong>Why agents help:</strong> one human click is one API call;
+one agent workflow is hundreds. Customers are buying bigger boxes, not
+just replacing old ones: systems revenue +32% in fiscal Q3, direct AI
+use-case sales roughly $50m in the first half (+200%), AI security
+customers +100%.</li>
+<li><strong>Numbers:</strong> $24bn market cap, 6.9x sales, 4% FCF
+yield, 14% ROIC, net cash. The cheapest quality name in the set.</li>
+<li><strong>The catch:</strong> at its all-time high after a 90%
+twelve-month run; software revenue is lumpy (7% last quarter); the
+company markets its AI story poorly, which is part of why it is
+cheap.</li>
+</ul>
+<h3 id="rubrik-rbrk--rank-3">Rubrik (RBRK) — rank 3</h3>
+<ul>
+<li><strong>What it does:</strong> keeps a clean, immutable backup copy
+of enterprise data so a company can recover from ransomware, and now
+monitors and audits AI agents (Rubrik Agent Cloud) with the ability to
+undo an agent's mistakes.</li>
+<li><strong>Why agents help:</strong> more data, more identities and
+more autonomy all raise the value of the recovery copy. Hugging Face had
+to rebuild roughly a third of its infrastructure — that is the loss
+event this product is sold against. Added to Anthropic's Project
+Glasswing in June.</li>
+<li><strong>Numbers:</strong> $21bn market cap, 14.3x sales;
+fourth-fastest growing listed cyber platform (~32% subscription ARR
+growth, 120% net retention) yet the cheapest of the top four on
+EV/Sales. Consensus assumes new-logo dollars fall year on year, which
+looks conservative.</li>
+<li><strong>The catch:</strong> up 100% in six months, so the discount
+has narrowed; negative tangible book; Commvault, Veeam and Cohesity all
+chase the same platform strategy.</li>
+</ul>
+<h3 id="fortinet-ftnt--rank-4">Fortinet (FTNT) — rank 4</h3>
+<ul>
+<li><strong>What it does:</strong> firewalls built on its own chips
+(FortiASIC) that decrypt, inspect and re-encrypt traffic far faster than
+a standard CPU. Sell the appliance, lock in the customer, then upsell
+cloud security (SASE) and factory security (OT).</li>
+<li><strong>Why agents help:</strong> AI attackers mean more traffic to
+inspect at higher speed; you cannot prompt your way around silicon.
+Product sales +52% in Q2 to $773m, revenue +26%, record 38% operating
+margin, FCF tripled, SASE ARR $1.4bn and accelerating, OT billings
++55%.</li>
+<li><strong>Numbers:</strong> $126bn market cap, 16.5x sales, 2.5% FCF
+yield, 33% ROIC, SBC only 4% of revenue. The highest-quality business in
+the set.</li>
+<li><strong>The catch:</strong> up 117% year to date and sitting at its
+high. A hardware cycle can roll over quickly; 2023 showed that. This is
+the name where selling puts 15-20% below the market makes the most
+sense.</li>
+</ul>
+<h2 id="12-tier-2-best-businesses-fully-priced">12. Tier 2: best
+businesses, fully priced</h2>
+<h3 id="cloudflare-net">Cloudflare (NET)</h3>
+<ul>
+<li><strong>What it does:</strong> a CDN (servers close to users that
+cache content) that grew into a security network (zero trust, bot
+management, firewall for AI), a compute platform (Workers, Durable
+Objects for agent state), agent plumbing (remote MCP hosting, browser
+rendering, signed agent traffic) and agent commerce (pay-per-crawl, NET
+Dollar stablecoin, x402 co-founder with Coinbase).</li>
+<li><strong>Why it is special:</strong> the scaffolding for agents was
+built years before agents arrived. Roughly 20% of internet traffic, 330+
+points of presence, 80% of top AI companies already customers. Its AI
+Gateway is the direct answer to the egress-control and prompt-injection
+filtering need.</li>
+<li><strong>Numbers:</strong> $116bn market cap, 47x sales, 0.3% FCF
+yield, 20% SBC, negative ROIC. Up 66% year to date, 430% in three years,
+at its all-time high.</li>
+<li><strong>Verdict:</strong> the business deserves a place in the
+sleeve; the price only deserves a small one. A 2% starter, with the rest
+of the intended weight added only on a 25%+ drawdown, is the honest way
+to hold it. Its own bear case is that the positioning is well known and
+already baked into today's valuation.</li>
+</ul>
+<h3 id="palo-alto-networks-panw">Palo Alto Networks (PANW)</h3>
+<ul>
+<li><strong>What it does:</strong> the largest cyber platform — next-gen
+firewalls, cloud security, security operations, plus CyberArk
+(privileged access for humans and agents, ~$25bn deal), Protect AI (AI
+application security) and Chronosphere (observability, $200m ARR).</li>
+<li><strong>Why agents help:</strong> it positions itself to instrument,
+enforce and govern every agent workflow regardless of which one wins.
+After the CyberArk and Protect AI deals it owns a piece of needs one,
+two and five simultaneously — the broadest single answer to the mapping
+in section 7.</li>
+<li><strong>Numbers:</strong> $306bn market cap, ~27x trailing sales
+(distorted by the CyberArk share issuance), 1.4% FCF yield, receivables
+at 134 days, negative working capital.</li>
+<li><strong>Verdict:</strong> sensible strategy, full price, integration
+risk on two large deals. A name to add on a sector-wide sell-off, not
+now.</li>
+</ul>
+<h3 id="crowdstrike-crwd">CrowdStrike (CRWD)</h3>
+<ul>
+<li><strong>What it does:</strong> endpoint security (the agent on every
+laptop and server) plus a growing platform. Bundles vulnerability
+management (Spotlight) into deals, which is part of why Tenable is
+losing.</li>
+<li><strong>Numbers:</strong> $247bn market cap, 45x sales, 0.6% FCF
+yield, 23% SBC, at its high. Record net new ARR of $333m in FY27 Q2,
+with full-year net-new-ARR growth guidance raised to 34% at the
+midpoint.</li>
+<li><strong>Verdict:</strong> it has the one genuinely reported number
+tying demand to the agentic incidents, and management has said so
+publicly. That makes the fundamentals better than we assumed a month ago
+and the valuation no more forgiving. Same conclusion as Cloudflare:
+broad sell-off only.</li>
+</ul>
+<h2 id="13-tier-3-cheap-infrastructure-dip-candidates">13. Tier 3: cheap
+infrastructure, dip candidates</h2>
+<h3 id="hewlett-packard-enterprise-hpe">Hewlett Packard Enterprise
+(HPE)</h3>
+<ul>
+<li><strong>What it does:</strong> servers, storage, and since the
+Juniper acquisition a large networking business (QFX data-centre
+switches, PTX/MX routers). Private Cloud AI lets enterprises run
+inference on-premise.</li>
+<li><strong>Numbers:</strong> networking +152% year on year, now 30% of
+revenue and half of operating profit; AI backlog above $5bn with 64%
+from enterprise and sovereign customers. $74bn market cap, 2.1x sales,
+5.6% FCF yield, 2.5x net debt/EBITDA.</li>
+<li><strong>Verdict:</strong> the lowest-multiple way to own both the
+traffic pillar and the sovereignty pillar. Lower quality (6% ROIC) and
+lower beta; a position you buy and leave, rather than trade with
+options.</li>
+</ul>
+<h3 id="verisign-vrsn">VeriSign (VRSN)</h3>
+<ul>
+<li><strong>What it does:</strong> runs the.com and.net registries and
+answers 450 billion DNS queries a day. Every web request an agent makes
+starts with a DNS lookup. A regulated monopoly with contractual price
+increases.</li>
+<li><strong>Numbers:</strong> $27bn market cap, 16.6x sales, 4% FCF
+yield, 67% operating margins, essentially zero customer acquisition
+cost, SBC 0.3% of revenue. Near its high after a steady climb.</li>
+<li><strong>Verdict:</strong> a toll booth with an option on
+agent-driven query volume. The multiple is fair for the quality. Not a
+doubler, but the name you least regret owning through a drawdown — which
+is exactly what a shopping list needs at the stable end.</li>
+</ul>
+<h3 id="netapp-ntap">NetApp (NTAP)</h3>
+<ul>
+<li><strong>What it does:</strong> enterprise storage software and
+arrays (ONTAP). Its Ransomware Resilience product detects attacks in the
+storage layer, locks snapshots and orchestrates recovery, monetised
+separately on protected capacity.</li>
+<li><strong>Numbers:</strong> $37bn market cap, 5.2x sales, 4.4% FCF
+yield, 21% ROIC, modest leverage.</li>
+<li><strong>Verdict:</strong> first-order beneficiary of data growth and
+repatriation, and much harder to rip out than an AI-native startup with
+a better classifier. Buy on dips.</li>
+</ul>
+<h3 id="commvault-cvlt">Commvault (CVLT)</h3>
+<ul>
+<li><strong>What it does:</strong> Rubrik's older, more mature rival in
+backup and cyber resilience, with a NetApp partnership for closed-loop
+recovery and data-security posture management extended into vector
+databases.</li>
+<li><strong>Numbers:</strong> $5.9bn market cap, 4.9x sales, 4.4% FCF
+yield, 28% off its high after a beat-and-raise quarter was sold.</li>
+<li><strong>Verdict:</strong> cheap for a reason until the class actions
+over ARR disclosures are resolved. Wait; if it clears, it becomes a Tier
+1 candidate on valuation.</li>
+</ul>
+<h3 id="akamai-akam">Akamai (AKAM)</h3>
+<ul>
+<li><strong>What it does:</strong> the original CDN, now 51%
+cybersecurity, 16% cloud compute (Akamai Inference Cloud, $250m capex)
+and only 33% content delivery. API security revenue +100%.</li>
+<li><strong>Numbers:</strong> $15bn market cap, 5.4x sales, 4.1% FCF
+yield, 36% off high; but net debt 6x EBITDA, capex 56% of operating cash
+flow, 3% ROIC.</li>
+<li><strong>Verdict:</strong> optically the cheapest CDN, structurally
+the most leveraged. A trade on sentiment reversal, not a compounder.
+Small if at all.</li>
+</ul>
+<h3 id="cisco-csco-equinix-eqix-digital-realty-dlr">Cisco (CSCO),
+Equinix (EQIX), Digital Realty (DLR)</h3>
+<ul>
+<li>Cisco is the broadest exposure (SiliconOne G300 switch, Splunk
+observability, AgenticOps, MCP cataloguing) at 7.2x sales and 3.1% FCF
+yield — and Splunk gives it a direct claim on the tamper-resistant-log
+need. But at $434bn it will not move much on this theme. Fine as a
+low-volatility anchor, unnecessary otherwise.</li>
+<li>Equinix and Digital Realty own the buildings and the interconnects
+(500,000 at Equinix; 60% of large new contracts from AI). The convexity
+is real, but 5x net debt/EBITDA makes them the most rate-sensitive way
+to own the traffic pillar. We would rather own that pillar through VRSN
+and HPE and skip the REIT leverage.</li>
+</ul>
+<h2 id="14-tier-4-options-not-core">14. Tier 4: options, not core</h2>
+<div class="tbl"><table>
+<thead>
+<tr class="header">
+<th><strong>Name</strong></th>
+<th><strong>The case</strong></th>
+<th><strong>Why it is only an option</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>SailPoint (SAIL)</strong></td>
+<td>Identity governance for humans and agents; non-human identities
+already 40% of identity growth; pricing meters agents, API calls and
+workflows; $100m AI ARR guided to $900m by FY29. The purest expression
+of need two.</td>
+<td>Executes through volatility; 15% SBC; must prove AI ARR is
+incremental, not relabelled human seats. Could double, could halve.</td>
+</tr>
+<tr class="even">
+<td><strong>DocuSign (DOCU)</strong></td>
+<td>200m signed agreements, ESIGN/eIDAS legal moat, FedRAMP; Intelligent
+Agreement Management at $350m ARR heading to high-teens of total, wired
+into Claude, ChatGPT, Gemini and Agentforce.</td>
+<td>Core e-signature business is ex-growth; 4x sales and 8.7% FCF yield
+price it as a value stock, which is what it is.</td>
+</tr>
+<tr class="odd">
+<td><strong>Twilio (TWLO)</strong></td>
+<td>Carrier interconnects and number inventory that voice agents cannot
+replicate; Segment gives customer context; ConversationRelay and the
+Agent-to-Human protocol; HIPAA compliant.</td>
+<td>Near its high at 6.6x; intangibles half of assets; frontier labs
+could still partner around it.</td>
+</tr>
+<tr class="even">
+<td><strong>Okta (OKTA)</strong></td>
+<td>Cleanest story for securing agentic identities; Glasswing partner;
+rule-of-40; 10x sales. Gartner's access-control statistic is its best
+marketing.</td>
+<td>11% ARR growth, at an all-time high, history of poor execution and a
+2023 breach of trust. Deep out-of-the-money calls beat stock.</td>
+</tr>
+<tr class="odd">
+<td><strong>Datadog (DDOG) / Dynatrace (DT)</strong></td>
+<td>Observability becomes the financial meter for agent usage; the ROI
+shows up the moment you can bill by usage. If the Kill Switch bill
+passes, log retention becomes a compliance requirement rather than an
+operational choice.</td>
+<td>DDOG 21x sales with 21% SBC; PANW/Chronosphere and Cisco/Splunk now
+compete directly. DT at its high.</td>
+</tr>
+<tr class="even">
+<td><strong>Elastic (ESTC)</strong></td>
+<td>The indexed, permission-aware copy of everything an enterprise has;
+the searchable log layer behind forensic investigation; cRPO +20%, RPO
++28%; priced ex-growth at 4.8x with a buyback.</td>
+<td>Revenue guided to ~14%; SMB cloud +3%; hybrid search is
+commoditising.</td>
+</tr>
+<tr class="odd">
+<td><strong>MongoDB (MDB)</strong></td>
+<td>Atlas re-accelerated to 29% on unchanged list pricing; agents
+constantly read and write state, and Mongo meters hot data.</td>
+<td>New apps written by coding agents default to Postgres; agent
+platforms may internalise memory. 10.6x sales.</td>
+</tr>
+<tr class="even">
+<td><strong>GitLab (GTLB)</strong></td>
+<td>Moving from seats to usage credits (Flex, Orbit) so more agents
+means more billable surface.</td>
+<td>Orbit Remote still in beta with no published pricing;
+GitHub/Microsoft owns the category's real estate.</td>
+</tr>
+<tr class="odd">
+<td><strong>DigitalOcean (DOCN)</strong></td>
+<td>High-touch cloud for AI startups; agentic inference cloud; topline
+re-accelerated.</td>
+<td>Capex 34% of revenue leaves ~0% FCF yield at 14x sales; already
+re-rated then fell 37%.</td>
+</tr>
+<tr class="even">
+<td><strong>Fastly (FSLY)</strong></td>
+<td>Highest convexity CDN; AI Accelerator semantic caching; turned FCF
+positive.</td>
+<td>$3.8bn cap, 20% SBC, GAAP losses; a beta bet on the theme.</td>
+</tr>
+<tr class="odd">
+<td><strong>A10 (ATEN), Bandwidth (BAND), Mitek (MITK), VNET, Rackspace
+(RXT)</strong></td>
+<td>Niche chokepoints: IPv4 address management, telephony licences,
+deepfake detection, China data centres, Palantir hosting.</td>
+<td>All under $2bn; liquidity, dilution or leverage (RXT $2.75bn debt)
+cap them at 1% positions. BAND's data feed is unverified.</td>
+</tr>
+<tr class="even">
+<td><strong>Circle (CRCL), Coinbase (COIN), PayPal (PYPL)</strong></td>
+<td>Stablecoins and x402 as the payment rail for agents; USDC
+nanopayments; PYUSD at $4bn.</td>
+<td>Far too early to invest in payments solely on agentic upside. Both
+CRCL and COIN trade on crypto and rates. Not for this sleeve.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="15-avoid-the-exposed-names">15. Avoid: the exposed names</h2>
+<ul>
+<li><strong>Tenable (TENB), Qualys (QLYS), Rapid7 (RPD).</strong>
+Vulnerability management scans your network for known weaknesses and
+produces a report. That is the definition of a product that produces an
+answer rather than enforces a decision.</li>
+<li><strong>The evidence:</strong> revenue growth has fallen to 8.6%
+(TENB), 10.6% (QLYS) and −0.3% (RPD) while published vulnerabilities
+have tripled. Microsoft bundles scanning into licences, CrowdStrike
+sells Spotlight to its installed base, Google combined Wiz and Mandiant,
+Anthropic shipped Claude Code Security. Thirteen funded startups (Cyera
+$600m, Horizon3 $250m, XBOW $120m) target the category with automated
+remediation.</li>
+<li><strong>The experiment:</strong> an undergraduate's week-old,
+sub-$1,000 scanner found 5 of 15 planted flaws against the incumbent's
+6, and caught two novel misconfigurations the incumbent flagged as
+harmless. AI will be better in twelve months; a static vulnerability
+catalogue will not.</li>
+<li><strong>The timing evidence:</strong> median days from disclosure to
+exploitation went 63 days (2018-19) to 5 days (2023) to minus 7 days
+(2025). When exploitation precedes disclosure, a catalogue of known
+flaws is looking in the wrong direction.</li>
+<li><strong>Why section 7 does not change this.</strong> The safety turn
+creates real demand for supply-chain and vulnerability work. But the
+money follows automated remediation, which the platforms are absorbing,
+not the scan report. A bigger market for a commoditised product is not a
+thesis.</li>
+<li><strong>The trap:</strong> all three have doubled or tripled from
+April lows on short squeezes and factor flows. TENB at 4.3x sales with a
+6.4% FCF yield looks cheap. It is cheap because it is a melting ice
+cube. Qualys is the better of the three (native patch loop, IoT
+positioning), and the tight pair is long QLYS / short TENB — but neither
+belongs in a long-only sleeve.</li>
+</ul>
+<h2 id="16-basket-or-single-names">16. Basket or single names?</h2>
+<blockquote>
+<p><strong>Own the theme: yes.</strong> Three independent signals point
+the same way — a physical traffic constraint (Nokia, Cisco), a customer
+budget shift (IBM's pre-announcement, the Jefferies survey), and
+reported numbers at the companies that own the chokepoints (FTNT, FFIV,
+HPE, CRWD). That is a durable trend by our definition.</p>
+<p><strong>Replicate the 26-name index version: no.</strong> Nine of the
+26 are under $5bn, several are loss-making with 20%+ dilution, the
+crypto rails are a different trade, and the weighting scheme forces you
+to own the weakest names at nearly the same size as the strongest. A
+broad basket expresses a theme for readers; it is not how a concentrated
+book should express it.</p>
+<p><strong>Six to eight names, entered on dips or via short puts:
+yes.</strong> That covers all three pillars with better average quality
+and a lower average multiple than the published basket.</p>
+</blockquote>
+<div class="tbl"><table>
+<thead>
+<tr class="header">
+<th><strong>Role</strong></th>
+<th><strong>Names</strong></th>
+<th><strong>Indicative weight of the sleeve</strong></th>
+<th><strong>Entry</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Core: control points</td>
+<td><strong>ZS, FFIV, RBRK, FTNT</strong></td>
+<td>50% to 55%</td>
+<td>ZS now; FFIV starter; RBRK half now; FTNT via puts 15-20% below</td>
+</tr>
+<tr class="even">
+<td>Traffic and sovereignty</td>
+<td><strong>HPE, VRSN</strong></td>
+<td>25%</td>
+<td>HPE outright; VRSN on 10% dips</td>
+</tr>
+<tr class="odd">
+<td>Best-in-class starter</td>
+<td><strong>NET</strong></td>
+<td>10% to 15%</td>
+<td>2% starter of the book; add only on 25%+ drawdowns</td>
+</tr>
+<tr class="even">
+<td>Optional satellites</td>
+<td><strong>SAIL, DOCU, NTAP, TWLO</strong></td>
+<td>0% to 10%</td>
+<td>Only if you want more than eight names</td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li><strong>Why puts fit this theme:</strong> implied volatility on ZS,
+RBRK and FTNT is high, so selling puts 10-20% below the market pays a
+meaningful premium and, if assigned, gets the entry price our process
+wants. On the low-volatility names (HPE, VRSN, CSCO) the premium is thin
+and outright purchase is simpler.</li>
+<li><strong>The honest gap in the dip bucket.</strong> With the
+optical-networking line removed, this list no longer contains a
+genuinely distressed, high-quality entry. The only names more than 30%
+below their highs are ZS (42%), NTSK (38%), DOCN (37%) and AKAM (36%) —
+one Tier 1 name and three we would not size. That is the strongest
+argument for treating this as a shopping list rather than a buy
+programme: at today's prices, most of these names are purchases we are
+choosing not to make yet.</li>
+<li><strong>If you want one-click exposure anyway:</strong> a cyber ETF
+such as CIBR or HACK holds PANW, CRWD, FTNT, ZS and OKTA at market-cap
+weights. It captures Pillar 2 but misses HPE and VRSN, misses the
+agent-utility names entirely, and overweights the two most expensive
+stocks.</li>
+</ul>
+<p><strong>Free cash flow yield: how much real cash you get today
+(%)</strong></p>
+<img src="/img/cyber-theme-primer_fig5.png" alt="Free cash flow yield, all names" />
+
+<p><em>Source: Financial Modeling Prep, 16 September 2026. NTSK negative
+and omitted. Gold bars are Tier 1 names. A low yield is not
+disqualifying for a fast grower, but it tells you how much of the price
+is future.</em></p>
+<h2 id="17-what-could-go-wrong">17. What could go wrong</h2>
+<ul>
+<li><strong>The rotation is already crowded.</strong> Fortinet,
+Cloudflare, CrowdStrike, Okta and F5 are at or within 2% of all-time
+highs. Position sizing and staggered entry are the only defence, which
+is the whole reason this document exists before the drawdown rather than
+during it.</li>
+<li><strong>Rate sensitivity.</strong> The long-duration names (NET,
+CRWD, RBRK at 14x-47x sales) and the REITs are the most exposed if the
+rate path turns out higher for longer than currently priced. HPE, VRSN,
+NTAP and FFIV are the most rate-resilient holdings on the list.</li>
+<li><strong>"Perfect code."</strong> On a two-to-three-year horizon the
+question is: if AI eventually writes vulnerability-free software, does
+security demand fall? Nobody can answer that today, which is why the
+sleeve should be built from control points (traffic still needs
+inspecting) rather than from remediation vendors.</li>
+<li><strong>The safety turn fades.</strong> The essay of 12 September is
+an intention, not a purchase order. If attention moves on, if the Kill
+Switch bill dies in committee, or if the labs solve this internally with
+their own engineering rather than with vendor products, then section 7
+converts into nothing. Treat it as a reason to hold the Pillar 2
+weighting, never as the reason to add.</li>
+<li><strong>Agent commerce standards stall.</strong> x402, NET Dollar
+and agent-to-agent marketplaces are early. If agents keep paying with a
+human's credit card for years, the B2A pillar underdelivers. We have
+kept it small for this reason.</li>
+<li><strong>Hardware cycles roll over.</strong> Fortinet's product surge
+and F5's refresh cycle are cyclical by nature. 2023 showed how quickly a
+firewall product cycle can go from +50% to negative. The services
+annuity cushions it but does not remove it.</li>
+<li><strong>Hyperscalers internalise.</strong> The biggest risk to MDB,
+ESTC, DDOG and even NET is that AWS, Google and Microsoft bundle the
+agent memory, search, observability and edge layers into compute the
+customer already buys.</li>
+<li><strong>Evidence concentration.</strong> Much of the qualitative
+argument in sections 4 to 6 comes from a small number of outside notes
+covering overlapping ground, and we have not independently re-verified
+every operating claim in them. The valuation data in section 9 is ours
+and was pulled directly. Report dates are given throughout so recency
+can be checked.</li>
+</ul>
+<h2 id="18-what-to-watch">18. What to watch</h2>
+<ul>
+<li><strong>Whether the safety turn becomes procurement.</strong> The
+test is a named budget line, not an essay. Watch for "non-human
+identity" or "agent governance" appearing as a disclosed category on
+SAIL, OKTA or PANW calls.</li>
+<li><strong>The AI Kill Switch bill.</strong> If it advances out of
+committee, log retention and forensics become a compliance requirement
+and DDOG/ESTC re-rate on revenue quality, not growth. If it dies,
+nothing happens.</li>
+<li><strong>Fortinet Q3 (early November):</strong> does product growth
+hold above 30% and does Unified SASE ARR accelerate a third straight
+quarter? A miss here re-rates the whole physical-security group.</li>
+<li><strong>Zscaler Q1 FY27 (late November):</strong> ARR growth above
+20% and any comment on agent-driven connection volume. This is the
+cheapest name; the numbers need to stay boringly good.</li>
+<li><strong>Rubrik Q3 FY27 (December):</strong> net new subscription ARR
+above ~$100m and net retention holding 120%. That is the "consensus is
+too low" test.</li>
+<li><strong>Commvault litigation:</strong> any resolution of the
+ARR-disclosure class actions moves CVLT from "wait" to "buy".</li>
+<li><strong>Vulnerability-management losers:</strong> Tenable's next
+print is a read on whether bundling has started to bite. If it does, the
+enforcement-point framework gets more credibility.</li>
+<li><strong>Check Point weekly attack data:</strong> the series that
+underpins the cyber-boom thesis. A sustained fall would be the first
+sign the "AI defends faster than it attacks" counter-thesis is
+winning.</li>
+<li><strong>Instinct/Muse adoption:</strong> consumer always-on agents
+are the "ChatGPT moment" for traffic. Watch OpenRouter token data and
+app-store rankings.</li>
+</ul>
+<h2 id="19-glossary-sources-and-data-notes">19. Glossary, sources and
+data notes</h2>
+<div class="tbl"><table>
+<thead>
+<tr class="header">
+<th>Term</th>
+<th>Plain English</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Agent / agentic AI</td>
+<td>Software that carries out multi-step tasks on its own, keeps working
+without being prompted, and calls other services to do so.</td>
+</tr>
+<tr class="even">
+<td>North-south / east-west</td>
+<td>Traffic between a user and a server (north-south) versus traffic
+between servers, GPUs and data centres (east-west). Agents create the
+latter.</td>
+</tr>
+<tr class="odd">
+<td>API</td>
+<td>The doorway one piece of software uses to talk to another. Agents
+make hundreds of API calls per task.</td>
+</tr>
+<tr class="even">
+<td>CDN</td>
+<td>Content delivery network: servers placed close to users so pages
+load fast. Now being repurposed as "compute delivery networks" for
+AI.</td>
+</tr>
+<tr class="odd">
+<td>DNS</td>
+<td>The internet's address book; turns a name into a routable number.
+Every request starts here.</td>
+</tr>
+<tr class="even">
+<td>Zero trust / SASE / ZTNA</td>
+<td>Security that checks every connection every time instead of trusting
+anything inside the office network. Delivered from the cloud (SASE) or
+inline (ZTNA).</td>
+</tr>
+<tr class="odd">
+<td>Firewall / NGFW</td>
+<td>The box (or software) that decides which traffic may pass. Next-gen
+firewalls also inspect encrypted traffic, which needs custom chips.</td>
+</tr>
+<tr class="even">
+<td>Observability</td>
+<td>Collecting logs and metrics to see what software (and agents) are
+doing and what they cost.</td>
+</tr>
+<tr class="odd">
+<td>Non-human identity</td>
+<td>A credential belonging to a machine or an agent rather than a
+person. It has to be issued, scoped, watched and revoked like an
+employee's badge.</td>
+</tr>
+<tr class="even">
+<td>Vulnerability management</td>
+<td>Scanning systems for known weaknesses and producing a prioritised
+report. The category AI commoditises.</td>
+</tr>
+<tr class="odd">
+<td>MCP</td>
+<td>Model Context Protocol: a standard way for an AI model to plug into
+tools and data. Cloudflare, DocuSign, GitLab and others host or expose
+MCP servers.</td>
+</tr>
+<tr class="even">
+<td>x402 / stablecoin rails</td>
+<td>A way for an agent to pay for an API call by responding to an HTTP
+"402 Payment Required" code with a dollar-backed crypto token.</td>
+</tr>
+<tr class="odd">
+<td>ARR / NRR</td>
+<td>Annual recurring revenue; net revenue retention (how much existing
+customers spend this year versus last; 120% means 20% more).</td>
+</tr>
+<tr class="even">
+<td>SBC</td>
+<td>Stock-based compensation as a share of revenue: the dilution
+shareholders pay for. Above 20% is heavy.</td>
+</tr>
+<tr class="odd">
+<td>Sovereign AI / repatriation</td>
+<td>Running AI on infrastructure you own, on-premise or in a private
+cloud, so your data and models stay yours.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="primary-sources">Primary sources</h3>
+<ul>
+<li>Anthropic, "We Must Pace the Frontier" (CEO essay, 12 September
+2026); Anthropic evaluation-incident report, 30 July 2026 (141,006
+runs); Anthropic threat intelligence report, September 2026.</li>
+<li>METR investigation into the OpenAI–Hugging Face incident, published
+26 August 2026.</li>
+<li>Nokia Global Traffic Report (moderate scenario) — agent
+machine-to-machine traffic projection.</li>
+<li>Check Point Research — global weekly attacks per organisation
+series.</li>
+<li>Mandiant — median time from vulnerability disclosure to
+exploitation.</li>
+<li>Company disclosure: Fortinet Q2 FY26, F5 fiscal Q3, HPE, Akamai,
+Equinix, VeriSign, CrowdStrike FY27 Q2 (net new ARR $333m; CEO remarks,
+CNBC), IBM July pre-announcement, Rubrik, NetApp, Commvault, Datadog,
+Elastic, MongoDB.</li>
+<li>Survey data: Jefferies CIO survey Q1 2026 (cyber budgets); Barclays
+CIO survey (repatriation); Gartner (agent attack vectors through
+2029).</li>
+<li>Financial Modeling Prep — batch quotes, trailing key metrics and
+quote-change, 16 September 2026.</li>
+</ul>
+<h3 id="data-notes">Data notes</h3>
+<ul>
+<li>All valuation multiples are trailing twelve months. Forward
+multiples would be lower for the fast growers (RBRK, NET, CRWD) and
+roughly unchanged for the slow ones.</li>
+<li>PANW trailing EV/Sales is inflated by the CyberArk share issuance
+and shown as approximate. Bandwidth's key-metrics feed returned
+corrupted units; those figures are estimates and are marked.</li>
+<li>Prices and ranges are as of 16 September 2026 and have not been
+refreshed since. Check the live quote before acting on any entry level
+in this document.</li>
+<li>Operating claims (growth rates, ARR, customer counts) drawn from
+third-party research were not independently re-verified against filings
+for this note; report dates are given so recency can be checked.</li>
+<li>Executive compensation, share structure, float and insider activity
+were not assessed name by name in this theme-level document. Before any
+position is sized above 5% of the sleeve, a company-level write-up
+including those sections is the required next step.</li>
+<li>Rankings, tiers and entry suggestions are judgement calls, not
+facts. Reasonable investors will weight price and quality
+differently.</li>
+</ul>
+</article></div></main>
+<footer><div class="wrap">Not investment advice. Prices are daily closes from public market data and may contain errors.
+Machine-readable: <a href="/llms.txt">llms.txt</a> · <a href="/data/">data</a> · <a href="/feed.xml">RSS</a> · <a href="/research/cybersecurity-theme-primer.md">this page as markdown</a></div></footer>
+</body></html>

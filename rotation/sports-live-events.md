@@ -6,7 +6,7 @@ Sector: Consumer. Label: Already moving. Quadrant: Leading, heading to Leading. 
 |---|---|---|---|---|
 | TKO | TKO Group Holdings Inc. | +8.7% | +6.1% | +0.1% |
 | FWONK | Liberty Media Corporation Series C | +7.6% | +0.0% | +9.3% |
-| MSGS |  | +7.1% | +2.9% | — |
+| MSGS |  | +3.1% | +4.0% | — |
 | CHDN | Churchill Downs Incorporated | +19.8% | +24.9% | +5.4% |
 | GENI | Genius Sports Limited | +7.6% | +9.3% | +57.0% |
 | LYV | Live Nation Entertainment Inc. | +4.0% | +4.1% | +13.7% |

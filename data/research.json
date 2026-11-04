@@ -1,7 +1,7 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-03",
- "generated": "2026-11-04T07:15:14Z",
+ "generated": "2026-11-04T07:33:50Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "research": [
@@ -69,6 +69,25 @@
    "markdown": "https://theme-radar.github.io/research/ai-frontier-labs-biotech.md"
   },
   {
+   "title": "Update on the cybersecurity basket: six new names",
+   "date": "2026-10-26",
+   "theme": "Cybersecurity",
+   "tickers": [
+    "MSFT",
+    "FROG",
+    "QLYS",
+    "ACN",
+    "CACI",
+    "MITK"
+   ],
+   "baskets": [
+    "cyber-security"
+   ],
+   "summary": "Five weeks in, the nine-name basket is up 11.4% against 6.0% for IGV. We map security spend into eight layers, ask where AI agents push growth fastest, and add six names: MSFT, FROG, QLYS, ACN, CACI and MITK.",
+   "url": "https://theme-radar.github.io/research/cyber-basket-update-oct26/",
+   "markdown": "https://theme-radar.github.io/research/cyber-basket-update-oct26.md"
+  },
+  {
    "title": "Passport Control for Robots: SAIL vs OKTA",
    "date": "2026-10-09",
    "theme": "Cybersecurity",
@@ -96,6 +115,27 @@
    "summary": "When AI agents do the shopping, the rails get paid every time (Shopify), the assistant that knows the buyer earns a commission (Meta), and the everything store has to reinvent itself or shrink (Amazon).",
    "url": "https://theme-radar.github.io/research/the-mall-is-closing/",
    "markdown": "https://theme-radar.github.io/research/the-mall-is-closing.md"
+  },
+  {
+   "title": "AI agentic beneficiaries: cybersecurity theme primer and shopping list",
+   "date": "2026-09-18",
+   "theme": "Cybersecurity",
+   "tickers": [
+    "ZS",
+    "FFIV",
+    "RBRK",
+    "FTNT",
+    "NET",
+    "PANW",
+    "CRWD",
+    "SAIL"
+   ],
+   "baskets": [
+    "cyber-security"
+   ],
+   "summary": "Who gets paid when software starts doing the work: the traffic, the control points and the record-keeping that every AI agent has to pass through. A shopping list, built before the down day we cannot time.",
+   "url": "https://theme-radar.github.io/research/cybersecurity-theme-primer/",
+   "markdown": "https://theme-radar.github.io/research/cybersecurity-theme-primer.md"
   }
  ]
 }

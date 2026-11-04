@@ -84,7 +84,7 @@ td.l{text-align:left}
 @media (max-width:600px){.hs{display:none}h1{font-size:24px}}
 .kv{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;color:var(--mute);margin:6px 0}
 .kv b{color:var(--fg);font-weight:600}.kv b.up,b.up{color:var(--up)}.kv b.dn,b.dn{color:var(--dn)}
-article{font-size:17px;line-height:1.7;overflow-wrap:anywhere}article pre{overflow-x:auto;white-space:pre-wrap}
+article{font-size:17px;line-height:1.7;overflow-wrap:anywhere}article td,article th{overflow-wrap:normal;word-break:normal}article td:first-child{min-width:7em}article pre{overflow-x:auto;white-space:pre-wrap}
 article h2{font-size:22px}article img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:8px;margin:8px 0}
 article table{font-size:14px}article .tbl td,article .tbl th{white-space:normal;text-align:left}
 article blockquote{margin:12px 0;padding:2px 14px;border-left:3px solid var(--line);color:var(--mute)}
@@ -131,6 +131,7 @@ nav.util a{margin-right:14px}
 .ritem>div:nth-child(2){flex:1;min-width:0}.ritem .dt{flex:none;font-size:14px;color:var(--mute);white-space:nowrap;margin-top:3px}
 .tgrid{display:grid;grid-template-columns:minmax(0,1fr);grid-template-areas:"head" "basket" "research";gap:0 24px}
 @media (min-width:1000px){.tgrid{grid-template-columns:minmax(0,1fr) 420px;grid-template-areas:"head head" "research basket"}.tgrid .tb{position:sticky;top:12px;align-self:start}}
+.star{color:var(--acc,#2f6fb0);font-weight:700}.fnote{margin:8px 0 0;line-height:1.4}
 .tgrid .th{grid-area:head}.tgrid .tr{grid-area:research;align-self:start}.tgrid .tb{grid-area:basket}
 .tbox{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:0 0 18px}
 .tbox h3{margin:0 0 4px}
@@ -345,12 +346,8 @@ def build(data, out, asof, base):
                           d5=m.get('d5'), d20=m.get('d20'), m6=m.get('m6'), off_high=m.get('off'), priced=m.get('priced'))
                      for m in mem]))
     for b in baskets:
-        if b['adds']:
-            tot, err = chain_return(b['start'], b['adds'], [m for m in mraw if m['basket'] == next(x['source'] for x in bdefs if x['slug'] == b['slug'])], asof)
-            if tot is not None: b['since_start'] = round(tot, 4)
-            else: print('chain-link failed for', b['slug'], err)
-            added = {t: a['date'] for a in b['adds'] for t in a['tickers']}
-            for m in b['members']: m['added'] = added.get(m['ticker'])
+        added = {t: a['date'] for a in b['adds'] for t in a['tickers']}
+        for m in b['members']: m['added'] = added.get(m['ticker'])
     bslug = {b['slug']: b for b in baskets}
 
     # themes + trails
@@ -416,17 +413,11 @@ def build(data, out, asof, base):
                  (pct(m['since_start']), cls(m['since_start'])), (pct(m['d20']), cls(m['d20'])), (pct(m['m6']), cls(m['m6']) + ' hs')] for m in mem]
         items = ''.join(f'<div class="ritem" style="--tc:{t["color"]}"><span class="di">{DOC}</span><div><a href="{p["url"]}">{E(p["title"])}</a>'
                         f'<div class="meta">{E(p.get("kind", "Research"))} · {", ".join(E(x) for x in p.get("tickers", []))}</div></div><span class="dt">{dfmt(p["date"])}</span></div>' for p in tp)
-        if b.get('adds'):
-            ad = b['adds'][0]['date']
-            orig = [m for m in mem if not m.get('added')]; new = [m for m in mem if m.get('added')]
-            rows = [[(f'<b>{E(m["ticker"])}</b><br><span class="mute small">{E(m["name"])}</span>', ''),
-                     ('' if m.get('added') else pct(m['since_start']), '' if m.get('added') else cls(m['since_start'])),
-                     (pct(m['since_start']) if m.get('added') else '', cls(m['since_start']) if m.get('added') else '')] for m in orig + new]
-            col_heads = ['Name', f'Since {dfmt(b["start"])[:-5]}', f'Since {dfmt(ad)[:-5]}']
-        else:
-            rows = [[(f'<b>{E(m["ticker"])}</b><br><span class="mute small">{E(m["name"])}</span>', ''),
-                     (pct(m['since_start']), cls(m['since_start'])), (pct(m['m6']), cls(m['m6']))] for m in mem]
-            col_heads = ['Name', 'Since inception', '6M']
+        def tk(m):
+            star = f'<sup class="star">*</sup> <span class="mute small" style="white-space:nowrap">(added {dfmt(m["added"])[:-5]})</span>' if m.get('added') else ''
+            return f'<b>{E(m["ticker"])}</b>{star}<br><span class="mute small">{E(m["name"])}</span>'
+        rows = [[(tk(m), ''), (pct(m['since_start']), cls(m['since_start'])), (pct(m['m6']), cls(m['m6']))] for m in mem]
+        col_heads = ['Name', 'Since inception', '6M']
         head = (f'<div class="th tpanel"><div class="thead">{icon(t, 44)}<div><h1>{E(t["name"])}</h1>'
                 f'<div class="incep">Theme inception · {b_long(b["start"])}</div></div></div>'
                 '<div class="stats">'
@@ -434,13 +425,16 @@ def build(data, out, asof, base):
                 f'<div class="stat"><div class="k">Performance since inception</div><div class="big {cls(b["since_start"])}">{pct(b["since_start"])}</div>'
                 f'<div class="mid">{b_long(b["start"])}</div><div class="sub">Buy-and-hold · {chip(b["label"])}</div></div></div></div>')
         research = f'<div class="tr tbox"><h3>Latest research</h3><div class="rlist">{items or "<p class=\"mute small\">No published piece yet.</p>"}</div></div>'
-        basket = (f'<div class="tb tbox"><h3>Basket constituents</h3><p class="mute small" style="margin:0 0 6px">All {len(b["members"])} tickers{", each measured from the date it joined" if b.get("adds") else ", performance since inception"}. Data to the {dfmt(asof)} close.</p>'
-                  + table(col_heads, rows) + '</div>')
+        basket = (f'<div class="tb tbox"><h3>Basket constituents</h3><p class="mute small" style="margin:0 0 6px">All {len(b["members"])} tickers, performance since inception. Data to the {dfmt(asof)} close.</p>'
+                  + table(col_heads, rows) + foot(b) + '</div>')
         return f'<div class="tgrid">{head}{research}{basket}</div>'
     def add_note(b):
-        if not b.get('adds'): return 'Equal-weighted at inception'
-        n0 = len(b['members']) - sum(len(a['tickers']) for a in b['adds'])
-        return f'{n0} from {dfmt(b["start"])}, ' + ', '.join(f'{len(a["tickers"])} added {dfmt(a["date"])}' for a in b['adds']) + '. Equal weight.'
+        return 'Equal-weighted at inception'
+    def foot(b):
+        if not b.get('adds'): return ''
+        ds = ' and '.join(dfmt(a['date']) for a in b['adds'])
+        return (f'<p class="mute small fnote">* Newly added on {ds}. For convenience of calculation, '
+                f'we take them to have the same inception date as the basket ({dfmt(b["start"])}).</p>')
     def b_long(d):
         d = dt.date.fromisoformat(str(d)); return f'{d.day} {d.strftime("%B %Y")}'
     # theme pages
@@ -476,21 +470,23 @@ def build(data, out, asof, base):
                    [[f'[{b["name"]}]({base}/baskets/{b["slug"]}.md)', b['start'], pct(b['since_start']), pct(b['d5']), pct(b['d20']), pct(b['m6']), b['label']] for b in baskets])]
     S.html('/baskets/', 'Thematic Baskets', body, 'baskets', 'Buy-and-hold thematic reference baskets, equal-weighted at inception.', '\n'.join(md))
     for b in baskets:
-        rows = [[(f'<b>{E(m["ticker"])}</b><br><span class="mute small">{E(m["name"])}</span>', ''),
+        rows = [[(f'<b>{E(m["ticker"])}</b>' + (f'<sup class="star">*</sup> <span class="mute small" style="white-space:nowrap">(added {dfmt(m["added"])[:-5]})</span>' if m.get('added') else '') + f'<br><span class="mute small">{E(m["name"])}</span>', ''),
                  (f'{m["weight"]*100:.1f}%' if m['weight'] is not None else '—', 'hs'),
                  (pct(m['since_start']), cls(m['since_start'])), (pct(m['d5']), cls(m['d5'])), (pct(m['d20']), cls(m['d20'])), (pct(m['m6']), cls(m['m6'])),
                  (pct(m['off_high'], 0), '')] for m in sorted(b['members'], key=lambda m: -(m['since_start'] or -9))]
+        star_note = foot(b)
         rl = ''.join(f'<li><a href="{u}">{E(next(p["title"] for p in posts if p["url"] == u))}</a></li>' for u in b['research'])
         body = (f'<div class="row" style="justify-content:flex-start"><a class="small" href="/baskets/">Thematic Baskets</a> {tl(b["thread"])}</div><h1>{E(b["name"])}</h1>'
                 f'<div class="row">{chip(b["label"])}</div><p>{E(b["summary"])}</p>'
                 f'<div class="kv">Start <b>{dfmt(b["start"])}</b> · Since start <b class="{cls(b["since_start"])}">{pct(b["since_start"])}</b> · 6M <b class="{cls(b["m6"])}">{pct(b["m6"])}</b> · {b["weighting"]} · {len(b["members"])} names</div>'
-                + table(['Name', 'Weight', 'Since start', '5D', '20D', '6M', 'Off high'], rows, hide=(1, 3, 6))
+                + table(['Name', 'Weight', 'Since start', '5D', '20D', '6M', 'Off high'], rows, hide=(1, 3, 6)) + star_note
                 + f'<p class="small mute">{E(b["label"] or "")}: {E(LABEL_TEXT.get(b["label"], ""))}</p>'
                 + (f'<h2>Research</h2><ul>{rl}</ul>' if rl else '')
                 )
         md = [f'# {b["name"]} basket', '', b['summary'], '', f'Start: {b["start"]}. Weighting: {b["weighting"]}. Label: {b["label"]}. Since start: {pct(b["since_start"])}. Data to the {asof} close.', '',
               md_table(['Ticker', 'Name', 'Weight', 'Since start', '5D', '20D', '6M'],
-                       [[m['ticker'], m['name'], f'{m["weight"]*100:.1f}%' if m['weight'] is not None else '', pct(m['since_start']), pct(m['d5']), pct(m['d20']), pct(m['m6'])] for m in b['members']])]
+                       [[m['ticker'] + ('*' if m.get('added') else ''), m['name'], f'{m["weight"]*100:.1f}%' if m['weight'] is not None else '', pct(m['since_start']), pct(m['d5']), pct(m['d20']), pct(m['m6'])] for m in b['members']])]
+        if b['adds']: md += ['', '* Added on ' + ' and '.join(a['date'] for a in b['adds']) + '. For convenience of calculation, performance is measured from the basket inception date (' + b['start'] + ').']
         if b['research']: md += ['', 'Research:'] + [f'- {base}{u.rstrip("/")}.md' for u in b['research']]
         S.html(f'/baskets/{b["slug"]}/', b['name'] + ' basket', body, 'baskets', b['summary'], '\n'.join(md))
 

@@ -11,5 +11,7 @@
 - [Binance heist: what it means for our cyber basket](https://theme-radar.github.io/research/binance-heist-cyber-basket.md) (2026-11-04, Cybersecurity)
 - [Cybersecurity hardware: Fortinet and F5](https://theme-radar.github.io/research/cyber-hardware-ftnt-ffiv.md) (2026-11-02, Cybersecurity)
 - [If frontier AI labs are becoming the next generation of biotech platforms, how should we position?](https://theme-radar.github.io/research/ai-frontier-labs-biotech.md) (2026-10-31, AI Science)
+- [Update on the cybersecurity basket: six new names](https://theme-radar.github.io/research/cyber-basket-update-oct26.md) (2026-10-26, Cybersecurity)
 - [Passport Control for Robots: SAIL vs OKTA](https://theme-radar.github.io/research/passport-control-for-robots.md) (2026-10-09, Cybersecurity)
 - [The Mall Is Closing: Shopify, Meta's Muse and the Agentic Storefront](https://theme-radar.github.io/research/the-mall-is-closing.md) (2026-10-07, Agentic Commerce)
+- [AI agentic beneficiaries: cybersecurity theme primer and shopping list](https://theme-radar.github.io/research/cybersecurity-theme-primer.md) (2026-09-18, Cybersecurity)

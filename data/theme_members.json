@@ -1,7 +1,7 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-03",
- "generated": "2026-11-04T07:15:14Z",
+ "generated": "2026-11-04T07:33:50Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "members": [
@@ -2209,11 +2209,11 @@
    "theme": "Robotics & Autonomy",
    "ticker": "RR",
    "name": "Richtech Robotics Inc. Class B",
-   "d5": -0.1274,
-   "d20": -0.4435,
-   "m6": -0.6144,
-   "y1": -0.8072,
-   "off_high": -0.8313
+   "d5": -0.1277,
+   "d20": -0.4437,
+   "m6": -0.6145,
+   "y1": -0.8073,
+   "off_high": -0.8314
   },
   {
    "theme": "Robotics & Autonomy",
@@ -3699,11 +3699,11 @@
    "theme": "Copper",
    "ticker": "SCCO",
    "name": "Southern Copper Corporation",
-   "d5": -0.0982,
-   "d20": -0.1416,
-   "m6": 0.0478,
-   "y1": 0.3132,
-   "off_high": -0.202
+   "d5": -0.0988,
+   "d20": -0.1421,
+   "m6": 0.0472,
+   "y1": 0.3111,
+   "off_high": -0.2024
   },
   {
    "theme": "Copper",
@@ -4149,11 +4149,11 @@
    "theme": "Agriculture",
    "ticker": "GNS",
    "name": "Genius Group Limited",
-   "d5": -0.1391,
-   "d20": -0.2516,
-   "m6": -0.601,
-   "y1": -0.8586,
-   "off_high": -0.8728
+   "d5": -0.1353,
+   "d20": -0.2484,
+   "m6": -0.5993,
+   "y1": -0.858,
+   "off_high": -0.8722
   },
   {
    "theme": "Oil Producers",
@@ -5609,11 +5609,11 @@
    "theme": "Mortgage & Housing Finance",
    "ticker": "FMCC",
    "name": "",
-   "d5": 0.2839,
-   "d20": 0.3245,
-   "m6": -0.293,
-   "y1": -0.4732,
-   "off_high": -0.5569
+   "d5": 0.2788,
+   "d20": 0.3193,
+   "m6": -0.2958,
+   "y1": -0.4753,
+   "off_high": -0.5587
   },
   {
    "theme": "Mortgage & Housing Finance",
@@ -6389,11 +6389,11 @@
    "theme": "Sports & Live Events",
    "ticker": "MSGS",
    "name": "",
-   "d5": 0.0715,
-   "d20": 0.0289,
+   "d5": 0.0308,
+   "d20": 0.0399,
    "m6": null,
    "y1": null,
-   "off_high": -0.0107
+   "off_high": 0.0
   },
   {
    "theme": "Sports & Live Events",
