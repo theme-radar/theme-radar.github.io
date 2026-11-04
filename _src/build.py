@@ -360,6 +360,16 @@ def build(data, out, asof, base):
                't:' + THREAD[p['thread']]['slug'], p['summary'], md)
     DOC = '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2.5"/><path d="M9 9h6M9 13h6M9 17h4"/></svg>'
     def theme_panel(t, tp, b):
+        if b is None:
+            items = ''.join(f'<div class="ritem" style="--tc:{t["color"]}"><span class="di">{DOC}</span><div><a href="{p["url"]}">{E(p["title"])}</a>'
+                            f'<div class="meta">{E(p.get("kind", "Research"))} · {", ".join(E(x) for x in p.get("tickers", []))}</div></div><span class="dt">{dfmt(p["date"])}</span></div>' for p in tp)
+            start = min((p['date'] for p in tp), default=None)
+            head = (f'<div class="th tpanel"><div class="thead">{icon(t, 44)}<div><h1>{E(t["name"])}</h1>'
+                    + (f'<div class="incep">Theme inception · {b_long(start)}</div>' if start else '') + '</div></div>'
+                    '<div class="stats"><div class="stat"><div class="k">Basket</div><div class="big">Coming soon</div><div class="sub">Equal-weighted at inception</div></div>'
+                    '<div class="stat"><div class="k">Performance since inception</div><div class="big">—</div><div class="sub">Starts when the basket is published</div></div></div></div>')
+            research = f'<div class="tr tbox"><h3>Latest research</h3><div class="rlist">{items or "<p class=\"mute small\">No published piece yet.</p>"}</div></div>'
+            return f'<div class="tgrid">{head}{research}<div class="tb tbox"><h3>Basket constituents</h3><p class="mute small">The basket for this theme has not been published yet.</p></div></div>'
         mem = sorted(b['members'], key=lambda m: -(m['since_start'] if m['since_start'] is not None else -9))
         ticks = ' · '.join(E(m['ticker']) for m in sorted(b['members'], key=lambda m: m['ticker']))
         items = ''.join(f'<div class="ritem" style="--tc:{t["color"]}"><span class="di">{DOC}</span><div><a href="{p["url"]}">{E(p["title"])}</a>'
@@ -386,9 +396,9 @@ def build(data, out, asof, base):
     for t in threads:
         tp = [p for p in posts if p['thread'] == t['name']]
         tb = [b for b in baskets if b['thread'] == t['name']]
-        wide = t.get('layout') == 'panel' and bool(tb)
+        wide = True
         if wide:
-            body = theme_panel(t, tp, tb[0])
+            body = theme_panel(t, tp, tb[0] if tb else None)
         else:
             body = (f'<div class="thead">{icon(t, 52)}<div><h1>{E(t["name"])}</h1><div class="mute">{E(t["summary"])}</div></div></div>'
                     f'<h2>Research ({len(tp)})</h2>' + (''.join(pcard(p) for p in tp) or '<p class="mute small">No published piece yet.</p>'))
