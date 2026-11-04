@@ -1,7 +1,7 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-03",
- "generated": "2026-11-04T07:59:24Z",
+ "generated": "2026-11-04T09:00:42Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "research": [
@@ -141,7 +141,9 @@
     "META",
     "AMZN"
    ],
-   "baskets": [],
+   "baskets": [
+    "agentic-commerce"
+   ],
    "summary": "When AI agents do the shopping, the rails get paid every time (Shopify), the assistant that knows the buyer earns a commission (Meta), and the everything store has to reinvent itself or shrink (Amazon).",
    "url": "https://theme-radar.github.io/research/the-mall-is-closing/",
    "markdown": "https://theme-radar.github.io/research/the-mall-is-closing.md"

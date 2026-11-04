@@ -30,11 +30,13 @@
   summary: >-
     Gold royalty, streaming and mining names as a hedge against a weaker
     dollar. ALS is priced in Canadian dollars (TSX).
-- slug: payments-value
-  name: Payments Value
-  source: Payments Value_Claire
-  thread: Payments Value
-  start: 2026-11-02
+- slug: agentic-commerce
+  name: Agentic Commerce
+  source: Agentic Commerce_Claire
+  thread: Agentic Commerce
+  start: 2026-10-14
   summary: >-
-    Incumbent payment processors priced as value and takeout candidates:
-    PayPal and Fiserv, equal weight.
+    AI agents shopping and checking out for people. Three layers: the agents
+    (META, AMZN, GOOGL, AAPL), checkout and payment rails (SHOP, V, MA, PYPL,
+    ADYEN, AFRM, GLBE) and retailers open to agents (WMT, CART, BBY). 14 names,
+    equal weight. ADYEN is priced in euros (Amsterdam).

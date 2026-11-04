@@ -5,7 +5,7 @@ date: 2026-10-07
 kind: Theme research
 thread: Agentic Commerce
 tickers: [SHOP, META, AMZN]
-baskets: []
+baskets: [agentic-commerce]
 summary: "When AI agents do the shopping, the rails get paid every time (Shopify), the assistant that knows the buyer earns a commission (Meta), and the everything store has to reinvent itself or shrink (Amazon)."
 ---
 *What follows is a scenario, not a prediction. Every quote and number is

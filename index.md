@@ -14,7 +14,6 @@ Market data to the 2026-11-03 close.
 - [AI Science](https://theme-radar.github.io/themes/ai-science.md): AI-driven scientific discovery, and the tools, labs and data it runs on.
 - [Agentic Commerce](https://theme-radar.github.io/themes/agentic-commerce.md): Agentic shopping, e-commerce, payments and the financial rails underneath.
 - [US Dollar Devaluation](https://theme-radar.github.io/themes/us-dollar-devaluation.md): Gold equities as a hedge against a weaker dollar.
-- [Payments Value](https://theme-radar.github.io/themes/payments-value.md): Incumbent payment processors priced as value and takeout candidates.
 
 ## Thematic Baskets
 
@@ -23,4 +22,4 @@ Market data to the 2026-11-03 close.
 | [Cyber Security](https://theme-radar.github.io/baskets/cyber-security.md) | 2026-09-18 | +1.9% | +55.6% | Avoid for now |
 | [AI Science](https://theme-radar.github.io/baskets/ai-science.md) | 2026-08-17 | +16.8% | +79.7% | No signal |
 | [US Dollar Devaluation](https://theme-radar.github.io/baskets/usd-devaluation.md) | 2026-05-20 | -3.9% | -3.6% | Avoid for now |
-| [Payments Value](https://theme-radar.github.io/baskets/payments-value.md) | 2026-11-02 | +5.7% | +13.6% | Already moving |
+| [Agentic Commerce](https://theme-radar.github.io/baskets/agentic-commerce.md) | 2026-10-14 | -0.5% | +16.1% | No signal |

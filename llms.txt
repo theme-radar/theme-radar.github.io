@@ -19,13 +19,12 @@ Research pieces are written as theses with named tickers, dated numbers and sour
 - [AI Science](https://theme-radar.github.io/themes/ai-science.md): AI-driven scientific discovery, and the tools, labs and data it runs on.
 - [Agentic Commerce](https://theme-radar.github.io/themes/agentic-commerce.md): Agentic shopping, e-commerce, payments and the financial rails underneath.
 - [US Dollar Devaluation](https://theme-radar.github.io/themes/us-dollar-devaluation.md): Gold equities as a hedge against a weaker dollar.
-- [Payments Value](https://theme-radar.github.io/themes/payments-value.md): Incumbent payment processors priced as value and takeout candidates.
 
 ## Thematic Baskets (equal weight, buy-and-hold)
 - [Cyber Security](https://theme-radar.github.io/baskets/cyber-security.md): from 2026-09-18, +1.9% since start, label Avoid for now. Fifteen names across the security platforms and services that AI agents depend on: endpoint, network, zero trust, identity, software supply chain, data, observability and recovery.
 - [AI Science](https://theme-radar.github.io/baskets/ai-science.md): from 2026-08-17, +16.8% since start, label No signal. Frontier AI labs are becoming biotech platforms, so the physical layer gets paid: molecule makers, lab tools, testing services, AI drug developers and pharma. 14 names, equal weight. SNBL (2395.T) is priced in yen.
 - [US Dollar Devaluation](https://theme-radar.github.io/baskets/usd-devaluation.md): from 2026-05-20, -3.9% since start, label Avoid for now. Gold royalty, streaming and mining names as a hedge against a weaker dollar. ALS is priced in Canadian dollars (TSX).
-- [Payments Value](https://theme-radar.github.io/baskets/payments-value.md): from 2026-11-02, +5.7% since start, label Already moving. Incumbent payment processors priced as value and takeout candidates: PayPal and Fiserv, equal weight.
+- [Agentic Commerce](https://theme-radar.github.io/baskets/agentic-commerce.md): from 2026-10-14, -0.5% since start, label No signal. AI agents shopping and checking out for people. Three layers: the agents (META, AMZN, GOOGL, AAPL), checkout and payment rails (SHOP, V, MA, PYPL, ADYEN, AFRM, GLBE) and retailers open to agents (WMT, CART, BBY). 14 names, equal weight. ADYEN is priced in euros (Amsterdam).
 
 ## Market views
 - [Rotation](https://theme-radar.github.io/rotation.md): 77 themes on a weekly rotation chart against SPY
