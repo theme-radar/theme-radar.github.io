@@ -13,12 +13,20 @@ Summary: A Penn mRNA scientist confirmed that monkeys, wet-lab capacity and labo
 
 ## Who spoke, and why the lab matters
 
+<img src="/img/penn-mrna-channel-check_fig1.jpg" alt="Title slide: From COVID to Cancer and Beyond, The Next Breakthrough in mRNA Technology. Elena N. Atochina-Vasserman, Penn Institute for RNA Innovation, 3 November 2026, Bangkok" />
+
+*Title slide of the talk, 3 November 2026.*
+
 - **The speaker.** Dr Elena Atochina-Vasserman, Research Assistant Professor of Medicine in Dr Drew Weissman's lab at the Penn Institute for RNA Innovation (University of Pennsylvania). She joined the lab in 2018. Her own work is on delivering mRNA medicines to the lung and on an mRNA vaccine for norovirus.
 - **The lab.** Drew Weissman and Katalin Karikó won the 2023 Nobel Prize in Medicine for the nucleoside base modification that stops the body attacking synthetic mRNA. That discovery is what made the COVID vaccines possible. Penn licensed it, and both BioNTech (with Pfizer) and Moderna built their COVID vaccines on it.
 - **The institute.** Penn set up the Institute for RNA Innovation in December 2021, with Weissman as director. Its targets include HIV, malaria, influenza, cancer, allergies, autoimmune disease and sickle cell anaemia.
 - **Global health.** She said she works with the Gates Foundation on HIV and malaria vaccines for Africa. For context, the Gates Foundation committed $40m in 2023 to help African manufacturers (Institut Pasteur de Dakar, Biovac) make low-cost mRNA vaccines.
 - **The room.** Practitioners from pharma, biotech investing and the life-science industry, plus researchers from Chulalongkorn University.
 - **Second voice.** Prof. Dr Kiat Ruxrungtham, Director of the Chula Vaccine Research Center at Chulalongkorn University. His centre developed ChulaCov19, Thailand's own mRNA COVID vaccine, with Drew Weissman's lab. Human trials began in June 2021.
+
+<img src="/img/penn-mrna-channel-check_fig2.jpg" alt="Slide: mRNA technology opens new paths to disease prevention and treatment, across cancer treatments, protein replacement and gene editing, and cell therapies and vaccines" />
+
+*Where the lab sees mRNA going next: cancer treatments, protein replacement and gene editing, and cell therapies and vaccines. The slide cites 150 active clinical trials of mRNA medicines in the United States. Slide from the talk.*
 
 ## What we heard, against our hypotheses
 
