@@ -1,7 +1,7 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-03",
- "generated": "2026-11-04T09:00:42Z",
+ "generated": "2026-11-04T09:09:11Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "research": [
@@ -118,6 +118,22 @@
    "markdown": "https://theme-radar.github.io/research/cyber-basket-update-oct26.md"
   },
   {
+   "title": "The Mall Is Closing: Shopify, Meta's Muse and the Agentic Storefront",
+   "date": "2026-10-14",
+   "theme": "Agentic Commerce",
+   "tickers": [
+    "SHOP",
+    "META",
+    "AMZN"
+   ],
+   "baskets": [
+    "agentic-commerce"
+   ],
+   "summary": "When AI agents do the shopping, the rails get paid every time (Shopify), the assistant that knows the buyer earns a commission (Meta), and the everything store has to reinvent itself or shrink (Amazon).",
+   "url": "https://theme-radar.github.io/research/the-mall-is-closing/",
+   "markdown": "https://theme-radar.github.io/research/the-mall-is-closing.md"
+  },
+  {
    "title": "Passport Control for Robots: SAIL vs OKTA",
    "date": "2026-10-09",
    "theme": "Cybersecurity",
@@ -131,22 +147,6 @@
    "summary": "AI agents pay the identity registry, not the login. Governance is priced per identity, login per employee. Within listed identity, SailPoint owns the better-placed layer at the lower multiple.",
    "url": "https://theme-radar.github.io/research/passport-control-for-robots/",
    "markdown": "https://theme-radar.github.io/research/passport-control-for-robots.md"
-  },
-  {
-   "title": "The Mall Is Closing: Shopify, Meta's Muse and the Agentic Storefront",
-   "date": "2026-10-07",
-   "theme": "Agentic Commerce",
-   "tickers": [
-    "SHOP",
-    "META",
-    "AMZN"
-   ],
-   "baskets": [
-    "agentic-commerce"
-   ],
-   "summary": "When AI agents do the shopping, the rails get paid every time (Shopify), the assistant that knows the buyer earns a commission (Meta), and the everything store has to reinvent itself or shrink (Amazon).",
-   "url": "https://theme-radar.github.io/research/the-mall-is-closing/",
-   "markdown": "https://theme-radar.github.io/research/the-mall-is-closing.md"
   },
   {
    "title": "AI agentic beneficiaries: cybersecurity theme primer and shopping list",
