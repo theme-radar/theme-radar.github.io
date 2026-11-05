@@ -1,21 +1,21 @@
 # Medtech & Surgical Robotics
 
-Sector: Healthcare. Label: No signal. Quadrant: Leading, heading to Weakening. Data to 2026-11-03.
+Sector: Healthcare. Label: Already moving. Quadrant: Leading, heading to Leading. Data to 2026-11-04.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| ISRG | Intuitive Surgical Inc. | -1.1% | +8.9% | -2.4% |
-| SYK | Stryker Corporation | +3.0% | +11.6% | +5.2% |
-| MDT | Medtronic plc. | +5.2% | +13.5% | +27.1% |
-| DXCM | DexCom Inc. | +5.6% | -0.5% | +39.5% |
-| BSX | Boston Scientific Corporation | -3.5% | +3.1% | -22.3% |
-| GMED | Globus Medical Inc. | -1.6% | +4.1% | -11.6% |
-| GEHC | GE HealthCare Technologies Inc. Common S | +13.4% | +24.5% | +32.1% |
-| ZBH | Zimmer Biomet Holdings Inc. | +1.0% | +8.2% | +16.9% |
-| BDX | Becton Dickinson and Company | +1.6% | +9.9% | +37.5% |
-| PRCT | PROCEPT BioRobotics Corporation | +1.9% | +15.2% | -19.9% |
-| NOVT | Novanta Inc. | -1.2% | -1.1% | +11.5% |
-| IRTC | iRhythm Holdings Inc. | +2.1% | +17.9% | +7.0% |
-| RMD | ResMed Inc. | -9.5% | +2.9% | +9.2% |
-| CDNA | CareDx Inc. | +25.4% | +38.7% | +327.4% |
-| IRMD | iRadimed Corporation | -3.4% | -4.4% | -5.5% |
+| ISRG | Intuitive Surgical Inc. | +8.5% | +16.3% | +6.7% |
+| SYK | Stryker Corporation | +11.7% | +23.3% | +16.2% |
+| MDT | Medtronic plc. | +10.7% | +22.8% | +35.3% |
+| DXCM | DexCom Inc. | +12.5% | +5.0% | +46.6% |
+| BSX | Boston Scientific Corporation | +8.0% | +10.2% | -18.2% |
+| GMED | Globus Medical Inc. | +7.2% | +18.1% | -2.4% |
+| GEHC | GE HealthCare Technologies Inc. Common S | +13.2% | +32.7% | +39.0% |
+| ZBH | Zimmer Biomet Holdings Inc. | +14.3% | +24.5% | +33.0% |
+| BDX | Becton Dickinson and Company | +7.2% | +16.1% | +44.5% |
+| PRCT | PROCEPT BioRobotics Corporation | +7.2% | +20.9% | -12.7% |
+| NOVT | Novanta Inc. | -3.6% | +1.1% | +4.6% |
+| IRTC | iRhythm Holdings Inc. | +8.1% | +27.6% | +13.9% |
+| RMD | ResMed Inc. | -3.9% | +6.4% | +14.7% |
+| CDNA | CareDx Inc. | +19.0% | +36.2% | +309.8% |
+| IRMD | iRadimed Corporation | +5.5% | +3.6% | +2.7% |

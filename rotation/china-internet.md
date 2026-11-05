@@ -1,13 +1,13 @@
 # China Internet
 
-Sector: Software & Internet. Label: No signal. Quadrant: Leading, heading to Leading. Data to 2026-11-03.
+Sector: Software & Internet. Label: Research now. Quadrant: Leading, heading to Leading. Data to 2026-11-04.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| BABA | Alibaba Group Holding Limited | +0.1% | -8.2% | -24.1% |
-| PDD | PDD Holdings Inc. | +2.3% | +2.3% | -17.1% |
-| JD | JD.com Inc. | +5.2% | +1.6% | -9.3% |
-| BIDU | Baidu Inc. ADS | -1.7% | -11.6% | -39.0% |
-| TCOM | Trip.com Group Limited | +4.5% | +8.2% | -21.0% |
-| TCEHY |  | +1.9% | -7.5% | -16.4% |
-| BILI | Bilibili Inc. | +0.6% | -11.5% | -38.8% |
+| BABA | Alibaba Group Holding Limited | +4.3% | -1.6% | -25.6% |
+| PDD | PDD Holdings Inc. | +6.0% | +4.7% | -19.7% |
+| JD | JD.com Inc. | +9.0% | +2.6% | -9.6% |
+| BIDU | Baidu Inc. ADS | +1.2% | -5.7% | -42.8% |
+| TCOM | Trip.com Group Limited | +10.7% | +12.1% | -21.6% |
+| TCEHY |  | +6.7% | -2.0% | -13.8% |
+| BILI | Bilibili Inc. | +7.6% | -7.0% | -38.0% |

@@ -1,18 +1,18 @@
 # Diagnostics & Genomics
 
-Sector: Healthcare. Label: No signal. Quadrant: Weakening, heading to Weakening. Data to 2026-11-03.
+Sector: Healthcare. Label: No signal. Quadrant: Weakening, heading to Lagging. Data to 2026-11-04.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| NTRA | Natera Inc. | -5.4% | -3.0% | +87.9% |
-| GH | Guardant Health Inc. | -1.7% | +2.5% | +95.5% |
-| TEM | Tempus AI Inc. | +7.8% | +8.1% | +43.9% |
-| ILMN | Illumina Inc. | -14.8% | -12.9% | +71.3% |
-| TWST | Twist Bioscience Corporation | -12.2% | -16.0% | +147.4% |
-| WGS | GeneDx Holdings Corp. | +9.4% | -4.0% | +98.9% |
-| CAI | Caris Life Sciences Inc. | -2.4% | +19.7% | +73.4% |
-| ADPT | Adaptive Biotechnologies Corporation | -6.7% | -4.1% | +87.2% |
-| DGX | Quest Diagnostics Incorporated | +1.9% | +8.2% | +29.5% |
-| LH | Labcorp Holdings Inc. | +6.9% | +13.5% | +37.6% |
-| QDEL | QuidelOrtho Corporation | +3.7% | +12.1% | +20.8% |
-| RDNT | RadNet Inc. | -0.5% | +4.1% | +24.0% |
+| NTRA | Natera Inc. | -7.9% | -1.1% | +81.8% |
+| GH | Guardant Health Inc. | -7.7% | +0.1% | +82.7% |
+| TEM | Tempus AI Inc. | -1.3% | +7.5% | +41.3% |
+| ILMN | Illumina Inc. | -21.6% | -15.4% | +58.9% |
+| TWST | Twist Bioscience Corporation | -17.8% | -8.4% | +139.5% |
+| WGS | GeneDx Holdings Corp. | +7.2% | +1.2% | +99.8% |
+| CAI | Caris Life Sciences Inc. | -6.3% | +22.6% | +73.7% |
+| ADPT | Adaptive Biotechnologies Corporation | -5.9% | +1.6% | +85.1% |
+| DGX | Quest Diagnostics Incorporated | +4.1% | +12.6% | +35.2% |
+| LH | Labcorp Holdings Inc. | +2.1% | +17.9% | +43.1% |
+| QDEL | QuidelOrtho Corporation | +2.4% | +16.6% | +30.9% |
+| RDNT | RadNet Inc. | +9.1% | +17.0% | +36.9% |

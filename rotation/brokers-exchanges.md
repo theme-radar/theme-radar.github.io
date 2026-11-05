@@ -1,15 +1,15 @@
 # Brokers & Exchanges
 
-Sector: Financials. Label: No signal. Quadrant: Leading, heading to Weakening. Data to 2026-11-03.
+Sector: Financials. Label: Already moving. Quadrant: Leading, heading to Weakening. Data to 2026-11-04.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| CME | CME Group Inc. | +3.6% | +12.5% | +6.0% |
-| ICE | Intercontinental Exchange Inc. | +10.0% | +11.4% | +10.1% |
-| CBOE | Cboe Global Markets Inc. | +6.0% | +23.8% | +0.1% |
-| NDAQ | Nasdaq Inc. | +2.5% | +15.9% | +20.2% |
-| IBKR | Interactive Brokers Group Inc. | -5.8% | -14.5% | -7.7% |
-| VIRT | Virtu Financial Inc. | -3.2% | -13.6% | +5.2% |
-| TW | Tradeweb Markets Inc. | +5.1% | +16.9% | +14.1% |
-| MIAX | Miami International Holdings Inc. | +4.1% | +10.0% | -29.0% |
-| MKTX | MarketAxess Holdings Inc. | +0.3% | +1.0% | +9.5% |
+| CME | CME Group Inc. | +4.8% | +14.1% | +6.9% |
+| ICE | Intercontinental Exchange Inc. | +12.2% | +14.6% | +14.0% |
+| CBOE | Cboe Global Markets Inc. | +7.7% | +22.6% | -0.2% |
+| NDAQ | Nasdaq Inc. | +3.9% | +19.3% | +23.0% |
+| IBKR | Interactive Brokers Group Inc. | -6.8% | -11.2% | -10.5% |
+| VIRT | Virtu Financial Inc. | -4.3% | -9.8% | +5.7% |
+| TW | Tradeweb Markets Inc. | +6.0% | +18.2% | +16.1% |
+| MIAX | Miami International Holdings Inc. | +9.3% | +15.9% | -26.7% |
+| MKTX | MarketAxess Holdings Inc. | +0.5% | +0.9% | +11.3% |

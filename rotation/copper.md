@@ -1,10 +1,10 @@
 # Copper
 
-Sector: Materials. Label: Avoid for now. Quadrant: Lagging, heading to Leading. Data to 2026-11-03.
+Sector: Materials. Label: Avoid for now. Quadrant: Lagging, heading to Leading. Data to 2026-11-04.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| FCX | Freeport-McMoRan Inc. | -6.3% | -14.9% | +7.1% |
-| SCCO | Southern Copper Corporation | -9.9% | -14.2% | +4.7% |
-| TECK | Teck Resources Ltd | -0.8% | -7.9% | +6.9% |
-| HBM | Hudbay Minerals Inc. | -8.3% | -20.4% | -4.1% |
+| FCX | Freeport-McMoRan Inc. | -6.0% | -12.9% | +2.8% |
+| SCCO | Southern Copper Corporation | -7.9% | -10.9% | -0.7% |
+| TECK | Teck Resources Ltd | +2.2% | -1.4% | +4.0% |
+| HBM | Hudbay Minerals Inc. | -5.9% | -14.1% | -7.4% |

@@ -1,14 +1,14 @@
 # Education
 
-Sector: Consumer. Label: Avoid for now. Quadrant: Lagging, heading to Lagging. Data to 2026-11-03.
+Sector: Consumer. Label: No signal. Quadrant: Weakening, heading to Leading. Data to 2026-11-04.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| COUR | Coursera Inc. | -21.9% | -27.5% | -37.4% |
-| DUOL | Duolingo Inc. | -9.4% | -13.6% | +23.0% |
-| LRN | Stride Inc. | -5.2% | -5.9% | -20.0% |
-| LOPE | Grand Canyon Education Inc. | -5.5% | -4.4% | -12.1% |
-| MH | McGraw Hill Inc. | -13.4% | -5.9% | +4.5% |
-| STRA | Strategic Education Inc. | -7.3% | -7.2% | -6.2% |
-| APEI | American Public Education Inc. | -8.3% | -8.4% | -27.2% |
-| DAO | Youdao Inc. | +3.8% | +17.0% | +75.5% |
+| COUR | Coursera Inc. | -17.0% | -23.7% | -35.3% |
+| DUOL | Duolingo Inc. | +19.3% | +6.3% | +53.6% |
+| LRN | Stride Inc. | -1.1% | -0.5% | -14.8% |
+| LOPE | Grand Canyon Education Inc. | -2.1% | -3.2% | -8.4% |
+| MH | McGraw Hill Inc. | -6.6% | -2.6% | +9.0% |
+| STRA | Strategic Education Inc. | -4.2% | -7.9% | -5.4% |
+| APEI | American Public Education Inc. | -3.7% | -7.9% | -24.1% |
+| DAO | Youdao Inc. | +9.1% | +26.5% | +78.4% |

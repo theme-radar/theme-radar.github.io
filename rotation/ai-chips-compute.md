@@ -1,14 +1,14 @@
 # AI Chips & Compute
 
-Sector: Semis & Hardware. Label: Avoid for now. Quadrant: Lagging, heading to Improving. Data to 2026-11-03.
+Sector: Semis & Hardware. Label: Avoid for now. Quadrant: Lagging, heading to Lagging. Data to 2026-11-04.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| NVDA | NVIDIA Corporation | -5.2% | -13.6% | +5.2% |
-| AVGO | Broadcom Inc. | -3.0% | -11.6% | -22.3% |
-| AMD | Advanced Micro Devices Inc. | -13.6% | -25.5% | +36.2% |
-| MRVL | Marvell Technology Inc. | -29.4% | -40.1% | +1.9% |
-| ALAB | Astera Labs Inc. | -18.5% | -40.1% | +8.3% |
-| ARM | Arm Holdings plc | -10.6% | -33.1% | -3.0% |
-| CBRS | Cerebras Systems Inc. | -18.0% | -44.8% | — |
-| AMBA | Ambarella Inc. | -7.6% | -8.7% | -16.6% |
+| NVDA | NVIDIA Corporation | -7.1% | -15.7% | -3.7% |
+| AVGO | Broadcom Inc. | -7.5% | -13.6% | -23.5% |
+| AMD | Advanced Micro Devices Inc. | -15.5% | -24.3% | +16.0% |
+| MRVL | Marvell Technology Inc. | -36.5% | -43.9% | -7.2% |
+| ALAB | Astera Labs Inc. | -24.9% | -41.6% | +4.4% |
+| ARM | Arm Holdings plc | -18.7% | -34.8% | -19.2% |
+| CBRS | Cerebras Systems Inc. | -18.4% | -47.5% | — |
+| AMBA | Ambarella Inc. | -8.1% | -6.8% | -19.3% |

@@ -40,3 +40,12 @@
     (META, AMZN, GOOGL, AAPL), checkout and payment rails (SHOP, V, MA, PYPL,
     ADYEN, AFRM, GLBE) and retailers open to agents (WMT, CART, BBY). 14 names,
     equal weight. ADYEN is priced in euros (Amsterdam).
+- slug: ai-hardware
+  name: AI Hardware
+  source: AI Hardware_Claire
+  thread: AI Hardware
+  start: 2026-07-31
+  summary: >-
+    The chips, optics, memory and equipment behind the AI build-out, plus the
+    hyperscalers that buy them and the power and cooling that keep them
+    running. 19 names, equal weight. IFX is priced in euros (Xetra).

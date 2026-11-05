@@ -1,11 +1,11 @@
 # Thermal & Cooling
 
-Sector: AI Infra & Power. Label: Avoid for now. Quadrant: Improving, heading to Leading. Data to 2026-11-03.
+Sector: AI Infra & Power. Label: Avoid for now. Quadrant: Lagging, heading to Lagging. Data to 2026-11-04.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| VRT | Vertiv Holdings LLC | +13.1% | -6.8% | -30.8% |
-| MOD | Modine Manufacturing Company | -8.1% | -33.9% | -53.8% |
-| NVT | nVent Electric plc | -3.9% | -25.6% | -23.7% |
-| JCI | Johnson Controls International plc Ordin | -3.8% | -5.6% | +3.5% |
-| TT | Trane Technologies plc | -9.5% | -12.4% | -12.6% |
+| VRT | Vertiv Holdings LLC | -15.4% | -16.6% | -42.7% |
+| MOD | Modine Manufacturing Company | -31.3% | -48.0% | -64.1% |
+| NVT | nVent Electric plc | -19.5% | -32.8% | -34.6% |
+| JCI | Johnson Controls International plc Ordin | -10.7% | -9.9% | -1.8% |
+| TT | Trane Technologies plc | -8.5% | -12.2% | -15.9% |

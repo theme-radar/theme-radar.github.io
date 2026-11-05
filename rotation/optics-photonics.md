@@ -1,16 +1,16 @@
 # Optics & Photonics
 
-Sector: Semis & Hardware. Label: Avoid for now. Quadrant: Improving, heading to Leading. Data to 2026-11-03.
+Sector: Semis & Hardware. Label: Avoid for now. Quadrant: Lagging, heading to Lagging. Data to 2026-11-04.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| LITE | Lumentum Holdings Inc. | -21.5% | -40.0% | -31.6% |
-| COHR | Coherent Corp. | -12.0% | -38.7% | -38.2% |
-| CIEN | Ciena Corporation | -14.5% | -32.4% | -44.9% |
-| FN | Fabrinet | +5.9% | -25.7% | -45.0% |
-| AAOI | Applied Optoelectronics Inc. | -16.9% | -50.8% | -64.6% |
-| MTSI | MACOM Technology Solutions Holdings Inc. | -7.9% | -32.9% | -22.4% |
-| LPTH | LightPath Technologies Inc. | -6.7% | -28.1% | -35.4% |
-| POET | POET Technologies Inc. | -10.5% | -34.0% | -44.7% |
-| GLW | Corning Incorporated | -0.1% | -25.4% | -22.2% |
-| LUMN | Lumen Technologies Inc. | +1.3% | -19.6% | -48.5% |
+| LITE | Lumentum Holdings Inc. | -31.4% | -43.6% | -33.6% |
+| COHR | Coherent Corp. | -18.6% | -41.7% | -43.4% |
+| CIEN | Ciena Corporation | -25.1% | -39.0% | -52.8% |
+| FN | Fabrinet | -7.0% | -31.4% | -49.7% |
+| AAOI | Applied Optoelectronics Inc. | -27.9% | -51.6% | -66.8% |
+| MTSI | MACOM Technology Solutions Holdings Inc. | -10.7% | -30.6% | -24.8% |
+| LPTH | LightPath Technologies Inc. | -14.2% | -31.7% | -44.8% |
+| POET | POET Technologies Inc. | -16.4% | -34.2% | -49.8% |
+| GLW | Corning Incorporated | -9.5% | -27.3% | -34.6% |
+| LUMN | Lumen Technologies Inc. | -6.9% | -24.4% | -54.4% |

@@ -1,13 +1,13 @@
 # Crypto Equities
 
-Sector: Frontier Tech. Label: Avoid for now. Quadrant: Lagging, heading to Improving. Data to 2026-11-03.
+Sector: Frontier Tech. Label: Avoid for now. Quadrant: Lagging, heading to Improving. Data to 2026-11-04.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| COIN | Coinbase Global Inc. | -9.7% | -21.7% | -26.5% |
-| CRCL | Circle Internet Group Inc. | -7.8% | -10.6% | -34.1% |
-| HOOD | Robinhood Markets Inc. | -9.4% | -23.5% | +11.2% |
-| MSTR | Strategy Inc Common Stock | -4.1% | -17.6% | -27.4% |
-| GLXY | Galaxy Digital Inc. | -2.0% | -24.0% | -44.5% |
-| BMNR | BitMine Immersion Technologies Inc. | -5.0% | -21.6% | -11.1% |
-| BLSH | Bullish | -20.7% | -31.2% | -49.4% |
+| COIN | Coinbase Global Inc. | -6.7% | -15.1% | -23.5% |
+| CRCL | Circle Internet Group Inc. | -6.8% | -5.8% | -37.5% |
+| HOOD | Robinhood Markets Inc. | -4.4% | -20.2% | +10.6% |
+| MSTR | Strategy Inc Common Stock | -1.8% | -7.1% | -23.7% |
+| GLXY | Galaxy Digital Inc. | -26.8% | -34.7% | -55.1% |
+| BMNR | BitMine Immersion Technologies Inc. | -1.5% | -11.9% | -5.1% |
+| BLSH | Bullish | -19.5% | -27.3% | -47.8% |

@@ -1,21 +1,21 @@
 # Real Estate (REITs)
 
-Sector: Financials. Label: Watch. Quadrant: Leading, heading to Weakening. Data to 2026-11-03.
+Sector: Financials. Label: Already moving. Quadrant: Leading, heading to Leading. Data to 2026-11-04.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| AMH | American Homes 4 Rent | -1.0% | +3.5% | -2.4% |
-| INVH | Invitation Homes Inc. | -2.2% | +0.8% | -7.2% |
-| UMH | UMH Properties Inc. | -3.9% | -4.3% | -6.0% |
-| ELS | Equity Lifestyle Properties Inc. | +1.4% | +2.7% | -3.5% |
-| UDR | UDR Inc. | +0.9% | +6.0% | -2.7% |
-| SUI | Sun Communities Inc. | +0.3% | +2.9% | -8.0% |
-| ESS | Essex Property Trust Inc. | -3.6% | -2.8% | -0.7% |
-| CPT | Camden Property Trust | -0.8% | +3.1% | -3.9% |
-| SPG | Simon Property Group Inc. | +4.6% | +10.1% | +9.8% |
-| KIM | Kimco Realty Corporation (HC) | +5.4% | +12.9% | +6.2% |
-| REG | Regency Centers Corporation | +1.2% | +5.2% | -4.7% |
-| BRX | Brixmor Property Group Inc. | +2.4% | +7.1% | -2.4% |
-| MAC | Macerich Company (The) | +2.4% | +7.8% | +15.1% |
-| SKT | Tanger Inc. | +2.6% | +7.6% | +3.9% |
-| ADC | Agree Realty Corporation | +2.8% | +4.7% | -9.3% |
+| AMH | American Homes 4 Rent | +4.6% | +8.8% | +0.6% |
+| INVH | Invitation Homes Inc. | +3.1% | +6.6% | -4.1% |
+| UMH | UMH Properties Inc. | +3.2% | +2.9% | -1.7% |
+| ELS | Equity Lifestyle Properties Inc. | +7.8% | +7.8% | -1.3% |
+| UDR | UDR Inc. | +7.2% | +11.7% | +0.5% |
+| SUI | Sun Communities Inc. | +10.0% | +9.4% | -3.7% |
+| ESS | Essex Property Trust Inc. | +3.9% | +1.3% | +1.6% |
+| CPT | Camden Property Trust | +5.0% | +9.1% | -0.3% |
+| SPG | Simon Property Group Inc. | +8.2% | +15.6% | +11.2% |
+| KIM | Kimco Realty Corporation (HC) | +10.6% | +18.4% | +8.7% |
+| REG | Regency Centers Corporation | +5.0% | +8.5% | -2.8% |
+| BRX | Brixmor Property Group Inc. | +6.4% | +12.6% | -0.2% |
+| MAC | Macerich Company (The) | +8.6% | +16.7% | +16.5% |
+| SKT | Tanger Inc. | +6.4% | +11.3% | +4.4% |
+| ADC | Agree Realty Corporation | +5.7% | +7.4% | -8.6% |

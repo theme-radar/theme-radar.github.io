@@ -1,21 +1,21 @@
 # Managed Care & Providers
 
-Sector: Healthcare. Label: No signal. Quadrant: Leading, heading to Weakening. Data to 2026-11-03.
+Sector: Healthcare. Label: Already moving. Quadrant: Leading, heading to Leading. Data to 2026-11-04.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| UNH | UnitedHealth Group Incorporated Common S | -1.5% | +7.5% | +11.2% |
-| ELV | Elevance Health Inc. | -1.8% | +3.4% | +12.1% |
-| CI | The Cigna Group | -0.9% | +7.7% | +7.2% |
-| HUM | Humana Inc. | +0.7% | +3.4% | +74.5% |
-| CNC | Centene Corporation | -1.8% | +4.4% | +27.4% |
-| MOH | Molina Healthcare Inc | +4.2% | +6.5% | +8.2% |
-| HCA | HCA Healthcare Inc. | +2.9% | +7.1% | +8.0% |
-| THC | Tenet Healthcare Corporation | +1.8% | +3.2% | +42.7% |
-| UHS | Universal Health Services Inc. | -0.1% | +0.0% | +7.1% |
-| VTR | Ventas Inc. | +4.4% | +6.3% | +0.3% |
-| EHC | Encompass Health Corporation | +10.9% | +8.1% | +28.2% |
-| ACHC | Acadia Healthcare Company Inc. | -0.9% | +2.0% | +17.2% |
-| ENSG | The Ensign Group Inc. | +7.5% | +5.9% | +3.6% |
-| WELL | Welltower Inc. | +6.4% | +6.8% | +12.5% |
-| TDOC | Teladoc Health Inc. | +37.8% | +54.1% | +33.5% |
+| UNH | UnitedHealth Group Incorporated Common S | +0.6% | +8.9% | +11.5% |
+| ELV | Elevance Health Inc. | +4.8% | +7.4% | +15.9% |
+| CI | The Cigna Group | +3.5% | +9.7% | +8.3% |
+| HUM | Humana Inc. | +1.4% | +5.3% | +69.5% |
+| CNC | Centene Corporation | +13.4% | +17.0% | +37.4% |
+| MOH | Molina Healthcare Inc | +14.3% | +16.2% | +14.7% |
+| HCA | HCA Healthcare Inc. | +10.2% | +16.3% | +18.9% |
+| THC | Tenet Healthcare Corporation | +8.8% | +12.5% | +50.2% |
+| UHS | Universal Health Services Inc. | +14.1% | +12.5% | +16.6% |
+| VTR | Ventas Inc. | +10.0% | +11.4% | +3.0% |
+| EHC | Encompass Health Corporation | +15.5% | +15.2% | +34.3% |
+| ACHC | Acadia Healthcare Company Inc. | +9.3% | +10.3% | +27.5% |
+| ENSG | The Ensign Group Inc. | +2.3% | +11.3% | +7.0% |
+| WELL | Welltower Inc. | +9.2% | +12.2% | +14.6% |
+| TDOC | Teladoc Health Inc. | +41.0% | +74.5% | +42.6% |

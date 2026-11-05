@@ -1,19 +1,19 @@
 # Agriculture
 
-Sector: Materials. Label: No signal. Quadrant: Improving, heading to Leading. Data to 2026-11-03.
+Sector: Materials. Label: Research now. Quadrant: Improving, heading to Leading. Data to 2026-11-04.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| CTVA | Corteva Inc. Common Stock  | +2.1% | -14.6% | -5.6% |
-| CF | CF Industries Holdings Inc. | -3.1% | +0.7% | -8.8% |
-| MOS | Mosaic Company (The) | -2.0% | -12.0% | -20.8% |
-| FMC | FMC Corporation | +29.3% | -32.6% | -59.1% |
-| UAN | CVR Partners LP Common Units representin | -4.2% | -5.3% | -12.2% |
-| SMG | Scotts Miracle-Gro Company (The) | +4.1% | +22.3% | +2.9% |
-| NTR | Nutrien Ltd. | -0.1% | -2.6% | -10.2% |
-| AGCO | AGCO Corporation | +7.5% | -4.3% | -2.9% |
-| LNN | Lindsay Corporation | +3.2% | -6.4% | -2.1% |
-| CNH | CNH Industrial N.V. | +5.3% | -11.6% | +13.7% |
-| VMI | Valmont Industries Inc. | +0.2% | -10.1% | -15.5% |
-| TRMB | Trimble Inc. | +3.9% | +7.6% | -4.0% |
-| GNS | Genius Group Limited | -13.5% | -24.8% | -59.9% |
+| CTVA | Corteva Inc. Common Stock  | +8.2% | -15.2% | -0.1% |
+| CF | CF Industries Holdings Inc. | -6.9% | -2.4% | -6.8% |
+| MOS | Mosaic Company (The) | +17.9% | +8.3% | -8.2% |
+| FMC | FMC Corporation | +43.6% | -29.4% | -56.6% |
+| UAN | CVR Partners LP Common Units representin | -10.1% | -10.6% | -14.1% |
+| SMG | Scotts Miracle-Gro Company (The) | +12.6% | +36.0% | +6.9% |
+| NTR | Nutrien Ltd. | +4.3% | +3.0% | -2.4% |
+| AGCO | AGCO Corporation | +10.3% | +3.2% | -6.3% |
+| LNN | Lindsay Corporation | +5.8% | -3.5% | -3.8% |
+| CNH | CNH Industrial N.V. | +6.5% | -6.0% | +8.2% |
+| VMI | Valmont Industries Inc. | -3.2% | -9.4% | -19.5% |
+| TRMB | Trimble Inc. | -15.7% | -9.7% | -14.5% |
+| GNS | Genius Group Limited | -10.8% | -21.8% | -57.4% |

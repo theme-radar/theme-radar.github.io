@@ -1,21 +1,21 @@
 # E-commerce & Marketplaces
 
-Sector: Software & Internet. Label: No signal. Quadrant: Leading, heading to Weakening. Data to 2026-11-03.
+Sector: Software & Internet. Label: Already moving. Quadrant: Leading, heading to Leading. Data to 2026-11-04.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| AMZN | Amazon.com Inc. | -0.9% | -2.2% | -8.4% |
-| MELI | MercadoLibre Inc. | -1.1% | -10.5% | -8.5% |
-| CPNG | Coupang Inc. | +9.5% | +5.6% | -26.6% |
-| EBAY | eBay Inc. | +0.7% | +10.8% | +12.7% |
-| CHWY | Chewy Inc. | +2.5% | +21.6% | -10.2% |
-| W | Wayfair Inc. | -1.4% | +5.6% | +76.1% |
-| CART | Maplebear Inc. | -2.9% | +28.2% | +33.3% |
-| RVLV | Revolve Group Inc. | -4.8% | +1.5% | -8.2% |
-| UPWK | Upwork Inc. | +9.5% | +18.8% | -3.7% |
-| STUB | StubHub Holdings Inc. | +9.2% | +5.8% | -20.3% |
-| CSGP | CoStar Group Inc. | -2.2% | +13.4% | -10.3% |
-| BZ | KANZHUN LIMITED American Depository Shar | +2.8% | +13.3% | +23.7% |
-| ZG | Zillow Group Inc. | -5.5% | +10.5% | -28.6% |
-| CARG | CarGurus Inc. | +9.1% | +17.5% | -10.3% |
-| CVNA | Carvana Co. | +20.3% | +11.6% | -6.0% |
+| AMZN | Amazon.com Inc. | +4.5% | +2.4% | -3.3% |
+| MELI | MercadoLibre Inc. | +4.0% | -7.1% | -5.5% |
+| CPNG | Coupang Inc. | +20.8% | +15.1% | -4.7% |
+| EBAY | eBay Inc. | +6.0% | +16.3% | +15.7% |
+| CHWY | Chewy Inc. | +13.4% | +28.4% | -4.8% |
+| W | Wayfair Inc. | +8.4% | +18.3% | +87.2% |
+| CART | Maplebear Inc. | +1.4% | +31.0% | +47.5% |
+| RVLV | Revolve Group Inc. | -11.6% | -6.2% | -1.0% |
+| UPWK | Upwork Inc. | +14.8% | +23.0% | +2.5% |
+| STUB | StubHub Holdings Inc. | +17.7% | +9.8% | -13.3% |
+| CSGP | CoStar Group Inc. | +18.3% | +18.0% | -4.4% |
+| BZ | KANZHUN LIMITED American Depository Shar | +8.7% | +16.0% | +21.5% |
+| ZG | Zillow Group Inc. | +8.1% | +23.2% | -23.2% |
+| CARG | CarGurus Inc. | +16.6% | +26.9% | -2.4% |
+| CVNA | Carvana Co. | +31.4% | +23.6% | -0.4% |

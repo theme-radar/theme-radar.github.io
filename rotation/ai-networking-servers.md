@@ -1,17 +1,17 @@
 # AI Networking & Servers
 
-Sector: Semis & Hardware. Label: Avoid for now. Quadrant: Lagging, heading to Improving. Data to 2026-11-03.
+Sector: Semis & Hardware. Label: Avoid for now. Quadrant: Lagging, heading to Improving. Data to 2026-11-04.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| ANET | Arista Networks Inc. | -9.1% | -21.1% | -0.2% |
-| HPE | Hewlett Packard Enterprise Company | -12.7% | -24.7% | +76.8% |
-| SMCI | Super Micro Computer Inc. | -10.5% | -27.8% | +12.8% |
-| CSCO | Cisco Systems Inc. Common Stock (DE) | -7.5% | -12.7% | +9.2% |
-| DELL | Dell Technologies Inc. Class C Common St | -18.6% | -28.8% | +88.8% |
-| MSFT | Microsoft Corporation | -1.9% | -1.6% | +26.6% |
-| CRDO | Credo Technology Group Holding Ltd | -9.9% | -31.7% | -22.0% |
-| CLS | Celestica Inc. | -6.0% | -33.1% | -37.8% |
-| AMZN | Amazon.com Inc. | -0.9% | -2.2% | -8.4% |
-| EXTR | Extreme Networks Inc. | -4.4% | -7.0% | -3.8% |
-| UI | Ubiquiti Inc. | -9.0% | -12.9% | -46.3% |
+| ANET | Arista Networks Inc. | -4.4% | -17.3% | +21.4% |
+| HPE | Hewlett Packard Enterprise Company | -17.0% | -30.5% | +64.9% |
+| SMCI | Super Micro Computer Inc. | -17.3% | -34.1% | -14.6% |
+| CSCO | Cisco Systems Inc. Common Stock (DE) | -6.1% | -11.7% | +13.1% |
+| DELL | Dell Technologies Inc. Class C Common St | -24.6% | -35.7% | +55.9% |
+| MSFT | Microsoft Corporation | +4.7% | +4.9% | +34.3% |
+| CRDO | Credo Technology Group Holding Ltd | -21.4% | -38.0% | -31.2% |
+| CLS | Celestica Inc. | -21.1% | -36.4% | -42.9% |
+| AMZN | Amazon.com Inc. | +4.5% | +2.4% | -3.3% |
+| EXTR | Extreme Networks Inc. | -6.6% | -7.1% | -3.0% |
+| UI | Ubiquiti Inc. | -6.9% | -11.6% | -45.4% |

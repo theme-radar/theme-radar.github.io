@@ -1,21 +1,21 @@
 # Oil Services & Offshore
 
-Sector: Energy. Label: Avoid for now. Quadrant: Improving, heading to Lagging. Data to 2026-11-03.
+Sector: Energy. Label: Avoid for now. Quadrant: Lagging, heading to Lagging. Data to 2026-11-04.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| NE | Noble Corporation plc A | -2.8% | +6.1% | -12.0% |
-| SLB | SLB Limited | -3.6% | +4.3% | -6.9% |
-| HAL | Halliburton Company | -4.3% | +4.1% | -18.3% |
-| NOV | NOV Inc. | -10.0% | -2.7% | -8.1% |
-| WFRD | Weatherford International plc | -2.2% | +9.7% | -19.2% |
-| VAL | Valaris Limited | -8.4% | +9.7% | -3.0% |
-| RIG | Transocean Ltd (Switzerland) | -8.7% | +9.3% | -5.6% |
-| TDW | Tidewater Inc. | -9.5% | -5.6% | -8.9% |
-| OII | Oceaneering International Inc. | -8.0% | -15.1% | +1.4% |
-| FTI | TechnipFMC plc Ordinary Share | -6.5% | -4.5% | -11.1% |
-| LBRT | Liberty Energy Inc. | -12.6% | -26.4% | -56.0% |
-| HP | Helmerich & Payne Inc. | -4.6% | -4.4% | -8.8% |
-| PTEN | Patterson-UTI Energy Inc. | -3.8% | +3.0% | -5.3% |
-| SDRL | Seadrill Limited | -9.1% | +2.7% | -5.3% |
-| TGS | Transportadora de Gas del Sur SA TGS | -6.1% | -11.9% | -20.0% |
+| NE | Noble Corporation plc A | -12.8% | +0.1% | -16.4% |
+| SLB | SLB Limited | -4.1% | +7.5% | -6.5% |
+| HAL | Halliburton Company | -7.7% | +3.9% | -18.3% |
+| NOV | NOV Inc. | -6.4% | -3.2% | -10.7% |
+| WFRD | Weatherford International plc | -3.1% | +12.6% | -20.6% |
+| VAL | Valaris Limited | -18.6% | +1.1% | -10.8% |
+| RIG | Transocean Ltd (Switzerland) | -18.8% | +1.1% | -12.5% |
+| TDW | Tidewater Inc. | -15.0% | -11.8% | -10.0% |
+| OII | Oceaneering International Inc. | -12.6% | -16.7% | -1.8% |
+| FTI | TechnipFMC plc Ordinary Share | -9.7% | -5.7% | -12.8% |
+| LBRT | Liberty Energy Inc. | -25.3% | -32.2% | -59.5% |
+| HP | Helmerich & Payne Inc. | -13.6% | -8.9% | -9.3% |
+| PTEN | Patterson-UTI Energy Inc. | -15.5% | -5.2% | -8.0% |
+| SDRL | Seadrill Limited | -17.4% | -3.0% | -10.3% |
+| TGS | Transportadora de Gas del Sur SA TGS | -8.1% | -11.4% | -26.3% |

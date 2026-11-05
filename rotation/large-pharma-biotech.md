@@ -1,21 +1,21 @@
 # Large Pharma & Biotech
 
-Sector: Healthcare. Label: No signal. Quadrant: Leading, heading to Weakening. Data to 2026-11-03.
+Sector: Healthcare. Label: No signal. Quadrant: Leading, heading to Lagging. Data to 2026-11-04.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| MRK | Merck & Company Inc. Common Stock (new) | +2.0% | +1.9% | +27.9% |
-| BMY | Bristol-Myers Squibb Company | +0.3% | +3.6% | +8.4% |
-| AMGN | Amgen Inc. | +3.0% | +14.6% | +40.0% |
-| VRTX | Vertex Pharmaceuticals Incorporated | +1.9% | +5.7% | +25.1% |
-| REGN | Regeneron Pharmaceuticals Inc. | +19.3% | +31.8% | +38.6% |
-| PFE | Pfizer Inc. | +0.7% | +9.1% | +13.4% |
-| ABBV | AbbVie Inc. | -0.1% | +7.2% | +38.8% |
-| JNJ | Johnson & Johnson | -0.9% | +4.5% | +18.0% |
-| AZN | AstraZeneca PLC | +8.1% | +15.9% | +1.5% |
-| EXEL | Exelixis Inc. | +10.7% | +24.0% | +62.8% |
-| INCY | Incyte Corp. | +0.9% | +4.3% | +20.6% |
-| SNDX | Syndax Pharmaceuticals Inc. | +4.4% | -17.7% | -28.9% |
-| IOVA | Iovance Biotherapeutics Inc. | -39.4% | -31.9% | +121.9% |
-| NVCR | NovoCure Limited | -8.1% | -10.3% | -15.4% |
-| IMCR | Immunocore Holdings plc | -6.0% | +1.6% | +4.1% |
+| MRK | Merck & Company Inc. Common Stock (new) | +6.7% | +5.3% | +32.4% |
+| BMY | Bristol-Myers Squibb Company | +6.0% | +7.5% | +13.4% |
+| AMGN | Amgen Inc. | +5.9% | +15.8% | +44.5% |
+| VRTX | Vertex Pharmaceuticals Incorporated | +3.6% | +8.6% | +28.4% |
+| REGN | Regeneron Pharmaceuticals Inc. | +14.4% | +25.4% | +29.1% |
+| PFE | Pfizer Inc. | +4.5% | +10.0% | +16.1% |
+| ABBV | AbbVie Inc. | +3.1% | +8.6% | +43.8% |
+| JNJ | Johnson & Johnson | +1.9% | +6.9% | +23.0% |
+| AZN | AstraZeneca PLC | +11.5% | +18.0% | +2.2% |
+| EXEL | Exelixis Inc. | +9.8% | +24.5% | +49.4% |
+| INCY | Incyte Corp. | +5.1% | +8.3% | +23.0% |
+| SNDX | Syndax Pharmaceuticals Inc. | -27.0% | -38.6% | -49.4% |
+| IOVA | Iovance Biotherapeutics Inc. | -41.3% | -32.7% | +112.7% |
+| NVCR | NovoCure Limited | +3.1% | -0.3% | -11.4% |
+| IMCR | Immunocore Holdings plc | -10.4% | -0.6% | -4.9% |

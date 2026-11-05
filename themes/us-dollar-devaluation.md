@@ -10,4 +10,4 @@ Gold equities as a hedge against a weaker dollar.
 
 | Basket | Start | Since start | 20D | 6M | Label |
 |---|---|---|---|---|---|
-| [US Dollar Devaluation](https://theme-radar.github.io/baskets/usd-devaluation.md) | 2026-05-20 | -3.9% | -14.3% | -3.6% | Avoid for now |
+| [US Dollar Devaluation](https://theme-radar.github.io/baskets/usd-devaluation.md) | 2026-05-20 | +4.0% | -4.9% | -0.2% | No signal |

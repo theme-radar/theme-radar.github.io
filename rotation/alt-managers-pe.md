@@ -1,20 +1,20 @@
 # Alt Managers & PE
 
-Sector: Financials. Label: No signal. Quadrant: Leading, heading to Leading. Data to 2026-11-03.
+Sector: Financials. Label: Already moving. Quadrant: Leading, heading to Leading. Data to 2026-11-04.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| BX | Blackstone Inc. | +1.3% | +4.3% | -3.7% |
-| OWL | Blue Owl Capital Inc. | +11.0% | +13.9% | -3.9% |
-| KKR | KKR & Co. Inc. | +4.4% | +5.9% | -5.9% |
-| APO | Apollo Global Management Inc. (New) | -0.6% | -2.1% | -12.8% |
-| CG | The Carlyle Group Inc. | +6.2% | +5.2% | -20.3% |
-| TPG | TPG Inc. | +8.6% | +7.6% | +6.1% |
-| HLNE | Hamilton Lane Incorporated | +9.0% | +2.5% | -4.1% |
-| ARES | Ares Management Corporation | +5.5% | +9.5% | +4.9% |
-| STEP | StepStone Group Inc. | +5.8% | -1.7% | -19.4% |
-| BLK | BlackRock Inc. | +2.2% | +7.6% | +10.7% |
-| BEN | Franklin Templeton Inc. | +3.6% | -0.2% | +6.2% |
-| TROW | T. Rowe Price Group Inc. | +2.5% | +2.5% | +2.0% |
-| IVZ | Invesco Ltd | -0.6% | -7.0% | +5.3% |
-| AB | AllianceBernstein Holding L.P.  Units | -0.7% | -0.1% | -13.1% |
+| BX | Blackstone Inc. | +7.3% | +12.3% | +0.7% |
+| OWL | Blue Owl Capital Inc. | +10.1% | +16.9% | +1.0% |
+| KKR | KKR & Co. Inc. | +8.9% | +13.0% | +0.5% |
+| APO | Apollo Global Management Inc. (New) | +8.2% | +6.2% | -5.2% |
+| CG | The Carlyle Group Inc. | +9.4% | +13.1% | -15.8% |
+| TPG | TPG Inc. | +12.5% | +12.7% | +11.4% |
+| HLNE | Hamilton Lane Incorporated | +14.8% | +11.5% | +6.8% |
+| ARES | Ares Management Corporation | +10.5% | +18.2% | +10.5% |
+| STEP | StepStone Group Inc. | +8.0% | +5.0% | -13.5% |
+| BLK | BlackRock Inc. | +5.7% | +14.5% | +14.1% |
+| BEN | Franklin Templeton Inc. | +6.7% | +4.3% | +8.7% |
+| TROW | T. Rowe Price Group Inc. | +8.2% | +8.2% | +6.1% |
+| IVZ | Invesco Ltd | +2.6% | -3.5% | +7.6% |
+| AB | AllianceBernstein Holding L.P.  Units | +1.7% | +0.6% | -11.8% |

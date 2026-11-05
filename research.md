@@ -4,6 +4,7 @@
 - [AI Science](https://theme-radar.github.io/themes/ai-science.md): AI-driven scientific discovery, and the tools, labs and data it runs on.
 - [Agentic Commerce](https://theme-radar.github.io/themes/agentic-commerce.md): Agentic shopping, e-commerce, payments and the financial rails underneath.
 - [US Dollar Devaluation](https://theme-radar.github.io/themes/us-dollar-devaluation.md): Gold equities as a hedge against a weaker dollar.
+- [AI Hardware](https://theme-radar.github.io/themes/ai-hardware.md): The AI build-out in silicon, optics, memory, equipment and power, and how it gets financed.
 
 ## All pieces
 

@@ -1,21 +1,21 @@
 # Cybersecurity
 
-Sector: Software & Internet. Label: Avoid for now. Quadrant: Weakening, heading to Lagging. Data to 2026-11-03.
+Sector: Software & Internet. Label: Avoid for now. Quadrant: Weakening, heading to Lagging. Data to 2026-11-04.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| CRWD | CrowdStrike Holdings Inc. | -8.7% | -12.3% | +105.4% |
-| PANW | Palo Alto Networks Inc. | -12.8% | -16.6% | +90.3% |
-| FTNT | Fortinet Inc. | -30.8% | -33.0% | +42.5% |
-| ZS | Zscaler Inc. | -13.5% | +6.0% | +59.2% |
-| OKTA | Okta Inc. | -16.1% | -13.3% | +144.0% |
-| NTSK | Netskope Inc. | -16.5% | +11.2% | +102.8% |
-| SAIL | SailPoint Inc. | -15.2% | -4.6% | +56.3% |
-| NET | Cloudflare Inc. | -16.5% | -22.9% | +11.9% |
-| S | SentinelOne Inc. | -9.9% | -10.4% | +45.7% |
-| RBRK | Rubrik Inc. | -14.2% | -7.4% | +103.9% |
-| VRNS | Varonis Systems Inc. | -0.3% | -0.2% | +78.6% |
-| CVLT | Commvault Systems Inc. | -6.7% | +3.9% | +56.6% |
-| QLYS | Qualys Inc. | -7.6% | +5.3% | +128.5% |
-| TENB | Tenable Holdings Inc. | -3.3% | +19.1% | +123.7% |
-| CHKP | Check Point Software Technologies Ltd. | -11.0% | +7.8% | +20.9% |
+| CRWD | CrowdStrike Holdings Inc. | -9.6% | -9.2% | +106.0% |
+| PANW | Palo Alto Networks Inc. | -11.8% | -14.2% | +89.5% |
+| FTNT | Fortinet Inc. | -25.7% | -31.6% | +43.9% |
+| ZS | Zscaler Inc. | -12.3% | +5.1% | +61.7% |
+| OKTA | Okta Inc. | -14.2% | -12.4% | +146.7% |
+| NTSK | Netskope Inc. | -14.1% | +18.4% | +115.8% |
+| SAIL | SailPoint Inc. | -11.5% | +0.7% | +69.7% |
+| NET | Cloudflare Inc. | -16.4% | -22.3% | +7.2% |
+| S | SentinelOne Inc. | -8.2% | -7.2% | +53.2% |
+| RBRK | Rubrik Inc. | -12.5% | -3.8% | +105.9% |
+| VRNS | Varonis Systems Inc. | -0.2% | -0.3% | +76.8% |
+| CVLT | Commvault Systems Inc. | -2.4% | +8.1% | +60.5% |
+| QLYS | Qualys Inc. | -5.7% | +8.3% | +132.2% |
+| TENB | Tenable Holdings Inc. | -2.8% | +21.6% | +123.7% |
+| CHKP | Check Point Software Technologies Ltd. | -5.0% | +13.1% | +29.0% |

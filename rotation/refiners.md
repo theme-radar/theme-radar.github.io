@@ -1,11 +1,11 @@
 # Refiners
 
-Sector: Energy. Label: No signal. Quadrant: Lagging, heading to Lagging. Data to 2026-11-03.
+Sector: Energy. Label: Avoid for now. Quadrant: Lagging, heading to Lagging. Data to 2026-11-04.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| VLO | Valero Energy Corporation | +0.1% | -7.5% | +52.9% |
-| MPC | Marathon Petroleum Corporation | -2.0% | -1.2% | +64.0% |
-| PSX | Phillips 66 | +1.3% | +0.8% | +50.9% |
-| PBF | PBF Energy Inc. | +5.7% | -6.1% | +68.5% |
-| DK | Delek US Holdings Inc. | +0.8% | -6.4% | +44.5% |
+| VLO | Valero Energy Corporation | -6.0% | -13.9% | +54.4% |
+| MPC | Marathon Petroleum Corporation | -10.9% | -11.2% | +59.8% |
+| PSX | Phillips 66 | -5.2% | -4.4% | +51.2% |
+| PBF | PBF Energy Inc. | -0.9% | -13.2% | +74.6% |
+| DK | Delek US Holdings Inc. | -6.9% | -13.2% | +45.5% |

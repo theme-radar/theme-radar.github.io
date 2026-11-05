@@ -1,13 +1,13 @@
 # Tankers & Shipping
 
-Sector: Energy. Label: No signal. Quadrant: Lagging, heading to Lagging. Data to 2026-11-03.
+Sector: Energy. Label: Avoid for now. Quadrant: Lagging, heading to Lagging. Data to 2026-11-04.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| FRO | Frontline Plc | -2.5% | -0.6% | +37.7% |
-| STNG | Scorpio Tankers Inc. | +2.4% | +1.3% | +0.8% |
-| ZIM | ZIM Integrated Shipping Services Ltd. | -1.5% | +0.3% | +2.6% |
-| DHT | DHT Holdings Inc. | -0.9% | +1.7% | +25.2% |
-| INSW | International Seaways Inc. Common Stock  | -6.0% | -10.1% | +18.9% |
-| TNK | Teekay Tankers Ltd. | -2.6% | -5.6% | +15.7% |
-| LPG | Dorian LPG Ltd. | -4.3% | -8.0% | +29.8% |
+| FRO | Frontline Plc | -12.7% | -8.6% | +28.6% |
+| STNG | Scorpio Tankers Inc. | -4.1% | +0.6% | +3.0% |
+| ZIM | ZIM Integrated Shipping Services Ltd. | -4.2% | -5.3% | +2.1% |
+| DHT | DHT Holdings Inc. | -9.8% | -7.0% | +16.4% |
+| INSW | International Seaways Inc. Common Stock  | -11.1% | -15.0% | +15.8% |
+| TNK | Teekay Tankers Ltd. | -10.5% | -13.0% | +12.0% |
+| LPG | Dorian LPG Ltd. | -8.5% | -12.1% | +26.6% |

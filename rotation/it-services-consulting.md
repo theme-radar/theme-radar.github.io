@@ -1,21 +1,21 @@
 # IT Services & Consulting
 
-Sector: Software & Internet. Label: No signal. Quadrant: Leading, heading to Lagging. Data to 2026-11-03.
+Sector: Software & Internet. Label: No signal. Quadrant: Leading, heading to Lagging. Data to 2026-11-04.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| ACN | Accenture plc | +8.2% | +31.6% | +42.2% |
-| CTSH | Cognizant Technology Solutions Corporati | -3.6% | +11.6% | +23.1% |
-| IBM | International Business Machines Corporat | -0.1% | +13.0% | +9.2% |
-| EPAM | EPAM Systems Inc. | +3.6% | +26.4% | +26.0% |
-| GLOB | Globant S.A. | +6.5% | +28.7% | +14.2% |
-| SAP | SAP  SE ADS | -2.3% | +9.4% | +33.6% |
-| INFY | Infosys Limited | -1.5% | +13.1% | -4.2% |
-| KD | Kyndryl Holdings Inc. | -8.6% | +12.7% | -12.0% |
-| DXC | DXC Technology Company Common Stock  | -13.0% | +16.5% | +16.2% |
-| SAIC | Science Applications International Corpo | +1.4% | +21.7% | +58.6% |
-| G | Genpact Limited | +2.6% | +20.2% | +18.0% |
-| INOD | Innodata Inc. | -6.3% | -36.8% | -8.2% |
-| BAH | Booz Allen Hamilton Holding Corporation | +4.3% | +27.7% | +14.1% |
-| IT | Gartner Inc. | -7.6% | +10.4% | +36.6% |
-| FCN | FTI Consulting Inc. | +21.9% | +40.7% | +16.0% |
+| ACN | Accenture plc | +8.6% | +34.4% | +51.4% |
+| CTSH | Cognizant Technology Solutions Corporati | -0.9% | +15.3% | +28.1% |
+| IBM | International Business Machines Corporat | +0.4% | +15.3% | +12.7% |
+| EPAM | EPAM Systems Inc. | +0.8% | +26.8% | +28.4% |
+| GLOB | Globant S.A. | +11.0% | +35.4% | +18.1% |
+| SAP | SAP  SE ADS | +1.3% | +14.2% | +38.6% |
+| INFY | Infosys Limited | +1.2% | +16.0% | -3.2% |
+| KD | Kyndryl Holdings Inc. | +19.5% | +47.1% | +28.3% |
+| DXC | DXC Technology Company Common Stock  | -7.5% | +23.8% | +29.7% |
+| SAIC | Science Applications International Corpo | +1.0% | +23.2% | +59.4% |
+| G | Genpact Limited | +5.0% | +21.2% | +20.6% |
+| INOD | Innodata Inc. | -9.1% | -31.7% | -6.9% |
+| BAH | Booz Allen Hamilton Holding Corporation | +5.8% | +28.5% | +15.8% |
+| IT | Gartner Inc. | -5.5% | +11.5% | +37.2% |
+| FCN | FTI Consulting Inc. | +25.1% | +44.0% | +23.2% |
