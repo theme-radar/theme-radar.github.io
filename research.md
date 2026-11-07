@@ -8,6 +8,7 @@
 
 ## All pieces
 
+- [AI infrastructure, the next 12 months: re-evaluating the AI hardware basket](https://theme-radar.github.io/research/ai-infrastructure-next-12-months.md) (2026-11-06, AI Hardware)
 - [Earnings update Q3 2026: Amazon, Meta, Shopify](https://theme-radar.github.io/research/agentic-commerce-q3-2026-earnings.md) (2026-11-04, Agentic Commerce)
 - [Binance heist: what it means for our cyber basket](https://theme-radar.github.io/research/binance-heist-cyber-basket.md) (2026-11-04, Cybersecurity)
 - [Channel check: what a Nobel Prize-winning mRNA lab at Penn told us about AI, monkeys and the wet lab](https://theme-radar.github.io/research/penn-mrna-channel-check.md) (2026-11-04, AI Science)

@@ -1,20 +1,20 @@
 # Value Retail & Grocery
 
-Sector: Consumer. Label: Already moving. Quadrant: Leading, heading to Leading. Data to 2026-11-04.
+Sector: Consumer. Label: Watch. Quadrant: Leading, heading to Weakening. Data to 2026-11-06.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| WMT | Walmart Inc. | +8.8% | +19.4% | -0.7% |
-| COST | Costco Wholesale Corporation | +6.5% | +11.1% | +5.1% |
-| TJX | TJX Companies Inc. (The) | +4.6% | +4.3% | -6.9% |
-| ROST | Ross Stores Inc. | +7.8% | +9.0% | +7.3% |
-| BURL | Burlington Stores Inc. | +10.4% | -5.2% | -18.4% |
-| DG | Dollar General Corporation | +12.3% | +16.0% | +21.7% |
-| DLTR | Dollar Tree Inc. | +15.6% | +26.4% | +52.3% |
-| FIVE | Five Below Inc. | +7.5% | +23.4% | +7.6% |
-| BJ | BJ's Wholesale Club Holdings Inc. | +7.2% | +15.6% | +20.0% |
-| OLLI | Ollie's Bargain Outlet Holdings Inc. | +9.1% | +9.3% | +12.6% |
-| KR | Kroger Company (The) | +6.1% | +16.4% | +4.5% |
-| ACI | Albertsons Companies Inc. | +4.5% | +17.0% | -14.3% |
-| SFM | Sprouts Farmers Market Inc. | -12.3% | -16.6% | -30.5% |
-| UNFI | United Natural Foods Inc. | +1.3% | +10.8% | -6.8% |
+| WMT | Walmart Inc. | +1.6% | +12.7% | -3.8% |
+| COST | Costco Wholesale Corporation | +4.1% | +11.3% | +4.4% |
+| TJX | TJX Companies Inc. (The) | -3.6% | -2.5% | -11.8% |
+| ROST | Ross Stores Inc. | +1.2% | +3.9% | +2.3% |
+| BURL | Burlington Stores Inc. | +4.1% | -10.9% | -19.0% |
+| DG | Dollar General Corporation | +1.1% | +5.1% | +18.1% |
+| DLTR | Dollar Tree Inc. | -2.0% | +10.5% | +39.2% |
+| FIVE | Five Below Inc. | -0.3% | +11.9% | +7.7% |
+| BJ | BJ's Wholesale Club Holdings Inc. | +1.9% | +11.0% | +17.7% |
+| OLLI | Ollie's Bargain Outlet Holdings Inc. | +0.2% | +5.9% | +10.0% |
+| KR | Kroger Company (The) | +1.4% | +9.8% | +3.1% |
+| ACI | Albertsons Companies Inc. | -2.2% | +4.9% | -20.2% |
+| SFM | Sprouts Farmers Market Inc. | -1.2% | -24.6% | -40.7% |
+| UNFI | United Natural Foods Inc. | -1.2% | +1.8% | -13.4% |

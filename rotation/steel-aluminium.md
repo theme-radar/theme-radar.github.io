@@ -1,15 +1,15 @@
 # Steel & Aluminium
 
-Sector: Materials. Label: Watch. Quadrant: Leading, heading to Lagging. Data to 2026-11-04.
+Sector: Materials. Label: Avoid for now. Quadrant: Improving, heading to Lagging. Data to 2026-11-06.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| NUE | Nucor Corporation | -1.4% | +8.7% | +14.4% |
-| STLD | Steel Dynamics Inc. | -4.0% | +2.6% | -0.7% |
-| CLF | Cleveland-Cliffs Inc. | -7.9% | +6.5% | +15.2% |
-| AA | Alcoa Corporation Common Stock  | +0.9% | -4.5% | -35.9% |
-| CENX | Century Aluminum Company | -6.6% | -9.0% | -47.6% |
-| CMC | Commercial Metals Company | +3.6% | +5.1% | -7.9% |
-| RS | Reliance Inc. | +1.1% | +11.5% | +17.4% |
-| WS | Worthington Steel Inc. | -4.4% | +13.8% | -3.3% |
-| AMR | Alpha Metallurgical Resources Inc. | -5.8% | -9.6% | -22.0% |
+| NUE | Nucor Corporation | -10.5% | -2.1% | +7.7% |
+| STLD | Steel Dynamics Inc. | -11.1% | -6.5% | -5.2% |
+| CLF | Cleveland-Cliffs Inc. | -19.6% | -11.7% | +4.0% |
+| AA | Alcoa Corporation Common Stock  | +0.9% | -6.3% | -37.4% |
+| CENX | Century Aluminum Company | -0.7% | -8.9% | -43.2% |
+| CMC | Commercial Metals Company | -2.7% | -2.5% | -12.2% |
+| RS | Reliance Inc. | -4.6% | +3.6% | +12.9% |
+| WS | Worthington Steel Inc. | -9.7% | +1.9% | -9.2% |
+| AMR | Alpha Metallurgical Resources Inc. | -7.1% | -18.5% | -19.7% |

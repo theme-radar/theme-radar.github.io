@@ -1,17 +1,17 @@
 # Analog, Auto & Power Semis
 
-Sector: Semis & Hardware. Label: Avoid for now. Quadrant: Improving, heading to Leading. Data to 2026-11-04.
+Sector: Semis & Hardware. Label: Avoid for now. Quadrant: Improving, heading to Lagging. Data to 2026-11-06.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| TXN | Texas Instruments Incorporated | +0.5% | +7.8% | +7.6% |
-| ADI | Analog Devices Inc. | -5.1% | -0.9% | -2.3% |
-| NXPI | NXP Semiconductors N.V. | +5.3% | +12.7% | -12.7% |
-| ON | ON Semiconductor Corporation | -5.8% | -13.7% | -32.6% |
-| WOLF | Wolfspeed Inc. Common Stock New | -14.4% | -27.4% | -47.1% |
-| MCHP | Microchip Technology Incorporated | -5.4% | -3.4% | -26.8% |
-| STM | STMicroelectronics N.V. | -6.0% | -18.8% | -21.3% |
-| ALGM | Allegro MicroSystems Inc. | -11.7% | -15.6% | -39.2% |
-| NVTS | Navitas Semiconductor Corporation | -0.3% | -17.4% | -44.1% |
-| POWI | Power Integrations Inc. | -5.1% | -8.9% | -40.2% |
-| AOSL | Alpha and Omega Semiconductor Limited | -14.2% | -27.6% | -57.1% |
+| TXN | Texas Instruments Incorporated | -7.8% | -2.2% | -3.6% |
+| ADI | Analog Devices Inc. | -12.8% | -10.5% | -12.7% |
+| NXPI | NXP Semiconductors N.V. | -4.4% | +9.1% | -15.8% |
+| ON | ON Semiconductor Corporation | -11.7% | -18.3% | -38.6% |
+| WOLF | Wolfspeed Inc. Common Stock New | +8.2% | -22.3% | -48.9% |
+| MCHP | Microchip Technology Incorporated | -24.6% | -22.8% | -41.1% |
+| STM | STMicroelectronics N.V. | -10.7% | -19.9% | -29.5% |
+| ALGM | Allegro MicroSystems Inc. | -7.7% | -20.8% | -42.4% |
+| NVTS | Navitas Semiconductor Corporation | +1.5% | -20.1% | -52.7% |
+| POWI | Power Integrations Inc. | -8.2% | -18.0% | -45.1% |
+| AOSL | Alpha and Omega Semiconductor Limited | +2.7% | -15.3% | -37.7% |

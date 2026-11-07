@@ -1,11 +1,11 @@
 # Coal
 
-Sector: Energy. Label: Avoid for now. Quadrant: Lagging, heading to Lagging. Data to 2026-11-04.
+Sector: Energy. Label: Avoid for now. Quadrant: Lagging, heading to Lagging. Data to 2026-11-06.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| BTU | Peabody Energy Corporation Common Stock  | -24.4% | -31.5% | -31.8% |
-| HCC | Warrior Met Coal Inc. | -3.0% | -9.7% | -7.6% |
-| ARLP | Alliance Resource Partners L.P. Common U | -5.2% | +2.4% | -1.9% |
-| NRP | Natural Resource Partners LP Limited Par | +0.8% | +7.4% | +2.9% |
-| WKC | World Kinect Corporation | +3.8% | +3.6% | +41.7% |
+| BTU | Peabody Energy Corporation Common Stock  | -27.7% | -36.2% | -32.0% |
+| HCC | Warrior Met Coal Inc. | -2.1% | -9.6% | -2.0% |
+| ARLP | Alliance Resource Partners L.P. Common U | -8.6% | -0.9% | -1.8% |
+| NRP | Natural Resource Partners LP Limited Par | +1.8% | +5.9% | +5.6% |
+| WKC | World Kinect Corporation | -4.4% | -1.9% | +31.9% |

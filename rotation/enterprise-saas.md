@@ -1,21 +1,21 @@
 # Enterprise SaaS
 
-Sector: Software & Internet. Label: No signal. Quadrant: Weakening, heading to Lagging. Data to 2026-11-04.
+Sector: Software & Internet. Label: No signal. Quadrant: Weakening, heading to Lagging. Data to 2026-11-06.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| NOW | ServiceNow Inc. | -27.5% | -21.1% | +22.2% |
-| WDAY | Workday Inc. | -1.2% | +9.5% | +64.6% |
-| CRM | Salesforce Inc. | -6.2% | +1.1% | +25.3% |
-| ADBE | Adobe Inc. | -0.5% | +6.8% | -0.7% |
-| TEAM | Atlassian Corporation | -13.7% | -3.0% | +113.8% |
-| MSFT | Microsoft Corporation | +4.7% | +4.9% | +34.3% |
-| APPF | AppFolio Inc. | +15.5% | +20.2% | +41.7% |
-| VEEV | Veeva Systems Inc. | -2.3% | +10.0% | +85.6% |
-| GWRE | Guidewire Software Inc. | +2.2% | +4.0% | +30.1% |
-| HUBS | HubSpot Inc. | -13.0% | -1.7% | -7.9% |
-| DOCU | DocuSign Inc. | -3.7% | +16.8% | +73.0% |
-| MNDY | monday.com Ltd. | -1.0% | +15.9% | +30.9% |
-| ZM | Zoom Communications Inc. | -8.4% | -3.1% | -12.6% |
-| PCTY | Paylocity Holding Corporation | +1.5% | +15.5% | +66.7% |
-| ORCL | Oracle Corporation | -14.4% | -13.8% | -36.2% |
+| NOW | ServiceNow Inc. | -3.0% | -27.6% | +11.8% |
+| WDAY | Workday Inc. | -2.5% | +3.4% | +50.9% |
+| CRM | Salesforce Inc. | -6.8% | -6.8% | +17.5% |
+| ADBE | Adobe Inc. | -4.4% | -1.2% | -5.4% |
+| TEAM | Atlassian Corporation | -19.8% | -25.7% | +67.8% |
+| MSFT | Microsoft Corporation | +1.7% | -0.8% | +27.8% |
+| APPF | AppFolio Inc. | +8.2% | +14.1% | +38.5% |
+| VEEV | Veeva Systems Inc. | -2.9% | +2.6% | +82.6% |
+| GWRE | Guidewire Software Inc. | -0.7% | -3.5% | +16.6% |
+| HUBS | HubSpot Inc. | -14.6% | -12.1% | +1.7% |
+| DOCU | DocuSign Inc. | -5.5% | +9.2% | +62.0% |
+| MNDY | monday.com Ltd. | -8.0% | -1.2% | +22.0% |
+| ZM | Zoom Communications Inc. | -5.9% | -8.0% | -17.7% |
+| PCTY | Paylocity Holding Corporation | +1.3% | +12.5% | +56.0% |
+| ORCL | Oracle Corporation | -11.2% | -17.9% | -40.8% |

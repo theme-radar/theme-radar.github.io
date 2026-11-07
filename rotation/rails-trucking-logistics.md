@@ -1,21 +1,21 @@
 # Rails, Trucking & Logistics
 
-Sector: Industrials. Label: Already moving. Quadrant: Leading, heading to Leading. Data to 2026-11-04.
+Sector: Industrials. Label: No signal. Quadrant: Leading, heading to Weakening. Data to 2026-11-06.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| UNP | Union Pacific Corporation | +3.6% | +12.3% | +15.0% |
-| JBHT | J.B. Hunt Transport Services Inc. | +1.7% | +2.0% | -7.7% |
-| CSX | CSX Corporation | +0.1% | +11.2% | +14.1% |
-| NSC | Norfolk Southern Corporation | +1.8% | +9.9% | +8.5% |
-| ODFL | Old Dominion Freight Line Inc. | +3.5% | +2.1% | -10.6% |
-| XPO | XPO Inc. | +3.5% | +4.3% | -11.1% |
-| SAIA | Saia Inc. | +11.4% | +8.1% | -19.5% |
-| CHRW | C.H. Robinson Worldwide Inc. | +4.9% | -1.0% | -20.6% |
-| RXO | RXO Inc. | +2.9% | +0.1% | +44.8% |
-| LSTR | Landstar System Inc. | +9.0% | -9.4% | -16.6% |
-| YMM | Full Truck Alliance Co. Ltd. | +11.5% | +7.9% | -0.8% |
-| EXPD | Expeditors International of Washington I | +0.3% | +3.6% | +30.7% |
-| ARCB | ArcBest Corporation | +10.7% | +9.8% | +14.3% |
-| FDX | FedEx Corporation | +8.2% | +14.0% | +8.4% |
-| UPS | United Parcel Service Inc. | +8.2% | +23.9% | +14.4% |
+| UNP | Union Pacific Corporation | -4.5% | +4.2% | +9.6% |
+| JBHT | J.B. Hunt Transport Services Inc. | -1.6% | -5.1% | -11.3% |
+| CSX | CSX Corporation | -5.5% | +3.9% | +9.6% |
+| NSC | Norfolk Southern Corporation | -6.6% | +0.7% | +2.5% |
+| ODFL | Old Dominion Freight Line Inc. | -4.4% | -9.4% | -16.9% |
+| XPO | XPO Inc. | -6.7% | -3.5% | -13.5% |
+| SAIA | Saia Inc. | -3.7% | -1.4% | -26.2% |
+| CHRW | C.H. Robinson Worldwide Inc. | +0.6% | -11.9% | -26.9% |
+| RXO | RXO Inc. | +0.4% | -5.1% | +26.9% |
+| LSTR | Landstar System Inc. | +0.4% | -15.2% | -21.8% |
+| YMM | Full Truck Alliance Co. Ltd. | +9.4% | +7.0% | +4.0% |
+| EXPD | Expeditors International of Washington I | -7.2% | -4.5% | +17.8% |
+| ARCB | ArcBest Corporation | +2.0% | -1.1% | +5.7% |
+| FDX | FedEx Corporation | -1.6% | +5.6% | +1.0% |
+| UPS | United Parcel Service Inc. | +0.1% | +14.5% | +7.5% |

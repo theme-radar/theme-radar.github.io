@@ -1,21 +1,21 @@
 # Cruise, Hotels & Online Travel
 
-Sector: Consumer. Label: Already moving. Quadrant: Leading, heading to Weakening. Data to 2026-11-04.
+Sector: Consumer. Label: No signal. Quadrant: Leading, heading to Weakening. Data to 2026-11-06.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| MAR | Marriott International | +7.7% | +19.2% | +18.3% |
-| HLT | Hilton Worldwide Holdings Inc. Common St | +7.7% | +17.5% | +17.1% |
-| H | Hyatt Hotels Corporation | +9.7% | +21.0% | +12.3% |
-| RCL | Royal Caribbean Cruises Ltd. | +11.7% | +18.0% | +16.1% |
-| CCL | Carnival Corporation Ltd. | +11.6% | +19.8% | +13.8% |
-| NCLH | Norwegian Cruise Line Holdings Ltd. | +15.8% | +23.6% | +4.8% |
-| VIK | Viking Holdings Ltd | +5.4% | +12.2% | +5.9% |
-| BKNG | Booking Holdings Inc. | +15.6% | +9.7% | +1.6% |
-| EXPE | Expedia Group Inc. | +14.6% | +22.0% | +28.1% |
-| ABNB | Airbnb Inc. | +6.2% | +9.8% | +26.1% |
-| WH | Wyndham Hotels & Resorts Inc. Common Sto | +8.3% | +11.4% | -3.4% |
-| HST | Host Hotels & Resorts Inc. | +3.3% | +17.4% | +20.4% |
-| PK | Park Hotels & Resorts Inc. Common Stock  | +1.9% | +11.6% | +51.2% |
-| OSW | OneSpaWorld Holdings Limited | +11.5% | +34.3% | +23.6% |
-| LIND | Lindblad Expeditions Holdings Inc. | -6.4% | -4.3% | +54.5% |
+| MAR | Marriott International | +4.3% | +13.8% | +17.9% |
+| HLT | Hilton Worldwide Holdings Inc. Common St | +3.8% | +13.4% | +16.9% |
+| H | Hyatt Hotels Corporation | +2.1% | +13.8% | +10.0% |
+| RCL | Royal Caribbean Cruises Ltd. | +6.5% | +15.9% | +18.9% |
+| CCL | Carnival Corporation Ltd. | +2.6% | +12.3% | +12.1% |
+| NCLH | Norwegian Cruise Line Holdings Ltd. | +2.0% | +15.1% | +4.9% |
+| VIK | Viking Holdings Ltd | +0.0% | +7.2% | +5.8% |
+| BKNG | Booking Holdings Inc. | +8.5% | +0.2% | -3.2% |
+| EXPE | Expedia Group Inc. | -9.3% | -5.5% | +12.7% |
+| ABNB | Airbnb Inc. | +15.6% | +14.5% | +34.3% |
+| WH | Wyndham Hotels & Resorts Inc. Common Sto | +2.9% | +4.4% | -6.4% |
+| HST | Host Hotels & Resorts Inc. | -2.7% | +8.7% | +10.5% |
+| PK | Park Hotels & Resorts Inc. Common Stock  | -5.2% | +3.8% | +39.1% |
+| OSW | OneSpaWorld Holdings Limited | +3.0% | +31.1% | +25.4% |
+| LIND | Lindblad Expeditions Holdings Inc. | -9.0% | -5.1% | +61.0% |

@@ -11,4 +11,4 @@ Agentic shopping, e-commerce, payments and the financial rails underneath.
 
 | Basket | Start | Since start | 20D | 6M | Label |
 |---|---|---|---|---|---|
-| [Agentic Commerce](https://theme-radar.github.io/baskets/agentic-commerce.md) | 2026-10-14 | +4.2% | +7.2% | +23.0% | Already moving |
+| [Agentic Commerce](https://theme-radar.github.io/baskets/agentic-commerce.md) | 2026-10-14 | +1.2% | +1.7% | +19.5% | No signal |

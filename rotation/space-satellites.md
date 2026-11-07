@@ -1,17 +1,17 @@
 # Space & Satellites
 
-Sector: Frontier Tech. Label: Avoid for now. Quadrant: Improving, heading to Lagging. Data to 2026-11-04.
+Sector: Frontier Tech. Label: No signal. Quadrant: Improving, heading to Leading. Data to 2026-11-06.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| RKLB | Rocket Lab Corporation | -10.6% | -27.2% | -38.1% |
-| PL | Planet Labs PBC | -11.7% | -28.7% | -68.1% |
-| ASTS | AST SpaceMobile Inc. | -15.8% | -41.3% | -49.6% |
-| LUNR | Intuitive Machines Inc. | -14.3% | -31.1% | -62.3% |
-| RDW | Redwire Corporation | -14.3% | -24.6% | -19.9% |
-| FLY | Firefly Aerospace Inc. | -13.6% | -20.2% | -50.3% |
-| VOYG | Voyager Technologies Inc. | -15.0% | -19.8% | -13.3% |
-| IRDM | Iridium Communications Inc | -4.6% | -9.4% | +7.9% |
-| VSAT | ViaSat Inc. | -14.7% | -5.8% | -0.8% |
-| GSAT | Globalstar Inc. | +0.6% | +1.1% | +3.2% |
-| YSS | York Space Systems Inc. | -7.6% | -17.5% | -83.5% |
+| RKLB | Rocket Lab Corporation | -3.0% | -22.2% | -49.7% |
+| PL | Planet Labs PBC | -6.8% | -27.0% | -67.8% |
+| ASTS | AST SpaceMobile Inc. | -21.1% | -36.6% | -56.9% |
+| LUNR | Intuitive Machines Inc. | -1.9% | -20.6% | -63.9% |
+| RDW | Redwire Corporation | -14.1% | -24.7% | -34.9% |
+| FLY | Firefly Aerospace Inc. | +15.8% | +3.8% | -47.7% |
+| VOYG | Voyager Technologies Inc. | -9.3% | -12.0% | -19.4% |
+| IRDM | Iridium Communications Inc | -1.9% | -7.2% | +6.2% |
+| VSAT | ViaSat Inc. | -17.0% | -11.2% | -8.7% |
+| GSAT | Globalstar Inc. | +2.5% | +0.6% | +2.7% |
+| YSS | York Space Systems Inc. | -0.9% | -11.9% | -82.0% |

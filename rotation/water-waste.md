@@ -1,21 +1,21 @@
 # Water & Waste
 
-Sector: Industrials. Label: Already moving. Quadrant: Leading, heading to Weakening. Data to 2026-11-04.
+Sector: Industrials. Label: No signal. Quadrant: Leading, heading to Weakening. Data to 2026-11-06.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| XYL | Xylem Inc. Common Stock New | +14.5% | -0.8% | -14.8% |
-| AWK | American Water Works Company Inc. | +7.0% | +17.5% | +19.1% |
-| PNR | Pentair plc. Ordinary Share | +11.9% | +38.0% | -9.9% |
-| VLTO | Veralto Corp Common Stock  | +13.8% | +22.2% | +34.7% |
-| ECL | Ecolab Inc. | +7.7% | +13.3% | +19.6% |
-| WMS | Advanced Drainage Systems Inc. | +10.7% | +14.3% | -3.1% |
-| ZWS | Zurn Elkay Water Solutions Corporation | +3.8% | -2.9% | -11.7% |
-| CWT | California Water Service Group | +6.0% | +10.0% | +16.1% |
-| WM | Waste Management Inc. | +5.9% | +14.1% | +8.2% |
-| RSG | Republic Services Inc. | +5.1% | +13.5% | +22.9% |
-| CLH | Clean Harbors Inc. | -8.0% | -8.6% | +0.1% |
-| CWST | Casella Waste Systems Inc. | +11.7% | +18.1% | +16.9% |
-| DAR | Darling Ingredients Inc. | -5.7% | -12.9% | -17.1% |
-| FSS | Federal Signal Corporation | +4.0% | +3.1% | -5.4% |
-| WCN | Waste Connections Inc. | +6.7% | +23.6% | +25.0% |
+| XYL | Xylem Inc. Common Stock New | +5.9% | -4.8% | -14.0% |
+| AWK | American Water Works Company Inc. | +4.1% | +16.6% | +20.2% |
+| PNR | Pentair plc. Ordinary Share | +2.8% | +29.8% | -11.3% |
+| VLTO | Veralto Corp Common Stock  | +5.4% | +20.8% | +34.8% |
+| ECL | Ecolab Inc. | -0.8% | +6.7% | +18.3% |
+| WMS | Advanced Drainage Systems Inc. | -8.2% | -1.2% | -13.2% |
+| ZWS | Zurn Elkay Water Solutions Corporation | -3.0% | -6.7% | -15.1% |
+| CWT | California Water Service Group | +5.2% | +11.1% | +17.4% |
+| WM | Waste Management Inc. | +1.2% | +13.1% | +9.7% |
+| RSG | Republic Services Inc. | +1.1% | +13.8% | +23.4% |
+| CLH | Clean Harbors Inc. | -6.0% | -10.4% | -2.4% |
+| CWST | Casella Waste Systems Inc. | +5.2% | +17.2% | +14.9% |
+| DAR | Darling Ingredients Inc. | -9.9% | -16.7% | -20.5% |
+| FSS | Federal Signal Corporation | +0.7% | -0.1% | -4.1% |
+| WCN | Waste Connections Inc. | +2.7% | +23.7% | +24.5% |

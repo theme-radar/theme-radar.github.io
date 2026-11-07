@@ -1,7 +1,7 @@
 {
  "site": "Theme Radar",
- "asof": "2026-11-04",
- "generated": "2026-11-05T08:57:50Z",
+ "asof": "2026-11-06",
+ "generated": "2026-11-07T10:45:15Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "method": "Each theme is an equal-weight index of its stocks (daily returns averaged across names). B is the benchmark (SPY or RSP). Weekly points use the last close of each week.\n\n1. Relative strength: RS_t = 100 × P_t / B_t\n2. Trend of relative strength: R_t = EMA3( 100 × RS_t / SMA10(RS)_t )\n3. RS-Ratio (x-axis): RS-Ratio_t = 100 + ( R_t − mean40(R) ) / sd40(R)\n4. Change in RS-Ratio: M_t = EMA3( RS-Ratio_t − RS-Ratio_(t−1) )\n5. RS-Momentum (y-axis): RS-Momentum_t = 100 + ( M_t − mean40(M) ) / sd40(M)\n\nSMA10 = 10-week simple average. EMA3 = 3-week exponential average (alpha = 0.5). mean40 and sd40 = mean and standard deviation over the last 40 weeks. 100 is neutral on both axes. Quadrants: Leading (both > 100), Weakening (RS-Ratio > 100, RS-Momentum < 100), Lagging (both < 100), Improving (RS-Ratio < 100, RS-Momentum > 100). Heading is the direction of the latest weekly move.",
@@ -118,10 +118,10 @@
    "theme": "AI Chips & Compute",
    "sector": "Semis & Hardware",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.292,
-   "rs_momentum": 99.044
+   "rs_ratio": 98.165,
+   "rs_momentum": 98.857
   },
   {
    "theme": "Memory & Storage",
@@ -235,10 +235,10 @@
    "theme": "Memory & Storage",
    "sector": "Semis & Hardware",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.282,
-   "rs_momentum": 99.61
+   "rs_ratio": 98.011,
+   "rs_momentum": 99.229
   },
   {
    "theme": "Semicap & Test",
@@ -352,10 +352,10 @@
    "theme": "Semicap & Test",
    "sector": "Semis & Hardware",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 97.972,
-   "rs_momentum": 99.752
+   "rs_ratio": 97.904,
+   "rs_momentum": 99.65
   },
   {
    "theme": "Foundry & Packaging",
@@ -469,10 +469,10 @@
    "theme": "Foundry & Packaging",
    "sector": "Semis & Hardware",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.389,
-   "rs_momentum": 99.447
+   "rs_ratio": 98.268,
+   "rs_momentum": 99.302
   },
   {
    "theme": "Analog, Auto & Power Semis",
@@ -586,10 +586,10 @@
    "theme": "Analog, Auto & Power Semis",
    "sector": "Semis & Hardware",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.498,
-   "rs_momentum": 100.214
+   "rs_ratio": 99.384,
+   "rs_momentum": 100.053
   },
   {
    "theme": "Optics & Photonics",
@@ -703,10 +703,10 @@
    "theme": "Optics & Photonics",
    "sector": "Semis & Hardware",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.402,
-   "rs_momentum": 99.748
+   "rs_ratio": 98.325,
+   "rs_momentum": 99.644
   },
   {
    "theme": "AI Networking & Servers",
@@ -820,10 +820,10 @@
    "theme": "AI Networking & Servers",
    "sector": "Semis & Hardware",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 97.843,
-   "rs_momentum": 98.498
+   "rs_ratio": 97.762,
+   "rs_momentum": 98.368
   },
   {
    "theme": "Cybersecurity",
@@ -937,10 +937,10 @@
    "theme": "Cybersecurity",
    "sector": "Software & Internet",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.285,
-   "rs_momentum": 99.141
+   "rs_ratio": 100.144,
+   "rs_momentum": 98.949
   },
   {
    "theme": "Data & Observability",
@@ -1054,10 +1054,10 @@
    "theme": "Data & Observability",
    "sector": "Software & Internet",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.852,
-   "rs_momentum": 98.724
+   "rs_ratio": 99.851,
+   "rs_momentum": 98.723
   },
   {
    "theme": "Enterprise SaaS",
@@ -1171,10 +1171,10 @@
    "theme": "Enterprise SaaS",
    "sector": "Software & Internet",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.404,
-   "rs_momentum": 99.493
+   "rs_ratio": 100.34,
+   "rs_momentum": 99.409
   },
   {
    "theme": "EDA & Industrial Software",
@@ -1288,10 +1288,10 @@
    "theme": "EDA & Industrial Software",
    "sector": "Software & Internet",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 102.13,
-   "rs_momentum": 100.316
+   "rs_ratio": 102.318,
+   "rs_momentum": 100.633
   },
   {
    "theme": "IT Services & Consulting",
@@ -1405,10 +1405,10 @@
    "theme": "IT Services & Consulting",
    "sector": "Software & Internet",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 102.058,
-   "rs_momentum": 100.286
+   "rs_ratio": 102.225,
+   "rs_momentum": 100.489
   },
   {
    "theme": "Social & Ad-tech",
@@ -1522,10 +1522,10 @@
    "theme": "Social & Ad-tech",
    "sector": "Software & Internet",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.141,
-   "rs_momentum": 99.27
+   "rs_ratio": 99.53,
+   "rs_momentum": 99.893
   },
   {
    "theme": "Streaming & Media",
@@ -1639,10 +1639,10 @@
    "theme": "Streaming & Media",
    "sector": "Software & Internet",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 101.603,
-   "rs_momentum": 101.656
+   "rs_ratio": 101.714,
+   "rs_momentum": 101.772
   },
   {
    "theme": "Video Games",
@@ -1756,10 +1756,10 @@
    "theme": "Video Games",
    "sector": "Software & Internet",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.975,
-   "rs_momentum": 100.552
+   "rs_ratio": 102.049,
+   "rs_momentum": 102.404
   },
   {
    "theme": "E-commerce & Marketplaces",
@@ -1873,10 +1873,10 @@
    "theme": "E-commerce & Marketplaces",
    "sector": "Software & Internet",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 101.955,
-   "rs_momentum": 101.327
+   "rs_ratio": 101.823,
+   "rs_momentum": 101.159
   },
   {
    "theme": "China Internet",
@@ -1990,10 +1990,10 @@
    "theme": "China Internet",
    "sector": "Software & Internet",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.712,
-   "rs_momentum": 101.636
+   "rs_ratio": 101.593,
+   "rs_momentum": 102.834
   },
   {
    "theme": "Quantum",
@@ -2107,10 +2107,10 @@
    "theme": "Quantum",
    "sector": "Frontier Tech",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.864,
-   "rs_momentum": 99.672
+   "rs_ratio": 99.174,
+   "rs_momentum": 100.283
   },
   {
    "theme": "Space & Satellites",
@@ -2224,10 +2224,10 @@
    "theme": "Space & Satellites",
    "sector": "Frontier Tech",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.971,
-   "rs_momentum": 100.201
+   "rs_ratio": 99.139,
+   "rs_momentum": 100.445
   },
   {
    "theme": "Robotics & Autonomy",
@@ -2341,10 +2341,10 @@
    "theme": "Robotics & Autonomy",
    "sector": "Frontier Tech",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 97.766,
-   "rs_momentum": 99.743
+   "rs_ratio": 98.194,
+   "rs_momentum": 100.546
   },
   {
    "theme": "EVs & Batteries",
@@ -2458,10 +2458,10 @@
    "theme": "EVs & Batteries",
    "sector": "Frontier Tech",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.03,
-   "rs_momentum": 101.995
+   "rs_ratio": 99.032,
+   "rs_momentum": 101.998
   },
   {
    "theme": "Crypto Equities",
@@ -2575,10 +2575,10 @@
    "theme": "Crypto Equities",
    "sector": "Frontier Tech",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.958,
-   "rs_momentum": 98.949
+   "rs_ratio": 98.792,
+   "rs_momentum": 98.706
   },
   {
    "theme": "Neoclouds & BTC Miners",
@@ -2692,10 +2692,10 @@
    "theme": "Neoclouds & BTC Miners",
    "sector": "AI Infra & Power",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.077,
-   "rs_momentum": 99.647
+   "rs_ratio": 98.097,
+   "rs_momentum": 99.687
   },
   {
    "theme": "Data Center REITs",
@@ -2809,10 +2809,10 @@
    "theme": "Data Center REITs",
    "sector": "AI Infra & Power",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.745,
-   "rs_momentum": 101.226
+   "rs_ratio": 98.569,
+   "rs_momentum": 100.852
   },
   {
    "theme": "Grid & Electrical Equipment",
@@ -2926,10 +2926,10 @@
    "theme": "Grid & Electrical Equipment",
    "sector": "AI Infra & Power",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.325,
-   "rs_momentum": 100.189
+   "rs_ratio": 99.354,
+   "rs_momentum": 100.232
   },
   {
    "theme": "Thermal & Cooling",
@@ -3043,10 +3043,10 @@
    "theme": "Thermal & Cooling",
    "sector": "AI Infra & Power",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.087,
-   "rs_momentum": 99.193
+   "rs_ratio": 98.052,
+   "rs_momentum": 99.142
   },
   {
    "theme": "Construction & DC Build",
@@ -3160,10 +3160,10 @@
    "theme": "Construction & DC Build",
    "sector": "AI Infra & Power",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.889,
-   "rs_momentum": 100.363
+   "rs_ratio": 98.859,
+   "rs_momentum": 100.316
   },
   {
    "theme": "Power Producers (IPPs)",
@@ -3277,10 +3277,10 @@
    "theme": "Power Producers (IPPs)",
    "sector": "AI Infra & Power",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.294,
-   "rs_momentum": 98.071
+   "rs_ratio": 100.237,
+   "rs_momentum": 99.232
   },
   {
    "theme": "Nuclear & Uranium",
@@ -3394,10 +3394,10 @@
    "theme": "Nuclear & Uranium",
    "sector": "AI Infra & Power",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.044,
-   "rs_momentum": 99.521
+   "rs_ratio": 98.376,
+   "rs_momentum": 100.255
   },
   {
    "theme": "Solar",
@@ -3511,10 +3511,10 @@
    "theme": "Solar",
    "sector": "AI Infra & Power",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.497,
-   "rs_momentum": 101.269
+   "rs_ratio": 100.835,
+   "rs_momentum": 101.653
   },
   {
    "theme": "Fuel Cells & Hydrogen",
@@ -3628,10 +3628,10 @@
    "theme": "Fuel Cells & Hydrogen",
    "sector": "AI Infra & Power",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.848,
-   "rs_momentum": 100.171
+   "rs_ratio": 98.817,
+   "rs_momentum": 100.111
   },
   {
    "theme": "Defense Primes",
@@ -3745,10 +3745,10 @@
    "theme": "Defense Primes",
    "sector": "Defense & Aero",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.819,
-   "rs_momentum": 101.23
+   "rs_ratio": 100.896,
+   "rs_momentum": 101.34
   },
   {
    "theme": "Defense Tech & Drones",
@@ -3862,10 +3862,10 @@
    "theme": "Defense Tech & Drones",
    "sector": "Defense & Aero",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.254,
-   "rs_momentum": 100.123
+   "rs_ratio": 99.38,
+   "rs_momentum": 100.343
   },
   {
    "theme": "Commercial Aerospace",
@@ -3979,10 +3979,10 @@
    "theme": "Commercial Aerospace",
    "sector": "Defense & Aero",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.695,
-   "rs_momentum": 101.819
+   "rs_ratio": 99.794,
+   "rs_momentum": 101.978
   },
   {
    "theme": "Gold & Silver",
@@ -4096,10 +4096,10 @@
    "theme": "Gold & Silver",
    "sector": "Materials",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.116,
-   "rs_momentum": 100.323
+   "rs_ratio": 99.448,
+   "rs_momentum": 100.822
   },
   {
    "theme": "Copper",
@@ -4213,10 +4213,10 @@
    "theme": "Copper",
    "sector": "Materials",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.583,
-   "rs_momentum": 99.896
+   "rs_ratio": 98.49,
+   "rs_momentum": 99.75
   },
   {
    "theme": "Critical Minerals & Lithium",
@@ -4330,10 +4330,10 @@
    "theme": "Critical Minerals & Lithium",
    "sector": "Materials",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.235,
-   "rs_momentum": 100.157
+   "rs_ratio": 98.443,
+   "rs_momentum": 100.549
   },
   {
    "theme": "Steel & Aluminium",
@@ -4447,10 +4447,10 @@
    "theme": "Steel & Aluminium",
    "sector": "Materials",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.023,
-   "rs_momentum": 100.494
+   "rs_ratio": 99.87,
+   "rs_momentum": 100.298
   },
   {
    "theme": "Chemicals",
@@ -4564,10 +4564,10 @@
    "theme": "Chemicals",
    "sector": "Materials",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.666,
-   "rs_momentum": 101.5
+   "rs_ratio": 100.631,
+   "rs_momentum": 101.432
   },
   {
    "theme": "Agriculture",
@@ -4681,10 +4681,10 @@
    "theme": "Agriculture",
    "sector": "Materials",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.34,
-   "rs_momentum": 100.575
+   "rs_ratio": 99.489,
+   "rs_momentum": 100.866
   },
   {
    "theme": "Oil Producers",
@@ -4798,10 +4798,10 @@
    "theme": "Oil Producers",
    "sector": "Energy",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.013,
-   "rs_momentum": 99.338
+   "rs_ratio": 100.144,
+   "rs_momentum": 99.53
   },
   {
    "theme": "Natural Gas Producers",
@@ -4915,10 +4915,10 @@
    "theme": "Natural Gas Producers",
    "sector": "Energy",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.642,
-   "rs_momentum": 99.845
+   "rs_ratio": 100.685,
+   "rs_momentum": 99.915
   },
   {
    "theme": "Midstream & LNG",
@@ -5032,10 +5032,10 @@
    "theme": "Midstream & LNG",
    "sector": "Energy",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.605,
-   "rs_momentum": 100.102
+   "rs_ratio": 99.707,
+   "rs_momentum": 100.298
   },
   {
    "theme": "Oil Services & Offshore",
@@ -5149,10 +5149,10 @@
    "theme": "Oil Services & Offshore",
    "sector": "Energy",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.301,
-   "rs_momentum": 99.664
+   "rs_ratio": 99.309,
+   "rs_momentum": 99.678
   },
   {
    "theme": "Refiners",
@@ -5266,10 +5266,10 @@
    "theme": "Refiners",
    "sector": "Energy",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.873,
-   "rs_momentum": 98.552
+   "rs_ratio": 98.828,
+   "rs_momentum": 98.496
   },
   {
    "theme": "Tankers & Shipping",
@@ -5383,10 +5383,10 @@
    "theme": "Tankers & Shipping",
    "sector": "Energy",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.185,
-   "rs_momentum": 98.731
+   "rs_ratio": 99.175,
+   "rs_momentum": 98.717
   },
   {
    "theme": "Coal",
@@ -5500,10 +5500,10 @@
    "theme": "Coal",
    "sector": "Energy",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.304,
-   "rs_momentum": 99.578
+   "rs_ratio": 99.451,
+   "rs_momentum": 99.744
   },
   {
    "theme": "Big Banks & Wealth",
@@ -5617,10 +5617,10 @@
    "theme": "Big Banks & Wealth",
    "sector": "Financials",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.028,
-   "rs_momentum": 101.763
+   "rs_ratio": 99.931,
+   "rs_momentum": 101.648
   },
   {
    "theme": "Regional Banks",
@@ -5734,10 +5734,10 @@
    "theme": "Regional Banks",
    "sector": "Financials",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.038,
-   "rs_momentum": 101.319
+   "rs_ratio": 100.124,
+   "rs_momentum": 101.443
   },
   {
    "theme": "Brokers & Exchanges",
@@ -5851,10 +5851,10 @@
    "theme": "Brokers & Exchanges",
    "sector": "Financials",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.857,
-   "rs_momentum": 100.935
+   "rs_ratio": 101.258,
+   "rs_momentum": 101.462
   },
   {
    "theme": "Alt Managers & PE",
@@ -5968,10 +5968,10 @@
    "theme": "Alt Managers & PE",
    "sector": "Financials",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.727,
-   "rs_momentum": 101.788
+   "rs_ratio": 100.703,
+   "rs_momentum": 101.756
   },
   {
    "theme": "Private Credit (BDCs)",
@@ -6085,10 +6085,10 @@
    "theme": "Private Credit (BDCs)",
    "sector": "Financials",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.899,
-   "rs_momentum": 101.66
+   "rs_ratio": 101.46,
+   "rs_momentum": 102.387
   },
   {
    "theme": "Payments & Fintech",
@@ -6202,10 +6202,10 @@
    "theme": "Payments & Fintech",
    "sector": "Financials",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.607,
-   "rs_momentum": 100.637
+   "rs_ratio": 100.689,
+   "rs_momentum": 100.745
   },
   {
    "theme": "Mortgage & Housing Finance",
@@ -6319,10 +6319,10 @@
    "theme": "Mortgage & Housing Finance",
    "sector": "Financials",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 101.056,
-   "rs_momentum": 102.888
+   "rs_ratio": 101.032,
+   "rs_momentum": 102.863
   },
   {
    "theme": "Insurance",
@@ -6436,10 +6436,10 @@
    "theme": "Insurance",
    "sector": "Financials",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 101.242,
-   "rs_momentum": 100.818
+   "rs_ratio": 101.398,
+   "rs_momentum": 100.994
   },
   {
    "theme": "Credit Bureaus & Fin Data",
@@ -6553,10 +6553,10 @@
    "theme": "Credit Bureaus & Fin Data",
    "sector": "Financials",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.929,
-   "rs_momentum": 101.249
+   "rs_ratio": 101.039,
+   "rs_momentum": 101.404
   },
   {
    "theme": "Real Estate (REITs)",
@@ -6670,10 +6670,10 @@
    "theme": "Real Estate (REITs)",
    "sector": "Financials",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 101.026,
-   "rs_momentum": 101.52
+   "rs_ratio": 101.399,
+   "rs_momentum": 101.939
   },
   {
    "theme": "Homebuilders & Home Improvement",
@@ -6787,10 +6787,10 @@
    "theme": "Homebuilders & Home Improvement",
    "sector": "Consumer",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 101.544,
-   "rs_momentum": 101.976
+   "rs_ratio": 101.499,
+   "rs_momentum": 101.923
   },
   {
    "theme": "Athletic, Apparel & Luxury",
@@ -6904,10 +6904,10 @@
    "theme": "Athletic, Apparel & Luxury",
    "sector": "Consumer",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 102.222,
-   "rs_momentum": 101.942
+   "rs_ratio": 102.286,
+   "rs_momentum": 102.023
   },
   {
    "theme": "Sports & Live Events",
@@ -7021,10 +7021,10 @@
    "theme": "Sports & Live Events",
    "sector": "Consumer",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.641,
-   "rs_momentum": 101.681
+   "rs_ratio": 101.082,
+   "rs_momentum": 102.105
   },
   {
    "theme": "Betting & Casinos",
@@ -7138,10 +7138,10 @@
    "theme": "Betting & Casinos",
    "sector": "Consumer",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.946,
-   "rs_momentum": 101.711
+   "rs_ratio": 100.007,
+   "rs_momentum": 101.796
   },
   {
    "theme": "Airlines",
@@ -7255,10 +7255,10 @@
    "theme": "Airlines",
    "sector": "Consumer",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.026,
-   "rs_momentum": 101.278
+   "rs_ratio": 100.254,
+   "rs_momentum": 101.561
   },
   {
    "theme": "Cruise, Hotels & Online Travel",
@@ -7372,10 +7372,10 @@
    "theme": "Cruise, Hotels & Online Travel",
    "sector": "Consumer",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 102.215,
-   "rs_momentum": 101.763
+   "rs_ratio": 102.267,
+   "rs_momentum": 101.819
   },
   {
    "theme": "Restaurants",
@@ -7489,10 +7489,10 @@
    "theme": "Restaurants",
    "sector": "Consumer",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 103.118,
-   "rs_momentum": 102.9
+   "rs_ratio": 103.35,
+   "rs_momentum": 103.131
   },
   {
    "theme": "Value Retail & Grocery",
@@ -7606,10 +7606,10 @@
    "theme": "Value Retail & Grocery",
    "sector": "Consumer",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 101.634,
-   "rs_momentum": 101.028
+   "rs_ratio": 101.532,
+   "rs_momentum": 100.889
   },
   {
    "theme": "Staples, Beverages & Pet",
@@ -7723,10 +7723,10 @@
    "theme": "Staples, Beverages & Pet",
    "sector": "Consumer",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 102.354,
-   "rs_momentum": 101.579
+   "rs_ratio": 102.476,
+   "rs_momentum": 101.714
   },
   {
    "theme": "Education",
@@ -7840,10 +7840,10 @@
    "theme": "Education",
    "sector": "Consumer",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.038,
-   "rs_momentum": 99.36
+   "rs_ratio": 98.906,
+   "rs_momentum": 97.674
   },
   {
    "theme": "GLP-1 & Obesity",
@@ -7957,10 +7957,10 @@
    "theme": "GLP-1 & Obesity",
    "sector": "Healthcare",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.208,
-   "rs_momentum": 101.554
+   "rs_ratio": 100.123,
+   "rs_momentum": 101.429
   },
   {
    "theme": "Large Pharma & Biotech",
@@ -8074,10 +8074,10 @@
    "theme": "Large Pharma & Biotech",
    "sector": "Healthcare",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.09,
-   "rs_momentum": 100.171
+   "rs_ratio": 100.21,
+   "rs_momentum": 100.348
   },
   {
    "theme": "Gene Editing & RNA",
@@ -8191,10 +8191,10 @@
    "theme": "Gene Editing & RNA",
    "sector": "Healthcare",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.045,
-   "rs_momentum": 101.611
+   "rs_ratio": 99.069,
+   "rs_momentum": 101.648
   },
   {
    "theme": "Medtech & Surgical Robotics",
@@ -8308,10 +8308,10 @@
    "theme": "Medtech & Surgical Robotics",
    "sector": "Healthcare",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 102.301,
-   "rs_momentum": 101.942
+   "rs_ratio": 101.942,
+   "rs_momentum": 101.408
   },
   {
    "theme": "Diagnostics & Genomics",
@@ -8425,10 +8425,10 @@
    "theme": "Diagnostics & Genomics",
    "sector": "Healthcare",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.186,
-   "rs_momentum": 99.955
+   "rs_ratio": 99.883,
+   "rs_momentum": 99.526
   },
   {
    "theme": "Managed Care & Providers",
@@ -8542,10 +8542,10 @@
    "theme": "Managed Care & Providers",
    "sector": "Healthcare",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 102.207,
-   "rs_momentum": 101.778
+   "rs_ratio": 102.493,
+   "rs_momentum": 102.114
   },
   {
    "theme": "Rails, Trucking & Logistics",
@@ -8659,10 +8659,10 @@
    "theme": "Rails, Trucking & Logistics",
    "sector": "Industrials",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.363,
-   "rs_momentum": 101.037
+   "rs_ratio": 100.201,
+   "rs_momentum": 100.829
   },
   {
    "theme": "Machinery",
@@ -8776,10 +8776,10 @@
    "theme": "Machinery",
    "sector": "Industrials",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.778,
-   "rs_momentum": 100.888
+   "rs_ratio": 99.882,
+   "rs_momentum": 101.038
   },
   {
    "theme": "Water & Waste",
@@ -8893,10 +8893,10 @@
    "theme": "Water & Waste",
    "sector": "Industrials",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 101.403,
-   "rs_momentum": 101.07
+   "rs_ratio": 101.572,
+   "rs_momentum": 101.265
   },
   {
    "theme": "Towers & Telecom",
@@ -9010,10 +9010,10 @@
    "theme": "Towers & Telecom",
    "sector": "Industrials",
    "benchmark": "SPY",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.928,
-   "rs_momentum": 101.066
+   "rs_ratio": 100.105,
+   "rs_momentum": 101.296
   },
   {
    "theme": "AI Chips & Compute",
@@ -9127,10 +9127,10 @@
    "theme": "AI Chips & Compute",
    "sector": "Semis & Hardware",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.313,
-   "rs_momentum": 98.909
+   "rs_ratio": 98.185,
+   "rs_momentum": 98.725
   },
   {
    "theme": "Memory & Storage",
@@ -9244,10 +9244,10 @@
    "theme": "Memory & Storage",
    "sector": "Semis & Hardware",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.223,
-   "rs_momentum": 99.445
+   "rs_ratio": 97.963,
+   "rs_momentum": 99.092
   },
   {
    "theme": "Semicap & Test",
@@ -9361,10 +9361,10 @@
    "theme": "Semicap & Test",
    "sector": "Semis & Hardware",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 97.809,
-   "rs_momentum": 99.57
+   "rs_ratio": 97.724,
+   "rs_momentum": 99.457
   },
   {
    "theme": "Foundry & Packaging",
@@ -9478,10 +9478,10 @@
    "theme": "Foundry & Packaging",
    "sector": "Semis & Hardware",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.344,
-   "rs_momentum": 99.338
+   "rs_ratio": 98.217,
+   "rs_momentum": 99.197
   },
   {
    "theme": "Analog, Auto & Power Semis",
@@ -9595,10 +9595,10 @@
    "theme": "Analog, Auto & Power Semis",
    "sector": "Semis & Hardware",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.363,
-   "rs_momentum": 99.977
+   "rs_ratio": 99.24,
+   "rs_momentum": 99.821
   },
   {
    "theme": "Optics & Photonics",
@@ -9712,10 +9712,10 @@
    "theme": "Optics & Photonics",
    "sector": "Semis & Hardware",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.327,
-   "rs_momentum": 99.579
+   "rs_ratio": 98.24,
+   "rs_momentum": 99.468
   },
   {
    "theme": "AI Networking & Servers",
@@ -9829,10 +9829,10 @@
    "theme": "AI Networking & Servers",
    "sector": "Semis & Hardware",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 97.999,
-   "rs_momentum": 98.39
+   "rs_ratio": 97.898,
+   "rs_momentum": 98.237
   },
   {
    "theme": "Cybersecurity",
@@ -9946,10 +9946,10 @@
    "theme": "Cybersecurity",
    "sector": "Software & Internet",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.977,
-   "rs_momentum": 98.731
+   "rs_ratio": 99.811,
+   "rs_momentum": 98.49
   },
   {
    "theme": "Data & Observability",
@@ -10063,10 +10063,10 @@
    "theme": "Data & Observability",
    "sector": "Software & Internet",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.577,
-   "rs_momentum": 98.354
+   "rs_ratio": 99.538,
+   "rs_momentum": 98.293
   },
   {
    "theme": "Enterprise SaaS",
@@ -10180,10 +10180,10 @@
    "theme": "Enterprise SaaS",
    "sector": "Software & Internet",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.111,
-   "rs_momentum": 99.135
+   "rs_ratio": 100.015,
+   "rs_momentum": 99.001
   },
   {
    "theme": "EDA & Industrial Software",
@@ -10297,10 +10297,10 @@
    "theme": "EDA & Industrial Software",
    "sector": "Software & Internet",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 101.524,
-   "rs_momentum": 99.557
+   "rs_ratio": 101.64,
+   "rs_momentum": 99.776
   },
   {
    "theme": "IT Services & Consulting",
@@ -10414,10 +10414,10 @@
    "theme": "IT Services & Consulting",
    "sector": "Software & Internet",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 101.572,
-   "rs_momentum": 99.902
+   "rs_ratio": 101.683,
+   "rs_momentum": 100.034
   },
   {
    "theme": "Social & Ad-tech",
@@ -10531,10 +10531,10 @@
    "theme": "Social & Ad-tech",
    "sector": "Software & Internet",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.892,
-   "rs_momentum": 98.875
+   "rs_ratio": 99.116,
+   "rs_momentum": 99.198
   },
   {
    "theme": "Streaming & Media",
@@ -10648,10 +10648,10 @@
    "theme": "Streaming & Media",
    "sector": "Software & Internet",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.519,
-   "rs_momentum": 100.653
+   "rs_ratio": 100.496,
+   "rs_momentum": 100.62
   },
   {
    "theme": "Video Games",
@@ -10765,10 +10765,10 @@
    "theme": "Video Games",
    "sector": "Software & Internet",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.285,
-   "rs_momentum": 99.457
+   "rs_ratio": 101.139,
+   "rs_momentum": 101.339
   },
   {
    "theme": "E-commerce & Marketplaces",
@@ -10882,10 +10882,10 @@
    "theme": "E-commerce & Marketplaces",
    "sector": "Software & Internet",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 101.4,
-   "rs_momentum": 100.842
+   "rs_ratio": 101.193,
+   "rs_momentum": 100.517
   },
   {
    "theme": "China Internet",
@@ -10999,10 +10999,10 @@
    "theme": "China Internet",
    "sector": "Software & Internet",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.005,
-   "rs_momentum": 100.641
+   "rs_ratio": 100.802,
+   "rs_momentum": 101.917
   },
   {
    "theme": "Quantum",
@@ -11116,10 +11116,10 @@
    "theme": "Quantum",
    "sector": "Frontier Tech",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.803,
-   "rs_momentum": 99.37
+   "rs_ratio": 99.037,
+   "rs_momentum": 99.817
   },
   {
    "theme": "Space & Satellites",
@@ -11233,10 +11233,10 @@
    "theme": "Space & Satellites",
    "sector": "Frontier Tech",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.881,
-   "rs_momentum": 99.997
+   "rs_ratio": 99.005,
+   "rs_momentum": 100.163
   },
   {
    "theme": "Robotics & Autonomy",
@@ -11350,10 +11350,10 @@
    "theme": "Robotics & Autonomy",
    "sector": "Frontier Tech",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 97.888,
-   "rs_momentum": 99.23
+   "rs_ratio": 98.155,
+   "rs_momentum": 99.669
   },
   {
    "theme": "EVs & Batteries",
@@ -11467,10 +11467,10 @@
    "theme": "EVs & Batteries",
    "sector": "Frontier Tech",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.725,
-   "rs_momentum": 101.353
+   "rs_ratio": 98.682,
+   "rs_momentum": 101.27
   },
   {
    "theme": "Crypto Equities",
@@ -11584,10 +11584,10 @@
    "theme": "Crypto Equities",
    "sector": "Frontier Tech",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.888,
-   "rs_momentum": 98.82
+   "rs_ratio": 98.724,
+   "rs_momentum": 98.585
   },
   {
    "theme": "Neoclouds & BTC Miners",
@@ -11701,10 +11701,10 @@
    "theme": "Neoclouds & BTC Miners",
    "sector": "AI Infra & Power",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.104,
-   "rs_momentum": 99.436
+   "rs_ratio": 98.107,
+   "rs_momentum": 99.44
   },
   {
    "theme": "Data Center REITs",
@@ -11818,10 +11818,10 @@
    "theme": "Data Center REITs",
    "sector": "AI Infra & Power",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.254,
-   "rs_momentum": 100.495
+   "rs_ratio": 98.03,
+   "rs_momentum": 100.072
   },
   {
    "theme": "Grid & Electrical Equipment",
@@ -11935,10 +11935,10 @@
    "theme": "Grid & Electrical Equipment",
    "sector": "AI Infra & Power",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.784,
-   "rs_momentum": 99.487
+   "rs_ratio": 98.748,
+   "rs_momentum": 99.433
   },
   {
    "theme": "Thermal & Cooling",
@@ -12052,10 +12052,10 @@
    "theme": "Thermal & Cooling",
    "sector": "AI Infra & Power",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 97.807,
-   "rs_momentum": 98.809
+   "rs_ratio": 97.741,
+   "rs_momentum": 98.715
   },
   {
    "theme": "Construction & DC Build",
@@ -12169,10 +12169,10 @@
    "theme": "Construction & DC Build",
    "sector": "AI Infra & Power",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.458,
-   "rs_momentum": 99.81
+   "rs_ratio": 98.378,
+   "rs_momentum": 99.69
   },
   {
    "theme": "Power Producers (IPPs)",
@@ -12286,10 +12286,10 @@
    "theme": "Power Producers (IPPs)",
    "sector": "AI Infra & Power",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.427,
-   "rs_momentum": 97.149
+   "rs_ratio": 99.303,
+   "rs_momentum": 98.072
   },
   {
    "theme": "Nuclear & Uranium",
@@ -12403,10 +12403,10 @@
    "theme": "Nuclear & Uranium",
    "sector": "AI Infra & Power",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 97.873,
-   "rs_momentum": 99.146
+   "rs_ratio": 98.111,
+   "rs_momentum": 99.624
   },
   {
    "theme": "Solar",
@@ -12520,10 +12520,10 @@
    "theme": "Solar",
    "sector": "AI Infra & Power",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.195,
-   "rs_momentum": 100.967
+   "rs_ratio": 100.465,
+   "rs_momentum": 101.311
   },
   {
    "theme": "Fuel Cells & Hydrogen",
@@ -12637,10 +12637,10 @@
    "theme": "Fuel Cells & Hydrogen",
    "sector": "AI Infra & Power",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.748,
-   "rs_momentum": 99.775
+   "rs_ratio": 98.692,
+   "rs_momentum": 99.675
   },
   {
    "theme": "Defense Primes",
@@ -12754,10 +12754,10 @@
    "theme": "Defense Primes",
    "sector": "Defense & Aero",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.557,
-   "rs_momentum": 100.871
+   "rs_ratio": 100.577,
+   "rs_momentum": 100.9
   },
   {
    "theme": "Defense Tech & Drones",
@@ -12871,10 +12871,10 @@
    "theme": "Defense Tech & Drones",
    "sector": "Defense & Aero",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.766,
-   "rs_momentum": 99.506
+   "rs_ratio": 98.831,
+   "rs_momentum": 99.612
   },
   {
    "theme": "Commercial Aerospace",
@@ -12988,10 +12988,10 @@
    "theme": "Commercial Aerospace",
    "sector": "Defense & Aero",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.951,
-   "rs_momentum": 101.103
+   "rs_ratio": 98.968,
+   "rs_momentum": 101.131
   },
   {
    "theme": "Gold & Silver",
@@ -13105,10 +13105,10 @@
    "theme": "Gold & Silver",
    "sector": "Materials",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.814,
-   "rs_momentum": 99.963
+   "rs_ratio": 99.103,
+   "rs_momentum": 100.382
   },
   {
    "theme": "Copper",
@@ -13222,10 +13222,10 @@
    "theme": "Copper",
    "sector": "Materials",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.181,
-   "rs_momentum": 99.478
+   "rs_ratio": 98.046,
+   "rs_momentum": 99.296
   },
   {
    "theme": "Critical Minerals & Lithium",
@@ -13339,10 +13339,10 @@
    "theme": "Critical Minerals & Lithium",
    "sector": "Materials",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.124,
-   "rs_momentum": 99.738
+   "rs_ratio": 98.259,
+   "rs_momentum": 99.977
   },
   {
    "theme": "Steel & Aluminium",
@@ -13456,10 +13456,10 @@
    "theme": "Steel & Aluminium",
    "sector": "Materials",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.557,
-   "rs_momentum": 99.951
+   "rs_ratio": 99.367,
+   "rs_momentum": 99.731
   },
   {
    "theme": "Chemicals",
@@ -13573,10 +13573,10 @@
    "theme": "Chemicals",
    "sector": "Materials",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.359,
-   "rs_momentum": 100.948
+   "rs_ratio": 100.266,
+   "rs_momentum": 100.762
   },
   {
    "theme": "Agriculture",
@@ -13690,10 +13690,10 @@
    "theme": "Agriculture",
    "sector": "Materials",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.551,
-   "rs_momentum": 99.636
+   "rs_ratio": 98.629,
+   "rs_momentum": 99.771
   },
   {
    "theme": "Oil Producers",
@@ -13807,10 +13807,10 @@
    "theme": "Oil Producers",
    "sector": "Energy",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.646,
-   "rs_momentum": 98.853
+   "rs_ratio": 99.734,
+   "rs_momentum": 98.968
   },
   {
    "theme": "Natural Gas Producers",
@@ -13924,10 +13924,10 @@
    "theme": "Natural Gas Producers",
    "sector": "Energy",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.34,
-   "rs_momentum": 99.22
+   "rs_ratio": 100.331,
+   "rs_momentum": 99.207
   },
   {
    "theme": "Midstream & LNG",
@@ -14041,10 +14041,10 @@
    "theme": "Midstream & LNG",
    "sector": "Energy",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.942,
-   "rs_momentum": 99.063
+   "rs_ratio": 98.986,
+   "rs_momentum": 99.148
   },
   {
    "theme": "Oil Services & Offshore",
@@ -14158,10 +14158,10 @@
    "theme": "Oil Services & Offshore",
    "sector": "Energy",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.935,
-   "rs_momentum": 99.185
+   "rs_ratio": 98.901,
+   "rs_momentum": 99.13
   },
   {
    "theme": "Refiners",
@@ -14275,10 +14275,10 @@
    "theme": "Refiners",
    "sector": "Energy",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.452,
-   "rs_momentum": 98.004
+   "rs_ratio": 98.366,
+   "rs_momentum": 97.9
   },
   {
    "theme": "Tankers & Shipping",
@@ -14392,10 +14392,10 @@
    "theme": "Tankers & Shipping",
    "sector": "Energy",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.741,
-   "rs_momentum": 98.247
+   "rs_ratio": 98.682,
+   "rs_momentum": 98.169
   },
   {
    "theme": "Coal",
@@ -14509,10 +14509,10 @@
    "theme": "Coal",
    "sector": "Energy",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.586,
-   "rs_momentum": 98.834
+   "rs_ratio": 98.668,
+   "rs_momentum": 98.929
   },
   {
    "theme": "Big Banks & Wealth",
@@ -14626,10 +14626,10 @@
    "theme": "Big Banks & Wealth",
    "sector": "Financials",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.256,
-   "rs_momentum": 100.986
+   "rs_ratio": 99.056,
+   "rs_momentum": 100.699
   },
   {
    "theme": "Regional Banks",
@@ -14743,10 +14743,10 @@
    "theme": "Regional Banks",
    "sector": "Financials",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.161,
-   "rs_momentum": 100.584
+   "rs_ratio": 99.145,
+   "rs_momentum": 100.559
   },
   {
    "theme": "Brokers & Exchanges",
@@ -14860,10 +14860,10 @@
    "theme": "Brokers & Exchanges",
    "sector": "Financials",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.228,
-   "rs_momentum": 100.099
+   "rs_ratio": 100.556,
+   "rs_momentum": 100.467
   },
   {
    "theme": "Alt Managers & PE",
@@ -14977,10 +14977,10 @@
    "theme": "Alt Managers & PE",
    "sector": "Financials",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.187,
-   "rs_momentum": 100.981
+   "rs_ratio": 100.1,
+   "rs_momentum": 100.86
   },
   {
    "theme": "Private Credit (BDCs)",
@@ -15094,10 +15094,10 @@
    "theme": "Private Credit (BDCs)",
    "sector": "Financials",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.999,
-   "rs_momentum": 100.375
+   "rs_ratio": 100.371,
+   "rs_momentum": 100.926
   },
   {
    "theme": "Payments & Fintech",
@@ -15211,10 +15211,10 @@
    "theme": "Payments & Fintech",
    "sector": "Financials",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.138,
-   "rs_momentum": 100.07
+   "rs_ratio": 100.151,
+   "rs_momentum": 100.089
   },
   {
    "theme": "Mortgage & Housing Finance",
@@ -15328,10 +15328,10 @@
    "theme": "Mortgage & Housing Finance",
    "sector": "Financials",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.27,
-   "rs_momentum": 102.231
+   "rs_ratio": 100.143,
+   "rs_momentum": 102.055
   },
   {
    "theme": "Insurance",
@@ -15445,10 +15445,10 @@
    "theme": "Insurance",
    "sector": "Financials",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.761,
-   "rs_momentum": 100.095
+   "rs_ratio": 100.835,
+   "rs_momentum": 100.2
   },
   {
    "theme": "Credit Bureaus & Fin Data",
@@ -15562,10 +15562,10 @@
    "theme": "Credit Bureaus & Fin Data",
    "sector": "Financials",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.362,
-   "rs_momentum": 100.544
+   "rs_ratio": 100.389,
+   "rs_momentum": 100.59
   },
   {
    "theme": "Real Estate (REITs)",
@@ -15679,10 +15679,10 @@
    "theme": "Real Estate (REITs)",
    "sector": "Financials",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 100.403,
-   "rs_momentum": 100.987
+   "rs_ratio": 100.832,
+   "rs_momentum": 101.488
   },
   {
    "theme": "Homebuilders & Home Improvement",
@@ -15796,10 +15796,10 @@
    "theme": "Homebuilders & Home Improvement",
    "sector": "Consumer",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 101.426,
-   "rs_momentum": 101.953
+   "rs_ratio": 101.274,
+   "rs_momentum": 101.762
   },
   {
    "theme": "Athletic, Apparel & Luxury",
@@ -15913,10 +15913,10 @@
    "theme": "Athletic, Apparel & Luxury",
    "sector": "Consumer",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 102.218,
-   "rs_momentum": 101.661
+   "rs_ratio": 102.213,
+   "rs_momentum": 101.654
   },
   {
    "theme": "Sports & Live Events",
@@ -16030,10 +16030,10 @@
    "theme": "Sports & Live Events",
    "sector": "Consumer",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.749,
-   "rs_momentum": 101.235
+   "rs_ratio": 100.103,
+   "rs_momentum": 101.717
   },
   {
    "theme": "Betting & Casinos",
@@ -16147,10 +16147,10 @@
    "theme": "Betting & Casinos",
    "sector": "Consumer",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.438,
-   "rs_momentum": 101.361
+   "rs_ratio": 99.424,
+   "rs_momentum": 101.336
   },
   {
    "theme": "Airlines",
@@ -16264,10 +16264,10 @@
    "theme": "Airlines",
    "sector": "Consumer",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.642,
-   "rs_momentum": 100.938
+   "rs_ratio": 99.829,
+   "rs_momentum": 101.174
   },
   {
    "theme": "Cruise, Hotels & Online Travel",
@@ -16381,10 +16381,10 @@
    "theme": "Cruise, Hotels & Online Travel",
    "sector": "Consumer",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 102.071,
-   "rs_momentum": 101.481
+   "rs_ratio": 102.02,
+   "rs_momentum": 101.423
   },
   {
    "theme": "Restaurants",
@@ -16498,10 +16498,10 @@
    "theme": "Restaurants",
    "sector": "Consumer",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 103.728,
-   "rs_momentum": 102.836
+   "rs_ratio": 103.919,
+   "rs_momentum": 103.018
   },
   {
    "theme": "Value Retail & Grocery",
@@ -16615,10 +16615,10 @@
    "theme": "Value Retail & Grocery",
    "sector": "Consumer",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 101.383,
-   "rs_momentum": 100.229
+   "rs_ratio": 101.101,
+   "rs_momentum": 99.853
   },
   {
    "theme": "Staples, Beverages & Pet",
@@ -16732,10 +16732,10 @@
    "theme": "Staples, Beverages & Pet",
    "sector": "Consumer",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 102.731,
-   "rs_momentum": 101.206
+   "rs_ratio": 102.793,
+   "rs_momentum": 101.272
   },
   {
    "theme": "Education",
@@ -16849,10 +16849,10 @@
    "theme": "Education",
    "sector": "Consumer",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.191,
-   "rs_momentum": 98.07
+   "rs_ratio": 98.046,
+   "rs_momentum": 96.623
   },
   {
    "theme": "GLP-1 & Obesity",
@@ -16966,10 +16966,10 @@
    "theme": "GLP-1 & Obesity",
    "sector": "Healthcare",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.736,
-   "rs_momentum": 101.15
+   "rs_ratio": 99.576,
+   "rs_momentum": 100.867
   },
   {
    "theme": "Large Pharma & Biotech",
@@ -17083,10 +17083,10 @@
    "theme": "Large Pharma & Biotech",
    "sector": "Healthcare",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.219,
-   "rs_momentum": 98.954
+   "rs_ratio": 99.249,
+   "rs_momentum": 99.001
   },
   {
    "theme": "Gene Editing & RNA",
@@ -17200,10 +17200,10 @@
    "theme": "Gene Editing & RNA",
    "sector": "Healthcare",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.603,
-   "rs_momentum": 100.937
+   "rs_ratio": 98.557,
+   "rs_momentum": 100.852
   },
   {
    "theme": "Medtech & Surgical Robotics",
@@ -17317,10 +17317,10 @@
    "theme": "Medtech & Surgical Robotics",
    "sector": "Healthcare",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 102.098,
-   "rs_momentum": 101.663
+   "rs_ratio": 101.522,
+   "rs_momentum": 100.48
   },
   {
    "theme": "Diagnostics & Genomics",
@@ -17434,10 +17434,10 @@
    "theme": "Diagnostics & Genomics",
    "sector": "Healthcare",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.85,
-   "rs_momentum": 99.419
+   "rs_ratio": 99.507,
+   "rs_momentum": 98.873
   },
   {
    "theme": "Managed Care & Providers",
@@ -17551,10 +17551,10 @@
    "theme": "Managed Care & Providers",
    "sector": "Healthcare",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 101.403,
-   "rs_momentum": 101.24
+   "rs_ratio": 101.6,
+   "rs_momentum": 101.6
   },
   {
    "theme": "Rails, Trucking & Logistics",
@@ -17668,10 +17668,10 @@
    "theme": "Rails, Trucking & Logistics",
    "sector": "Industrials",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.718,
-   "rs_momentum": 100.303
+   "rs_ratio": 99.441,
+   "rs_momentum": 99.981
   },
   {
    "theme": "Machinery",
@@ -17785,10 +17785,10 @@
    "theme": "Machinery",
    "sector": "Industrials",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 98.96,
-   "rs_momentum": 100.168
+   "rs_ratio": 98.996,
+   "rs_momentum": 100.214
   },
   {
    "theme": "Water & Waste",
@@ -17902,10 +17902,10 @@
    "theme": "Water & Waste",
    "sector": "Industrials",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 101.269,
-   "rs_momentum": 100.478
+   "rs_ratio": 101.395,
+   "rs_momentum": 100.615
   },
   {
    "theme": "Towers & Telecom",
@@ -18019,10 +18019,10 @@
    "theme": "Towers & Telecom",
    "sector": "Industrials",
    "benchmark": "RSP",
-   "week": "2026-11-04",
+   "week": "2026-11-06",
    "weeks_ago": 0,
-   "rs_ratio": 99.31,
-   "rs_momentum": 100.461
+   "rs_ratio": 99.427,
+   "rs_momentum": 100.605
   }
  ]
 }

@@ -1,12 +1,12 @@
 # Theme Radar
 
 Thematic equity research and the baskets that track it.
-Market data to the 2026-11-04 close.
+Market data to the 2026-11-06 close.
 
 ## Latest research
 
+- [AI infrastructure, the next 12 months: re-evaluating the AI hardware basket](https://theme-radar.github.io/research/ai-infrastructure-next-12-months.md) (2026-11-06, AI Hardware)
 - [Earnings update Q3 2026: Amazon, Meta, Shopify](https://theme-radar.github.io/research/agentic-commerce-q3-2026-earnings.md) (2026-11-04, Agentic Commerce)
-- [Binance heist: what it means for our cyber basket](https://theme-radar.github.io/research/binance-heist-cyber-basket.md) (2026-11-04, Cybersecurity)
 
 ## Themes
 
@@ -20,8 +20,8 @@ Market data to the 2026-11-04 close.
 
 | Basket | Start | Since start | 6M | Label |
 |---|---|---|---|---|
-| [Cyber Security](https://theme-radar.github.io/baskets/cyber-security.md) | 2026-09-18 | +1.7% | +56.1% | Avoid for now |
-| [AI Science](https://theme-radar.github.io/baskets/ai-science.md) | 2026-08-17 | +16.8% | +76.3% | No signal |
-| [US Dollar Devaluation](https://theme-radar.github.io/baskets/usd-devaluation.md) | 2026-05-20 | +4.0% | -0.2% | No signal |
-| [Agentic Commerce](https://theme-radar.github.io/baskets/agentic-commerce.md) | 2026-10-14 | +4.2% | +23.0% | Already moving |
-| [AI Hardware](https://theme-radar.github.io/baskets/ai-hardware.md) | 2026-07-31 | -16.1% | -21.8% | Avoid for now |
+| [Cyber Security](https://theme-radar.github.io/baskets/cyber-security.md) | 2026-09-18 | -3.6% | +36.4% | Avoid for now |
+| [AI Science](https://theme-radar.github.io/baskets/ai-science.md) | 2026-08-17 | +11.9% | +67.5% | No signal |
+| [US Dollar Devaluation](https://theme-radar.github.io/baskets/usd-devaluation.md) | 2026-05-20 | +7.4% | +1.3% | Already moving |
+| [Agentic Commerce](https://theme-radar.github.io/baskets/agentic-commerce.md) | 2026-10-14 | +1.2% | +19.5% | No signal |
+| [AI Hardware](https://theme-radar.github.io/baskets/ai-hardware.md) | 2026-07-31 | -22.8% | -28.7% | Avoid for now |

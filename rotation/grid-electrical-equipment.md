@@ -1,21 +1,21 @@
 # Grid & Electrical Equipment
 
-Sector: AI Infra & Power. Label: No signal. Quadrant: Improving, heading to Lagging. Data to 2026-11-04.
+Sector: AI Infra & Power. Label: Avoid for now. Quadrant: Improving, heading to Lagging. Data to 2026-11-06.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| GEV | GE Vernova Inc. | -5.1% | -16.5% | -25.6% |
-| ETN | Eaton Corporation PLC | -10.1% | -18.1% | -16.2% |
-| HUBB | Hubbell Inc | +0.2% | -7.8% | -12.8% |
-| PWR | Quanta Services Inc. | -4.4% | -17.2% | -26.1% |
-| EXC | Exelon Corporation | +3.3% | +11.5% | +2.7% |
-| ENR | Energizer Holdings Inc. | +12.7% | +17.0% | +32.8% |
-| SU | Suncor Energy  Inc. | -7.1% | +5.7% | +12.0% |
-| POWL | Powell Industries Inc. | -14.8% | -27.6% | -55.3% |
-| MYRG | MYR Group Inc. | -5.7% | -15.7% | -42.0% |
-| APH | Amphenol Corporation | -2.4% | -9.8% | +14.1% |
-| NEE | NextEra Energy Inc. | +9.2% | +14.8% | -7.3% |
-| FTS | Fortis Inc. | +6.3% | +14.9% | +8.6% |
-| BKR | Baker Hughes Company | -8.8% | -10.0% | -25.2% |
-| AGX | Argan Inc. | -17.6% | -28.1% | -60.1% |
-| WWD | Woodward Inc. | +7.3% | +0.7% | -14.7% |
+| GEV | GE Vernova Inc. | -9.8% | -22.9% | -25.6% |
+| ETN | Eaton Corporation PLC | -7.6% | -20.5% | -14.9% |
+| HUBB | Hubbell Inc | +1.7% | -9.4% | -12.8% |
+| PWR | Quanta Services Inc. | -12.9% | -23.4% | -27.4% |
+| EXC | Exelon Corporation | -1.2% | +9.2% | +3.9% |
+| ENR | Energizer Holdings Inc. | +3.0% | +11.8% | +26.4% |
+| SU | Suncor Energy  Inc. | -13.5% | -4.8% | +7.4% |
+| POWL | Powell Industries Inc. | -14.8% | -30.6% | -57.0% |
+| MYRG | MYR Group Inc. | -7.0% | -15.6% | -40.0% |
+| APH | Amphenol Corporation | -5.9% | -14.5% | +16.5% |
+| NEE | NextEra Energy Inc. | +3.9% | +12.4% | -6.6% |
+| FTS | Fortis Inc. | +2.4% | +12.7% | +7.1% |
+| BKR | Baker Hughes Company | -13.3% | -15.6% | -25.1% |
+| AGX | Argan Inc. | -19.4% | -29.3% | -59.2% |
+| WWD | Woodward Inc. | +4.2% | -5.4% | -14.2% |

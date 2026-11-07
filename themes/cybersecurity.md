@@ -14,4 +14,4 @@ How AI agents change security spending, and which layers get paid.
 
 | Basket | Start | Since start | 20D | 6M | Label |
 |---|---|---|---|---|---|
-| [Cyber Security](https://theme-radar.github.io/baskets/cyber-security.md) | 2026-09-18 | +1.7% | -5.4% | +56.1% | Avoid for now |
+| [Cyber Security](https://theme-radar.github.io/baskets/cyber-security.md) | 2026-09-18 | -3.6% | -14.0% | +36.4% | Avoid for now |

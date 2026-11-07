@@ -1,21 +1,21 @@
 # Big Banks & Wealth
 
-Sector: Financials. Label: Already moving. Quadrant: Leading, heading to Leading. Data to 2026-11-04.
+Sector: Financials. Label: No signal. Quadrant: Improving, heading to Leading. Data to 2026-11-06.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| MS | Morgan Stanley | +2.0% | +2.2% | +0.3% |
-| BAC | Bank of America Corporation | +1.5% | -3.5% | -3.7% |
-| GS | Goldman Sachs Group Inc. (The) | +0.3% | +4.6% | -1.0% |
-| JPM | JP Morgan Chase & Co. | +3.8% | +6.8% | +11.8% |
-| C | Citigroup Inc. | +0.5% | -2.0% | -2.2% |
-| WFC | Wells Fargo & Company | +4.5% | +8.9% | +8.7% |
-| LPLA | LPL Financial Holdings Inc. | +15.7% | -4.1% | -4.1% |
-| RJF | Raymond James Financial Inc. | +7.2% | +7.3% | +5.9% |
-| SCHW | Charles Schwab Corporation (The) | +5.2% | -2.3% | +1.3% |
-| AMP | Ameriprise Financial Inc. | +7.7% | +7.5% | +11.0% |
-| NTRS | Northern Trust Corporation | +3.6% | +5.9% | +9.0% |
-| SEIC | SEI Investments Company | +5.2% | +6.4% | +19.1% |
-| EVR | Evercore Inc. | +6.4% | +16.4% | -6.7% |
-| HLI | Houlihan Lokey Inc. | +12.1% | +23.0% | +4.6% |
-| PJT | PJT Partners Inc. | +6.2% | +14.9% | +3.9% |
+| MS | Morgan Stanley | -1.6% | -4.5% | -6.0% |
+| BAC | Bank of America Corporation | -1.2% | -9.0% | -3.7% |
+| GS | Goldman Sachs Group Inc. (The) | -3.2% | -3.3% | -7.5% |
+| JPM | JP Morgan Chase & Co. | -0.8% | +0.4% | +10.7% |
+| C | Citigroup Inc. | -2.9% | -8.2% | -5.2% |
+| WFC | Wells Fargo & Company | +0.7% | +0.5% | +11.0% |
+| LPLA | LPL Financial Holdings Inc. | +4.2% | -10.7% | -2.6% |
+| RJF | Raymond James Financial Inc. | +3.6% | +2.8% | +5.5% |
+| SCHW | Charles Schwab Corporation (The) | +3.9% | -5.4% | +3.2% |
+| AMP | Ameriprise Financial Inc. | +2.2% | +0.2% | +7.7% |
+| NTRS | Northern Trust Corporation | +2.1% | +2.7% | +7.7% |
+| SEIC | SEI Investments Company | +1.8% | +0.6% | +15.5% |
+| EVR | Evercore Inc. | -2.0% | +4.7% | -16.6% |
+| HLI | Houlihan Lokey Inc. | +5.7% | +12.1% | -4.6% |
+| PJT | PJT Partners Inc. | -0.7% | +8.2% | -3.9% |

@@ -1,17 +1,17 @@
 # Towers & Telecom
 
-Sector: Industrials. Label: Research now. Quadrant: Improving, heading to Leading. Data to 2026-11-04.
+Sector: Industrials. Label: No signal. Quadrant: Leading, heading to Leading. Data to 2026-11-06.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| TMUS | T-Mobile US Inc. | +7.5% | -5.1% | -17.6% |
-| AMT | American Tower Corporation (REIT) | +6.0% | +17.3% | +8.2% |
-| CCI | Crown Castle Inc. | +5.1% | +33.6% | +2.1% |
-| SBAC | SBA Communications Corporation | +5.8% | +14.7% | -10.5% |
-| VZ | Verizon Communications Inc. | +6.9% | +0.9% | -2.7% |
-| T | AT&T Inc. | +5.5% | -10.8% | -14.6% |
-| IHS | IHS Holding Limited | +0.2% | +0.5% | +3.4% |
-| UNIT | Uniti Group Inc. | +12.1% | -30.5% | -51.9% |
-| CHTR | Charter Communications Inc. | +14.1% | +12.4% | -23.2% |
-| LBTYA | Liberty Global Ltd. | +25.4% | +5.3% | -22.1% |
-| CALX | Calix Inc | -11.3% | -4.8% | -23.7% |
+| TMUS | T-Mobile US Inc. | +3.6% | +9.0% | -16.3% |
+| AMT | American Tower Corporation (REIT) | +0.5% | +3.6% | +6.9% |
+| CCI | Crown Castle Inc. | -0.1% | +11.2% | -2.2% |
+| SBAC | SBA Communications Corporation | +1.2% | +3.8% | -13.2% |
+| VZ | Verizon Communications Inc. | +2.1% | +9.7% | -3.2% |
+| T | AT&T Inc. | +1.0% | -2.5% | -14.0% |
+| IHS | IHS Holding Limited | -0.5% | -0.1% | +2.2% |
+| UNIT | Uniti Group Inc. | +3.2% | -24.0% | -53.7% |
+| CHTR | Charter Communications Inc. | +5.9% | +14.2% | -23.8% |
+| LBTYA | Liberty Global Ltd. | +27.4% | +14.3% | -18.5% |
+| CALX | Calix Inc | -16.9% | -17.8% | -29.2% |

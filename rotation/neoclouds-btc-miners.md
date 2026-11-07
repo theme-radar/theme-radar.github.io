@@ -1,18 +1,18 @@
 # Neoclouds & BTC Miners
 
-Sector: AI Infra & Power. Label: Avoid for now. Quadrant: Lagging, heading to Improving. Data to 2026-11-04.
+Sector: AI Infra & Power. Label: Avoid for now. Quadrant: Lagging, heading to Leading. Data to 2026-11-06.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| CRWV | CoreWeave Inc. | -24.3% | -45.3% | -64.9% |
-| NBIS | Nebius Group N.V. | -22.4% | -40.3% | -27.5% |
-| APLD | Applied Digital Corporation | -18.5% | -30.2% | -62.5% |
-| IREN | IREN Limited | -24.7% | -43.9% | -64.4% |
-| CIFR | Cipher Digital Inc. | -26.7% | -55.4% | -70.3% |
-| WULF | TeraWulf Inc. | -12.8% | -18.8% | -54.5% |
-| MARA | MARA Holdings Inc. | -6.5% | -33.7% | -47.3% |
-| RIOT | Riot Platforms Inc. Common Stock  | +6.4% | -17.1% | -35.1% |
-| CLSK | CleanSpark Inc. | -20.8% | -41.0% | -53.1% |
-| HUT | Hut 8 Corp. | -29.5% | -45.2% | -55.1% |
-| CORZ | Core Scientific Inc. | -14.9% | -20.0% | -48.2% |
-| BTDR | Bitdeer Technologies Group | -17.5% | -37.2% | -56.8% |
+| CRWV | CoreWeave Inc. | -15.4% | -43.5% | -59.4% |
+| NBIS | Nebius Group N.V. | -16.0% | -41.4% | -26.9% |
+| APLD | Applied Digital Corporation | -12.7% | -34.3% | -62.3% |
+| IREN | IREN Limited | -9.7% | -38.5% | -64.6% |
+| CIFR | Cipher Digital Inc. | -10.2% | -51.6% | -68.2% |
+| WULF | TeraWulf Inc. | -3.1% | -17.4% | -51.4% |
+| MARA | MARA Holdings Inc. | -6.2% | -34.2% | -50.9% |
+| RIOT | Riot Platforms Inc. Common Stock  | +30.4% | -1.0% | -30.6% |
+| CLSK | CleanSpark Inc. | -19.7% | -41.3% | -56.6% |
+| HUT | Hut 8 Corp. | -11.4% | -37.5% | -46.5% |
+| CORZ | Core Scientific Inc. | -11.2% | -23.7% | -48.7% |
+| BTDR | Bitdeer Technologies Group | -10.4% | -37.5% | -55.4% |

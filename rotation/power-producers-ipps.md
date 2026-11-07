@@ -1,10 +1,10 @@
 # Power Producers (IPPs)
 
-Sector: AI Infra & Power. Label: Avoid for now. Quadrant: Lagging, heading to Lagging. Data to 2026-11-04.
+Sector: AI Infra & Power. Label: Avoid for now. Quadrant: Weakening, heading to Lagging. Data to 2026-11-06.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| CEG | Constellation Energy Corporation Common  | -4.8% | -18.0% | -23.9% |
-| VST | Vistra Corp. | -15.7% | -27.9% | -24.0% |
-| TLN | Talen Energy Corporation | -6.0% | -13.6% | -20.3% |
-| NRG | NRG Energy Inc. | -14.1% | -23.4% | -44.7% |
+| CEG | Constellation Energy Corporation Common  | -4.7% | -16.1% | -17.7% |
+| VST | Vistra Corp. | -9.8% | -22.7% | -15.5% |
+| TLN | Talen Energy Corporation | -1.3% | -10.5% | -12.3% |
+| NRG | NRG Energy Inc. | -8.1% | -18.2% | -36.1% |

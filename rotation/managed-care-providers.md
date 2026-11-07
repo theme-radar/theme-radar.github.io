@@ -1,21 +1,21 @@
 # Managed Care & Providers
 
-Sector: Healthcare. Label: Already moving. Quadrant: Leading, heading to Leading. Data to 2026-11-04.
+Sector: Healthcare. Label: No signal. Quadrant: Leading, heading to Leading. Data to 2026-11-06.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| UNH | UnitedHealth Group Incorporated Common S | +0.6% | +8.9% | +11.5% |
-| ELV | Elevance Health Inc. | +4.8% | +7.4% | +15.9% |
-| CI | The Cigna Group | +3.5% | +9.7% | +8.3% |
-| HUM | Humana Inc. | +1.4% | +5.3% | +69.5% |
-| CNC | Centene Corporation | +13.4% | +17.0% | +37.4% |
-| MOH | Molina Healthcare Inc | +14.3% | +16.2% | +14.7% |
-| HCA | HCA Healthcare Inc. | +10.2% | +16.3% | +18.9% |
-| THC | Tenet Healthcare Corporation | +8.8% | +12.5% | +50.2% |
-| UHS | Universal Health Services Inc. | +14.1% | +12.5% | +16.6% |
-| VTR | Ventas Inc. | +10.0% | +11.4% | +3.0% |
-| EHC | Encompass Health Corporation | +15.5% | +15.2% | +34.3% |
-| ACHC | Acadia Healthcare Company Inc. | +9.3% | +10.3% | +27.5% |
-| ENSG | The Ensign Group Inc. | +2.3% | +11.3% | +7.0% |
-| WELL | Welltower Inc. | +9.2% | +12.2% | +14.6% |
-| TDOC | Teladoc Health Inc. | +41.0% | +74.5% | +42.6% |
+| UNH | UnitedHealth Group Incorporated Common S | -3.1% | +3.9% | +3.7% |
+| ELV | Elevance Health Inc. | +1.3% | +3.1% | +12.6% |
+| CI | The Cigna Group | -1.6% | +4.0% | +1.9% |
+| HUM | Humana Inc. | +4.6% | +0.4% | +57.8% |
+| CNC | Centene Corporation | +1.9% | +6.7% | +24.6% |
+| MOH | Molina Healthcare Inc | +2.1% | +6.1% | +12.4% |
+| HCA | HCA Healthcare Inc. | +4.6% | +9.7% | +13.7% |
+| THC | Tenet Healthcare Corporation | +3.7% | +7.4% | +48.8% |
+| UHS | Universal Health Services Inc. | +11.1% | +10.2% | +15.0% |
+| VTR | Ventas Inc. | +4.7% | +8.2% | +1.7% |
+| EHC | Encompass Health Corporation | +1.2% | +11.5% | +29.6% |
+| ACHC | Acadia Healthcare Company Inc. | +23.5% | +26.5% | +46.9% |
+| ENSG | The Ensign Group Inc. | -0.2% | +5.4% | +5.6% |
+| WELL | Welltower Inc. | +4.4% | +8.7% | +14.1% |
+| TDOC | Teladoc Health Inc. | +3.1% | +52.0% | +21.0% |

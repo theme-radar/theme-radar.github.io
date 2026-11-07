@@ -11,4 +11,4 @@ AI-driven scientific discovery, and the tools, labs and data it runs on.
 
 | Basket | Start | Since start | 20D | 6M | Label |
 |---|---|---|---|---|---|
-| [AI Science](https://theme-radar.github.io/baskets/ai-science.md) | 2026-08-17 | +16.8% | +4.7% | +76.3% | No signal |
+| [AI Science](https://theme-radar.github.io/baskets/ai-science.md) | 2026-08-17 | +11.9% | -0.9% | +67.5% | No signal |
