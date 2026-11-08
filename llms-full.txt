@@ -82,11 +82,33 @@ Here is a plausible calculation of actual ARR from AI, which is roughly $414Bn/y
 
 In the meantime, models continue to grow more powerful and use cases keep expanding—from coding to 3D design, mathematics, research, medical diagnosis, legal analysis, etc.
 
+**Just over the weekend, Anthropic published the following development on their site that they are moving into Personal finance and Security, both have large** **TAM....**
+
+**More visibility and control over Claude Enterprise for security teams** (Claude blog, Product updates, 2026-11-05)
+
+Claude Enterprise gets a new security center (beta) that checks a company’s settings against Anthropic’s recommended setup. The screenshot shows “13 of 16 controls passed”. Inference hooks are now generally available. They send prompts and tool calls to the customer’s own data security tools. An endpoint detection (EDR) sensor can now run inside the Cowork virtual machine in detection mode (beta, macOS and Windows). It also works for the desktop app on Amazon Bedrock, Google Cloud Vertex AI and Microsoft Foundry.
+
+Read-across: mildly positive for endpoint and data-security vendors (the CRWD, ZS and FTNT kind) because Anthropic is plugging into customers’ existing security tools, not replacing them. The post names no vendor. It also confirms AMZN, GOOGL and MSFT as enterprise sales channels.
+
+[https://claude.com/resources/articles/claude-enterprise-security-updates](https://claude.com/resources/articles/claude-enterprise-security-updates)
+
+**Introducing Personal Finance in Claude** (Claude blog, Product updates, 2026-11-05)
+
+<img src="/img/ai-hardware-next-12m_fig10.png" alt="Claude Personal Finance (beta) home screen" />
+
+Users can link bank and card accounts through Plaid and ask Claude about balances, spending and bills. Access is read-only. Claude cannot move, manage or invest money, and the feature has no ads or product offers. Claude sees up to two years of transactions for linked accounts. The beta rolls out this week in the US on the Pro, Max and Ultra plans. The post gives no pricing.
+
+<img src="/img/ai-hardware-next-12m_fig11.png" alt="Claude Personal Finance answering where money went in October" />
+
+Read-across: none direct. Plaid, the bank-data provider, is private.
+
+[https://claude.com/resources/articles/introducing-personal-finance-in-claude](https://claude.com/resources/articles/introducing-personal-finance-in-claude)
+
 ## The 6–12 month question
 
 The likely 6–12 month transition is from expansion at almost any price to expansion subject to proof of utilization and return. That distinction matters more for the basket than an aggregate capex percentage alone.
 
-<img src="/img/ai-hardware-next-12m_fig11.png" alt="Three paths for the next 6-12 months: demand-led expansion 20%, selective expansion 50%, capital and ROI reset 30%" />
+<img src="/img/ai-hardware-next-12m_fig17.png" alt="Three paths for the next 6-12 months: demand-led expansion 20%, selective expansion 50%, capital and ROI reset 30%" />
 
 **The recent sell-off may therefore reflect a “sell now, evaluate later” response to uncertainty rather than proof that the underlying demand thesis has failed.** This does not justify panic, but it does reinforce the need to distinguish reasonably valued, financially durable companies from holdings that require an unconstrained buildout to succeed. The political development changes the evidentiary burden and the expected path of investment; it does not, by itself, overturn the selective-growth view.
 
@@ -137,9 +159,11 @@ Then I can score each item transparently—for example, 1–5—with a source an
 
 **Thesis:** the accelerator platform, now extending into the CPU (Vera) and the full rack. INTACT on volume, with a rising but contingent financing exposure.
 
+<img src="/img/ai-hardware-next-12m_fig12.png" alt="NVDA daily chart to early Nov 2026, below its 200-day moving average" />
+
 Nvidia hasn't reported yet, 17th Nov.  It delivered a near perfect Q2 quarter, as revenue accelerated, networking grew 35% QoQ, with elite-level margins and cash flow that are significantly better than even the trademark value-stock Apple.  **What I am concerned with is** the inference market is becoming more competitive, CPU-to-GPU attach rates could divert compute spend. Also, last quarter they changed the segment reporting methodology which is likely a defensive move ahead of hyperscaler allocating more AI budget to custom silicon.  
 
-<img src="/img/ai-hardware-next-12m_fig10.png" alt="NVIDIA new segment reporting: Data Center split into Hyperscale and ACIE" />
+<img src="/img/ai-hardware-next-12m_fig13.png" alt="NVIDIA new segment reporting: Data Center split into Hyperscale and ACIE" />
 
 **Demand since last print:** China orders from ByteDance, Alibaba and Tencent reported above $35bn, with no SKU or licence detail. SpaceX reportedly raising ~$40bn to buy Vera Rubin, closing 2027. NVDA paid a ~$1.4bn test prepayment to KYEC and $1.5bn to Amkor to lock back-end capacity.
 
@@ -173,6 +197,8 @@ As a result, I actually want to take the contrarian view (against Citrini) that 
 The credible second source at rack scale, plus the best server CPU franchise as agentic AI lifts CPU demand. INTACT, strengthened.
 
 In AMD’s architecture, the industry-leading 432GB of HBM is sitting very close to the GPU, which means it’s extremely high-bandwidth local memory. To contrast, although Google offers better memory utilization through shared memory, even strong ICI interconnects introduce latency and offer lower bandwidth than local memory.  
+
+<img src="/img/ai-hardware-next-12m_fig14.png" alt="AMD daily chart to early Nov 2026, holding above its 200-day moving average" />
 
 Technically, there is more risk in this approach, as securing HBM is clearly an industry-wide obstacle. Yet AMD is leaning into the constraint with 12 HBM4 stacks and 432GB per MI455X. The tradeoff is that it leads to a performance advantage as inference workloads need quick access to model weights and KV cache. By keeping more of the data in local HBM, it reduces the need to move it across an interconnect. 
 
@@ -223,6 +249,8 @@ I should also note that Nvidia has a strategic advantage in financing its custom
 **Thesis**
 
 The toll road for every AI chip, GPU, ASIC or CPU. HPC was 68% of revenue in Q3 (65% for 9M26). INTACT, strengthened.
+
+<img src="/img/ai-hardware-next-12m_fig15.png" alt="TSM daily chart to early Nov 2026, testing its 200-day moving average" />
 
 **It is the cleanest hold in the group.** Demand is above capacity and pricing is rising on both nodes and packaging. Demand is also broadening beyond accelerators into agentic CPUs and ASICs, so the shift in customer mix that pressures NVDA pricing (TPUs, custom silicon) is neutral or positive for TSM. Management now sends its own teams to check US data-center and power readiness, and the feedback is "so far so good". Thesis strengthened. Still open: size of price increases, and Terafab. 
 
@@ -318,6 +346,8 @@ Surging context window lengths are another main driver of memory demand, as KV c
 | **Total** | **1,199.1** | **1,333.5** | **1,473.9** | **2,024.0** | **3,052.3** | **100%** |
 
 **Thesis:** speed to power.  **Chips without power are inventory, not intelligence.** Bloom sells on-site fuel cells that hyperscalers can switch on faster than a grid connection. WEAKENED on cash, concentration and open allegations.
+
+<img src="/img/ai-hardware-next-12m_fig16.png" alt="BE daily chart to early Nov 2026, below its 200-day moving average" />
 
 And for the first time I can recall from earnings calls, Bloom is to become more integrated to utility infrastructure. On the earnings call on 22nd Oct, Bloom discussed traditional utility companies as becoming key customers, as they emphasised utility companies are coming to the same conclusion as hyperscalers. Management suggests the company could become part of the long-term strategy of whale-sized utilities rather than competing with them for customers seeking near-term power solutions. 
 
