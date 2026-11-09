@@ -34,6 +34,9 @@ def dfmt(d):
 
 THREADS = yaml.safe_load(open(os.path.join(CONTENT, 'threads.yaml')))
 THREAD = {t['name']: t for t in THREADS}
+STOCK_COLOR = '#6b675f'
+def tkey(t):
+    return t.replace('/', '-')
 
 LABEL_TEXT = {
     'Research now': 'Turning up after a weak six months. Early, so the reason behind the move needs checking.',
@@ -117,6 +120,7 @@ nav.util a{margin-right:14px}
 .tcard .nm{font-weight:700;margin:10px 0 4px}.tcard .ct{font-size:13px;color:var(--mute)}
 .thead{display:flex;align-items:center;gap:14px;margin:4px 0 6px}.thead h1{margin:0}
 .pcard{border-left:4px solid var(--tc)}
+.sbadge{display:inline-block;font-size:11px;font-weight:600;padding:1px 7px;border-radius:999px;background:var(--line);color:var(--fg);margin-left:6px;vertical-align:middle}
 .tlabel{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--tc);font-weight:600}
 .tpanel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 22px 6px;margin:8px 0 18px}
 .tpanel .thead h1{font-size:30px}.tpanel .incep{color:var(--mute);font-size:15px;margin-top:2px}
@@ -145,7 +149,7 @@ def icon(t, size=28):
     return f'<span class="ico" style="--tc:{t["color"]};width:{size}px;height:{size}px"><svg viewBox="0 0 24 24" width="{px}" height="{px}" aria-hidden="true">{t["icon"]}</svg></span>'
 
 def page(title, body, active='', desc='', md_href=None, canonical='', wide=False, scripts=''):
-    nav = [('/', 'Home', 'home'), ('/baskets/', 'Thematic Baskets', 'baskets'),
+    nav = [('/', 'Home', 'home'), ('/baskets/', 'Thematic Baskets', 'baskets'), ('/stocks/', 'Stocks', 'stocks'),
            ('/rotation/', 'Rotation', 'rotation'), ('/etfs/', 'Sector ETFs', 'etfs'), ('/about/', 'About', 'about')]
     navh = ''.join(f'<a href="{h}" class="{"on" if k == active else ""}">{t}</a>' for h, t, k in nav)
     tabs = ''.join(f'<a class="tab {"on" if active == "t:" + t["slug"] else ""}" style="--tc:{t["color"]}" href="/themes/{t["slug"]}/">{icon(t, 24)}{E(t["name"])}</a>' for t in THREADS)
@@ -328,6 +332,8 @@ def build(data, out, asof, base):
         _, fm, body = raw.split('---', 2)
         meta = yaml.safe_load(fm); meta['body'] = body.strip()
         meta['date'] = str(meta['date']); meta['url'] = f"/research/{meta['slug']}/"
+        meta.setdefault('thread', None); meta['type'] = meta.get('type') or 'theme'
+        assert meta['thread'] is None or meta['thread'] in THREAD, f"unknown theme {meta['thread']} in {fn}"
         posts.append(meta)
     posts.sort(key=lambda p: p['date'], reverse=True)
 
@@ -364,13 +370,22 @@ def build(data, out, asof, base):
                   for t in themes]
     sectors = sorted({t['sector'] for t in themes})
 
+    def ptl(p):
+        if p['thread']: return tl(p['thread'])
+        t0 = (p.get('tickers') or [''])[0]
+        return f'<a class="tlabel" style="--tc:{STOCK_COLOR}" href="/stocks/{tkey(t0)}/">Single stock · {E(t0)}</a>'
+    def pcol(p):
+        return THREAD[p['thread']]['color'] if p['thread'] else STOCK_COLOR
+    def badge(p):
+        return '<span class="sbadge">Stock</span>' if p['type'] == 'stock' else ''
+    def theme_of(p):
+        return p['thread'] or 'Single stock'
     def tl(name):
         t = THREAD[name]
         return f'<a class="tlabel" style="--tc:{t["color"]}" href="/themes/{t["slug"]}/">{icon(t, 20)}{E(t["name"])}</a>'
     def pcard(p):
-        t = THREAD[p['thread']]
-        return (f'<div class="card pcard" style="--tc:{t["color"]}"><div class="row">{tl(p["thread"])}<span class="mute small">{dfmt(p["date"])}</span></div>'
-                f'<h3 style="margin:8px 0 4px"><a href="{p["url"]}">{E(p["title"])}</a></h3><p class="small" style="margin:0">{E(p["summary"])}</p>'
+        return (f'<div class="card pcard" style="--tc:{pcol(p)}"><div class="row">{ptl(p)}<span class="mute small">{dfmt(p["date"])}</span></div>'
+                f'<h3 style="margin:8px 0 4px"><a href="{p["url"]}">{E(p["title"])}</a>{badge(p)}</h3><p class="small" style="margin:0">{E(p["summary"])}</p>'
                 f'<div class="mute small" style="margin-top:6px">{", ".join(E(x) for x in p.get("tickers", []))}</div></div>')
     def tcard(t):
         n = sum(1 for p in posts if p['thread'] == t['name']); nb = sum(1 for b in baskets if b['thread'] == t['name'])
@@ -385,14 +400,14 @@ def build(data, out, asof, base):
     # ---------- research pages ----------
     for p in posts:
         bl = ''.join(f'<a href="/baskets/{s}/">{E(bslug[s]["name"])} basket</a>' for s in p.get('baskets') or [] if s in bslug)
-        head = (f'<div class="row" style="justify-content:flex-start">{tl(p["thread"])}<span class="mute small">{dfmt(p["date"])}</span></div>'
+        head = (f'<div class="row" style="justify-content:flex-start">{ptl(p)}<span class="mute small">{dfmt(p["date"])}</span></div>'
                 f'<h1>{E(p["title"])}</h1><p class="mute">{E(p["summary"])}</p>'
-                f'<div class="kv">Tickers: <b>{", ".join(E(t) for t in p.get("tickers", []))}</b></div>'
+                f'<div class="kv">Tickers: <b>{", ".join(f"<a href=\"/stocks/{tkey(t)}/\">{E(t)}</a>" for t in p.get("tickers", []))}</b></div>'
                 + (f'<div class="tags">Tracked in: {bl}</div>' if bl else ''))
-        md = (f'# {p["title"]}\n\nDate: {p["date"]}\nTheme: {p["thread"]}\nTickers: {", ".join(p.get("tickers", []))}\n'
+        md = (f'# {p["title"]}\n\nDate: {p["date"]}\nTheme: {theme_of(p)}\nType: {p["type"]}\nTickers: {", ".join(p.get("tickers", []))}\n'
               f'Canonical: {base}{p["url"]}\n\nSummary: {p["summary"]}\n\n{p["body"]}\n')
         S.html(p['url'], p['title'], head + '<hr style="border:0;border-top:1px solid var(--line)"><article>' + md_to_html(p['body']) + '</article>',
-               't:' + THREAD[p['thread']]['slug'], p['summary'], md)
+               ('t:' + THREAD[p['thread']]['slug']) if p['thread'] else 'stocks', p['summary'], md)
     DOC = '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2.5"/><path d="M9 9h6M9 13h6M9 17h4"/></svg>'
     def theme_panel(t, tp, b):
         if b is None:
@@ -459,7 +474,7 @@ def build(data, out, asof, base):
     body = ('<h1>Research library</h1><p class="mute">Thematic research, organised by theme. Pick a theme to see every piece and the baskets that track it.</p>'
             f'<div class="themegrid">{"".join(tcard(t) for t in threads)}</div><h2>All pieces, newest first</h2>' + ''.join(pcard(p) for p in posts))
     mdl = ['# Research library', ''] + [f'- [{t["name"]}]({base}/themes/{t["slug"]}.md): {t["summary"]}' for t in threads] + ['', '## All pieces', '']
-    mdl += [f'- [{p["title"]}]({base}{p["url"].rstrip("/")}.md) ({p["date"]}, {p["thread"]})' for p in posts]
+    mdl += [f'- [{p["title"]}]({base}{p["url"].rstrip("/")}.md) ({p["date"]}, {theme_of(p)})' for p in posts]
     S.html('/research/', 'Research library', body, '', 'All research, organised by theme.', '\n'.join(mdl))
 
     # ---------- basket pages ----------
@@ -582,10 +597,56 @@ Not investment advice. Positions may be held in the securities discussed. Figure
                 (pct(t['d20']), cls(t['d20'])), (chip(t['label']), '')] for t in lead])
             + '<p><a href="/rotation/">Full rotation map →</a> · <a href="/etfs/">Sector ETFs →</a></p>')
     md = [f'# {SITE_NAME}', '', TAGLINE, f'Market data to the {asof} close.', '', '## Latest research', '']
-    md += [f'- [{p["title"]}]({base}{p["url"].rstrip("/")}.md) ({p["date"]}, {p["thread"]})' for p in posts[:2]]
+    md += [f'- [{p["title"]}]({base}{p["url"].rstrip("/")}.md) ({p["date"]}, {theme_of(p)})' for p in posts[:2]]
     md += ['', '## Themes', ''] + [f'- [{t["name"]}]({base}/themes/{t["slug"]}.md): {t["summary"]}' for t in threads]
     md += ['', '## Thematic Baskets', '', md_table(['Basket', 'Start', 'Since start', '6M', 'Label'], [[f'[{b["name"]}]({base}/baskets/{b["slug"]}.md)', b['start'], pct(b['since_start']), pct(b['m6']), b['label']] for b in baskets])]
     S.html('/', SITE_NAME, body, 'home', TAGLINE, '\n'.join(md))
+
+    # ---------- stock pages ----------
+    tinfo = {}
+    for m in tmem:
+        tinfo.setdefault(m['ticker'], m)
+    for b in baskets:
+        for m in b['members']:
+            tinfo.setdefault(m['ticker'], dict(ticker=m['ticker'], name=m['name'], m6=m['m6'], d20=m['d20'], theme=None))
+    allt = sorted({t for p in posts for t in p.get('tickers', [])})
+    stocks = []
+    for tk_ in allt:
+        i = tinfo.get(tk_, {})
+        own = [p for p in posts if p['type'] == 'stock' and (p.get('tickers') or [None])[0] == tk_]
+        ment = [p for p in posts if tk_ in (p.get('tickers') or []) and p not in own]
+        inb = [b for b in baskets if any(m['ticker'] == tk_ for m in b['members'])]
+        stocks.append(dict(ticker=tk_, key=tkey(tk_), name=i.get('name') or tk_, price=i.get('price'), d20=i.get('d20'), m6=i.get('m6'), y1=i.get('y1'),
+                           rotation=i.get('theme'), own=own, ment=ment, baskets=inb))
+    def ritem(p):
+        return (f'<div class="ritem" style="--tc:{pcol(p)}"><span class="di">{DOC}</span><div><a href="{p["url"]}">{E(p["title"])}</a>{badge(p)}'
+                f'<div class="meta">{E(p.get("kind", "Research"))} · {E(theme_of(p))}</div></div><span class="dt">{dfmt(p["date"])}</span></div>')
+    for st in stocks:
+        rot = (f'<a href="/rotation/{slugify(st["rotation"])}/">{E(st["rotation"])}</a>' if st['rotation'] else '—')
+        bks = ', '.join(f'<a href="/baskets/{b["slug"]}/">{E(b["name"])}</a>' for b in st['baskets']) or 'None'
+        body = (f'<div class="row" style="justify-content:flex-start"><a class="small" href="/stocks/">Stocks</a></div>'
+                f'<h1>{E(st["ticker"])} <span class="mute" style="font-weight:400">{E(st["name"])}</span></h1>'
+                + (f'<div class="kv">Close {dfmt(asof)}: <b>{st["price"]:,.2f}</b> 20D: <b class="{cls(st["d20"])}">{pct(st["d20"])}</b> 6M: <b class="{cls(st["m6"])}">{pct(st["m6"])}</b></div>' if st['price'] is not None
+                   else (f'<div class="kv">6M: <b class="{cls(st["m6"])}">{pct(st["m6"])}</b></div>' if st['m6'] is not None else ''))
+                + f'<div class="kv">Rotation theme: <b>{rot}</b> Thematic Baskets: <b>{bks}</b></div>'
+                + (f'<h2>Single-stock research</h2><div class="rlist">{"".join(ritem(p) for p in st["own"])}</div>' if st['own'] else '')
+                + (f'<h2>Mentioned in</h2><div class="rlist">{"".join(ritem(p) for p in st["ment"])}</div>' if st['ment'] else ''))
+        md = [f'# {st["ticker"]} ({st["name"]})', '', f'Data to the {asof} close.', '']
+        if st['m6'] is not None: md += [f'- 6M return: {pct(st["m6"])}', f'- 20D return: {pct(st["d20"])}']
+        md += [f'- Rotation theme: {st["rotation"] or "none"}', f'- Thematic Baskets: {", ".join(b["name"] for b in st["baskets"]) or "none"}', '']
+        if st['own']: md += ['## Single-stock research', ''] + [f'- [{p["title"]}]({base}{p["url"].rstrip("/")}.md) ({p["date"]}): {p["summary"]}' for p in st['own']] + ['']
+        if st['ment']: md += ['## Mentioned in', ''] + [f'- [{p["title"]}]({base}{p["url"].rstrip("/")}.md) ({p["date"]}, {theme_of(p)})' for p in st['ment']]
+        S.html(f'/stocks/{st["key"]}/', f'{st["ticker"]} {st["name"]}', body, 'stocks', f'All research on {st["ticker"]} ({st["name"]}).', '\n'.join(md))
+    sp = [p for p in posts if p['type'] == 'stock']
+    rows = [[(f'<a href="/stocks/{st["key"]}/"><b>{E(st["ticker"])}</b></a><br><span class="mute small">{E(st["name"])}</span>', ''),
+             (str(len(st['own']) + len(st['ment'])), ''), (pct(st['m6']), cls(st['m6']))] for st in stocks]
+    body = ('<h1>Stocks</h1><p class="mute">Every ticker named in the research, with the pieces that cover it. Single-stock pieces sit under their theme when they have one.</p>'
+            '<h2>Single-stock research</h2>' + (''.join(pcard(p) for p in sp) or '<p class="mute small">None yet.</p>')
+            + f'<h2>All tickers ({len(stocks)})</h2><p class="mute small">6M return to the {dfmt(asof)} close, where priced.</p>' + table(['Ticker', 'Pieces', '6M'], rows))
+    md = ['# Stocks', '', f'Data to the {asof} close.', '', '## Single-stock research', '']
+    md += [f'- [{p["title"]}]({base}{p["url"].rstrip("/")}.md) ({p["date"]}): {p["summary"]}' for p in sp] or ['None yet.']
+    md += ['', '## All tickers', '', md_table(['Ticker', 'Name', 'Pieces', '6M'], [[f'[{st["ticker"]}]({base}/stocks/{st["key"]}.md)', st['name'], len(st['own']) + len(st['ment']), pct(st['m6'])] for st in stocks])]
+    S.html('/stocks/', 'Stocks', body, 'stocks', 'Every ticker named in the research, with the pieces that cover it.', '\n'.join(md))
 
     # ---------- data ----------
     now = dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
@@ -594,7 +655,10 @@ Not investment advice. Positions may be held in the securities discussed. Figure
          'rotation.json': dict(meta, method=FORMULA_MD, points=[dict(theme=r['theme'], sector=r['sector'], benchmark=r['bench'], week=r['date'], weeks_ago=r['ago'], rs_ratio=round(r['rr'], 3), rs_momentum=round(r['rm'], 3)) for r in rrg_all]),
          'theme_members.json': dict(meta, members=[dict(theme=m['theme'], ticker=m['ticker'], name=m['name'], d5=m['d5'], d20=m['d20'], m6=m['m6'], y1=m['y1'], off_high=m['off']) for m in tmem]),
          'etfs.json': dict(meta, etfs=etfs),
-         'research.json': dict(meta, research=[dict(title=p['title'], date=p['date'], theme=p['thread'], tickers=p.get('tickers', []), baskets=p.get('baskets', []),
+         'stocks.json': dict(meta, stocks=[dict(ticker=st['ticker'], name=st['name'], m6=st['m6'], d20=st['d20'], rotation_theme=st['rotation'],
+                             baskets=[b['slug'] for b in st['baskets']], url=f"{base}/stocks/{st['key']}/",
+                             single_stock_research=[base + p['url'] for p in st['own']], mentioned_in=[base + p['url'] for p in st['ment']]) for st in stocks]),
+         'research.json': dict(meta, research=[dict(title=p['title'], date=p['date'], theme=p['thread'], type=p['type'], tickers=p.get('tickers', []), baskets=p.get('baskets', []),
                                summary=p['summary'], url=base + p['url'], markdown=base + p['url'].rstrip('/') + '.md') for p in posts])}
     for k, v in D.items(): S.write('/data/' + k, json.dumps(v, indent=1, ensure_ascii=False))
     dbody = '<h1>Data</h1><p class="mute">Free to use with attribution. Refreshed after each US close.</p><ul>' + ''.join(f'<li><a href="/data/{k}">{k}</a></li>' for k in D) + '</ul>'
@@ -604,15 +668,17 @@ Not investment advice. Positions may be held in the securities discussed. Figure
     llms = [f'# {SITE_NAME}', '', f'> {TAGLINE} Free and open. Market data to the {asof} close.', '',
             'Research pieces are written as theses with named tickers, dated numbers and sources. Each idea is tracked as a basket from its start date.', '',
             '## Research']
-    llms += [f'- [{p["title"]}]({base}{p["url"].rstrip("/")}.md): {p["date"]}. Theme: {p["thread"]}. {", ".join(p.get("tickers", []))}. {p["summary"]}' for p in posts]
+    llms += [f'- [{p["title"]}]({base}{p["url"].rstrip("/")}.md): {p["date"]}. Theme: {theme_of(p)}. {", ".join(p.get("tickers", []))}. {p["summary"]}' for p in posts]
     llms += ['', '## Themes'] + [f'- [{t["name"]}]({base}/themes/{t["slug"]}.md): {t["summary"]}' for t in threads]
+    llms += ['', '## Stocks', f'- [Stock index]({base}/stocks.md): every ticker named in the research, each with its own page at /stocks/TICKER/']
+    llms += [f'- [{st["ticker"]}]({base}/stocks/{st["key"]}.md): single-stock research' for st in stocks if st['own']]
     llms += ['', '## Thematic Baskets (equal weight, buy-and-hold)'] + [f'- [{b["name"]}]({base}/baskets/{b["slug"]}.md): from {b["start"]}, {pct(b["since_start"])} since start, label {b["label"]}. {b["summary"]}' for b in baskets]
     llms += ['', '## Market views', f'- [Rotation]({base}/rotation.md): {len(themes)} themes on a weekly rotation chart against SPY', f'- [Sector ETFs]({base}/etfs.md)', '',
              '## Data', ] + [f'- [{k}]({base}/data/{k})' for k in D] + ['', '## Optional', f'- [All research in one file]({base}/llms-full.txt)', f'- [About]({base}/about.md)']
     S.write('/llms.txt', '\n'.join(llms) + '\n')
-    S.write('/llms-full.txt', '\n\n---\n\n'.join(f'# {p["title"]}\n\nDate: {p["date"]}\nTheme: {p["thread"]}\nURL: {base}{p["url"]}\n\n{p["body"]}' for p in posts) + '\n')
+    S.write('/llms-full.txt', '\n\n---\n\n'.join(f'# {p["title"]}\n\nDate: {p["date"]}\nTheme: {theme_of(p)}\nURL: {base}{p["url"]}\n\n{p["body"]}' for p in posts) + '\n')
     items = ''.join(f'<item><title>{E(p["title"])}</title><link>{base}{p["url"]}</link><guid>{base}{p["url"]}</guid>'
-                    f'<pubDate>{format_datetime(dt.datetime.fromisoformat(p["date"]).replace(tzinfo=dt.timezone.utc))}</pubDate><category>{E(p["thread"])}</category>'
+                    f'<pubDate>{format_datetime(dt.datetime.fromisoformat(p["date"]).replace(tzinfo=dt.timezone.utc))}</pubDate><category>{E(theme_of(p))}</category>'
                     f'<description>{E(p["summary"])}</description></item>' for p in posts)
     S.write('/feed.xml', f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>{SITE_NAME}</title><link>{base}/</link><description>{E(TAGLINE)}</description>{items}</channel></rss>')
     S.write('/sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + ''.join(f'<url><loc>{base}{u}</loc></url>' for u in S.urls) + '</urlset>')

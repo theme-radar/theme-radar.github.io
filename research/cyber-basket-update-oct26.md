@@ -2,6 +2,7 @@
 
 Date: 2026-10-26
 Theme: Cybersecurity
+Type: theme
 Tickers: MSFT, FROG, QLYS, ACN, CACI, MITK
 Canonical: https://theme-radar.github.io/research/cyber-basket-update-oct26/
 

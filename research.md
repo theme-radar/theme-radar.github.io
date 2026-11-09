@@ -8,6 +8,7 @@
 
 ## All pieces
 
+- [CAT Initiation: Power Story or Cycle Stock?](https://theme-radar.github.io/research/cat-initiation-power-or-cycle.md) (2026-11-09, Single stock)
 - [AI infrastructure, the next 12 months: re-evaluating the AI hardware basket](https://theme-radar.github.io/research/ai-infrastructure-next-12-months.md) (2026-11-06, AI Hardware)
 - [Earnings update Q3 2026: Amazon, Meta, Shopify](https://theme-radar.github.io/research/agentic-commerce-q3-2026-earnings.md) (2026-11-04, Agentic Commerce)
 - [Binance heist: what it means for our cyber basket](https://theme-radar.github.io/research/binance-heist-cyber-basket.md) (2026-11-04, Cybersecurity)

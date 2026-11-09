@@ -2,6 +2,7 @@
 
 Date: 2026-11-02
 Theme: Cybersecurity
+Type: theme
 Tickers: FTNT, FFIV
 Canonical: https://theme-radar.github.io/research/cyber-hardware-ftnt-ffiv/
 

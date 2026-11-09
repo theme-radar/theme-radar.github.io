@@ -1,0 +1,834 @@
+{
+ "site": "Theme Radar",
+ "asof": "2026-11-06",
+ "generated": "2026-11-09T08:57:47Z",
+ "units": "returns are decimal fractions (0.05 = +5%)",
+ "source": "daily closes, public market data",
+ "stocks": [
+  {
+   "ticker": "2395.T",
+   "name": "Shin Nippon Biomedical Laboratories (Tokyo, JPY)",
+   "m6": -0.0489,
+   "d20": -0.0535,
+   "rotation_theme": null,
+   "baskets": [
+    "ai-science"
+   ],
+   "url": "https://theme-radar.github.io/stocks/2395.T/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/penn-mrna-channel-check/",
+    "https://theme-radar.github.io/research/ai-frontier-labs-biotech/"
+   ]
+  },
+  {
+   "ticker": "A",
+   "name": "Agilent",
+   "m6": 0.5115,
+   "d20": 0.0247,
+   "rotation_theme": null,
+   "baskets": [
+    "ai-science"
+   ],
+   "url": "https://theme-radar.github.io/stocks/A/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/penn-mrna-channel-check/",
+    "https://theme-radar.github.io/research/ai-frontier-labs-biotech/"
+   ]
+  },
+  {
+   "ticker": "ACN",
+   "name": "Accenture plc",
+   "m6": 0.4439,
+   "d20": 0.2461,
+   "rotation_theme": "IT Services & Consulting",
+   "baskets": [
+    "cyber-security"
+   ],
+   "url": "https://theme-radar.github.io/stocks/ACN/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/cyber-basket-update-oct26/"
+   ]
+  },
+  {
+   "ticker": "AEM",
+   "name": "Agnico Eagle Mines Limited",
+   "m6": -0.0085,
+   "d20": 0.0135,
+   "rotation_theme": "Gold & Silver",
+   "baskets": [
+    "usd-devaluation"
+   ],
+   "url": "https://theme-radar.github.io/stocks/AEM/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/usd-debasement-initiation/"
+   ]
+  },
+  {
+   "ticker": "ALS",
+   "name": "Altius Minerals (TSX, CAD)",
+   "m6": -0.0213,
+   "d20": -0.1844,
+   "rotation_theme": null,
+   "baskets": [
+    "usd-devaluation"
+   ],
+   "url": "https://theme-radar.github.io/stocks/ALS/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/usd-debasement-initiation/"
+   ]
+  },
+  {
+   "ticker": "AMD",
+   "name": "Advanced Micro Devices Inc.",
+   "m6": -0.0135,
+   "d20": -0.2616,
+   "rotation_theme": "AI Chips & Compute",
+   "baskets": [
+    "ai-hardware"
+   ],
+   "url": "https://theme-radar.github.io/stocks/AMD/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/ai-infrastructure-next-12-months/"
+   ]
+  },
+  {
+   "ticker": "AMZN",
+   "name": "Amazon.com Inc.",
+   "m6": -0.0491,
+   "d20": -0.0119,
+   "rotation_theme": "AI Networking & Servers",
+   "baskets": [
+    "agentic-commerce",
+    "ai-hardware"
+   ],
+   "url": "https://theme-radar.github.io/stocks/AMZN/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/agentic-commerce-q3-2026-earnings/",
+    "https://theme-radar.github.io/research/the-mall-is-closing/"
+   ]
+  },
+  {
+   "ticker": "BE",
+   "name": "Bloom Energy Corporation",
+   "m6": -0.3363,
+   "d20": -0.3824,
+   "rotation_theme": "Fuel Cells & Hydrogen",
+   "baskets": [
+    "ai-hardware"
+   ],
+   "url": "https://theme-radar.github.io/stocks/BE/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/ai-infrastructure-next-12-months/"
+   ]
+  },
+  {
+   "ticker": "BRKR",
+   "name": "BRKR",
+   "m6": null,
+   "d20": null,
+   "rotation_theme": null,
+   "baskets": [],
+   "url": "https://theme-radar.github.io/stocks/BRKR/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/penn-mrna-channel-check/"
+   ]
+  },
+  {
+   "ticker": "CACI",
+   "name": "CACI International Inc.",
+   "m6": 0.2706,
+   "d20": 0.0008,
+   "rotation_theme": "Defense Tech & Drones",
+   "baskets": [
+    "cyber-security"
+   ],
+   "url": "https://theme-radar.github.io/stocks/CACI/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/cyber-basket-update-oct26/"
+   ]
+  },
+  {
+   "ticker": "CAT",
+   "name": "Caterpillar Inc.",
+   "m6": -0.3775,
+   "d20": -0.3021,
+   "rotation_theme": "Machinery",
+   "baskets": [],
+   "url": "https://theme-radar.github.io/stocks/CAT/",
+   "single_stock_research": [
+    "https://theme-radar.github.io/research/cat-initiation-power-or-cycle/"
+   ],
+   "mentioned_in": []
+  },
+  {
+   "ticker": "CERT",
+   "name": "CERT",
+   "m6": null,
+   "d20": null,
+   "rotation_theme": null,
+   "baskets": [],
+   "url": "https://theme-radar.github.io/stocks/CERT/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/penn-mrna-channel-check/"
+   ]
+  },
+  {
+   "ticker": "CMI",
+   "name": "Cummins Inc.",
+   "m6": -0.3377,
+   "d20": -0.1401,
+   "rotation_theme": "Fuel Cells & Hydrogen",
+   "baskets": [],
+   "url": "https://theme-radar.github.io/stocks/CMI/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/cat-initiation-power-or-cycle/"
+   ]
+  },
+  {
+   "ticker": "COHR",
+   "name": "Coherent Corp.",
+   "m6": -0.4249,
+   "d20": -0.3832,
+   "rotation_theme": "Optics & Photonics",
+   "baskets": [
+    "ai-hardware"
+   ],
+   "url": "https://theme-radar.github.io/stocks/COHR/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/ai-infrastructure-next-12-months/"
+   ]
+  },
+  {
+   "ticker": "CRL",
+   "name": "Charles River Laboratories",
+   "m6": 0.9002,
+   "d20": 0.1184,
+   "rotation_theme": null,
+   "baskets": [
+    "ai-science"
+   ],
+   "url": "https://theme-radar.github.io/stocks/CRL/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/penn-mrna-channel-check/",
+    "https://theme-radar.github.io/research/ai-frontier-labs-biotech/"
+   ]
+  },
+  {
+   "ticker": "CRWD",
+   "name": "CrowdStrike Holdings Inc.",
+   "m6": 0.6439,
+   "d20": -0.2114,
+   "rotation_theme": "Cybersecurity",
+   "baskets": [
+    "cyber-security"
+   ],
+   "url": "https://theme-radar.github.io/stocks/CRWD/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/binance-heist-cyber-basket/",
+    "https://theme-radar.github.io/research/cybersecurity-theme-primer/"
+   ]
+  },
+  {
+   "ticker": "DDOG",
+   "name": "Datadog Inc.",
+   "m6": -0.1055,
+   "d20": -0.3895,
+   "rotation_theme": "Data & Observability",
+   "baskets": [
+    "cyber-security"
+   ],
+   "url": "https://theme-radar.github.io/stocks/DDOG/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/binance-heist-cyber-basket/"
+   ]
+  },
+  {
+   "ticker": "DE",
+   "name": "Deere & Company",
+   "m6": 0.1684,
+   "d20": 0.0817,
+   "rotation_theme": "Machinery",
+   "baskets": [],
+   "url": "https://theme-radar.github.io/stocks/DE/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/cat-initiation-power-or-cycle/"
+   ]
+  },
+  {
+   "ticker": "DHR",
+   "name": "Danaher",
+   "m6": 0.3452,
+   "d20": 0.0475,
+   "rotation_theme": null,
+   "baskets": [
+    "ai-science"
+   ],
+   "url": "https://theme-radar.github.io/stocks/DHR/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/penn-mrna-channel-check/",
+    "https://theme-radar.github.io/research/ai-frontier-labs-biotech/"
+   ]
+  },
+  {
+   "ticker": "DNA",
+   "name": "DNA",
+   "m6": null,
+   "d20": null,
+   "rotation_theme": null,
+   "baskets": [],
+   "url": "https://theme-radar.github.io/stocks/DNA/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/penn-mrna-channel-check/"
+   ]
+  },
+  {
+   "ticker": "FFIV",
+   "name": "F5",
+   "m6": -0.122,
+   "d20": -0.3522,
+   "rotation_theme": null,
+   "baskets": [
+    "cyber-security"
+   ],
+   "url": "https://theme-radar.github.io/stocks/FFIV/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/cyber-hardware-ftnt-ffiv/",
+    "https://theme-radar.github.io/research/cybersecurity-theme-primer/"
+   ]
+  },
+  {
+   "ticker": "FNV",
+   "name": "Franco-Nevada Corporation",
+   "m6": 0.0984,
+   "d20": 0.0412,
+   "rotation_theme": "Gold & Silver",
+   "baskets": [
+    "usd-devaluation"
+   ],
+   "url": "https://theme-radar.github.io/stocks/FNV/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/usd-debasement-initiation/"
+   ]
+  },
+  {
+   "ticker": "FROG",
+   "name": "JFrog Ltd.",
+   "m6": 0.4313,
+   "d20": -0.0122,
+   "rotation_theme": "Data & Observability",
+   "baskets": [
+    "cyber-security"
+   ],
+   "url": "https://theme-radar.github.io/stocks/FROG/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/binance-heist-cyber-basket/",
+    "https://theme-radar.github.io/research/cyber-basket-update-oct26/"
+   ]
+  },
+  {
+   "ticker": "FTNT",
+   "name": "Fortinet Inc.",
+   "m6": 0.0418,
+   "d20": -0.3898,
+   "rotation_theme": "Cybersecurity",
+   "baskets": [
+    "cyber-security"
+   ],
+   "url": "https://theme-radar.github.io/stocks/FTNT/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/cyber-hardware-ftnt-ffiv/",
+    "https://theme-radar.github.io/research/cybersecurity-theme-primer/"
+   ]
+  },
+  {
+   "ticker": "GENB",
+   "name": "Generate Biomedicines",
+   "m6": -0.0439,
+   "d20": -0.0893,
+   "rotation_theme": null,
+   "baskets": [
+    "ai-science"
+   ],
+   "url": "https://theme-radar.github.io/stocks/GENB/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/penn-mrna-channel-check/",
+    "https://theme-radar.github.io/research/ai-frontier-labs-biotech/"
+   ]
+  },
+  {
+   "ticker": "GEV",
+   "name": "GE Vernova Inc.",
+   "m6": -0.2558,
+   "d20": -0.2295,
+   "rotation_theme": "Grid & Electrical Equipment",
+   "baskets": [],
+   "url": "https://theme-radar.github.io/stocks/GEV/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/cat-initiation-power-or-cycle/"
+   ]
+  },
+  {
+   "ticker": "ICLR",
+   "name": "ICON",
+   "m6": 0.6446,
+   "d20": 0.2471,
+   "rotation_theme": null,
+   "baskets": [
+    "ai-science"
+   ],
+   "url": "https://theme-radar.github.io/stocks/ICLR/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/penn-mrna-channel-check/",
+    "https://theme-radar.github.io/research/ai-frontier-labs-biotech/"
+   ]
+  },
+  {
+   "ticker": "ILMN",
+   "name": "Illumina Inc.",
+   "m6": 0.5022,
+   "d20": -0.2338,
+   "rotation_theme": "Diagnostics & Genomics",
+   "baskets": [
+    "ai-science"
+   ],
+   "url": "https://theme-radar.github.io/stocks/ILMN/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/ai-frontier-labs-biotech/"
+   ]
+  },
+  {
+   "ticker": "LITE",
+   "name": "Lumentum Holdings Inc.",
+   "m6": -0.4041,
+   "d20": -0.5119,
+   "rotation_theme": "Optics & Photonics",
+   "baskets": [
+    "ai-hardware"
+   ],
+   "url": "https://theme-radar.github.io/stocks/LITE/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/ai-infrastructure-next-12-months/"
+   ]
+  },
+  {
+   "ticker": "LLY",
+   "name": "Eli Lilly and Company",
+   "m6": 0.4276,
+   "d20": 0.1482,
+   "rotation_theme": "GLP-1 & Obesity",
+   "baskets": [
+    "ai-science"
+   ],
+   "url": "https://theme-radar.github.io/stocks/LLY/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/ai-frontier-labs-biotech/"
+   ]
+  },
+  {
+   "ticker": "META",
+   "name": "Meta Platforms Inc.",
+   "m6": 0.0009,
+   "d20": -0.151,
+   "rotation_theme": "Social & Ad-tech",
+   "baskets": [
+    "agentic-commerce"
+   ],
+   "url": "https://theme-radar.github.io/stocks/META/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/agentic-commerce-q3-2026-earnings/",
+    "https://theme-radar.github.io/research/the-mall-is-closing/"
+   ]
+  },
+  {
+   "ticker": "MITK",
+   "name": "Mitek Systems",
+   "m6": 0.1044,
+   "d20": -0.026,
+   "rotation_theme": null,
+   "baskets": [
+    "cyber-security"
+   ],
+   "url": "https://theme-radar.github.io/stocks/MITK/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/cyber-basket-update-oct26/"
+   ]
+  },
+  {
+   "ticker": "MSFT",
+   "name": "Microsoft Corporation",
+   "m6": 0.2782,
+   "d20": -0.0083,
+   "rotation_theme": "AI Networking & Servers",
+   "baskets": [
+    "cyber-security"
+   ],
+   "url": "https://theme-radar.github.io/stocks/MSFT/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/cyber-basket-update-oct26/"
+   ]
+  },
+  {
+   "ticker": "NET",
+   "name": "Cloudflare Inc.",
+   "m6": 0.3703,
+   "d20": -0.2554,
+   "rotation_theme": "Cybersecurity",
+   "baskets": [
+    "cyber-security"
+   ],
+   "url": "https://theme-radar.github.io/stocks/NET/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/binance-heist-cyber-basket/",
+    "https://theme-radar.github.io/research/cybersecurity-theme-primer/"
+   ]
+  },
+  {
+   "ticker": "NTRA",
+   "name": "Natera Inc.",
+   "m6": 0.5994,
+   "d20": -0.2247,
+   "rotation_theme": "Diagnostics & Genomics",
+   "baskets": [],
+   "url": "https://theme-radar.github.io/stocks/NTRA/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/penn-mrna-channel-check/",
+    "https://theme-radar.github.io/research/ai-frontier-labs-biotech/"
+   ]
+  },
+  {
+   "ticker": "NVDA",
+   "name": "NVIDIA Corporation",
+   "m6": -0.1327,
+   "d20": -0.186,
+   "rotation_theme": "AI Chips & Compute",
+   "baskets": [
+    "ai-hardware"
+   ],
+   "url": "https://theme-radar.github.io/stocks/NVDA/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/ai-infrastructure-next-12-months/"
+   ]
+  },
+  {
+   "ticker": "OABI",
+   "name": "OmniAb",
+   "m6": 2.0301,
+   "d20": 0.0501,
+   "rotation_theme": null,
+   "baskets": [
+    "ai-science"
+   ],
+   "url": "https://theme-radar.github.io/stocks/OABI/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/ai-frontier-labs-biotech/"
+   ]
+  },
+  {
+   "ticker": "OKTA",
+   "name": "Okta Inc.",
+   "m6": 1.0106,
+   "d20": -0.2733,
+   "rotation_theme": "Cybersecurity",
+   "baskets": [],
+   "url": "https://theme-radar.github.io/stocks/OKTA/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/passport-control-for-robots/"
+   ]
+  },
+  {
+   "ticker": "PANW",
+   "name": "Palo Alto Networks Inc.",
+   "m6": 0.5097,
+   "d20": -0.2506,
+   "rotation_theme": "Cybersecurity",
+   "baskets": [
+    "cyber-security"
+   ],
+   "url": "https://theme-radar.github.io/stocks/PANW/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/binance-heist-cyber-basket/",
+    "https://theme-radar.github.io/research/cybersecurity-theme-primer/"
+   ]
+  },
+  {
+   "ticker": "QLYS",
+   "name": "Qualys Inc.",
+   "m6": 1.0196,
+   "d20": -0.0593,
+   "rotation_theme": "Cybersecurity",
+   "baskets": [
+    "cyber-security"
+   ],
+   "url": "https://theme-radar.github.io/stocks/QLYS/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/cyber-basket-update-oct26/"
+   ]
+  },
+  {
+   "ticker": "RBRK",
+   "name": "Rubrik Inc.",
+   "m6": 0.6963,
+   "d20": -0.1549,
+   "rotation_theme": "Cybersecurity",
+   "baskets": [
+    "cyber-security"
+   ],
+   "url": "https://theme-radar.github.io/stocks/RBRK/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/cybersecurity-theme-primer/"
+   ]
+  },
+  {
+   "ticker": "RVTY",
+   "name": "Revvity",
+   "m6": 0.5357,
+   "d20": 0.006,
+   "rotation_theme": null,
+   "baskets": [
+    "ai-science"
+   ],
+   "url": "https://theme-radar.github.io/stocks/RVTY/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/penn-mrna-channel-check/",
+    "https://theme-radar.github.io/research/ai-frontier-labs-biotech/"
+   ]
+  },
+  {
+   "ticker": "RXRX",
+   "name": "Recursion Pharmaceuticals Inc.",
+   "m6": 0.0602,
+   "d20": -0.1927,
+   "rotation_theme": "Data & Observability",
+   "baskets": [],
+   "url": "https://theme-radar.github.io/stocks/RXRX/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/penn-mrna-channel-check/"
+   ]
+  },
+  {
+   "ticker": "SAIL",
+   "name": "SailPoint Inc.",
+   "m6": 0.5707,
+   "d20": -0.0751,
+   "rotation_theme": "Cybersecurity",
+   "baskets": [
+    "cyber-security"
+   ],
+   "url": "https://theme-radar.github.io/stocks/SAIL/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/binance-heist-cyber-basket/",
+    "https://theme-radar.github.io/research/passport-control-for-robots/",
+    "https://theme-radar.github.io/research/cybersecurity-theme-primer/"
+   ]
+  },
+  {
+   "ticker": "SHOP",
+   "name": "Shopify",
+   "m6": 0.3487,
+   "d20": -0.1284,
+   "rotation_theme": null,
+   "baskets": [
+    "agentic-commerce"
+   ],
+   "url": "https://theme-radar.github.io/stocks/SHOP/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/agentic-commerce-q3-2026-earnings/",
+    "https://theme-radar.github.io/research/the-mall-is-closing/"
+   ]
+  },
+  {
+   "ticker": "TECN",
+   "name": "TECN",
+   "m6": null,
+   "d20": null,
+   "rotation_theme": null,
+   "baskets": [],
+   "url": "https://theme-radar.github.io/stocks/TECN/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/penn-mrna-channel-check/"
+   ]
+  },
+  {
+   "ticker": "TEM",
+   "name": "Tempus AI Inc.",
+   "m6": 0.5253,
+   "d20": 0.0722,
+   "rotation_theme": "Diagnostics & Genomics",
+   "baskets": [],
+   "url": "https://theme-radar.github.io/stocks/TEM/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/penn-mrna-channel-check/",
+    "https://theme-radar.github.io/research/ai-frontier-labs-biotech/"
+   ]
+  },
+  {
+   "ticker": "TMO",
+   "name": "Thermo Fisher Scientific",
+   "m6": 0.4941,
+   "d20": 0.0558,
+   "rotation_theme": null,
+   "baskets": [
+    "ai-science"
+   ],
+   "url": "https://theme-radar.github.io/stocks/TMO/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/penn-mrna-channel-check/",
+    "https://theme-radar.github.io/research/ai-frontier-labs-biotech/"
+   ]
+  },
+  {
+   "ticker": "TSM",
+   "name": "Taiwan Semiconductor Manufacturing Compa",
+   "m6": -0.088,
+   "d20": -0.1718,
+   "rotation_theme": "Foundry & Packaging",
+   "baskets": [
+    "ai-hardware"
+   ],
+   "url": "https://theme-radar.github.io/stocks/TSM/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/ai-infrastructure-next-12-months/"
+   ]
+  },
+  {
+   "ticker": "TWST",
+   "name": "Twist Bioscience Corporation",
+   "m6": 1.1247,
+   "d20": -0.244,
+   "rotation_theme": "Diagnostics & Genomics",
+   "baskets": [
+    "ai-science"
+   ],
+   "url": "https://theme-radar.github.io/stocks/TWST/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/penn-mrna-channel-check/",
+    "https://theme-radar.github.io/research/ai-frontier-labs-biotech/"
+   ]
+  },
+  {
+   "ticker": "TXG",
+   "name": "10x Genomics",
+   "m6": 1.7444,
+   "d20": -0.265,
+   "rotation_theme": null,
+   "baskets": [
+    "ai-science"
+   ],
+   "url": "https://theme-radar.github.io/stocks/TXG/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/ai-frontier-labs-biotech/"
+   ]
+  },
+  {
+   "ticker": "V",
+   "name": "Visa Inc.",
+   "m6": 0.3258,
+   "d20": 0.0965,
+   "rotation_theme": "Payments & Fintech",
+   "baskets": [
+    "agentic-commerce"
+   ],
+   "url": "https://theme-radar.github.io/stocks/V/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/agentic-commerce-q3-2026-earnings/"
+   ]
+  },
+  {
+   "ticker": "WAT",
+   "name": "Waters",
+   "m6": 0.2885,
+   "d20": 0.0549,
+   "rotation_theme": null,
+   "baskets": [
+    "ai-science"
+   ],
+   "url": "https://theme-radar.github.io/stocks/WAT/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/penn-mrna-channel-check/",
+    "https://theme-radar.github.io/research/ai-frontier-labs-biotech/"
+   ]
+  },
+  {
+   "ticker": "WPM",
+   "name": "Wheaton Precious Metals Corp",
+   "m6": -0.0183,
+   "d20": -0.0169,
+   "rotation_theme": "Gold & Silver",
+   "baskets": [
+    "usd-devaluation"
+   ],
+   "url": "https://theme-radar.github.io/stocks/WPM/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/usd-debasement-initiation/"
+   ]
+  },
+  {
+   "ticker": "ZS",
+   "name": "Zscaler Inc.",
+   "m6": 0.2993,
+   "d20": -0.1543,
+   "rotation_theme": "Cybersecurity",
+   "baskets": [
+    "cyber-security"
+   ],
+   "url": "https://theme-radar.github.io/stocks/ZS/",
+   "single_stock_research": [],
+   "mentioned_in": [
+    "https://theme-radar.github.io/research/cybersecurity-theme-primer/"
+   ]
+  }
+ ]
+}

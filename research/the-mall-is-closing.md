@@ -2,6 +2,7 @@
 
 Date: 2026-10-14
 Theme: Agentic Commerce
+Type: theme
 Tickers: SHOP, META, AMZN
 Canonical: https://theme-radar.github.io/research/the-mall-is-closing/
 

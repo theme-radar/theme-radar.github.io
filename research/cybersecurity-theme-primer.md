@@ -2,6 +2,7 @@
 
 Date: 2026-09-18
 Theme: Cybersecurity
+Type: theme
 Tickers: ZS, FFIV, RBRK, FTNT, NET, PANW, CRWD, SAIL
 Canonical: https://theme-radar.github.io/research/cybersecurity-theme-primer/
 

@@ -2,6 +2,7 @@
 
 Date: 2026-05-20
 Theme: US Dollar Devaluation
+Type: theme
 Tickers: FNV, WPM, AEM, ALS
 Canonical: https://theme-radar.github.io/research/usd-debasement-initiation/
 

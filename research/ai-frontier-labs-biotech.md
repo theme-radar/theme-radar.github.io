@@ -2,6 +2,7 @@
 
 Date: 2026-10-31
 Theme: AI Science
+Type: theme
 Tickers: TWST, OABI, DHR, WAT, RVTY, TXG, ILMN, TMO, A, ICLR, CRL, 2395.T, GENB, LLY, NTRA, TEM
 Canonical: https://theme-radar.github.io/research/ai-frontier-labs-biotech/
 

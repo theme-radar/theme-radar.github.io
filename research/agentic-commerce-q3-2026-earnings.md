@@ -2,6 +2,7 @@
 
 Date: 2026-11-04
 Theme: Agentic Commerce
+Type: theme
 Tickers: AMZN, META, SHOP, V
 Canonical: https://theme-radar.github.io/research/agentic-commerce-q3-2026-earnings/
 

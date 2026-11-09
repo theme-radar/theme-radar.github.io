@@ -2,6 +2,7 @@
 
 Date: 2026-11-06
 Theme: AI Hardware
+Type: theme
 Tickers: NVDA, AMD, TSM, COHR, LITE, BE
 Canonical: https://theme-radar.github.io/research/ai-infrastructure-next-12-months/
 

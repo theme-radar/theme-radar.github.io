@@ -1,14 +1,31 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-06",
- "generated": "2026-11-08T13:34:00Z",
+ "generated": "2026-11-09T08:57:47Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "research": [
   {
+   "title": "CAT Initiation: Power Story or Cycle Stock?",
+   "date": "2026-11-09",
+   "theme": null,
+   "type": "stock",
+   "tickers": [
+    "CAT",
+    "GEV",
+    "CMI",
+    "DE"
+   ],
+   "baskets": [],
+   "summary": "Accumulate on weakness at $558.63: build below about $530 and add toward $480. The 2026 sell-off was a multiple reset, not an earnings miss, and the power backlog is sold out into 2029-30. About four-fifths of sales are still cyclical, so fair value is capped near 19x 2027 earnings.",
+   "url": "https://theme-radar.github.io/research/cat-initiation-power-or-cycle/",
+   "markdown": "https://theme-radar.github.io/research/cat-initiation-power-or-cycle.md"
+  },
+  {
    "title": "AI infrastructure, the next 12 months: re-evaluating the AI hardware basket",
    "date": "2026-11-06",
    "theme": "AI Hardware",
+   "type": "theme",
    "tickers": [
     "NVDA",
     "AMD",
@@ -28,6 +45,7 @@
    "title": "Earnings update Q3 2026: Amazon, Meta, Shopify",
    "date": "2026-11-04",
    "theme": "Agentic Commerce",
+   "type": "theme",
    "tickers": [
     "AMZN",
     "META",
@@ -45,6 +63,7 @@
    "title": "Binance heist: what it means for our cyber basket",
    "date": "2026-11-04",
    "theme": "Cybersecurity",
+   "type": "theme",
    "tickers": [
     "PANW",
     "SAIL",
@@ -64,6 +83,7 @@
    "title": "Channel check: what a Nobel Prize-winning mRNA lab at Penn told us about AI, monkeys and the wet lab",
    "date": "2026-11-04",
    "theme": "AI Science",
+   "type": "theme",
    "tickers": [
     "CRL",
     "2395.T",
@@ -94,6 +114,7 @@
    "title": "Cybersecurity hardware: Fortinet and F5",
    "date": "2026-11-02",
    "theme": "Cybersecurity",
+   "type": "theme",
    "tickers": [
     "FTNT",
     "FFIV"
@@ -109,6 +130,7 @@
    "title": "If frontier AI labs are becoming the next generation of biotech platforms, how should we position?",
    "date": "2026-10-31",
    "theme": "AI Science",
+   "type": "theme",
    "tickers": [
     "TWST",
     "OABI",
@@ -138,6 +160,7 @@
    "title": "Update on the cybersecurity basket: six new names",
    "date": "2026-10-26",
    "theme": "Cybersecurity",
+   "type": "theme",
    "tickers": [
     "MSFT",
     "FROG",
@@ -157,6 +180,7 @@
    "title": "The Mall Is Closing: Shopify, Meta's Muse and the Agentic Storefront",
    "date": "2026-10-14",
    "theme": "Agentic Commerce",
+   "type": "theme",
    "tickers": [
     "SHOP",
     "META",
@@ -173,6 +197,7 @@
    "title": "Passport Control for Robots: SAIL vs OKTA",
    "date": "2026-10-09",
    "theme": "Cybersecurity",
+   "type": "theme",
    "tickers": [
     "SAIL",
     "OKTA"
@@ -188,6 +213,7 @@
    "title": "AI agentic beneficiaries: cybersecurity theme primer and shopping list",
    "date": "2026-09-18",
    "theme": "Cybersecurity",
+   "type": "theme",
    "tickers": [
     "ZS",
     "FFIV",
@@ -209,6 +235,7 @@
    "title": "The USD Debasement Basket: initiation report",
    "date": "2026-05-20",
    "theme": "US Dollar Devaluation",
+   "type": "theme",
    "tickers": [
     "FNV",
     "WPM",

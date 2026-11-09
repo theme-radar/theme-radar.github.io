@@ -5,6 +5,7 @@
 Research pieces are written as theses with named tickers, dated numbers and sources. Each idea is tracked as a basket from its start date.
 
 ## Research
+- [CAT Initiation: Power Story or Cycle Stock?](https://theme-radar.github.io/research/cat-initiation-power-or-cycle.md): 2026-11-09. Theme: Single stock. CAT, GEV, CMI, DE. Accumulate on weakness at $558.63: build below about $530 and add toward $480. The 2026 sell-off was a multiple reset, not an earnings miss, and the power backlog is sold out into 2029-30. About four-fifths of sales are still cyclical, so fair value is capped near 19x 2027 earnings.
 - [AI infrastructure, the next 12 months: re-evaluating the AI hardware basket](https://theme-radar.github.io/research/ai-infrastructure-next-12-months.md): 2026-11-06. Theme: AI Hardware. NVDA, AMD, TSM, COHR, LITE, BE. The midterms raised the odds of a slower, more constrained US data-center build-out. AI demand stays strong, so the call is selective growth: prefer TSM and AMD, do not add to NVDA, sell LITE, keep COHR small, and hold BE.
 - [Earnings update Q3 2026: Amazon, Meta, Shopify](https://theme-radar.github.io/research/agentic-commerce-q3-2026-earnings.md): 2026-11-04. Theme: Agentic Commerce. AMZN, META, SHOP, V. Amazon is open to outside agents on its own terms, Meta's Muse works but the bill arrived as negative free cash flow and a $95bn raise, and Shopify's rail held while the stock fell. Visa says agent volume is still too small to matter in 2027.
 - [Binance heist: what it means for our cyber basket](https://theme-radar.github.io/research/binance-heist-cyber-basket.md): 2026-11-04. Theme: Cybersecurity. PANW, SAIL, FROG, CRWD, DDOG, NET. The largest crypto theft on record ran through a poisoned package, a fake job offer, an over-privileged token and an internal AI tool. No change to the basket, but it points to identity and software supply chain. A fear-driven slowdown in AI agents helps the basket. A return-driven one is the real risk.
@@ -24,6 +25,10 @@ Research pieces are written as theses with named tickers, dated numbers and sour
 - [US Dollar Devaluation](https://theme-radar.github.io/themes/us-dollar-devaluation.md): Gold equities as a hedge against a weaker dollar.
 - [AI Hardware](https://theme-radar.github.io/themes/ai-hardware.md): The AI build-out in silicon, optics, memory, equipment and power, and how it gets financed.
 
+## Stocks
+- [Stock index](https://theme-radar.github.io/stocks.md): every ticker named in the research, each with its own page at /stocks/TICKER/
+- [CAT](https://theme-radar.github.io/stocks/CAT.md): single-stock research
+
 ## Thematic Baskets (equal weight, buy-and-hold)
 - [Cyber Security](https://theme-radar.github.io/baskets/cyber-security.md): from 2026-09-18, -3.6% since start, label Avoid for now. Fifteen names across the security platforms and services that AI agents depend on: endpoint, network, zero trust, identity, software supply chain, data, observability and recovery.
 - [AI Science](https://theme-radar.github.io/baskets/ai-science.md): from 2026-08-17, +11.9% since start, label No signal. Frontier AI labs are becoming biotech platforms, so the physical layer gets paid: molecule makers, lab tools, testing services, AI drug developers and pharma. 14 names, equal weight. SNBL (2395.T) is priced in yen.
@@ -41,6 +46,7 @@ Research pieces are written as theses with named tickers, dated numbers and sour
 - [rotation.json](https://theme-radar.github.io/data/rotation.json)
 - [theme_members.json](https://theme-radar.github.io/data/theme_members.json)
 - [etfs.json](https://theme-radar.github.io/data/etfs.json)
+- [stocks.json](https://theme-radar.github.io/data/stocks.json)
 - [research.json](https://theme-radar.github.io/data/research.json)
 
 ## Optional

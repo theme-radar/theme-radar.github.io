@@ -2,6 +2,7 @@
 
 Date: 2026-11-04
 Theme: Cybersecurity
+Type: theme
 Tickers: PANW, SAIL, FROG, CRWD, DDOG, NET
 Canonical: https://theme-radar.github.io/research/binance-heist-cyber-basket/
 

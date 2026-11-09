@@ -2,6 +2,7 @@
 
 Date: 2026-11-04
 Theme: AI Science
+Type: theme
 Tickers: CRL, 2395.T, ICLR, TWST, DHR, TMO, TECN, WAT, A, BRKR, RVTY, DNA, GENB, RXRX, CERT, NTRA, TEM
 Canonical: https://theme-radar.github.io/research/penn-mrna-channel-check/
 

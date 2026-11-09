@@ -2,6 +2,7 @@
 
 Date: 2026-10-09
 Theme: Cybersecurity
+Type: theme
 Tickers: SAIL, OKTA
 Canonical: https://theme-radar.github.io/research/passport-control-for-robots/
 
