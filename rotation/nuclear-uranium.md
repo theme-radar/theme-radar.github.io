@@ -1,17 +1,17 @@
 # Nuclear & Uranium
 
-Sector: AI Infra & Power. Label: Avoid for now. Quadrant: Improving, heading to Leading. Data to 2026-11-06.
+Sector: AI Infra & Power. Label: No signal. Quadrant: Improving, heading to Leading. Data to 2026-11-09.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| OKLO | Oklo Inc. | -6.7% | -32.1% | -67.5% |
-| SMR | NuScale Power Corporation | -9.6% | -29.4% | -59.5% |
-| BWXT | BWX Technologies Inc. | -8.6% | -16.9% | -41.8% |
-| LEU | Centrus Energy Corp. | +1.3% | -26.6% | -49.5% |
-| CCJ | Cameco Corporation | -7.3% | -19.0% | -38.9% |
-| UEC | Uranium Energy Corp. | -10.2% | -24.7% | -54.4% |
-| NNE | Nano Nuclear Energy Inc. | -4.6% | -27.6% | -59.5% |
-| MIR | Mirion Technologies Inc. | -2.2% | +8.1% | -5.4% |
-| NXE | Nexgen Energy Ltd. | -0.2% | -5.7% | -32.0% |
-| DNN | Denison Mines Corp | -0.9% | -9.9% | -41.4% |
-| UUUU | Energy Fuels Inc | -13.6% | -33.1% | -68.8% |
+| OKLO | Oklo Inc. | +14.1% | -16.7% | -65.6% |
+| SMR | NuScale Power Corporation | +1.7% | -18.8% | -59.1% |
+| BWXT | BWX Technologies Inc. | -1.9% | -8.5% | -39.3% |
+| LEU | Centrus Energy Corp. | +23.6% | -13.3% | -45.0% |
+| CCJ | Cameco Corporation | +2.7% | -12.5% | -37.3% |
+| UEC | Uranium Energy Corp. | +1.5% | -13.7% | -53.7% |
+| NNE | Nano Nuclear Energy Inc. | +13.9% | -12.7% | -56.0% |
+| MIR | Mirion Technologies Inc. | +4.3% | +19.9% | +5.5% |
+| NXE | Nexgen Energy Ltd. | +10.9% | +2.0% | -30.9% |
+| DNN | Denison Mines Corp | +9.9% | -1.3% | -39.2% |
+| UUUU | Energy Fuels Inc | -1.1% | -24.3% | -66.8% |

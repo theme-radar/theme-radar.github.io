@@ -1,21 +1,21 @@
 # Managed Care & Providers
 
-Sector: Healthcare. Label: No signal. Quadrant: Leading, heading to Leading. Data to 2026-11-06.
+Sector: Healthcare. Label: Already moving. Quadrant: Leading, heading to Lagging. Data to 2026-11-09.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| UNH | UnitedHealth Group Incorporated Common S | -3.1% | +3.9% | +3.7% |
-| ELV | Elevance Health Inc. | +1.3% | +3.1% | +12.6% |
-| CI | The Cigna Group | -1.6% | +4.0% | +1.9% |
-| HUM | Humana Inc. | +4.6% | +0.4% | +57.8% |
-| CNC | Centene Corporation | +1.9% | +6.7% | +24.6% |
-| MOH | Molina Healthcare Inc | +2.1% | +6.1% | +12.4% |
-| HCA | HCA Healthcare Inc. | +4.6% | +9.7% | +13.7% |
-| THC | Tenet Healthcare Corporation | +3.7% | +7.4% | +48.8% |
-| UHS | Universal Health Services Inc. | +11.1% | +10.2% | +15.0% |
-| VTR | Ventas Inc. | +4.7% | +8.2% | +1.7% |
-| EHC | Encompass Health Corporation | +1.2% | +11.5% | +29.6% |
-| ACHC | Acadia Healthcare Company Inc. | +23.5% | +26.5% | +46.9% |
-| ENSG | The Ensign Group Inc. | -0.2% | +5.4% | +5.6% |
-| WELL | Welltower Inc. | +4.4% | +8.7% | +14.1% |
-| TDOC | Teladoc Health Inc. | +3.1% | +52.0% | +21.0% |
+| UNH | UnitedHealth Group Incorporated Common S | -0.7% | +5.1% | +3.4% |
+| ELV | Elevance Health Inc. | +1.1% | -0.9% | +9.6% |
+| CI | The Cigna Group | +0.1% | +4.3% | +2.3% |
+| HUM | Humana Inc. | +3.1% | -2.4% | +54.3% |
+| CNC | Centene Corporation | +3.0% | +2.3% | +21.6% |
+| MOH | Molina Healthcare Inc | -2.5% | -0.5% | +9.8% |
+| HCA | HCA Healthcare Inc. | +7.9% | +10.1% | +18.4% |
+| THC | Tenet Healthcare Corporation | +7.5% | +7.5% | +50.8% |
+| UHS | Universal Health Services Inc. | +9.1% | +10.2% | +17.2% |
+| VTR | Ventas Inc. | +3.2% | +7.1% | +2.1% |
+| EHC | Encompass Health Corporation | +2.9% | +13.5% | +34.7% |
+| ACHC | Acadia Healthcare Company Inc. | +30.3% | +28.4% | +54.4% |
+| ENSG | The Ensign Group Inc. | +1.7% | +4.7% | +7.5% |
+| WELL | Welltower Inc. | +3.5% | +7.4% | +15.1% |
+| TDOC | Teladoc Health Inc. | +4.1% | +51.7% | +29.8% |

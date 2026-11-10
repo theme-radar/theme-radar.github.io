@@ -1,9 +1,9 @@
 # TXG (10x Genomics)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +174.4%
-- 20D return: -26.5%
+- 6M return: +217.3%
+- 20D return: -13.5%
 - Rotation theme: none
 - Thematic Baskets: AI Science
 

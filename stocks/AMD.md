@@ -1,9 +1,9 @@
 # AMD (Advanced Micro Devices Inc.)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: -1.4%
-- 20D return: -26.2%
+- 6M return: +10.8%
+- 20D return: -14.4%
 - Rotation theme: AI Chips & Compute
 - Thematic Baskets: AI Hardware
 

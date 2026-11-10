@@ -1,9 +1,9 @@
 # MITK (Mitek Systems)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +10.4%
-- 20D return: -2.6%
+- 6M return: +23.5%
+- 20D return: +10.7%
 - Rotation theme: none
 - Thematic Baskets: Cyber Security
 

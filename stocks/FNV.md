@@ -1,9 +1,9 @@
 # FNV (Franco-Nevada Corporation)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +9.8%
-- 20D return: +4.1%
+- 6M return: +10.9%
+- 20D return: +7.2%
 - Rotation theme: Gold & Silver
 - Thematic Baskets: US Dollar Devaluation
 

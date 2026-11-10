@@ -1,9 +1,9 @@
 # NET (Cloudflare Inc.)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +37.0%
-- 20D return: -25.5%
+- 6M return: +51.8%
+- 20D return: -16.3%
 - Rotation theme: Cybersecurity
 - Thematic Baskets: Cyber Security
 

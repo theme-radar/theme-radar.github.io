@@ -1,19 +1,19 @@
 # GLP-1 & Obesity
 
-Sector: Healthcare. Label: No signal. Quadrant: Leading, heading to Leading. Data to 2026-11-06.
+Sector: Healthcare. Label: No signal. Quadrant: Leading, heading to Weakening. Data to 2026-11-09.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| LLY | Eli Lilly and Company | -4.5% | +14.8% | +42.8% |
-| NVO | Novo Nordisk A/S | +0.8% | +4.3% | -12.5% |
-| VKTX | Viking Therapeutics Inc. | -1.6% | -5.9% | -14.3% |
-| HIMS | Hims & Hers Health Inc. | -6.1% | -15.9% | -8.0% |
-| GPCR | Structure Therapeutics Inc. | -7.0% | -20.3% | -47.9% |
-| ALT | Altimmune Inc. | +2.0% | -20.3% | -32.7% |
-| RYTM | Rhythm Pharmaceuticals Inc. | +21.3% | +23.7% | +19.2% |
-| WST | West Pharmaceutical Services Inc. | -3.1% | +9.2% | +22.7% |
-| OMDA | Omada Health Inc. | -19.4% | -30.0% | +1.8% |
-| PODD | Insulet Corporation | -2.1% | +8.3% | -5.0% |
-| TNDM | Tandem Diabetes Care Inc. | -11.5% | +5.0% | +9.2% |
-| ABT | Abbott Laboratories | +3.5% | +10.4% | +30.4% |
-| MNKD | MannKind Corporation | +11.4% | +18.5% | +10.8% |
+| LLY | Eli Lilly and Company | +0.1% | +19.4% | +46.0% |
+| NVO | Novo Nordisk A/S | +2.3% | +7.3% | -10.8% |
+| VKTX | Viking Therapeutics Inc. | +8.1% | +2.3% | -8.6% |
+| HIMS | Hims & Hers Health Inc. | -9.1% | -25.1% | -21.3% |
+| GPCR | Structure Therapeutics Inc. | +4.6% | -10.5% | -44.1% |
+| ALT | Altimmune Inc. | +5.0% | -17.2% | -31.4% |
+| RYTM | Rhythm Pharmaceuticals Inc. | +21.9% | +26.9% | +30.4% |
+| WST | West Pharmaceutical Services Inc. | +1.3% | +12.4% | +28.2% |
+| OMDA | Omada Health Inc. | -15.5% | -31.0% | +2.7% |
+| PODD | Insulet Corporation | -2.5% | +7.1% | -2.8% |
+| TNDM | Tandem Diabetes Care Inc. | -2.7% | +10.5% | +23.0% |
+| ABT | Abbott Laboratories | +0.3% | +8.5% | +33.9% |
+| MNKD | MannKind Corporation | +14.8% | +33.9% | +24.7% |

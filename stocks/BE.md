@@ -1,9 +1,9 @@
 # BE (Bloom Energy Corporation)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: -33.6%
-- 20D return: -38.2%
+- 6M return: -31.7%
+- 20D return: -26.1%
 - Rotation theme: Fuel Cells & Hydrogen
 - Thematic Baskets: AI Hardware
 

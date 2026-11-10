@@ -1,9 +1,9 @@
 # FFIV (F5)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: -12.2%
-- 20D return: -35.2%
+- 6M return: -11.3%
+- 20D return: -32.9%
 - Rotation theme: none
 - Thematic Baskets: Cyber Security
 

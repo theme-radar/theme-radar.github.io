@@ -1,21 +1,21 @@
 # Credit Bureaus & Fin Data
 
-Sector: Financials. Label: No signal. Quadrant: Leading, heading to Leading. Data to 2026-11-06.
+Sector: Financials. Label: No signal. Quadrant: Leading, heading to Weakening. Data to 2026-11-09.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| FICO | Fair Isaac Corporation | -0.9% | +5.5% | -37.4% |
-| TRU | TransUnion | +5.7% | +24.0% | +12.8% |
-| EFX | Equifax Inc. | +2.7% | +30.0% | +7.8% |
-| SPGI | S&P Global Inc. | +0.3% | +14.7% | +17.7% |
-| UPST | Upstart Holdings Inc. Common stock | -4.9% | -9.2% | -24.4% |
-| AXP | American Express Company | +0.6% | +4.2% | +1.6% |
-| COF | Capital One Financial Corporation | -1.5% | +1.3% | +6.5% |
-| SYF | Synchrony Financial | -2.1% | +1.3% | +0.8% |
-| MCO | Moody's Corporation | +2.4% | +8.9% | +12.0% |
-| OMF | OneMain Holdings Inc. | -0.8% | +0.0% | +0.0% |
-| SLM | SLM Corporation | -4.8% | -24.8% | -24.6% |
-| BR | Broadridge Financial Solutions Inc. | +6.5% | +15.1% | +27.4% |
-| FDS | FactSet Research Systems Inc. | -0.5% | +14.2% | +46.6% |
-| SSNC | SS&C Technologies Holdings Inc. | -3.3% | -4.1% | +13.0% |
-| OPFI | OppFi Inc. | +9.8% | +4.0% | -33.9% |
+| FICO | Fair Isaac Corporation | -0.1% | -2.2% | -33.7% |
+| TRU | TransUnion | +4.9% | +25.8% | +18.8% |
+| EFX | Equifax Inc. | -2.2% | +27.8% | +12.2% |
+| SPGI | S&P Global Inc. | -0.9% | +14.3% | +18.3% |
+| UPST | Upstart Holdings Inc. Common stock | +4.4% | -6.3% | -22.4% |
+| AXP | American Express Company | -1.1% | +4.1% | +3.8% |
+| COF | Capital One Financial Corporation | -5.8% | -1.3% | +8.0% |
+| SYF | Synchrony Financial | -4.7% | -0.5% | +4.2% |
+| MCO | Moody's Corporation | +1.0% | +8.6% | +14.0% |
+| OMF | OneMain Holdings Inc. | -3.2% | -0.8% | +4.4% |
+| SLM | SLM Corporation | -5.4% | -26.3% | -22.3% |
+| BR | Broadridge Financial Solutions Inc. | +4.4% | +15.6% | +29.0% |
+| FDS | FactSet Research Systems Inc. | -5.0% | +13.2% | +49.1% |
+| SSNC | SS&C Technologies Holdings Inc. | -4.5% | -3.8% | +16.2% |
+| OPFI | OppFi Inc. | +10.4% | +6.2% | -33.5% |

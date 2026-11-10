@@ -1,9 +1,9 @@
 # CMI (Cummins Inc.)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: -33.8%
-- 20D return: -14.0%
+- 6M return: -33.6%
+- 20D return: -11.6%
 - Rotation theme: Fuel Cells & Hydrogen
 - Thematic Baskets: none
 

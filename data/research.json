@@ -1,7 +1,7 @@
 {
  "site": "Theme Radar",
- "asof": "2026-11-06",
- "generated": "2026-11-09T08:57:47Z",
+ "asof": "2026-11-09",
+ "generated": "2026-11-10T07:30:00Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "research": [
@@ -17,7 +17,7 @@
     "DE"
    ],
    "baskets": [],
-   "summary": "Accumulate on weakness at $558.63: build below about $530 and add toward $480. The 2026 sell-off was a multiple reset, not an earnings miss, and the power backlog is sold out into 2029-30. About four-fifths of sales are still cyclical, so fair value is capped near 19x 2027 earnings.",
+   "summary": "Accumulate on weakness with one entry price, about $460: what CAT is worth if the data-center slowdown happens (2027 EPS of $28.99 at 16x). The 2026 sell-off was a multiple reset, not an earnings miss, and the power backlog is sold out into 2029-30. $460 does not protect against a construction downturn on top (bear case $340).",
    "url": "https://theme-radar.github.io/research/cat-initiation-power-or-cycle/",
    "markdown": "https://theme-radar.github.io/research/cat-initiation-power-or-cycle.md"
   },

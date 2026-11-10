@@ -1,9 +1,9 @@
 # ZS (Zscaler Inc.)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +29.9%
-- 20D return: -15.4%
+- 6M return: +33.7%
+- 20D return: -11.8%
 - Rotation theme: Cybersecurity
 - Thematic Baskets: Cyber Security
 

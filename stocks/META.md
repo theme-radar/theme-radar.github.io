@@ -1,9 +1,9 @@
 # META (Meta Platforms Inc.)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +0.1%
-- 20D return: -15.1%
+- 6M return: +7.1%
+- 20D return: -13.7%
 - Rotation theme: Social & Ad-tech
 - Thematic Baskets: Agentic Commerce
 

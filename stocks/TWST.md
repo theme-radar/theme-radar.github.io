@@ -1,9 +1,9 @@
 # TWST (Twist Bioscience Corporation)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +112.5%
-- 20D return: -24.4%
+- 6M return: +140.8%
+- 20D return: -10.9%
 - Rotation theme: Diagnostics & Genomics
 - Thematic Baskets: AI Science
 

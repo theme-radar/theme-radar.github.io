@@ -1,21 +1,21 @@
 # Semicap & Test
 
-Sector: Semis & Hardware. Label: Avoid for now. Quadrant: Lagging, heading to Improving. Data to 2026-11-06.
+Sector: Semis & Hardware. Label: No signal. Quadrant: Improving, heading to Leading. Data to 2026-11-09.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| AMAT | Applied Materials Inc. | -14.7% | -34.4% | -23.6% |
-| LRCX | Lam Research Corporation | -16.2% | -37.1% | -31.8% |
-| KLAC | KLA Corporation | -12.3% | -29.2% | -25.9% |
-| ASML | ASML Holding N.V. New York Registry Shar | -9.0% | -20.0% | -10.5% |
-| FORM | FormFactor Inc. FormFactor Inc. | -7.3% | -41.9% | -45.1% |
-| KLIC | Kulicke and Soffa Industries Inc. | -13.7% | -30.4% | -37.6% |
-| TER | Teradyne Inc. | -20.5% | -45.8% | -39.3% |
-| ONTO | Onto Innovation Inc. | -14.0% | -41.2% | -39.1% |
-| COHU | Cohu Inc. | -24.2% | -43.5% | -22.3% |
-| UCTT | Ultra Clean Holdings Inc. | -17.3% | -40.0% | -52.8% |
-| ICHR | Ichor Holdings | -20.4% | -48.3% | -58.4% |
-| ACMR | ACM Research Inc. | -1.9% | -37.5% | -25.5% |
-| AEHR | Aehr Test Systems | -2.4% | -36.7% | -44.9% |
-| CAMT | Camtek Ltd. | -16.8% | -36.5% | -52.8% |
-| NVMI | Nova Ltd. | +0.3% | -11.3% | -39.9% |
+| AMAT | Applied Materials Inc. | -1.1% | -25.5% | -16.5% |
+| LRCX | Lam Research Corporation | -2.8% | -28.5% | -25.2% |
+| KLAC | KLA Corporation | -1.1% | -20.4% | -18.0% |
+| ASML | ASML Holding N.V. New York Registry Shar | -0.8% | -13.5% | -3.4% |
+| FORM | FormFactor Inc. FormFactor Inc. | -2.4% | -34.6% | -43.7% |
+| KLIC | Kulicke and Soffa Industries Inc. | -3.1% | -22.0% | -33.9% |
+| TER | Teradyne Inc. | -5.8% | -35.9% | -32.9% |
+| ONTO | Onto Innovation Inc. | +1.4% | -29.1% | -32.5% |
+| COHU | Cohu Inc. | -10.3% | -33.5% | -15.4% |
+| UCTT | Ultra Clean Holdings Inc. | -2.0% | -27.7% | -46.3% |
+| ICHR | Ichor Holdings | -6.5% | -36.6% | -55.2% |
+| ACMR | ACM Research Inc. | +12.7% | -27.0% | -23.1% |
+| AEHR | Aehr Test Systems | +16.2% | -23.5% | -42.8% |
+| CAMT | Camtek Ltd. | -3.0% | -28.8% | -49.4% |
+| NVMI | Nova Ltd. | +9.6% | -2.1% | -36.6% |

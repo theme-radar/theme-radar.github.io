@@ -1,9 +1,9 @@
 # OABI (OmniAb)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +203.0%
-- 20D return: +5.0%
+- 6M return: +217.4%
+- 20D return: +11.1%
 - Rotation theme: none
 - Thematic Baskets: AI Science
 

@@ -1,20 +1,20 @@
 # Data & Observability
 
-Sector: Software & Internet. Label: Avoid for now. Quadrant: Lagging, heading to Lagging. Data to 2026-11-06.
+Sector: Software & Internet. Label: No signal. Quadrant: Lagging, heading to Improving. Data to 2026-11-09.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| PLTR | Palantir Technologies Inc. | -12.9% | -23.3% | +16.4% |
-| SNOW | Snowflake Inc. | -9.9% | -25.2% | +81.0% |
-| MDB | MongoDB Inc. | -11.4% | -18.9% | +4.5% |
-| ESTC | Elastic N.V. | -11.5% | -12.4% | +64.8% |
-| TDC | Teradata Corporation | -7.1% | +4.0% | +0.7% |
-| IOT | Samsara Inc. | -2.6% | -1.4% | +37.8% |
-| DDOG | Datadog Inc. | -23.9% | -39.0% | -10.5% |
-| DT | Dynatrace Inc. | -24.7% | -31.6% | +6.7% |
-| GTLB | GitLab Inc. | -11.1% | -12.7% | +85.1% |
-| FROG | JFrog Ltd. | +7.0% | -1.2% | +43.1% |
-| PD | PagerDuty Inc. | -7.4% | -3.0% | +115.1% |
-| AI | C3.ai Inc. | -1.4% | +1.4% | +18.4% |
-| RXRX | Recursion Pharmaceuticals Inc. | -12.7% | -19.3% | +6.0% |
-| SOUN | SoundHound AI Inc | -2.6% | -23.8% | -53.7% |
+| PLTR | Palantir Technologies Inc. | -5.1% | -19.0% | +23.6% |
+| SNOW | Snowflake Inc. | +0.2% | -19.2% | +92.2% |
+| MDB | MongoDB Inc. | -0.9% | -14.1% | +11.1% |
+| ESTC | Elastic N.V. | -1.2% | -5.5% | +79.2% |
+| TDC | Teradata Corporation | -3.8% | +5.3% | +0.0% |
+| IOT | Samsara Inc. | +0.8% | +1.5% | +45.3% |
+| DDOG | Datadog Inc. | -16.9% | -37.5% | -11.2% |
+| DT | Dynatrace Inc. | -20.2% | -32.6% | +9.3% |
+| GTLB | GitLab Inc. | -9.6% | -15.9% | +83.8% |
+| FROG | JFrog Ltd. | +27.1% | +9.2% | +56.8% |
+| PD | PagerDuty Inc. | -6.3% | -3.6% | +127.0% |
+| AI | C3.ai Inc. | +3.9% | +3.4% | +26.6% |
+| RXRX | Recursion Pharmaceuticals Inc. | -0.7% | -5.1% | +16.7% |
+| SOUN | SoundHound AI Inc | -1.0% | -18.5% | -52.1% |

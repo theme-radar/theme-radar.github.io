@@ -1,9 +1,9 @@
 # V (Visa Inc.)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +32.6%
-- 20D return: +9.7%
+- 6M return: +30.3%
+- 20D return: +8.5%
 - Rotation theme: Payments & Fintech
 - Thematic Baskets: Agentic Commerce
 

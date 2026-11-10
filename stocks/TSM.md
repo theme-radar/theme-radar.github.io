@@ -1,9 +1,9 @@
 # TSM (Taiwan Semiconductor Manufacturing Compa)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: -8.8%
-- 20D return: -17.2%
+- 6M return: -3.9%
+- 20D return: -12.5%
 - Rotation theme: Foundry & Packaging
 - Thematic Baskets: AI Hardware
 

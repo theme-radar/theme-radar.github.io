@@ -1,9 +1,9 @@
 # SAIL (SailPoint Inc.)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +57.1%
-- 20D return: -7.5%
+- 6M return: +73.0%
+- 20D return: +4.0%
 - Rotation theme: Cybersecurity
 - Thematic Baskets: Cyber Security
 

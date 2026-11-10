@@ -1,9 +1,9 @@
 # OKTA (Okta Inc.)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +101.1%
-- 20D return: -27.3%
+- 6M return: +117.4%
+- 20D return: -21.8%
 - Rotation theme: Cybersecurity
 - Thematic Baskets: none
 

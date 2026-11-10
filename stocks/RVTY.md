@@ -1,9 +1,9 @@
 # RVTY (Revvity)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +53.6%
-- 20D return: +0.6%
+- 6M return: +62.4%
+- 20D return: +3.3%
 - Rotation theme: none
 - Thematic Baskets: AI Science
 

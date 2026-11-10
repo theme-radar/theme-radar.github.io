@@ -1,9 +1,9 @@
 # ICLR (ICON)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +64.5%
-- 20D return: +24.7%
+- 6M return: +74.5%
+- 20D return: +26.3%
 - Rotation theme: none
 - Thematic Baskets: AI Science
 

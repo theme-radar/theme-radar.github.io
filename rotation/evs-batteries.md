@@ -1,14 +1,14 @@
 # EVs & Batteries
 
-Sector: Frontier Tech. Label: No signal. Quadrant: Improving, heading to Leading. Data to 2026-11-06.
+Sector: Frontier Tech. Label: Research now. Quadrant: Improving, heading to Leading. Data to 2026-11-09.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| TSLA | Tesla Inc. | -10.4% | -6.4% | -16.4% |
-| ALB | Albemarle Corporation | +9.1% | -2.0% | -51.2% |
-| RIVN | Rivian Automotive Inc. | +11.9% | -2.5% | -4.3% |
-| LCID | Lucid Group Inc. | +8.9% | -13.2% | -48.1% |
-| PSNY | Polestar Automotive Holding UK PLC | +3.9% | -19.0% | -80.2% |
-| ENS | EnerSys | -8.1% | -18.2% | -36.0% |
-| FLNC | Fluence Energy Inc. | -7.9% | -29.1% | -78.2% |
-| AMPX | Amprius Technologies Inc. | +1.5% | -7.6% | -47.8% |
+| TSLA | Tesla Inc. | -6.4% | +0.0% | -15.0% |
+| ALB | Albemarle Corporation | +9.4% | +0.6% | -52.8% |
+| RIVN | Rivian Automotive Inc. | +6.2% | +3.5% | -0.5% |
+| LCID | Lucid Group Inc. | +20.0% | +4.8% | -40.3% |
+| PSNY | Polestar Automotive Holding UK PLC | +8.3% | +3.1% | -78.0% |
+| ENS | EnerSys | -5.2% | -14.9% | -36.0% |
+| FLNC | Fluence Energy Inc. | +3.6% | -23.6% | -78.6% |
+| AMPX | Amprius Technologies Inc. | +13.6% | +7.3% | -46.2% |

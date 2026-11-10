@@ -1,9 +1,9 @@
 # QLYS (Qualys Inc.)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +102.0%
-- 20D return: -5.9%
+- 6M return: +121.2%
+- 20D return: +2.9%
 - Rotation theme: Cybersecurity
 - Thematic Baskets: Cyber Security
 

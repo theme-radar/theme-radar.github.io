@@ -1,19 +1,19 @@
 # Critical Minerals & Lithium
 
-Sector: Materials. Label: Avoid for now. Quadrant: Improving, heading to Leading. Data to 2026-11-06.
+Sector: Materials. Label: Research now. Quadrant: Improving, heading to Leading. Data to 2026-11-09.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| MP | MP Materials Corp. | -10.5% | -23.3% | -47.5% |
-| USAR | USA Rare Earth Inc. | -14.5% | -34.5% | -69.5% |
-| ALB | Albemarle Corporation | +9.1% | -2.0% | -51.2% |
-| SQM | Sociedad Quimica y Minera S.A. | +5.2% | -10.0% | -37.1% |
-| LAC | Lithium Americas Corp. | -4.9% | -17.9% | -65.3% |
-| SGML | Sigma Lithium Corporation | -16.9% | -37.8% | -73.2% |
-| UAMY | United States Antimony Corporation | -5.4% | -23.4% | -73.6% |
-| TMC | TMC the metals company Inc. | -12.7% | -32.3% | -60.2% |
-| NB | NioCorp Developments Ltd. | -13.2% | -14.0% | -52.4% |
-| NEO | NeoGenomics Inc. | -3.1% | +3.0% | +87.9% |
-| EFR | Eaton Vance Senior Floating-Rate Fund | +0.7% | -0.3% | -2.5% |
-| RIO | Rio Tinto Plc | +2.2% | -11.7% | -20.5% |
-| MIN | Aberdeen Intermediate Income Fund | +1.2% | +3.4% | -3.9% |
+| MP | MP Materials Corp. | -1.6% | -12.9% | -44.0% |
+| USAR | USA Rare Earth Inc. | -1.1% | -25.9% | -66.7% |
+| ALB | Albemarle Corporation | +9.4% | +0.6% | -52.8% |
+| SQM | Sociedad Quimica y Minera S.A. | +3.7% | -9.2% | -39.3% |
+| LAC | Lithium Americas Corp. | +3.1% | -10.2% | -65.1% |
+| SGML | Sigma Lithium Corporation | +14.2% | -32.5% | -70.7% |
+| UAMY | United States Antimony Corporation | +20.9% | +3.3% | -67.4% |
+| TMC | TMC the metals company Inc. | +12.4% | -9.0% | -55.7% |
+| NB | NioCorp Developments Ltd. | +5.0% | -0.3% | -46.7% |
+| NEO | NeoGenomics Inc. | +6.7% | +8.6% | +103.2% |
+| EFR | Eaton Vance Senior Floating-Rate Fund | +1.6% | +0.9% | -1.6% |
+| RIO | Rio Tinto Plc | +4.4% | -8.4% | -19.9% |
+| MIN | Aberdeen Intermediate Income Fund | +0.4% | +3.2% | -3.5% |

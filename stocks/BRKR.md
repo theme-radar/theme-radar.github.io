@@ -1,6 +1,6 @@
 # BRKR (BRKR)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
 - Rotation theme: none
 - Thematic Baskets: none

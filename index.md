@@ -1,7 +1,7 @@
 # Theme Radar
 
 Thematic equity research and the baskets that track it.
-Market data to the 2026-11-06 close.
+Market data to the 2026-11-09 close.
 
 ## Latest research
 
@@ -20,8 +20,8 @@ Market data to the 2026-11-06 close.
 
 | Basket | Start | Since start | 6M | Label |
 |---|---|---|---|---|
-| [Cyber Security](https://theme-radar.github.io/baskets/cyber-security.md) | 2026-09-18 | -3.6% | +36.4% | Avoid for now |
-| [AI Science](https://theme-radar.github.io/baskets/ai-science.md) | 2026-08-17 | +11.9% | +67.5% | No signal |
-| [US Dollar Devaluation](https://theme-radar.github.io/baskets/usd-devaluation.md) | 2026-05-20 | +7.4% | +1.3% | Already moving |
-| [Agentic Commerce](https://theme-radar.github.io/baskets/agentic-commerce.md) | 2026-10-14 | +1.2% | +19.5% | No signal |
-| [AI Hardware](https://theme-radar.github.io/baskets/ai-hardware.md) | 2026-07-31 | -22.8% | -28.7% | Avoid for now |
+| [Cyber Security](https://theme-radar.github.io/baskets/cyber-security.md) | 2026-09-18 | +0.4% | +43.9% | No signal |
+| [AI Science](https://theme-radar.github.io/baskets/ai-science.md) | 2026-08-17 | +17.4% | +80.3% | Already moving |
+| [US Dollar Devaluation](https://theme-radar.github.io/baskets/usd-devaluation.md) | 2026-05-20 | +12.4% | +3.6% | Already moving |
+| [Agentic Commerce](https://theme-radar.github.io/baskets/agentic-commerce.md) | 2026-10-14 | +2.8% | +22.6% | No signal |
+| [AI Hardware](https://theme-radar.github.io/baskets/ai-hardware.md) | 2026-07-31 | -17.0% | -25.6% | No signal |

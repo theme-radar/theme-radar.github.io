@@ -1,9 +1,9 @@
 # ILMN (Illumina Inc.)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +50.2%
-- 20D return: -23.4%
+- 6M return: +54.9%
+- 20D return: -20.2%
 - Rotation theme: Diagnostics & Genomics
 - Thematic Baskets: AI Science
 

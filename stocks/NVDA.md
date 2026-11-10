@@ -1,9 +1,9 @@
 # NVDA (NVIDIA Corporation)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: -13.3%
-- 20D return: -18.6%
+- 6M return: -18.6%
+- 20D return: -21.1%
 - Rotation theme: AI Chips & Compute
 - Thematic Baskets: AI Hardware
 

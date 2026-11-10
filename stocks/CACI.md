@@ -1,9 +1,9 @@
 # CACI (CACI International Inc.)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +27.1%
-- 20D return: +0.1%
+- 6M return: +32.6%
+- 20D return: +4.2%
 - Rotation theme: Defense Tech & Drones
 - Thematic Baskets: Cyber Security
 

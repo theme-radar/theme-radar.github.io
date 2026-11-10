@@ -1,9 +1,9 @@
 # AEM (Agnico Eagle Mines Limited)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: -0.9%
-- 20D return: +1.4%
+- 6M return: +2.0%
+- 20D return: +6.7%
 - Rotation theme: Gold & Silver
 - Thematic Baskets: US Dollar Devaluation
 

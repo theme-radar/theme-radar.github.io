@@ -1,9 +1,9 @@
 # GEV (GE Vernova Inc.)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: -25.6%
-- 20D return: -22.9%
+- 6M return: -22.7%
+- 20D return: -16.8%
 - Rotation theme: Grid & Electrical Equipment
 - Thematic Baskets: none
 

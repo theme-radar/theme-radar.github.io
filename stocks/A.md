@@ -1,9 +1,9 @@
 # A (Agilent)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +51.1%
-- 20D return: +2.5%
+- 6M return: +61.7%
+- 20D return: +5.2%
 - Rotation theme: none
 - Thematic Baskets: AI Science
 

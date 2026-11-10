@@ -1,14 +1,14 @@
 # Private Credit (BDCs)
 
-Sector: Financials. Label: No signal. Quadrant: Leading, heading to Leading. Data to 2026-11-06.
+Sector: Financials. Label: No signal. Quadrant: Leading, heading to Weakening. Data to 2026-11-09.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| ARCC | Ares Capital Corporation | +0.1% | +3.1% | +0.6% |
-| FSK | FS KKR Capital Corp. | +6.1% | +7.9% | +7.9% |
-| MAIN | Main Street Capital Corporation | +3.2% | +6.1% | +5.5% |
-| OBDC | Blue Owl Capital Corporation | +5.3% | +8.2% | -3.6% |
-| BXSL | Blackstone Secured Lending Fund | +3.4% | +1.0% | -0.4% |
-| TSLX | Sixth Street Specialty Lending Inc. | +0.1% | +1.7% | -1.6% |
-| GBDC | Golub Capital BDC Inc. | +0.2% | +5.3% | -3.2% |
-| OCSL | Oaktree Specialty Lending Corporation | +3.0% | +7.8% | +2.9% |
+| ARCC | Ares Capital Corporation | -0.4% | +3.9% | +3.6% |
+| FSK | FS KKR Capital Corp. | +3.5% | +8.7% | +10.0% |
+| MAIN | Main Street Capital Corporation | +1.5% | +6.5% | +9.2% |
+| OBDC | Blue Owl Capital Corporation | +5.8% | +10.4% | +0.4% |
+| BXSL | Blackstone Secured Lending Fund | +1.1% | +0.4% | +1.4% |
+| TSLX | Sixth Street Specialty Lending Inc. | -1.3% | +4.4% | +3.1% |
+| GBDC | Golub Capital BDC Inc. | -1.5% | +4.9% | -2.0% |
+| OCSL | Oaktree Specialty Lending Corporation | +0.7% | +5.8% | +3.3% |

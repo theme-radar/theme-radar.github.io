@@ -1,9 +1,9 @@
 # TMO (Thermo Fisher Scientific)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +49.4%
-- 20D return: +5.6%
+- 6M return: +59.4%
+- 20D return: +9.0%
 - Rotation theme: none
 - Thematic Baskets: AI Science
 

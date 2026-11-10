@@ -1,14 +1,14 @@
 # Chemicals
 
-Sector: Materials. Label: Avoid for now. Quadrant: Leading, heading to Weakening. Data to 2026-11-06.
+Sector: Materials. Label: Avoid for now. Quadrant: Leading, heading to Weakening. Data to 2026-11-09.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| DOW | Dow Inc. Common Stock  | -9.5% | +10.5% | -14.8% |
-| LYB | LyondellBasell Industries NV | -11.5% | +1.1% | -15.4% |
-| CE | Celanese Corporation | -5.7% | +3.3% | -18.7% |
-| OLN | Olin Corporation | -1.7% | +16.2% | -35.5% |
-| DD | DuPont de Nemours Inc. | +4.6% | +12.7% | -1.8% |
-| EMN | Eastman Chemical Company | -3.2% | +2.7% | -12.6% |
-| SCL | Stepan Company | -3.8% | +9.7% | +26.5% |
-| WLK | Westlake Corporation | -7.0% | +1.9% | -32.4% |
+| DOW | Dow Inc. Common Stock  | -9.4% | +10.1% | -20.1% |
+| LYB | LyondellBasell Industries NV | -11.0% | +0.1% | -19.1% |
+| CE | Celanese Corporation | +1.7% | +9.4% | -18.1% |
+| OLN | Olin Corporation | -3.2% | +19.4% | -38.2% |
+| DD | DuPont de Nemours Inc. | +9.8% | +19.9% | +2.2% |
+| EMN | Eastman Chemical Company | -2.1% | +5.3% | -12.4% |
+| SCL | Stepan Company | -3.1% | +12.0% | +31.1% |
+| WLK | Westlake Corporation | -9.9% | +3.7% | -34.3% |

@@ -1,18 +1,18 @@
 # Restaurants
 
-Sector: Consumer. Label: No signal. Quadrant: Leading, heading to Weakening. Data to 2026-11-06.
+Sector: Consumer. Label: Already moving. Quadrant: Leading, heading to Weakening. Data to 2026-11-09.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| CMG | Chipotle Mexican Grill Inc. | +8.0% | +9.0% | +6.0% |
-| CAVA | CAVA Group Inc. | +0.7% | +10.3% | -25.5% |
-| WING | Wingstop Inc. | +9.0% | +33.6% | +25.9% |
-| MCD | McDonald's Corporation | +7.1% | +17.5% | +0.3% |
-| TXRH | Texas Roadhouse Inc. | +0.8% | +13.9% | +3.7% |
-| SG | Sweetgreen Inc. | +8.5% | +24.7% | +71.6% |
-| SBUX | Starbucks Corporation | +1.7% | +16.2% | +0.5% |
-| DPZ | Domino's Pizza Inc | +6.6% | +8.1% | +3.3% |
-| SHAK | Shake Shack Inc. | +2.0% | +7.5% | +2.5% |
-| YUM | Yum! Brands Inc. | +3.7% | +11.3% | +6.0% |
-| WEN | Wendy's Company (The) | +13.0% | +30.8% | +11.6% |
-| DRI | Darden Restaurants Inc. | +2.8% | +14.5% | +15.3% |
+| CMG | Chipotle Mexican Grill Inc. | +8.6% | +17.6% | +12.0% |
+| CAVA | CAVA Group Inc. | +0.5% | +18.6% | -22.1% |
+| WING | Wingstop Inc. | +8.6% | +40.4% | +39.0% |
+| MCD | McDonald's Corporation | +5.9% | +19.4% | +2.5% |
+| TXRH | Texas Roadhouse Inc. | +1.8% | +20.0% | +3.8% |
+| SG | Sweetgreen Inc. | +16.5% | +35.6% | +98.2% |
+| SBUX | Starbucks Corporation | +4.8% | +18.6% | +3.5% |
+| DPZ | Domino's Pizza Inc | +3.7% | +7.5% | +6.7% |
+| SHAK | Shake Shack Inc. | +6.5% | +11.3% | +19.6% |
+| YUM | Yum! Brands Inc. | +2.1% | +9.6% | +7.0% |
+| WEN | Wendy's Company (The) | +14.3% | +31.5% | +22.8% |
+| DRI | Darden Restaurants Inc. | +3.1% | +15.1% | +17.3% |

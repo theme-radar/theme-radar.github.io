@@ -1,18 +1,18 @@
 # Commercial Aerospace
 
-Sector: Defense & Aero. Label: No signal. Quadrant: Improving, heading to Leading. Data to 2026-11-06.
+Sector: Defense & Aero. Label: Watch. Quadrant: Leading, heading to Weakening. Data to 2026-11-09.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| HWM | Howmet Aerospace Inc. | +3.3% | -8.6% | -23.9% |
-| BA | Boeing Company (The) | +1.1% | -8.9% | -27.0% |
-| GE | GE Aerospace | +7.1% | +4.9% | +8.8% |
-| TDG | Transdigm Group Incorporated | +4.4% | +8.0% | -1.5% |
-| HEI | Heico Corporation | +3.5% | +11.5% | +13.7% |
-| TXT | Textron Inc. | -2.5% | +12.7% | -8.2% |
-| HXL | Hexcel Corporation | +3.3% | -5.4% | -15.7% |
-| ATI | ATI Inc. | +6.2% | -8.4% | +11.0% |
-| AIN | Albany International Corporation | +0.4% | +8.9% | +7.6% |
-| CSTM | Constellium SE | -5.6% | -15.5% | -35.6% |
-| KALU | Kaiser Aluminum Corporation | -8.1% | -29.5% | -40.8% |
-| PPG | PPG Industries Inc. | +2.4% | +17.7% | +11.7% |
+| HWM | Howmet Aerospace Inc. | +1.5% | -2.1% | -21.0% |
+| BA | Boeing Company (The) | -1.7% | -9.0% | -27.6% |
+| GE | GE Aerospace | +6.3% | +8.7% | +11.6% |
+| TDG | Transdigm Group Incorporated | +0.4% | +8.8% | +1.7% |
+| HEI | Heico Corporation | +1.5% | +15.4% | +18.3% |
+| TXT | Textron Inc. | -3.5% | +12.7% | -6.8% |
+| HXL | Hexcel Corporation | +0.1% | -4.3% | -13.7% |
+| ATI | ATI Inc. | +6.0% | -1.7% | +14.7% |
+| AIN | Albany International Corporation | -4.7% | +15.3% | +14.0% |
+| CSTM | Constellium SE | -1.0% | -10.8% | -33.5% |
+| KALU | Kaiser Aluminum Corporation | -3.9% | -25.9% | -38.1% |
+| PPG | PPG Industries Inc. | +0.3% | +20.8% | +16.1% |

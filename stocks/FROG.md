@@ -1,9 +1,9 @@
 # FROG (JFrog Ltd.)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +43.1%
-- 20D return: -1.2%
+- 6M return: +56.8%
+- 20D return: +9.2%
 - Rotation theme: Data & Observability
 - Thematic Baskets: Cyber Security
 

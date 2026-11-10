@@ -1,14 +1,14 @@
 # Solar
 
-Sector: AI Infra & Power. Label: Research now. Quadrant: Leading, heading to Leading. Data to 2026-11-06.
+Sector: AI Infra & Power. Label: Research now. Quadrant: Leading, heading to Weakening. Data to 2026-11-09.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| FSLR | First Solar Inc. | +15.3% | +13.1% | -8.6% |
-| NXT | Nextpower Inc. | +32.2% | +21.8% | -16.7% |
-| ENPH | Enphase Energy Inc. | +11.0% | -13.2% | -21.9% |
-| SEDG | SolarEdge Technologies Inc. | -8.5% | -14.6% | -33.4% |
-| RUN | Sunrun Inc. | +33.4% | +30.6% | -31.7% |
-| CSIQ | Canadian Solar Inc. | +20.1% | -2.3% | -44.6% |
-| ARRY | Array Technologies Inc. | +72.7% | +59.1% | -31.7% |
-| SHLS | Shoals Technologies Group Inc. | +40.0% | +15.3% | +14.0% |
+| FSLR | First Solar Inc. | +5.2% | +6.6% | -17.9% |
+| NXT | Nextpower Inc. | +15.1% | +23.6% | -16.9% |
+| ENPH | Enphase Energy Inc. | +4.1% | -7.6% | -22.8% |
+| SEDG | SolarEdge Technologies Inc. | -8.4% | -12.1% | -33.8% |
+| RUN | Sunrun Inc. | +18.1% | +28.3% | -32.7% |
+| CSIQ | Canadian Solar Inc. | +15.0% | -2.0% | -45.5% |
+| ARRY | Array Technologies Inc. | +36.6% | +44.2% | -40.6% |
+| SHLS | Shoals Technologies Group Inc. | +14.7% | +0.9% | -6.4% |

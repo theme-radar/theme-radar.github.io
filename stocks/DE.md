@@ -1,9 +1,9 @@
 # DE (Deere & Company)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +16.8%
-- 20D return: +8.2%
+- 6M return: +17.4%
+- 20D return: +9.3%
 - Rotation theme: Machinery
 - Thematic Baskets: none
 

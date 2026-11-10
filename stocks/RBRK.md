@@ -1,9 +1,9 @@
 # RBRK (Rubrik Inc.)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +69.6%
-- 20D return: -15.5%
+- 6M return: +78.9%
+- 20D return: -7.3%
 - Rotation theme: Cybersecurity
 - Thematic Baskets: Cyber Security
 

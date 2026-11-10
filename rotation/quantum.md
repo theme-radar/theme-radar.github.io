@@ -1,13 +1,13 @@
 # Quantum
 
-Sector: Frontier Tech. Label: No signal. Quadrant: Improving, heading to Leading. Data to 2026-11-06.
+Sector: Frontier Tech. Label: Research now. Quadrant: Improving, heading to Leading. Data to 2026-11-09.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| IONQ | IonQ Inc. | +8.6% | -18.2% | -33.8% |
-| RGTI | Rigetti Computing Inc. | +4.4% | -16.2% | -38.0% |
-| QBTS | D-Wave Quantum Inc. | +0.3% | -26.7% | -52.7% |
-| QUBT | Quantum Computing Inc. | -4.1% | -14.9% | -34.1% |
-| INFQ | Infleqtion Inc. | +0.1% | -19.5% | -26.7% |
-| ARQQ | Arqit Quantum Inc. | +1.5% | -7.4% | +6.7% |
-| HON | Honeywell International Inc. | +0.8% | +5.9% | -1.6% |
+| IONQ | IonQ Inc. | +25.4% | -2.6% | -37.9% |
+| RGTI | Rigetti Computing Inc. | +21.6% | -2.0% | -36.7% |
+| QBTS | D-Wave Quantum Inc. | +13.7% | -16.5% | -52.3% |
+| QUBT | Quantum Computing Inc. | +8.4% | -1.0% | -32.6% |
+| INFQ | Infleqtion Inc. | +18.5% | -6.9% | -24.8% |
+| ARQQ | Arqit Quantum Inc. | +18.3% | +1.2% | +12.4% |
+| HON | Honeywell International Inc. | +2.3% | +9.2% | -0.4% |

@@ -1,14 +1,14 @@
 # Fuel Cells & Hydrogen
 
-Sector: AI Infra & Power. Label: Avoid for now. Quadrant: Improving, heading to Leading. Data to 2026-11-06.
+Sector: AI Infra & Power. Label: No signal. Quadrant: Improving, heading to Leading. Data to 2026-11-09.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| BE | Bloom Energy Corporation | -14.7% | -38.2% | -33.6% |
-| PLUG | Plug Power Inc. | +5.8% | -13.7% | -53.5% |
-| FCEL | FuelCell Energy Inc. | -11.2% | -44.8% | -27.3% |
-| BLDP | Ballard Power Systems Inc. | -1.9% | -19.4% | -62.7% |
-| GNRC | Generac Holdlings Inc. | -10.7% | -21.4% | -34.4% |
-| APD | Air Products and Chemicals Inc. | -3.7% | +8.4% | +3.2% |
-| LIN | Linde plc | +0.2% | +6.5% | +4.5% |
-| CMI | Cummins Inc. | -10.0% | -14.0% | -33.8% |
+| BE | Bloom Energy Corporation | -1.2% | -26.1% | -31.7% |
+| PLUG | Plug Power Inc. | +14.5% | -7.4% | -57.4% |
+| FCEL | FuelCell Energy Inc. | +3.0% | -33.9% | -32.1% |
+| BLDP | Ballard Power Systems Inc. | +4.7% | -14.2% | -62.4% |
+| GNRC | Generac Holdlings Inc. | -6.6% | -13.6% | -30.4% |
+| APD | Air Products and Chemicals Inc. | -1.6% | +9.6% | +2.2% |
+| LIN | Linde plc | +0.1% | +6.8% | +3.2% |
+| CMI | Cummins Inc. | -6.8% | -11.6% | -33.6% |

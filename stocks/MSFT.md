@@ -1,9 +1,9 @@
 # MSFT (Microsoft Corporation)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +27.8%
-- 20D return: -0.8%
+- 6M return: +32.1%
+- 20D return: +0.7%
 - Rotation theme: AI Networking & Servers
 - Thematic Baskets: Cyber Security
 

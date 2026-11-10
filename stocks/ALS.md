@@ -1,9 +1,9 @@
 # ALS (Altius Minerals (TSX, CAD))
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: -2.1%
-- 20D return: -18.4%
+- 6M return: +1.4%
+- 20D return: -16.0%
 - Rotation theme: none
 - Thematic Baskets: US Dollar Devaluation
 

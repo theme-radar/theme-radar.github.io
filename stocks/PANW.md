@@ -1,9 +1,9 @@
 # PANW (Palo Alto Networks Inc.)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +51.0%
-- 20D return: -25.1%
+- 6M return: +54.9%
+- 20D return: -18.1%
 - Rotation theme: Cybersecurity
 - Thematic Baskets: Cyber Security
 

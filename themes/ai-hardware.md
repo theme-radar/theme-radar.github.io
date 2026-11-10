@@ -10,4 +10,4 @@ The AI build-out in silicon, optics, memory, equipment and power, and how it get
 
 | Basket | Start | Since start | 20D | 6M | Label |
 |---|---|---|---|---|---|
-| [AI Hardware](https://theme-radar.github.io/baskets/ai-hardware.md) | 2026-07-31 | -22.8% | -30.3% | -28.7% | Avoid for now |
+| [AI Hardware](https://theme-radar.github.io/baskets/ai-hardware.md) | 2026-07-31 | -17.0% | -22.4% | -25.6% | No signal |

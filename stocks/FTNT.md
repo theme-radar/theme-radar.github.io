@@ -1,9 +1,9 @@
 # FTNT (Fortinet Inc.)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +4.2%
-- 20D return: -39.0%
+- 6M return: +6.1%
+- 20D return: -36.5%
 - Rotation theme: Cybersecurity
 - Thematic Baskets: Cyber Security
 

@@ -1,9 +1,9 @@
 # CRL (Charles River Laboratories)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +90.0%
-- 20D return: +11.8%
+- 6M return: +109.7%
+- 20D return: +17.1%
 - Rotation theme: none
 - Thematic Baskets: AI Science
 

@@ -1,9 +1,9 @@
 # AMZN (Amazon.com Inc.)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: -4.9%
-- 20D return: -1.2%
+- 6M return: -0.8%
+- 20D return: +2.9%
 - Rotation theme: AI Networking & Servers
 - Thematic Baskets: Agentic Commerce, AI Hardware
 

@@ -1,15 +1,15 @@
 {
  "site": "Theme Radar",
- "asof": "2026-11-06",
- "generated": "2026-11-09T08:57:47Z",
+ "asof": "2026-11-09",
+ "generated": "2026-11-10T07:30:00Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "stocks": [
   {
    "ticker": "2395.T",
    "name": "Shin Nippon Biomedical Laboratories (Tokyo, JPY)",
-   "m6": -0.0489,
-   "d20": -0.0535,
+   "m6": 0.0284,
+   "d20": 0.0175,
    "rotation_theme": null,
    "baskets": [
     "ai-science"
@@ -24,8 +24,8 @@
   {
    "ticker": "A",
    "name": "Agilent",
-   "m6": 0.5115,
-   "d20": 0.0247,
+   "m6": 0.6165,
+   "d20": 0.0516,
    "rotation_theme": null,
    "baskets": [
     "ai-science"
@@ -40,8 +40,8 @@
   {
    "ticker": "ACN",
    "name": "Accenture plc",
-   "m6": 0.4439,
-   "d20": 0.2461,
+   "m6": 0.4759,
+   "d20": 0.1838,
    "rotation_theme": "IT Services & Consulting",
    "baskets": [
     "cyber-security"
@@ -55,8 +55,8 @@
   {
    "ticker": "AEM",
    "name": "Agnico Eagle Mines Limited",
-   "m6": -0.0085,
-   "d20": 0.0135,
+   "m6": 0.0201,
+   "d20": 0.0671,
    "rotation_theme": "Gold & Silver",
    "baskets": [
     "usd-devaluation"
@@ -70,8 +70,8 @@
   {
    "ticker": "ALS",
    "name": "Altius Minerals (TSX, CAD)",
-   "m6": -0.0213,
-   "d20": -0.1844,
+   "m6": 0.014,
+   "d20": -0.1604,
    "rotation_theme": null,
    "baskets": [
     "usd-devaluation"
@@ -85,8 +85,8 @@
   {
    "ticker": "AMD",
    "name": "Advanced Micro Devices Inc.",
-   "m6": -0.0135,
-   "d20": -0.2616,
+   "m6": 0.1085,
+   "d20": -0.1442,
    "rotation_theme": "AI Chips & Compute",
    "baskets": [
     "ai-hardware"
@@ -100,8 +100,8 @@
   {
    "ticker": "AMZN",
    "name": "Amazon.com Inc.",
-   "m6": -0.0491,
-   "d20": -0.0119,
+   "m6": -0.0077,
+   "d20": 0.0285,
    "rotation_theme": "AI Networking & Servers",
    "baskets": [
     "agentic-commerce",
@@ -117,8 +117,8 @@
   {
    "ticker": "BE",
    "name": "Bloom Energy Corporation",
-   "m6": -0.3363,
-   "d20": -0.3824,
+   "m6": -0.3171,
+   "d20": -0.2608,
    "rotation_theme": "Fuel Cells & Hydrogen",
    "baskets": [
     "ai-hardware"
@@ -145,8 +145,8 @@
   {
    "ticker": "CACI",
    "name": "CACI International Inc.",
-   "m6": 0.2706,
-   "d20": 0.0008,
+   "m6": 0.3262,
+   "d20": 0.0417,
    "rotation_theme": "Defense Tech & Drones",
    "baskets": [
     "cyber-security"
@@ -160,8 +160,8 @@
   {
    "ticker": "CAT",
    "name": "Caterpillar Inc.",
-   "m6": -0.3775,
-   "d20": -0.3021,
+   "m6": -0.3538,
+   "d20": -0.2508,
    "rotation_theme": "Machinery",
    "baskets": [],
    "url": "https://theme-radar.github.io/stocks/CAT/",
@@ -186,8 +186,8 @@
   {
    "ticker": "CMI",
    "name": "Cummins Inc.",
-   "m6": -0.3377,
-   "d20": -0.1401,
+   "m6": -0.3361,
+   "d20": -0.1163,
    "rotation_theme": "Fuel Cells & Hydrogen",
    "baskets": [],
    "url": "https://theme-radar.github.io/stocks/CMI/",
@@ -199,8 +199,8 @@
   {
    "ticker": "COHR",
    "name": "Coherent Corp.",
-   "m6": -0.4249,
-   "d20": -0.3832,
+   "m6": -0.4069,
+   "d20": -0.2181,
    "rotation_theme": "Optics & Photonics",
    "baskets": [
     "ai-hardware"
@@ -214,8 +214,8 @@
   {
    "ticker": "CRL",
    "name": "Charles River Laboratories",
-   "m6": 0.9002,
-   "d20": 0.1184,
+   "m6": 1.0975,
+   "d20": 0.1705,
    "rotation_theme": null,
    "baskets": [
     "ai-science"
@@ -230,8 +230,8 @@
   {
    "ticker": "CRWD",
    "name": "CrowdStrike Holdings Inc.",
-   "m6": 0.6439,
-   "d20": -0.2114,
+   "m6": 0.6861,
+   "d20": -0.1309,
    "rotation_theme": "Cybersecurity",
    "baskets": [
     "cyber-security"
@@ -246,8 +246,8 @@
   {
    "ticker": "DDOG",
    "name": "Datadog Inc.",
-   "m6": -0.1055,
-   "d20": -0.3895,
+   "m6": -0.1122,
+   "d20": -0.3748,
    "rotation_theme": "Data & Observability",
    "baskets": [
     "cyber-security"
@@ -261,8 +261,8 @@
   {
    "ticker": "DE",
    "name": "Deere & Company",
-   "m6": 0.1684,
-   "d20": 0.0817,
+   "m6": 0.1742,
+   "d20": 0.0927,
    "rotation_theme": "Machinery",
    "baskets": [],
    "url": "https://theme-radar.github.io/stocks/DE/",
@@ -274,8 +274,8 @@
   {
    "ticker": "DHR",
    "name": "Danaher",
-   "m6": 0.3452,
-   "d20": 0.0475,
+   "m6": 0.412,
+   "d20": 0.0629,
    "rotation_theme": null,
    "baskets": [
     "ai-science"
@@ -303,8 +303,8 @@
   {
    "ticker": "FFIV",
    "name": "F5",
-   "m6": -0.122,
-   "d20": -0.3522,
+   "m6": -0.1132,
+   "d20": -0.3289,
    "rotation_theme": null,
    "baskets": [
     "cyber-security"
@@ -319,8 +319,8 @@
   {
    "ticker": "FNV",
    "name": "Franco-Nevada Corporation",
-   "m6": 0.0984,
-   "d20": 0.0412,
+   "m6": 0.1088,
+   "d20": 0.0721,
    "rotation_theme": "Gold & Silver",
    "baskets": [
     "usd-devaluation"
@@ -334,8 +334,8 @@
   {
    "ticker": "FROG",
    "name": "JFrog Ltd.",
-   "m6": 0.4313,
-   "d20": -0.0122,
+   "m6": 0.5676,
+   "d20": 0.0925,
    "rotation_theme": "Data & Observability",
    "baskets": [
     "cyber-security"
@@ -350,8 +350,8 @@
   {
    "ticker": "FTNT",
    "name": "Fortinet Inc.",
-   "m6": 0.0418,
-   "d20": -0.3898,
+   "m6": 0.0609,
+   "d20": -0.3652,
    "rotation_theme": "Cybersecurity",
    "baskets": [
     "cyber-security"
@@ -366,8 +366,8 @@
   {
    "ticker": "GENB",
    "name": "Generate Biomedicines",
-   "m6": -0.0439,
-   "d20": -0.0893,
+   "m6": -0.0132,
+   "d20": 0.0246,
    "rotation_theme": null,
    "baskets": [
     "ai-science"
@@ -382,8 +382,8 @@
   {
    "ticker": "GEV",
    "name": "GE Vernova Inc.",
-   "m6": -0.2558,
-   "d20": -0.2295,
+   "m6": -0.2271,
+   "d20": -0.168,
    "rotation_theme": "Grid & Electrical Equipment",
    "baskets": [],
    "url": "https://theme-radar.github.io/stocks/GEV/",
@@ -395,8 +395,8 @@
   {
    "ticker": "ICLR",
    "name": "ICON",
-   "m6": 0.6446,
-   "d20": 0.2471,
+   "m6": 0.745,
+   "d20": 0.2627,
    "rotation_theme": null,
    "baskets": [
     "ai-science"
@@ -411,8 +411,8 @@
   {
    "ticker": "ILMN",
    "name": "Illumina Inc.",
-   "m6": 0.5022,
-   "d20": -0.2338,
+   "m6": 0.5492,
+   "d20": -0.202,
    "rotation_theme": "Diagnostics & Genomics",
    "baskets": [
     "ai-science"
@@ -426,8 +426,8 @@
   {
    "ticker": "LITE",
    "name": "Lumentum Holdings Inc.",
-   "m6": -0.4041,
-   "d20": -0.5119,
+   "m6": -0.4339,
+   "d20": -0.4011,
    "rotation_theme": "Optics & Photonics",
    "baskets": [
     "ai-hardware"
@@ -441,8 +441,8 @@
   {
    "ticker": "LLY",
    "name": "Eli Lilly and Company",
-   "m6": 0.4276,
-   "d20": 0.1482,
+   "m6": 0.4601,
+   "d20": 0.1939,
    "rotation_theme": "GLP-1 & Obesity",
    "baskets": [
     "ai-science"
@@ -456,8 +456,8 @@
   {
    "ticker": "META",
    "name": "Meta Platforms Inc.",
-   "m6": 0.0009,
-   "d20": -0.151,
+   "m6": 0.071,
+   "d20": -0.1367,
    "rotation_theme": "Social & Ad-tech",
    "baskets": [
     "agentic-commerce"
@@ -472,8 +472,8 @@
   {
    "ticker": "MITK",
    "name": "Mitek Systems",
-   "m6": 0.1044,
-   "d20": -0.026,
+   "m6": 0.235,
+   "d20": 0.1071,
    "rotation_theme": null,
    "baskets": [
     "cyber-security"
@@ -487,8 +487,8 @@
   {
    "ticker": "MSFT",
    "name": "Microsoft Corporation",
-   "m6": 0.2782,
-   "d20": -0.0083,
+   "m6": 0.3211,
+   "d20": 0.0074,
    "rotation_theme": "AI Networking & Servers",
    "baskets": [
     "cyber-security"
@@ -502,8 +502,8 @@
   {
    "ticker": "NET",
    "name": "Cloudflare Inc.",
-   "m6": 0.3703,
-   "d20": -0.2554,
+   "m6": 0.5179,
+   "d20": -0.1628,
    "rotation_theme": "Cybersecurity",
    "baskets": [
     "cyber-security"
@@ -518,8 +518,8 @@
   {
    "ticker": "NTRA",
    "name": "Natera Inc.",
-   "m6": 0.5994,
-   "d20": -0.2247,
+   "m6": 0.6089,
+   "d20": -0.1945,
    "rotation_theme": "Diagnostics & Genomics",
    "baskets": [],
    "url": "https://theme-radar.github.io/stocks/NTRA/",
@@ -532,8 +532,8 @@
   {
    "ticker": "NVDA",
    "name": "NVIDIA Corporation",
-   "m6": -0.1327,
-   "d20": -0.186,
+   "m6": -0.1858,
+   "d20": -0.2105,
    "rotation_theme": "AI Chips & Compute",
    "baskets": [
     "ai-hardware"
@@ -547,8 +547,8 @@
   {
    "ticker": "OABI",
    "name": "OmniAb",
-   "m6": 2.0301,
-   "d20": 0.0501,
+   "m6": 2.1737,
+   "d20": 0.1111,
    "rotation_theme": null,
    "baskets": [
     "ai-science"
@@ -562,8 +562,8 @@
   {
    "ticker": "OKTA",
    "name": "Okta Inc.",
-   "m6": 1.0106,
-   "d20": -0.2733,
+   "m6": 1.1737,
+   "d20": -0.218,
    "rotation_theme": "Cybersecurity",
    "baskets": [],
    "url": "https://theme-radar.github.io/stocks/OKTA/",
@@ -575,8 +575,8 @@
   {
    "ticker": "PANW",
    "name": "Palo Alto Networks Inc.",
-   "m6": 0.5097,
-   "d20": -0.2506,
+   "m6": 0.5487,
+   "d20": -0.1806,
    "rotation_theme": "Cybersecurity",
    "baskets": [
     "cyber-security"
@@ -591,8 +591,8 @@
   {
    "ticker": "QLYS",
    "name": "Qualys Inc.",
-   "m6": 1.0196,
-   "d20": -0.0593,
+   "m6": 1.212,
+   "d20": 0.0289,
    "rotation_theme": "Cybersecurity",
    "baskets": [
     "cyber-security"
@@ -606,8 +606,8 @@
   {
    "ticker": "RBRK",
    "name": "Rubrik Inc.",
-   "m6": 0.6963,
-   "d20": -0.1549,
+   "m6": 0.789,
+   "d20": -0.0732,
    "rotation_theme": "Cybersecurity",
    "baskets": [
     "cyber-security"
@@ -621,8 +621,8 @@
   {
    "ticker": "RVTY",
    "name": "Revvity",
-   "m6": 0.5357,
-   "d20": 0.006,
+   "m6": 0.6243,
+   "d20": 0.0328,
    "rotation_theme": null,
    "baskets": [
     "ai-science"
@@ -637,8 +637,8 @@
   {
    "ticker": "RXRX",
    "name": "Recursion Pharmaceuticals Inc.",
-   "m6": 0.0602,
-   "d20": -0.1927,
+   "m6": 0.1672,
+   "d20": -0.0511,
    "rotation_theme": "Data & Observability",
    "baskets": [],
    "url": "https://theme-radar.github.io/stocks/RXRX/",
@@ -650,8 +650,8 @@
   {
    "ticker": "SAIL",
    "name": "SailPoint Inc.",
-   "m6": 0.5707,
-   "d20": -0.0751,
+   "m6": 0.7298,
+   "d20": 0.0404,
    "rotation_theme": "Cybersecurity",
    "baskets": [
     "cyber-security"
@@ -667,8 +667,8 @@
   {
    "ticker": "SHOP",
    "name": "Shopify",
-   "m6": 0.3487,
-   "d20": -0.1284,
+   "m6": 0.4829,
+   "d20": -0.1515,
    "rotation_theme": null,
    "baskets": [
     "agentic-commerce"
@@ -696,8 +696,8 @@
   {
    "ticker": "TEM",
    "name": "Tempus AI Inc.",
-   "m6": 0.5253,
-   "d20": 0.0722,
+   "m6": 0.7425,
+   "d20": 0.2419,
    "rotation_theme": "Diagnostics & Genomics",
    "baskets": [],
    "url": "https://theme-radar.github.io/stocks/TEM/",
@@ -710,8 +710,8 @@
   {
    "ticker": "TMO",
    "name": "Thermo Fisher Scientific",
-   "m6": 0.4941,
-   "d20": 0.0558,
+   "m6": 0.5944,
+   "d20": 0.0897,
    "rotation_theme": null,
    "baskets": [
     "ai-science"
@@ -726,8 +726,8 @@
   {
    "ticker": "TSM",
    "name": "Taiwan Semiconductor Manufacturing Compa",
-   "m6": -0.088,
-   "d20": -0.1718,
+   "m6": -0.0394,
+   "d20": -0.1254,
    "rotation_theme": "Foundry & Packaging",
    "baskets": [
     "ai-hardware"
@@ -741,8 +741,8 @@
   {
    "ticker": "TWST",
    "name": "Twist Bioscience Corporation",
-   "m6": 1.1247,
-   "d20": -0.244,
+   "m6": 1.4078,
+   "d20": -0.1088,
    "rotation_theme": "Diagnostics & Genomics",
    "baskets": [
     "ai-science"
@@ -757,8 +757,8 @@
   {
    "ticker": "TXG",
    "name": "10x Genomics",
-   "m6": 1.7444,
-   "d20": -0.265,
+   "m6": 2.1732,
+   "d20": -0.1349,
    "rotation_theme": null,
    "baskets": [
     "ai-science"
@@ -772,8 +772,8 @@
   {
    "ticker": "V",
    "name": "Visa Inc.",
-   "m6": 0.3258,
-   "d20": 0.0965,
+   "m6": 0.3035,
+   "d20": 0.0845,
    "rotation_theme": "Payments & Fintech",
    "baskets": [
     "agentic-commerce"
@@ -787,8 +787,8 @@
   {
    "ticker": "WAT",
    "name": "Waters",
-   "m6": 0.2885,
-   "d20": 0.0549,
+   "m6": 0.3696,
+   "d20": 0.1032,
    "rotation_theme": null,
    "baskets": [
     "ai-science"
@@ -803,8 +803,8 @@
   {
    "ticker": "WPM",
    "name": "Wheaton Precious Metals Corp",
-   "m6": -0.0183,
-   "d20": -0.0169,
+   "m6": 0.001,
+   "d20": 0.0422,
    "rotation_theme": "Gold & Silver",
    "baskets": [
     "usd-devaluation"
@@ -818,8 +818,8 @@
   {
    "ticker": "ZS",
    "name": "Zscaler Inc.",
-   "m6": 0.2993,
-   "d20": -0.1543,
+   "m6": 0.337,
+   "d20": -0.1184,
    "rotation_theme": "Cybersecurity",
    "baskets": [
     "cyber-security"

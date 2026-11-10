@@ -1,9 +1,9 @@
 # DHR (Danaher)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +34.5%
-- 20D return: +4.8%
+- 6M return: +41.2%
+- 20D return: +6.3%
 - Rotation theme: none
 - Thematic Baskets: AI Science
 

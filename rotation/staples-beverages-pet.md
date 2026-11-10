@@ -1,21 +1,21 @@
 # Staples, Beverages & Pet
 
-Sector: Consumer. Label: No signal. Quadrant: Leading, heading to Leading. Data to 2026-11-06.
+Sector: Consumer. Label: No signal. Quadrant: Leading, heading to Weakening. Data to 2026-11-09.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| KO | Coca-Cola Company (The) | +1.7% | +8.6% | +22.0% |
-| PEP | PepsiCo Inc. | +2.9% | +12.2% | -8.6% |
-| PG | Procter & Gamble Company (The) | +2.4% | +9.4% | +13.0% |
-| CL | Colgate-Palmolive Company | +1.3% | +9.4% | +10.3% |
-| MDLZ | Mondelez International Inc. | +1.7% | +9.3% | +7.3% |
-| KMB | Kimberly-Clark Corporation | +0.4% | +11.1% | +10.3% |
-| MNST | Monster Beverage Corporation | -3.4% | +4.8% | +6.0% |
-| CELH | Celsius Holdings Inc. | +10.4% | +12.5% | -0.4% |
-| SAM | Boston Beer Company Inc. (The) | +9.6% | +29.4% | +11.8% |
-| COCO | The Vita Coco Company Inc. | +6.8% | +7.0% | -12.8% |
-| BRBR | BellRing Brands Inc. Common Stock  | -0.1% | +7.1% | -11.2% |
-| FRPT | Freshpet Inc. | -4.6% | +0.5% | +21.3% |
-| IDXX | IDEXX Laboratories Inc. | +22.7% | +30.5% | +20.7% |
-| ZTS | Zoetis Inc. | -0.4% | +6.1% | -4.1% |
-| TRUP | Trupanion Inc. | +22.0% | +41.0% | +49.3% |
+| KO | Coca-Cola Company (The) | +0.2% | +7.0% | +22.1% |
+| PEP | PepsiCo Inc. | +1.0% | +12.0% | -5.0% |
+| PG | Procter & Gamble Company (The) | +2.9% | +9.9% | +17.4% |
+| CL | Colgate-Palmolive Company | +0.5% | +8.8% | +12.9% |
+| MDLZ | Mondelez International Inc. | +0.1% | +7.5% | +8.2% |
+| KMB | Kimberly-Clark Corporation | +3.4% | +13.3% | +16.9% |
+| MNST | Monster Beverage Corporation | -5.0% | +4.3% | +5.6% |
+| CELH | Celsius Holdings Inc. | +10.8% | +16.9% | +8.3% |
+| SAM | Boston Beer Company Inc. (The) | -2.1% | +23.8% | +15.0% |
+| COCO | The Vita Coco Company Inc. | +10.8% | +11.7% | -11.0% |
+| BRBR | BellRing Brands Inc. Common Stock  | +1.8% | +12.0% | +2.3% |
+| FRPT | Freshpet Inc. | -3.3% | +3.2% | +35.7% |
+| IDXX | IDEXX Laboratories Inc. | +5.2% | +34.9% | +32.8% |
+| ZTS | Zoetis Inc. | -1.0% | +8.8% | +7.4% |
+| TRUP | Trupanion Inc. | +15.4% | +35.0% | +48.9% |

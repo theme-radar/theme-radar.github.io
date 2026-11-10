@@ -1,9 +1,9 @@
 # SHOP (Shopify)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +34.9%
-- 20D return: -12.8%
+- 6M return: +48.3%
+- 20D return: -15.2%
 - Rotation theme: none
 - Thematic Baskets: Agentic Commerce
 

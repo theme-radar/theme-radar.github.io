@@ -1,9 +1,9 @@
 # GENB (Generate Biomedicines)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: -4.4%
-- 20D return: -8.9%
+- 6M return: -1.3%
+- 20D return: +2.5%
 - Rotation theme: none
 - Thematic Baskets: AI Science
 

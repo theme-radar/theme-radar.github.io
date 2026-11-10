@@ -1,14 +1,14 @@
 # Machinery
 
-Sector: Industrials. Label: No signal. Quadrant: Improving, heading to Leading. Data to 2026-11-06.
+Sector: Industrials. Label: No signal. Quadrant: Leading, heading to Leading. Data to 2026-11-09.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| CAT | Caterpillar Inc. | -10.3% | -30.2% | -37.8% |
-| DE | Deere & Company | -0.6% | +8.2% | +16.8% |
-| FLS | Flowserve Corporation | +1.7% | +11.2% | +13.0% |
-| IR | Ingersoll Rand Inc. | +3.7% | +5.4% | +9.6% |
-| GGG | Graco Inc. | +0.6% | -13.2% | -12.5% |
-| TEX | Terex Corporation | -2.1% | +8.5% | -13.6% |
-| LECO | Lincoln Electric Holdings Inc. | -0.6% | +5.5% | +1.6% |
-| NDSN | Nordson Corporation | -4.0% | -5.6% | +9.3% |
+| CAT | Caterpillar Inc. | -2.4% | -25.1% | -35.4% |
+| DE | Deere & Company | +3.5% | +9.3% | +17.4% |
+| FLS | Flowserve Corporation | +6.9% | +21.5% | +21.3% |
+| IR | Ingersoll Rand Inc. | +5.0% | +9.8% | +16.3% |
+| GGG | Graco Inc. | +1.2% | -11.4% | -9.8% |
+| TEX | Terex Corporation | +0.6% | +13.1% | -9.5% |
+| LECO | Lincoln Electric Holdings Inc. | -0.4% | +9.5% | +4.9% |
+| NDSN | Nordson Corporation | -1.1% | -2.0% | +14.9% |

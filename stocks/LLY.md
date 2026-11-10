@@ -1,9 +1,9 @@
 # LLY (Eli Lilly and Company)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +42.8%
-- 20D return: +14.8%
+- 6M return: +46.0%
+- 20D return: +19.4%
 - Rotation theme: GLP-1 & Obesity
 - Thematic Baskets: AI Science
 

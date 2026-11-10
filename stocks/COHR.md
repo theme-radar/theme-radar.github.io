@@ -1,9 +1,9 @@
 # COHR (Coherent Corp.)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: -42.5%
-- 20D return: -38.3%
+- 6M return: -40.7%
+- 20D return: -21.8%
 - Rotation theme: Optics & Photonics
 - Thematic Baskets: AI Hardware
 

@@ -1,21 +1,21 @@
 # Homebuilders & Home Improvement
 
-Sector: Consumer. Label: Already moving. Quadrant: Leading, heading to Leading. Data to 2026-11-06.
+Sector: Consumer. Label: No signal. Quadrant: Leading, heading to Weakening. Data to 2026-11-09.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| DHI | D.R. Horton Inc. | +4.3% | +12.9% | +3.1% |
-| LEN | Lennar Corporation | +2.1% | +15.7% | +0.4% |
-| PHM | PulteGroup Inc. | +6.2% | +18.2% | +12.7% |
-| TOL | Toll Brothers Inc. | +4.5% | +14.6% | +10.6% |
-| KBH | KB Home | +5.8% | +17.5% | +2.4% |
-| TREX | Trex Company Inc. | +7.0% | +22.2% | +36.2% |
-| MBC | MasterBrand Inc. | -7.4% | +1.7% | -11.7% |
-| NVR | NVR Inc. | +5.7% | +6.8% | +5.4% |
-| BLDR | Builders FirstSource Inc. | -3.6% | +18.3% | -19.2% |
-| MTH | Meritage Homes Corporation | +5.5% | +15.7% | +4.4% |
-| CCS | Century Communities Inc. | +5.0% | -0.8% | +0.4% |
-| MHO | M/I Homes Inc. | +2.6% | +3.0% | -0.2% |
-| HD | Home Depot Inc. (The) | +4.3% | +18.1% | +8.2% |
-| LOW | Lowe's Companies Inc. | +7.4% | +20.7% | -2.0% |
-| MAS | Masco Corporation | +2.0% | +19.6% | +14.6% |
+| DHI | D.R. Horton Inc. | +1.8% | +15.9% | +7.3% |
+| LEN | Lennar Corporation | +0.6% | +22.7% | +5.2% |
+| PHM | PulteGroup Inc. | +3.5% | +22.3% | +17.7% |
+| TOL | Toll Brothers Inc. | +1.9% | +18.3% | +15.7% |
+| KBH | KB Home | +2.7% | +24.9% | +8.6% |
+| TREX | Trex Company Inc. | +16.2% | +32.1% | +48.7% |
+| MBC | MasterBrand Inc. | -3.7% | +10.4% | -2.2% |
+| NVR | NVR Inc. | +1.2% | +10.2% | +7.2% |
+| BLDR | Builders FirstSource Inc. | -2.7% | +26.5% | -11.9% |
+| MTH | Meritage Homes Corporation | +1.9% | +21.6% | +10.3% |
+| CCS | Century Communities Inc. | +4.4% | +3.5% | +3.1% |
+| MHO | M/I Homes Inc. | +2.1% | +7.3% | +4.1% |
+| HD | Home Depot Inc. (The) | +3.6% | +21.6% | +13.5% |
+| LOW | Lowe's Companies Inc. | +6.4% | +25.1% | +2.7% |
+| MAS | Masco Corporation | +2.9% | +24.6% | +21.7% |

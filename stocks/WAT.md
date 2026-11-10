@@ -1,9 +1,9 @@
 # WAT (Waters)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +28.8%
-- 20D return: +5.5%
+- 6M return: +37.0%
+- 20D return: +10.3%
 - Rotation theme: none
 - Thematic Baskets: AI Science
 

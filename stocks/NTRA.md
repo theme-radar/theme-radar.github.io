@@ -1,9 +1,9 @@
 # NTRA (Natera Inc.)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +59.9%
-- 20D return: -22.5%
+- 6M return: +60.9%
+- 20D return: -19.4%
 - Rotation theme: Diagnostics & Genomics
 - Thematic Baskets: none
 

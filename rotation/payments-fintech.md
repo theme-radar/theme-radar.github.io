@@ -1,21 +1,21 @@
 # Payments & Fintech
 
-Sector: Financials. Label: No signal. Quadrant: Leading, heading to Leading. Data to 2026-11-06.
+Sector: Financials. Label: No signal. Quadrant: Leading, heading to Weakening. Data to 2026-11-09.
 
 | Ticker | Name | 5D | 20D | 6M |
 |---|---|---|---|---|
-| PYPL | PayPal Holdings Inc. | +3.9% | +6.7% | +30.6% |
-| SOFI | SoFi Technologies Inc. Common Stock   | -3.3% | +2.6% | +2.9% |
-| MQ | Marqeta Inc. | +2.7% | +2.6% | +11.5% |
-| XYZ | Block Inc. | +12.2% | +10.7% | +14.2% |
-| DAVE | Dave Inc. | -12.1% | -24.4% | +8.7% |
-| ALKT | Alkami Technology Inc. | +8.2% | -6.2% | -25.4% |
-| QTWO | Q2 Holdings Inc. | +10.2% | +26.1% | +47.5% |
-| V | Visa Inc. | +2.2% | +9.7% | +32.6% |
-| MA | Mastercard Incorporated | +2.3% | +10.8% | +31.7% |
-| AFRM | Affirm Holdings Inc. | -7.3% | -15.6% | +6.4% |
-| TOST | Toast Inc. | +9.4% | +10.7% | +38.4% |
-| CHYM | Chime Financial Inc. | +12.1% | +4.2% | +70.0% |
-| NU | Nu Holdings Ltd. | +3.6% | -25.4% | -12.8% |
-| ALLY | Ally Financial Inc. | +0.0% | +1.5% | -13.7% |
-| JKHY | Jack Henry & Associates Inc. | +7.4% | +16.0% | +18.8% |
+| PYPL | PayPal Holdings Inc. | +2.2% | +7.1% | +33.2% |
+| SOFI | SoFi Technologies Inc. Common Stock   | +0.9% | +10.0% | +3.0% |
+| MQ | Marqeta Inc. | -1.2% | +0.6% | +13.4% |
+| XYZ | Block Inc. | +14.9% | +15.3% | +21.0% |
+| DAVE | Dave Inc. | -12.2% | -21.7% | +13.3% |
+| ALKT | Alkami Technology Inc. | +6.6% | +0.9% | -17.4% |
+| QTWO | Q2 Holdings Inc. | +5.4% | +25.4% | +57.0% |
+| V | Visa Inc. | -0.8% | +8.5% | +30.3% |
+| MA | Mastercard Incorporated | -0.4% | +10.2% | +31.7% |
+| AFRM | Affirm Holdings Inc. | -7.5% | -13.5% | +2.4% |
+| TOST | Toast Inc. | +4.0% | +11.0% | +43.7% |
+| CHYM | Chime Financial Inc. | +14.0% | +6.8% | +78.4% |
+| NU | Nu Holdings Ltd. | +6.4% | -22.8% | -8.4% |
+| ALLY | Ally Financial Inc. | -0.2% | +1.6% | -9.8% |
+| JKHY | Jack Henry & Associates Inc. | +4.8% | +14.4% | +19.2% |

@@ -1,9 +1,9 @@
 # CRWD (CrowdStrike Holdings Inc.)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +64.4%
-- 20D return: -21.1%
+- 6M return: +68.6%
+- 20D return: -13.1%
 - Rotation theme: Cybersecurity
 - Thematic Baskets: Cyber Security
 

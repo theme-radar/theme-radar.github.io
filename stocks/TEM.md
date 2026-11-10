@@ -1,9 +1,9 @@
 # TEM (Tempus AI Inc.)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +52.5%
-- 20D return: +7.2%
+- 6M return: +74.2%
+- 20D return: +24.2%
 - Rotation theme: Diagnostics & Genomics
 - Thematic Baskets: none
 

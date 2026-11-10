@@ -1,9 +1,9 @@
 # RXRX (Recursion Pharmaceuticals Inc.)
 
-Data to the 2026-11-06 close.
+Data to the 2026-11-09 close.
 
-- 6M return: +6.0%
-- 20D return: -19.3%
+- 6M return: +16.7%
+- 20D return: -5.1%
 - Rotation theme: Data & Observability
 - Thematic Baskets: none
 
