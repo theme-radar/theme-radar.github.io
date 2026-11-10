@@ -9,5 +9,6 @@ Data to the 2026-11-09 close.
 
 ## Mentioned in
 
+- [What Comes After Jensen: NVDA, AMD, GOOG. Who will benefit?](https://theme-radar.github.io/research/what-comes-after-jensen.md) (2026-11-10, AI Hardware)
 - [Earnings update Q3 2026: Amazon, Meta, Shopify](https://theme-radar.github.io/research/agentic-commerce-q3-2026-earnings.md) (2026-11-04, Agentic Commerce)
 - [The Mall Is Closing: Shopify, Meta's Muse and the Agentic Storefront](https://theme-radar.github.io/research/the-mall-is-closing.md) (2026-10-14, Agentic Commerce)

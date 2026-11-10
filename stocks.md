@@ -15,8 +15,8 @@ Data to the 2026-11-09 close.
 | [ACN](https://theme-radar.github.io/stocks/ACN.md) | Accenture plc | 1 | +47.6% |
 | [AEM](https://theme-radar.github.io/stocks/AEM.md) | Agnico Eagle Mines Limited | 1 | +2.0% |
 | [ALS](https://theme-radar.github.io/stocks/ALS.md) | Altius Minerals (TSX, CAD) | 1 | +1.4% |
-| [AMD](https://theme-radar.github.io/stocks/AMD.md) | Advanced Micro Devices Inc. | 1 | +10.8% |
-| [AMZN](https://theme-radar.github.io/stocks/AMZN.md) | Amazon.com Inc. | 2 | -0.8% |
+| [AMD](https://theme-radar.github.io/stocks/AMD.md) | Advanced Micro Devices Inc. | 2 | +10.8% |
+| [AMZN](https://theme-radar.github.io/stocks/AMZN.md) | Amazon.com Inc. | 3 | -0.8% |
 | [BE](https://theme-radar.github.io/stocks/BE.md) | Bloom Energy Corporation | 1 | -31.7% |
 | [BRKR](https://theme-radar.github.io/stocks/BRKR.md) | BRKR | 1 | — |
 | [CACI](https://theme-radar.github.io/stocks/CACI.md) | CACI International Inc. | 1 | +32.6% |
@@ -36,6 +36,7 @@ Data to the 2026-11-09 close.
 | [FTNT](https://theme-radar.github.io/stocks/FTNT.md) | Fortinet Inc. | 2 | +6.1% |
 | [GENB](https://theme-radar.github.io/stocks/GENB.md) | Generate Biomedicines | 2 | -1.3% |
 | [GEV](https://theme-radar.github.io/stocks/GEV.md) | GE Vernova Inc. | 1 | -22.7% |
+| [GOOG](https://theme-radar.github.io/stocks/GOOG.md) | Alphabet (C) | 1 | -26.1% |
 | [ICLR](https://theme-radar.github.io/stocks/ICLR.md) | ICON | 2 | +74.5% |
 | [ILMN](https://theme-radar.github.io/stocks/ILMN.md) | Illumina Inc. | 1 | +54.9% |
 | [LITE](https://theme-radar.github.io/stocks/LITE.md) | Lumentum Holdings Inc. | 1 | -43.4% |
@@ -45,7 +46,7 @@ Data to the 2026-11-09 close.
 | [MSFT](https://theme-radar.github.io/stocks/MSFT.md) | Microsoft Corporation | 1 | +32.1% |
 | [NET](https://theme-radar.github.io/stocks/NET.md) | Cloudflare Inc. | 2 | +51.8% |
 | [NTRA](https://theme-radar.github.io/stocks/NTRA.md) | Natera Inc. | 2 | +60.9% |
-| [NVDA](https://theme-radar.github.io/stocks/NVDA.md) | NVIDIA Corporation | 1 | -18.6% |
+| [NVDA](https://theme-radar.github.io/stocks/NVDA.md) | NVIDIA Corporation | 2 | -18.6% |
 | [OABI](https://theme-radar.github.io/stocks/OABI.md) | OmniAb | 1 | +217.4% |
 | [OKTA](https://theme-radar.github.io/stocks/OKTA.md) | Okta Inc. | 1 | +117.4% |
 | [PANW](https://theme-radar.github.io/stocks/PANW.md) | Palo Alto Networks Inc. | 2 | +54.9% |

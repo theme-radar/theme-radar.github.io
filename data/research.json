@@ -1,10 +1,28 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-09",
- "generated": "2026-11-10T07:38:39Z",
+ "generated": "2026-11-10T10:20:18Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "research": [
+  {
+   "title": "What Comes After Jensen: NVDA, AMD, GOOG. Who will benefit?",
+   "date": "2026-11-10",
+   "theme": "AI Hardware",
+   "type": "theme",
+   "tickers": [
+    "AMD",
+    "NVDA",
+    "GOOG",
+    "AMZN"
+   ],
+   "baskets": [
+    "ai-hardware"
+   ],
+   "summary": "NVIDIA's board is investigating reports that Jensen Huang was targeted by foreign intelligence. If NVIDIA loses its founder's authority, AMD is the only merchant GPU alternative and also sells into Google's TPU camp. Accumulate on weakness: buy at $392, 18-month target $600.",
+   "url": "https://theme-radar.github.io/research/what-comes-after-jensen/",
+   "markdown": "https://theme-radar.github.io/research/what-comes-after-jensen.md"
+  },
   {
    "title": "AI infrastructure, the next 12 months: re-evaluating the AI hardware basket",
    "date": "2026-11-06",

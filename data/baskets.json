@@ -1,7 +1,7 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-09",
- "generated": "2026-11-10T07:38:39Z",
+ "generated": "2026-11-10T10:20:18Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "methodology": [
@@ -686,6 +686,7 @@
    "weighting": "Equal weight",
    "adds": [],
    "research": [
+    "/research/what-comes-after-jensen/",
     "/research/ai-infrastructure-next-12-months/"
    ],
    "members": [

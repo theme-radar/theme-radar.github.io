@@ -27,4 +27,5 @@ Start: 2026-07-31. Weighting: Equal weight. Label: No signal. Since start: -17.0
 | FIX | Comfort Systems USA | 5.3% | -35.6% | -7.2% | -32.0% | -45.2% |
 
 Research:
+- https://theme-radar.github.io/research/what-comes-after-jensen.md
 - https://theme-radar.github.io/research/ai-infrastructure-next-12-months.md
