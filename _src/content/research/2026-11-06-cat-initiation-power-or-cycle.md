@@ -1,7 +1,7 @@
 ---
 title: "CAT Initiation: Power Story or Cycle Stock?"
 slug: cat-initiation-power-or-cycle
-date: 2026-11-09
+date: 2026-11-06
 kind: Stock initiation
 type: stock
 tickers: [CAT, GEV, CMI, DE]

@@ -1,6 +1,6 @@
 # CAT Initiation: Power Story or Cycle Stock?
 
-Date: 2026-11-09
+Date: 2026-11-06
 Theme: Single stock
 Type: stock
 Tickers: CAT, GEV, CMI, DE

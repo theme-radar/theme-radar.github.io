@@ -5,8 +5,8 @@ Market data to the 2026-11-09 close.
 
 ## Latest research
 
-- [CAT Initiation: Power Story or Cycle Stock?](https://theme-radar.github.io/research/cat-initiation-power-or-cycle.md) (2026-11-09, Single stock)
 - [AI infrastructure, the next 12 months: re-evaluating the AI hardware basket](https://theme-radar.github.io/research/ai-infrastructure-next-12-months.md) (2026-11-06, AI Hardware)
+- [CAT Initiation: Power Story or Cycle Stock?](https://theme-radar.github.io/research/cat-initiation-power-or-cycle.md) (2026-11-06, Single stock)
 
 ## Themes
 
