@@ -8,6 +8,7 @@
 
 ## All pieces
 
+- [Natera: Is the Sudden CEO Change a Buying Opportunity?](https://theme-radar.github.io/research/natera-ceo-transition.md) (2026-11-11, AI Science)
 - [What Comes After Jensen: NVDA, AMD, GOOG. Who will benefit?](https://theme-radar.github.io/research/what-comes-after-jensen.md) (2026-11-10, AI Hardware)
 - [AI infrastructure, the next 12 months: re-evaluating the AI hardware basket](https://theme-radar.github.io/research/ai-infrastructure-next-12-months.md) (2026-11-06, AI Hardware)
 - [CAT Initiation: Power Story or Cycle Stock?](https://theme-radar.github.io/research/cat-initiation-power-or-cycle.md) (2026-11-06, Single stock)

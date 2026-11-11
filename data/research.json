@@ -1,10 +1,23 @@
 {
  "site": "Theme Radar",
  "asof": "2026-11-09",
- "generated": "2026-11-10T10:20:18Z",
+ "generated": "2026-11-11T12:57:47Z",
  "units": "returns are decimal fractions (0.05 = +5%)",
  "source": "daily closes, public market data",
  "research": [
+  {
+   "title": "Natera: Is the Sudden CEO Change a Buying Opportunity?",
+   "date": "2026-11-11",
+   "theme": "AI Science",
+   "type": "stock",
+   "tickers": [
+    "NTRA"
+   ],
+   "baskets": [],
+   "summary": "Buy in two parts, starting at about $312. Natera fell 28% in eight trading days: about half in a market sell-off, the rest after the CEO resigned without a stated reason. Sales grew 34% and cancer test volumes hit a record. At 14.6x sales the price is roughly fair on our numbers (probability-weighted value $315), so the second half waits for $275 or the 26-Feb-27 results.",
+   "url": "https://theme-radar.github.io/research/natera-ceo-transition/",
+   "markdown": "https://theme-radar.github.io/research/natera-ceo-transition.md"
+  },
   {
    "title": "What Comes After Jensen: NVDA, AMD, GOOG. Who will benefit?",
    "date": "2026-11-10",

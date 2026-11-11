@@ -4,6 +4,7 @@ Data to the 2026-11-09 close.
 
 ## Single-stock research
 
+- [Natera: Is the Sudden CEO Change a Buying Opportunity?](https://theme-radar.github.io/research/natera-ceo-transition.md) (2026-11-11): Buy in two parts, starting at about $312. Natera fell 28% in eight trading days: about half in a market sell-off, the rest after the CEO resigned without a stated reason. Sales grew 34% and cancer test volumes hit a record. At 14.6x sales the price is roughly fair on our numbers (probability-weighted value $315), so the second half waits for $275 or the 26-Feb-27 results.
 - [CAT Initiation: Power Story or Cycle Stock?](https://theme-radar.github.io/research/cat-initiation-power-or-cycle.md) (2026-11-06): Accumulate on weakness with one entry price, about $460: what CAT is worth if the data-center slowdown happens (2027 EPS of $28.99 at 16x). The 2026 sell-off was a multiple reset, not an earnings miss, and the power backlog is sold out into 2029-30. $460 does not protect against a construction downturn on top (bear case $340).
 
 ## All tickers
@@ -45,7 +46,7 @@ Data to the 2026-11-09 close.
 | [MITK](https://theme-radar.github.io/stocks/MITK.md) | Mitek Systems | 1 | +23.5% |
 | [MSFT](https://theme-radar.github.io/stocks/MSFT.md) | Microsoft Corporation | 1 | +32.1% |
 | [NET](https://theme-radar.github.io/stocks/NET.md) | Cloudflare Inc. | 2 | +51.8% |
-| [NTRA](https://theme-radar.github.io/stocks/NTRA.md) | Natera Inc. | 2 | +60.9% |
+| [NTRA](https://theme-radar.github.io/stocks/NTRA.md) | Natera Inc. | 3 | +60.9% |
 | [NVDA](https://theme-radar.github.io/stocks/NVDA.md) | NVIDIA Corporation | 2 | -18.6% |
 | [OABI](https://theme-radar.github.io/stocks/OABI.md) | OmniAb | 1 | +217.4% |
 | [OKTA](https://theme-radar.github.io/stocks/OKTA.md) | Okta Inc. | 1 | +117.4% |
